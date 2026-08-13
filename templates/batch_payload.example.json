@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "batch": {
+    "record": "MMDDYY-INST",
+    "assayDate": "YYYY-MM-DD",
+    "instrument": "INST",
+    "startDate": "YYYY-MM-DD",
+    "endDate": "YYYY-MM-DD",
+    "atp": 100000
+  },
+  "controls": [
+    {
+      "groupId": "MF-1",
+      "method": "m",
+      "tsbNegativeControl": 1000,
+      "tsbCutoff": 3000.0,
+      "ftmNegativeControl": 2000,
+      "ftmCutoff": 6000.0
+    }
+  ],
+  "samples": [
+    {
+      "etx": "ETX-990101-0001",
+      "sourceLabel": "ETX-990101-0001-4/5",
+      "method": "m",
+      "groupId": "MF-1",
+      "tsbMaxRlu": 1234,
+      "ftmMaxRlu": 4567,
+      "recordLineage": {
+        "tsb": [
+          "MMDDYY-INST"
+        ],
+        "ftm": [
+          "MMDDYY-INST"
+        ]
+      },
+      "dataStatus": "READY"
+    }
+  ],
+  "findings": []
+}

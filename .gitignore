@@ -1,0 +1,50 @@
+# Runtime / dependencies
+node_modules/
+dist/
+build/
+.pytest_cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local batch/source data — do not commit
+*.pdf
+*.wkl
+*.WKL
+*.txt
+*.csv
+*.xlsx
+*.xls
+*.docx
+
+# Browser/session artifacts
+*.har
+*.log
+cookies*
+session*
+profile/
+browser-data/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Allow intentionally versioned docs/templates
+!README.md
+!docs/**/*.md
+!templates/**/*.txt

@@ -1,0 +1,92 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "36cb64fd208ce83cc042f91bba37af878ad5f5da95a321fbf0c09d5bd81ba3df",
+    "bytes": 507
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "1077ae9c06d79a73d85f04a2c5e77db4a970da09ccdf9092fd90a80fe4b42b70",
+    "bytes": 3006
+  },
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "2637dff442ebef3f3fca386ade9d309e63b4beeaabb856c7c8d5a0648f0749b1",
+    "bytes": 1941
+  },
+  {
+    "path": "PRD.md",
+    "sha256": "d3c54a780811f3b6b63e8e5db5213797052f0e2b9110178e07c17fe16c343409",
+    "bytes": 9441
+  },
+  {
+    "path": "PROJECT_STATE.md",
+    "sha256": "87535cd7465d32b7d71b97c0b5fef663b77d7a68902e5992969a9e810e12936f",
+    "bytes": 1957
+  },
+  {
+    "path": "README.md",
+    "sha256": "35c791754fae48a72de6e72ddb8eadd0481d17bb01280ae25f1c71ac14eb8f3a",
+    "bytes": 3360
+  },
+  {
+    "path": "docs/ACCEPTANCE_TESTS.md",
+    "sha256": "f339ec713ccddf5a8039fbbdb2f6579cc5d04fa72f1c04658cc9ea269be33fc0",
+    "bytes": 1245
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "sha256": "02cc1fdaadeda08873a629ee209a718e394497d5ca1fa679b4cf97d948d4ebb6",
+    "bytes": 2248
+  },
+  {
+    "path": "docs/BOOKMARKLET_V3.md",
+    "sha256": "cd6ac685ce298dff2d508f673decd29c0eb4ab31d54ed7abb5b2d1b09f231d82",
+    "bytes": 1957
+  },
+  {
+    "path": "docs/BUSINESS_RULES.md",
+    "sha256": "414879135c7cc6a8bcc12b354a0ff4ba33ddcbbb82272400bdaec05e4028bd6a",
+    "bytes": 2141
+  },
+  {
+    "path": "docs/CONCEPT_MAP.md",
+    "sha256": "a1363ec52d5172d8389d430cfc91ec16f5af4814ecd44cf7b87fdcc68daeede3",
+    "bytes": 1315
+  },
+  {
+    "path": "docs/DATA_ENTRY_WORKFLOW.md",
+    "sha256": "3908c31021c312dfca75ac78d86481162420053068b6228669b3bab1650d69d9",
+    "bytes": 1235
+  },
+  {
+    "path": "docs/DECISIONS_AND_LESSONS.md",
+    "sha256": "c3a921d319eb31ef05d7f7c8d0911f73db44b69b225aa33af984e579d9b15767",
+    "bytes": 1612
+  },
+  {
+    "path": "docs/POWERSHELL_ENTRY.md",
+    "sha256": "2399ba64bf1e5274c3b16ddc4ab27ce59c620505d037d882628aaa1048081d10",
+    "bytes": 1293
+  },
+  {
+    "path": "docs/VALIDATION_AND_SAFETY.md",
+    "sha256": "dd585c648a5dde7c13281c721cebda7a6a1a508a97e045e5df85fc98ced48c36",
+    "bytes": 1811
+  },
+  {
+    "path": "templates/batch_payload.example.json",
+    "sha256": "b495d94be7e840e8dc9dd4266b672857bbbc2ef18b5e563a07e03259583db2f3",
+    "bytes": 798
+  },
+  {
+    "path": "templates/bookmarklet_v3_template.js",
+    "sha256": "2b370508e2e7b8bba28572433b32b07b653cb756642ab88d235bf26b7514f687",
+    "bytes": 459
+  },
+  {
+    "path": "templates/data_entry_enter_only_template.ps1",
+    "sha256": "6e4cf35f61453440b33191184555c417c524fa4b3107b77d4ddd355386be64b2",
+    "bytes": 552
+  }
+]
