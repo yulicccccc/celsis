@@ -95,6 +95,20 @@ Whenever generating Celsis data entry automation deliverables, the agent MUST de
   - Progress is incrementally persisted to `celsis_batch_approval_progress.json` after every single sample.
   - If interrupted (user pause, network disconnection), the runner resumes without duplicate actions.
 
+### Rule 9: Method-Volume Mutual Exclusivity Audit Rule (方法与体积栏位互斥复核法则)
+- **Background**: EagleTrax has two distinct optional volume fields:
+  1. `Amount of sample filtered into media (Membrane filtration only) (Optional)` (`SubmissionTestResults_3__Value`)
+  2. `Amount of sample added into media (Direct Inoculation Only) (Optional)` (`SubmissionTestResults_4__Value`)
+- **Strict Placement Enforcement**:
+  - **When `Method Performed` == `Membrane Filtration` (MF)**:
+    - The sample volume MUST be located exclusively in the **Filtered Volume** field (`SubmissionTestResults_3__Value`).
+    - The **Added Volume** field (`SubmissionTestResults_4__Value`) MUST be strictly **EMPTY / BLANK**.
+  - **When `Method Performed` == `Direct Inoculation` (DI)**:
+    - The sample volume MUST be located exclusively in the **Added Volume** field (`SubmissionTestResults_4__Value`).
+    - The **Filtered Volume** field (`SubmissionTestResults_3__Value`) MUST be strictly **EMPTY / BLANK**.
+- **Audit Flag & Auto-Approval Gatekeeper**:
+  - If a sample's volume is entered in the wrong method field, or entered in both fields, or missing when specified in Prep Notes, trigger an immediate **Audit Discrepancy (Volume Inversion / Placement Anomaly)** and block automated approval until reviewed by the lead analyst.
+
 
 ---
 

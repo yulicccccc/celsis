@@ -28,6 +28,7 @@ Before entry:
 - Max RLU means the maximum of the report's `RLU` result column.
 - Never use the maximum of RLU1/RLU2 as the entry result.
 - MF = `m`; DI = `d`.
+- Volume Placement: MF volume MUST be in Filtered volume field (`SubmissionTestResults_3__Value`) with DI field empty; DI volume MUST be in Added volume field (`SubmissionTestResults_4__Value`) with MF field empty.
 - Groups are dynamic.
 - Preserve rerun/run/media lineage.
 - No silent OCR guesses.

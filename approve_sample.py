@@ -141,6 +141,39 @@ try:
         driver.save_screenshot(screenshot_name)
         print(f"📸 状态截图已保存至: {screenshot_name}")
     else:
+        # Rule 9: 体积与方法互斥校验
+        print("\n🔍 [Rule 9 质控复核] 正在校验 Method Performed 与 Volume 栏位配置...")
+        try:
+            method_elem = driver.find_element(By.ID, "SubmissionTestResults_1__Value")
+            method_val = Select(method_elem).first_selected_option.text.strip() if method_elem.tag_name.lower() == 'select' else method_elem.get_attribute("value").strip()
+
+            mf_vol_elem = driver.find_element(By.ID, "SubmissionTestResults_3__Value") if len(driver.find_elements(By.ID, "SubmissionTestResults_3__Value")) > 0 else None
+            mf_vol = mf_vol_elem.get_attribute("value").strip() if mf_vol_elem else ""
+
+            di_vol_elem = driver.find_element(By.ID, "SubmissionTestResults_4__Value") if len(driver.find_elements(By.ID, "SubmissionTestResults_4__Value")) > 0 else None
+            di_vol = di_vol_elem.get_attribute("value").strip() if di_vol_elem else ""
+
+            print(f"  • 检测到测试方法: [{method_val}]")
+            print(f"  • Filtered Volume (MF专用栏位): '{mf_vol or '(留空)'}'")
+            print(f"  • Added Volume (DI专用栏位):    '{di_vol or '(留空)'}'")
+
+            if "membrane" in method_val.lower():
+                if di_vol:
+                    print(f"\n⛔ [Rule 9 拦截] 严重质控隐患！当前为 MF 方法，但 DI 栏位误填了 '{di_vol}'！")
+                    input("👉 质控拦截保护中。按【Enter 回车键】关闭浏览器...")
+                    sys.exit(1)
+                else:
+                    print(f"  ✅ [通过] 栏位配置合法: MF 方法体积填写在 MF 栏位 ({mf_vol} mL)，DI 栏位保持为空。")
+            elif "direct" in method_val.lower():
+                if mf_vol:
+                    print(f"\n⛔ [Rule 9 拦截] 严重质控隐患！当前为 DI 方法，但 MF 栏位误填了 '{mf_vol}'！")
+                    input("👉 质控拦截保护中。按【Enter 回车键】关闭浏览器...")
+                    sys.exit(1)
+                else:
+                    print(f"  ✅ [通过] 栏位配置合法: DI 方法体积填写在 DI 栏位 ({di_vol} mL)，MF 栏位保持为空。")
+        except Exception as ve:
+            print(f"  ℹ️ 体积字段读取提示: {ve}")
+
         print("\n⚡ 正在匹配审批选项...")
         # 智能查找包含 'Approve' 的选项（不区分大小写、忽略首尾空格）
         target_option = None

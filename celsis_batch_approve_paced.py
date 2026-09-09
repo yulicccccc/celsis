@@ -174,7 +174,37 @@ try:
             continue
 
         # 执行审批流程
-        print(f"  ⚡ 正在执行审批...")
+        print(f"  ⚡ 正在执行审批前复核...")
+
+        # Rule 9 校验: 检查 Method Performed 与 Volume 栏位是否互斥正确
+        try:
+            method_elem = driver.find_element(By.ID, "SubmissionTestResults_1__Value")
+            method_val = Select(method_elem).first_selected_option.text.strip() if method_elem.tag_name.lower() == 'select' else method_elem.get_attribute("value").strip()
+
+            # 3: Filtered volume (MF only)
+            mf_vol_elem = driver.find_element(By.ID, "SubmissionTestResults_3__Value") if len(driver.find_elements(By.ID, "SubmissionTestResults_3__Value")) > 0 else None
+            mf_vol = mf_vol_elem.get_attribute("value").strip() if mf_vol_elem else ""
+
+            # 4: Added volume (DI only)
+            di_vol_elem = driver.find_element(By.ID, "SubmissionTestResults_4__Value") if len(driver.find_elements(By.ID, "SubmissionTestResults_4__Value")) > 0 else None
+            di_vol = di_vol_elem.get_attribute("value").strip() if di_vol_elem else ""
+
+            print(f"  🔍 [Rule 9 体积复核] 方法: [{method_val}] | MF体积栏: '{mf_vol}' | DI体积栏: '{di_vol}'")
+
+            # 互斥检查
+            if "membrane" in method_val.lower():
+                if di_vol:
+                    print(f"  ⛔ [Rule 9 拦截] 发现体积填错栏位！MF 方法但 DI 栏位有值: '{di_vol}'！安全跳过，绝不盲目 Approve！")
+                    continue
+                print(f"  ✅ [通过] MF 体积栏位校验正确 (MF: {mf_vol or 'N/A'} mL, DI: 留空)")
+            elif "direct" in method_val.lower():
+                if mf_vol:
+                    print(f"  ⛔ [Rule 9 拦截] 发现体积填错栏位！DI 方法但 MF 栏位有值: '{mf_vol}'！安全跳过，绝不盲目 Approve！")
+                    continue
+                print(f"  ✅ [通过] DI 体积栏位校验正确 (DI: {di_vol or 'N/A'} mL, MF: 留空)")
+        except Exception as ve:
+            print(f"  ℹ️ 体积字段校验提示: {ve}")
+
         target_opt = None
         for opt in select_obj.options:
             cleaned = opt.text.replace("\u00a0", " ").strip().lower()
