@@ -74,6 +74,14 @@ Whenever generating Celsis data entry automation deliverables, the agent MUST de
   5. **Test Disambiguation**: Scan matching rows for `Celsis Sterility Test` (case-insensitive) and extract the authentic `/SubmissionTest/Details/<ID>` URL.
 - **Traceability**: All resolved URLs must be recorded into `celsis_<BATCH>_links_verified.json` before initiating field auditing or approval execution.
 
+### Rule 7: Modifications Field Audit Rule (Note-to-Field Synchronization)
+- **DOM Anchor**: `Modification (Optional)` (`SubmissionTestResults_2__Value`)
+- **Note-to-Field Rule**:
+  - Scan sample Test Notes and Prep Notes (`SubmissionTestNoteList`).
+  - If the notes explicitly state `No Modifications` or contain **NO mention of formulation or procedural modifications**, the `Modification (Optional)` field MUST strictly be **`N/A`**.
+  - If leaving blank or containing unverified values, flag an immediate **Audit Discrepancy (Red Flag)**.
+  - If notes specify a legitimate modification (e.g. customized rinse volume, neutralizer), the field must precisely reflect that documented modification.
+
 
 ---
 

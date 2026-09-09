@@ -1,0 +1,373 @@
+{
+  "header": {
+    "testName": "Celsis Sterility Test",
+    "currentStatus": "Completed",
+    "currentStatusValue": "cRWUDeScQmSs25buzXCo6A__",
+    "rawText": "Celsis Sterility Test\nReturn to Submission Test List\nStatus: \nCompleted\n\n\nSwitch to another Submission Test\nCelsis Sterility Test\nUSP <85> Bacterial Endotoxin Test\nEstimated Completion: 9/4/2026\nSubmission: ETX-260825-0380\nAnalytes: CJC-1295 (1.2mg/mL), Ipamorelin (2mg/mL)\nLIGHT SENSITIVE SAMPLES"
+  },
+  "results": [
+    {
+      "label": "Test Record",
+      "id": "SubmissionTestResults_0__Value",
+      "name": "SubmissionTestResults[0].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "090426-2011",
+      "displayValue": "090426-2011",
+      "disabled": true
+    },
+    {
+      "label": "Test Record",
+      "id": "SubmissionTestResults_0__Value",
+      "name": "SubmissionTestResults[0].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "090426-2011",
+      "displayValue": "090426-2011",
+      "disabled": true
+    },
+    {
+      "label": "Method Performed",
+      "id": "SubmissionTestResults_1__Value",
+      "name": "SubmissionTestResults[1].Value",
+      "tagName": "SELECT",
+      "type": "select-one",
+      "value": "Direct Inoculation",
+      "displayValue": "Direct Inoculation",
+      "disabled": true
+    },
+    {
+      "label": "Modification (Optional)",
+      "id": "SubmissionTestResults_2__Value",
+      "name": "SubmissionTestResults[2].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "N/A",
+      "displayValue": "N/A",
+      "disabled": true
+    },
+    {
+      "label": "Amount of sample filtered into media (Membrane filtration only) (Optional)",
+      "id": "SubmissionTestResults_3__Value",
+      "name": "SubmissionTestResults[3].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "",
+      "displayValue": "",
+      "disabled": true
+    },
+    {
+      "label": "Amount of sample added into media (Direct Inoculation Only) (Optional)",
+      "id": "SubmissionTestResults_4__Value",
+      "name": "SubmissionTestResults[4].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "25",
+      "displayValue": "25",
+      "disabled": true
+    },
+    {
+      "label": "Start Date",
+      "id": "SubmissionTestResults_5__Value",
+      "name": "SubmissionTestResults[5].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "08/28/2026",
+      "displayValue": "08/28/2026",
+      "disabled": true
+    },
+    {
+      "label": "End Date",
+      "id": "SubmissionTestResults_6__Value",
+      "name": "SubmissionTestResults[6].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "09/04/2026",
+      "displayValue": "09/04/2026",
+      "disabled": true
+    },
+    {
+      "label": "Did all negative controls yield satisfactory results?",
+      "id": "SubmissionTestResults_7__Value",
+      "name": "SubmissionTestResults[7].Value",
+      "tagName": "SELECT",
+      "type": "select-one",
+      "value": "Yes",
+      "displayValue": "Yes",
+      "disabled": true
+    },
+    {
+      "label": "Positive Cut-off RLU",
+      "id": "SubmissionTestResults_8__Value",
+      "name": "SubmissionTestResults[8].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "88987",
+      "displayValue": "88987",
+      "disabled": true
+    },
+    {
+      "label": "TSB RLU",
+      "id": "SubmissionTestResults_9__Value",
+      "name": "SubmissionTestResults[9].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "2612",
+      "displayValue": "2612",
+      "disabled": true
+    },
+    {
+      "label": "FTM RLU",
+      "id": "SubmissionTestResults_10__Value",
+      "name": "SubmissionTestResults[10].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "6383",
+      "displayValue": "6383",
+      "disabled": true
+    },
+    {
+      "label": "Is %CV less than 30%?",
+      "id": "SubmissionTestResults_11__Value",
+      "name": "SubmissionTestResults[11].Value",
+      "tagName": "SELECT",
+      "type": "select-one",
+      "value": "Yes",
+      "displayValue": "Yes",
+      "disabled": true
+    },
+    {
+      "label": "Are the lot numbers and expiration dates for TSB, FTM, and Fluid D (for Membrane Filtration Method only) properly recorded in the test record?",
+      "id": "SubmissionTestResults_12__Value",
+      "name": "SubmissionTestResults[12].Value",
+      "tagName": "SELECT",
+      "type": "select-one",
+      "value": "Yes",
+      "displayValue": "Yes",
+      "disabled": true
+    },
+    {
+      "label": "Are the lot numbers and expiration dates for all the reagents used during the Celsis read (including positive control) properly recorded in the test record?",
+      "id": "SubmissionTestResults_13__Value",
+      "name": "SubmissionTestResults[13].Value",
+      "tagName": "SELECT",
+      "type": "select-one",
+      "value": "Yes",
+      "displayValue": "Yes",
+      "disabled": true
+    },
+    {
+      "label": "Are all reagents used, including media and/or Fluid D, within their expiration dates?",
+      "id": "SubmissionTestResults_14__Value",
+      "name": "SubmissionTestResults[14].Value",
+      "tagName": "SELECT",
+      "type": "select-one",
+      "value": "Yes",
+      "displayValue": "Yes",
+      "disabled": true
+    },
+    {
+      "label": "Day 7 Result",
+      "id": "SubmissionTestResults_15__Value",
+      "name": "SubmissionTestResults[15].Value",
+      "tagName": "SELECT",
+      "type": "select-one",
+      "value": "Pass",
+      "displayValue": "Pass",
+      "disabled": true
+    },
+    {
+      "label": "Gram Stain (Optional)",
+      "id": "SubmissionTestResults_16__Value",
+      "name": "SubmissionTestResults[16].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "",
+      "displayValue": "",
+      "disabled": true
+    },
+    {
+      "label": "Microbial Identification (Optional)",
+      "id": "SubmissionTestResults_17__Value",
+      "name": "SubmissionTestResults[17].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "",
+      "displayValue": "",
+      "disabled": true
+    },
+    {
+      "label": "Microbial Identification 2 (Optional)",
+      "id": "SubmissionTestResults_18__Value",
+      "name": "SubmissionTestResults[18].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "",
+      "displayValue": "",
+      "disabled": true
+    },
+    {
+      "label": "Notes (Optional)",
+      "id": "SubmissionTestResults_19__Value",
+      "name": "SubmissionTestResults[19].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "",
+      "displayValue": "",
+      "disabled": true
+    }
+  ],
+  "formFields": [
+    {
+      "label": "Method Suitability",
+      "id": "SubmissionTestFormFields_0__Value",
+      "name": "SubmissionTestFormFields[0].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "ETX-251022-0414",
+      "displayValue": "ETX-251022-0414",
+      "disabled": true
+    },
+    {
+      "label": "Method Suitability",
+      "id": "SubmissionTestFormFields_0__Value",
+      "name": "SubmissionTestFormFields[0].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "ETX-251022-0414",
+      "displayValue": "ETX-251022-0414",
+      "disabled": true
+    },
+    {
+      "label": "Method Suitability - Technique",
+      "id": "SubmissionTestFormFields_1__Value",
+      "name": "SubmissionTestFormFields[1].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "Direct Inoculation",
+      "displayValue": "Direct Inoculation",
+      "disabled": true
+    },
+    {
+      "label": "Medium",
+      "id": "SubmissionTestFormFields_2__Value",
+      "name": "SubmissionTestFormFields[2].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "Liquids",
+      "displayValue": "Liquids",
+      "disabled": true
+    },
+    {
+      "label": "Type",
+      "id": "SubmissionTestFormFields_3__Value",
+      "name": "SubmissionTestFormFields[3].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "Parenterals",
+      "displayValue": "Parenterals",
+      "disabled": true
+    },
+    {
+      "label": "Number of Items in Batch",
+      "id": "SubmissionTestFormFields_4__Value",
+      "name": "SubmissionTestFormFields[4].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "500",
+      "displayValue": "500",
+      "disabled": true
+    },
+    {
+      "label": "Quantity per Container (mL or gm)",
+      "id": "SubmissionTestFormFields_5__Value",
+      "name": "SubmissionTestFormFields[5].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "5",
+      "displayValue": "5",
+      "disabled": true
+    },
+    {
+      "label": "Pricing Acknowledgement",
+      "id": "SubmissionTestFormFields_6__Value",
+      "name": "SubmissionTestFormFields[6].Value",
+      "tagName": "INPUT",
+      "type": "text",
+      "value": "Yes",
+      "displayValue": "Yes",
+      "disabled": true
+    }
+  ],
+  "notes": [
+    "Test Notes\nAdd Note\nNote\tDate Created\tCreated By\nTSB -ve control =2176, TSB cut off =6526.5 FTM -ve control =,7334 FTM cut off =22002.0 .\t9/4/2026 2:07:52 PM\tCDu\n5x100ml bottles per media\t8/28/2026 12:34:08 PM\tGSurber\nDI. 25ml per media. No Modifications\t8/28/2026 12:34:04 PM\tGSurber\n10 vials\t8/28/2026 6:40:25 AM\tGSurber",
+    "Test Notes\nAdd Note",
+    "TSB -ve control =2176, TSB cut off =6526.5 FTM -ve control =,7334 FTM cut off =22002.0 .\t9/4/2026 2:07:52 PM\tCDu",
+    "5x100ml bottles per media\t8/28/2026 12:34:08 PM\tGSurber",
+    "DI. 25ml per media. No Modifications\t8/28/2026 12:34:04 PM\tGSurber",
+    "10 vials\t8/28/2026 6:40:25 AM\tGSurber"
+  ],
+  "statusOptions": [
+    {
+      "value": "cRWUDeScQmSs25buzXCo6A__",
+      "text": "Completed",
+      "selected": true
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Toggle navigation",
+      "id": "",
+      "className": "navbar-toggle collapsed",
+      "disabled": false
+    },
+    {
+      "text": "Eagle - Houston",
+      "id": "changeFacilityButton",
+      "className": "btn btn-default btn-sm",
+      "disabled": false
+    },
+    {
+      "text": "Return to Submission Test List",
+      "id": "",
+      "className": "btn btn-info btn-sm",
+      "disabled": null
+    },
+    {
+      "text": "\u00d7",
+      "id": "",
+      "className": "close",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "id": "",
+      "className": "btn btn-default btn-sm",
+      "disabled": false
+    },
+    {
+      "text": "\u00d7Close",
+      "id": "",
+      "className": "close",
+      "disabled": false
+    },
+    {
+      "text": "Submit",
+      "id": "facilityChangeSubmit",
+      "className": "btn btn-default btn-sm",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "id": "",
+      "className": "btn btn-primary btn-sm",
+      "disabled": false
+    },
+    {
+      "text": "\u00d7",
+      "id": "",
+      "className": "close",
+      "disabled": false
+    }
+  ]
+}

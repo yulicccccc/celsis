@@ -37,6 +37,11 @@
    - Successfully validated 100% dynamic URL resolution for EagleTrax Celsis test details pages without hardcoded URLs.
    - Batch `090426-2011` (8 samples) achieved 8/8 strict match with zero stale-DOM race collisions (`find_all_batch_links_strict.py`).
 
+6. **Approval QA DOM Extraction & Rule 7 Validated (2026-09-09)**:
+   - Successfully inspected and extracted live DOM elements from `ETX-260825-0380` details page (`extract_sample_details.py`).
+   - Confirmed 100% 1-to-1 match across all Celsis result fields (`SubmissionTestResults_0__Value` through `15__Value`).
+   - Validated Rule 7 (`Modification (Optional)` strictly mapped to `N/A` when notes specify no modifications).
+
 ---
 
 ## 3. Active Golden Cases
@@ -45,19 +50,22 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **GC-073126-2222** | `073126-2222` | 2026-07-31 | 10 | **Validated (3-Way Match)** | Daily Control ATP 96305; TSB 992; FTM 2138; Special Suffix `0762-4/5` -> `0762` |
 | **GC-073126-2011** | `073126-2011` | 2026-07-31 | 8 | **Validated (3-Way Match)** | Daily Control ATP 112570; TSB 1033; FTM 2450; 100% Passed (CV < 30%) |
-| **GC-090426-2011** | `090426-2011` | 2026-09-04 | 8 | **Validated (3-Way Match & 8/8 Links)** | Daily Control ATP 88987; GS (TSB 2176, FTM 7334); ES (TSB 2597, FTM 8089); 100% Passed (CV < 30%); 8/8 Links dynamically resolved |
+| **GC-090426-2011** | `090426-2011` | 2026-09-04 | 8 | **Validated (3-Way Match & 8/8 Links & Full DOM Verified)** | Daily Control ATP 88987; GS (TSB 2176, FTM 7334); ES (TSB 2597, FTM 8089); 100% Passed (CV < 30%); 8/8 Links dynamically resolved; DOM field map verified |
 
 ---
 
 ## 4. Known File Map
 
-- `PRD.md`: Core product requirements, locked business rules, and Rule 6 (Link Resolution Protocol).
+- `PRD.md`: Core product requirements, locked business rules (including Rule 6 Link Resolution & Rule 7 Modifications Audit).
 - `PROJECT_STATE.md`: Single source of truth for project state and decision log.
 - `ACCEPTANCE_TESTS.md`: Acceptance test specifications & Golden Case test suite.
 - `EVIDENCE_INDEX.md`: Evidence trail for test runs and 3-way verification reports.
 - `find_all_batch_links_strict.py`: Deterministic batch link resolver using MS Check protocol and race-condition guards.
 - `celsis_090426_2011_links_verified.json`: 100% verified mapping of ETX IDs to authentic EagleTrax URLs.
+- `extract_sample_details.py`: Automated EagleTrax details page DOM extractor and verification inspector.
+- `etx_260825_0380_extracted.json`: Live DOM snapshot of audited sample `ETX-260825-0380`.
 - `Celsis_073126_2011_DataEntry.ps1`: Enter-Only PowerShell automation payload for batch `073126-2011`.
+
 - `Celsis_090426_2011_DataEntry_EnterOnly.ps1`: Enter-Only PowerShell automation payload with automated clipboard note management for batch `090426-2011`.
 - `Celsis_090426_2011_ETX-260826-0374_DataEntry_EnterOnly.ps1`: Dedicated single-sample automation payload for `ETX-260826-0374`.
 
