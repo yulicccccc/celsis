@@ -1,0 +1,40 @@
+Sample	Instrument	ATP Positive	Containers	Max TSB RLU	TSB Cutoff	Max FTM RLU	FTM Cutoff	Max CV%	Audit Status	LIMS Status	EagleTrax URL
+ETX-260827-0640	2011	95167	TSB: 7, FTM: 7	645	1528.5	773	2338.5	10.7%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/b%24qy5VlNfgZ6qTSLl5tWvA__
+ETX-260830-0040	2222	92047	TSB: 1, FTM: 1	2432	7152.0	8526	22996.5	3.8%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/AZfBY7MUc4mMGrikVnZP2w__
+ETX-260830-0041	2222	92047	TSB: 1, FTM: 1	2363	7152.0	6878	22996.5	4.9%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/Esop%249W22QfPbl4JPwLhsw__
+ETX-260831-0105	2011	95167	TSB: 7, FTM: 7	299	1528.5	309	2338.5	16.7%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/WL2UkIombx%247Lz8Q7Xyoqg__
+ETX-260831-0108	2011	95167	TSB: 1, FTM: 1	3601	8356.5	4577	26986.5	2.8%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/YZ69GddyyTnQJGQZp-AQLA__
+ETX-260831-0109	2011	95167	TSB: 1, FTM: 1	2852	8356.5	8329	26986.5	2.0%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/Fm0OwPQCwog1tGcJ5BfK5A__
+ETX-260831-0142	2011	95167	TSB: 1, FTM: 1	3290	8356.5	7693	26986.5	3.2%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/DJN3Sat-5yhDN3pLZJuNMw__
+ETX-260831-0144	2011	95167	TSB: 1, FTM: 1	2737	8356.5	9391	26986.5	0.8%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/ZTIWzKLO%24avXCrCV4IHBgg__
+ETX-260831-0204	2011	95167	TSB: 7, FTM: 7	256	1528.5	355	2338.5	12.9%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/q4SOvOAgxTFTEJZb44q4jg__
+ETX-260831-0225	2011	95167	TSB: 1, FTM: 1	3176	8356.5	5788	26986.5	1.9%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/PlnB84gDqliNhPMxqSdeuQ__
+ETX-260831-0310	2222	92047	TSB: 19, FTM: 19	595	1776.0	655	1923.0	8.8%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/9DO4s8pa%24AeYcKbLWZrNxA__
+ETX-260831-0413	2222	92047	TSB: 4, FTM: 4	3076	10287.0	10107	22600.5	3.7%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/I9qqmNLgNeRUHJC7D0XC3w__
+ETX-260831-0564	2222	92047	TSB: 5, FTM: 5	3414	10287.0	7077	22600.5	2.6%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/k5c5kbvMy7O5RV0YIM1Q8g__
+ETX-260831-0587	2222	92047	TSB: 1, FTM: 1	2644	8109.0	7471	N/A	3.3%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/ENKzPr2BEQeSydRJfLKJ1A__
+ETX-260831-0602	2222	92047	TSB: 1, FTM: 1	2692	8109.0	8589	N/A	1.8%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/2UxqlVrNm3FORHvHY-YB1Q__
+ETX-260831-0613	2222	92047	TSB: 1, FTM: 1	2899	7152.0	8309	22996.5	6.9%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/nX9jwMx-Ge0fvcHXiPxOVA__
+ETX-260831-0619	2222	92047	TSB: 1, FTM: 1	2877	7152.0	6782	22996.5	3.0%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/4LEVEvbAj1cPhaLbmUIicQ__
+ETX-260831-0664	2011	95167	TSB: 3, FTM: 3	238	1528.5	313	2338.5	14.7%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/2fEIeFDxg9FEWn9-j0KK8g__
+ETX-260831-0673	2222	92047	TSB: 5, FTM: 5	3281	10287.0	8229	22600.5	2.7%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/JsVbfBOq8LZLiTzBhbT3gA__
+ETX-260831-0683	2222	92047	TSB: 5, FTM: 5	3514	10287.0	8232	22600.5	4.3%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/Ir%24f0-esN%24zr1XZbVee70w__
+ETX-260831-0694	2222	92047	TSB: 1, FTM: 1	2806	7152.0	7940	22996.5	4.2%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/9ljGDXxi2nSMMdN4jOh6Zg__
+ETX-260831-0837	2222	92047	TSB: 5, FTM: 5	3207	10287.0	6614	22600.5	2.1%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/RKmsgt9plAFoV1ymxB2spQ__
+ETX-260901-0040	2011	95167	TSB: 1, FTM: 1	2670	8356.5	4540	26986.5	3.1%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/tgYUgOa4Ck62HvUoeB5IMA__
+ETX-260901-0046	2011	95167	TSB: 1, FTM: 1	2648	8356.5	4849	26986.5	2.1%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/z8wNHoDi4VrECSV1c4LxGg__
+ETX-260901-0063	2222	92047	TSB: 4, FTM: 4	218	1981.5	490	4003.5	5.3%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/1XU3WCGblmJqvpT6zJUa%24g__
+ETX-260901-0229	2222	92047	TSB: 4, FTM: 4	258	1981.5	505	4003.5	14.2%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/XZWTYL1kxL6FO8AqWqL6UQ__
+ETX-260901-0381	2222	92047	TSB: 4, FTM: 4	233	1981.5	474	4003.5	17.9%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/TcNH-y5rsg6jgYHiDEo9uQ__
+ETX-260901-0385	2222	92047	TSB: 6, FTM: 6	1105	8653.5	2940	16135.5	21.3%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/T9ZsL4sa1pWdpdRi3aqYEA__
+ETX-260901-0392	2011	95167	TSB: 10, FTM: 10	1674	8650.5	2985	16453.5	33.2%	FAIL / RERUN	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/68p4GD2PROWWvJXZ4t617A__
+ETX-260901-0411	2222	92047	TSB: 10, FTM: 10	1201	8803.5	2664	16290.0	10.5%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/daaF5S-TqLf%24F3rfM3Hs-Q__
+ETX-260901-0428	2222	92047	TSB: 4, FTM: 4	251	1981.5	535	4003.5	13.5%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/uWKBxT%24epLPvzGcTsrvfBA__
+ETX-260901-0438	2222	92047	TSB: 5, FTM: 5	1429	8653.5	2215	16135.5	12.6%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/opJahlftXP8oqxtXJSqYyQ__
+ETX-260901-0478	2222	92047	TSB: 6, FTM: 6	2969	8653.5	7410	16135.5	3.8%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/34Vabc-Y2O-hMPoKu2WRNQ__
+ETX-260901-0557	2011	95167	TSB: 2, FTM: 2	937	6756.0	2600	24906.0	1.4%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/e1aCbw2oO1RiujpinqtxJQ__
+ETX-260901-0620	2011	95167	TSB: 10, FTM: 10	1425	8650.5	2726	16453.5	20.5%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/t4sDgb78BLVt3cqiHB1xvQ__
+ETX-260901-0639	2222	92047	TSB: 4, FTM: 4	286	1981.5	605	4003.5	11.2%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/3HOraF7x25WD8FRfEjxztQ__
+ETX-260901-0670	2011	95167	TSB: 10, FTM: 10	1270	8650.5	2634	16453.5	14.3%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/OJ0RduGQI%242M76EC0vfN8w__
+ETX-260901-0692	2222	92047	TSB: 4, FTM: 4	228	1981.5	556	4003.5	28.4%	Negative	Data Review	https://etrax.eagleanalytical.com/SubmissionTest/Details/Q74ubwPlvi7%24Bpbk5pRRRw__
+ETX-260902-0813	2011	95167	TSB: 0, FTM: 12	N/A	N/A	2273	5761.5	5.2%	Negative	Completed	https://etrax.eagleanalytical.com/SubmissionTest/Details/SmVcHFlNgCsKnWDf%240Ch8w__
