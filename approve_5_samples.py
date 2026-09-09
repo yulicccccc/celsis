@@ -3,6 +3,7 @@ import sys
 import time
 import json
 import random
+import msvcrt
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -18,44 +19,48 @@ PIN = "1124"
 AUDIT_FILE = "celsis_090926_final_audit_report.json"
 PROGRESS_FILE = "approve_5_progress.json"
 
-# 精选 5 个 100% 吻合的高质量样本 (兼具 MF 薄膜过滤与 DI 直接接种，充分检验 Rule 9)
-SELECTED_SAMPLES = [
-    "ETX-260827-0640",  # DI 直接接种
-    "ETX-260831-0105",  # DI 直接接种
-    "ETX-260831-0108",  # MF 薄膜过滤
-    "ETX-260831-0142",  # MF 薄膜过滤
-    "ETX-260831-0225",  # MF 薄膜过滤
-]
-
 print("=" * 70)
-print("   EagleTrax Celsis 5 样本进阶自动审批测试 (9222 端口无缝常驻模式)")
-print("   浏览器退出后将保持打开；再次运行自动接入已打开窗口，绝不闪退或冲突")
+print("   EagleTrax Celsis 5 样本交互式自动审批 (支持 Enter 秒级跳过等待)")
+print("   支持 9222 端口无缝复用现有浏览器，倒计时期间按【Enter】立即处理下个样本！")
 print("=" * 70)
 
-# 读取审计报告
+# 1. 汇总所有历史已审批记录，避免重复审批
+approved_set = set()
+for log_fn in [PROGRESS_FILE, "approve_background_5_progress.json", "celsis_090926_approval_log.json"]:
+    if os.path.exists(log_fn):
+        try:
+            with open(log_fn, "r", encoding="utf-8") as f:
+                records = json.load(f)
+                for r in records:
+                    if r.get("status") in ["Approved", "Completed"] or r.get("approved"):
+                        approved_set.add(r.get("Sample"))
+        except Exception:
+            pass
+approved_set.update(["ETX-260830-0040", "ETX-260830-0041"])
+
+# 2. 读取审计报告，严格执行 Rule 2 白名单
 with open(AUDIT_FILE, "r", encoding="utf-8") as f:
     audit_data = json.load(f)
 
-audit_map = {s["Sample"]: s for s in audit_data}
+whitelisted = [s for s in audit_data if "PASS" in s.get("Audit Result", "")]
+blocked = [s for s in audit_data if "BLOCK" in s.get("Audit Result", "")]
 
-target_queue = []
-for sid in SELECTED_SAMPLES:
-    if sid in audit_map:
-        info = audit_map[sid]
-        # 严格遵守 Rule 2: 只有 PASS 的白名单样本能进
-        if "PASS" in info.get("Audit Result", ""):
-            target_queue.append(info)
-        else:
-            print(f"⛔ 样本 {sid} 未通过质控白名单，已安全排除！")
+# 3. 动态选取接下来未审批的 5 个合格样本
+target_queue = [s for s in whitelisted if s["Sample"] not in approved_set][:5]
 
-print(f"\n📋 本轮选定的 5 个测试样本:")
+print(f"\n📊 批次全局状态: 总 PASS 样本 {len(whitelisted)} 个 | 历史已审批 {len(approved_set)} 个 | 剩余待审批 {len(whitelisted) - len(approved_set)} 个")
+print(f"📋 本轮动态挑选的 5 个测试样本 (已安全避开所有已审批与熔断样本):")
 for idx, s in enumerate(target_queue, 1):
     print(f"  {idx}. {s['Sample']} | 仪器: #{s.get('Instrument')} | ATP: {s.get('PDF ATP')} | TSB: {s.get('PDF TSB')} | FTM: {s.get('PDF FTM')} | CV%: {s.get('Max CV%')}")
 
+if not target_queue:
+    print("\n🎉 恭喜！当前批次的所有合规白名单样本均已全部审批完毕！")
+    sys.exit(0)
+
 print("\n" + "-" * 70)
 print("⏱️ 请选择审核间隔模式:")
-print("  [1] 黄金质控节奏 (推荐: 1 ~ 3 分钟/样本，自然随机微调，兼顾效率与 GxP 审计真实性)")
-print("  [2] 快速测试模式 (约 20 ~ 35 秒/样本，用于快速检验 5 个样本审批全流程)")
+print("  [1] 黄金质控节奏 (推荐: 1 ~ 3 分钟/样本，兼顾 GxP 审计真实性，期间可随时按 Enter 跳过)")
+print("  [2] 快速测试模式 (约 20 ~ 35 秒/样本，用于快速检验全流程，期间可随时按 Enter 跳过)")
 mode_choice = input("👉 请输入 1 或 2 (默认回车选择 [1]): ").strip()
 
 if mode_choice == "2":
@@ -68,6 +73,7 @@ else:
     print("🛡️ 已选择: 黄金质控节奏模式 (间隔 1 ~ 3 分钟 / 60 ~ 180 秒)")
 
 print("-" * 70)
+print("💡 贴心提示：审批开始后，在样本之间的倒计时期间，你随时按【Enter】即可立即跳过等待！")
 input("👉 按【Enter 回车键】正式开始审批...")
 
 # 智能驱动加载器: 优先接入已在运行的 9222 端口 Chrome，无需重复打开或关闭！
@@ -108,20 +114,42 @@ def get_driver():
 driver = get_driver()
 
 def countdown_timer(seconds):
-    """动态倒计时显示"""
+    """动态倒计时显示，支持按 [Enter] 或 [空格] 立即跳过等待进入下一个，或按 [Q] 退出"""
     start = time.time()
+    # 清除之前的按键缓存
+    while msvcrt.kbhit():
+        msvcrt.getch()
+
     while True:
         elapsed = int(time.time() - start)
         remain = seconds - elapsed
         if remain <= 0:
             break
+
+        # 实时监听键盘输入
+        if msvcrt.kbhit():
+            ch = msvcrt.getch()
+            if ch in [b'\r', b'\n', b' ']:
+                print(f"\n⏩ 检测到 [Enter]！立即跳过等待，秒级进入下一个样本！", flush=True)
+                return
+            elif ch in [b'q', b'Q']:
+                print(f"\n🛑 检测到 [Q]！用户选择停止审批，当前进度已完整保存。", flush=True)
+                sys.exit(0)
+
         mins = remain // 60
         secs = remain % 60
-        print(f"\r⏳ [质控间隔等待中] 离下一个样本审批还有: {mins:02d}分{secs:02d}秒 ({remain}s)...  ", end="", flush=True)
-        time.sleep(1)
-    print("\r" + " " * 75 + "\r", end="", flush=True)
+        print(f"\r⏳ [质控等待中] 离下个样本还有: {mins:02d}分{secs:02d}秒 ({remain}s)  👉 [按 Enter 立即跳过 / Q 退出]...  ", end="", flush=True)
+        time.sleep(0.2)
+    print("\r" + " " * 85 + "\r", end="", flush=True)
 
+# 加载历史记录，避免覆盖
 progress_records = []
+if os.path.exists(PROGRESS_FILE):
+    try:
+        with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
+            progress_records = json.load(f)
+    except Exception:
+        progress_records = []
 
 try:
     total = len(target_queue)

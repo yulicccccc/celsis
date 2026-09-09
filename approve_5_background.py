@@ -13,46 +13,53 @@ from selenium.webdriver.support import expected_conditions as EC
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+import msvcrt
+
 USERNAME = "qchen"
 PIN = "1124"
 AUDIT_FILE = "celsis_090926_final_audit_report.json"
 PROGRESS_FILE = "approve_background_5_progress.json"
-
-# 本轮后台执行的 5 个新样本 (含 MF 和 DI)
-TARGET_SAMPLES = [
-    "ETX-260831-0109",  # MF 薄膜过滤
-    "ETX-260831-0144",  # MF 薄膜过滤
-    "ETX-260831-0204",  # DI 直接接种
-    "ETX-260831-0310",  # DI 直接接种 (Tween 80)
-    "ETX-260831-0413",  # DI 直接接种
-]
 
 # 审核间隔：1 到 2 分钟随机微调 (60 ~ 120 秒)
 MIN_WAIT = 60
 MAX_WAIT = 120
 
 print("=" * 70, flush=True)
-print("   EagleTrax Celsis 自动最小化后台审批系统 (5 样本无感运行)", flush=True)
-print("   登录后自动缩到任务栏，绝不抢占鼠标打字焦点，你可以正常做自己的工作！", flush=True)
+print("   EagleTrax Celsis 自动最小化后台审批系统 (支持 Enter 秒级跳过等待)", flush=True)
+print("   登录后自动缩到任务栏，绝不抢占鼠标打字焦点；倒计时期间按【Enter】立即处理下个样本！", flush=True)
 print("=" * 70, flush=True)
+
+# 1. 汇总所有历史已审批记录，避免重复审批
+approved_set = set()
+for log_fn in [PROGRESS_FILE, "approve_5_progress.json", "celsis_090926_approval_log.json"]:
+    if os.path.exists(log_fn):
+        try:
+            with open(log_fn, "r", encoding="utf-8") as f:
+                records = json.load(f)
+                for r in records:
+                    if r.get("status") in ["Approved", "Completed"] or r.get("approved"):
+                        approved_set.add(r.get("Sample"))
+        except Exception:
+            pass
+approved_set.update(["ETX-260830-0040", "ETX-260830-0041"])
 
 with open(AUDIT_FILE, "r", encoding="utf-8") as f:
     audit_data = json.load(f)
 
-audit_map = {s["Sample"]: s for s in audit_data}
+whitelisted = [s for s in audit_data if "PASS" in s.get("Audit Result", "")]
+blocked = [s for s in audit_data if "BLOCK" in s.get("Audit Result", "")]
 
-target_queue = []
-for sid in TARGET_SAMPLES:
-    if sid in audit_map:
-        info = audit_map[sid]
-        if "PASS" in info.get("Audit Result", ""):
-            target_queue.append(info)
-        else:
-            print(f"⛔ 样本 {sid} 质控不合规，已隔离！", flush=True)
+# 动态获取接下来 5 个合格未审批样本
+target_queue = [s for s in whitelisted if s["Sample"] not in approved_set][:5]
 
-print(f"\n📋 待审批样本队列 (共 {len(target_queue)} 个):", flush=True)
+print(f"\n📊 批次全局状态: 总 PASS 样本 {len(whitelisted)} 个 | 历史已审批 {len(approved_set)} 个 | 剩余待审批 {len(whitelisted) - len(approved_set)} 个", flush=True)
+print(f"📋 本轮动态挑选的 5 个后台待审批样本队列 (已严格过滤熔断与已完成样本):", flush=True)
 for idx, s in enumerate(target_queue, 1):
     print(f"  {idx}. {s['Sample']} | 仪器: #{s.get('Instrument')} | ATP: {s.get('PDF ATP')} | TSB: {s.get('PDF TSB')} | FTM: {s.get('PDF FTM')}", flush=True)
+
+if not target_queue:
+    print("\n🎉 恭喜！当前批次的所有合规白名单样本均已全部审批完毕！", flush=True)
+    sys.exit(0)
 
 user_home = os.path.expanduser("~")
 chrome_profile_dir = os.path.join(user_home, "chrome_automation_profile")
@@ -67,7 +74,40 @@ options.add_argument("--window-size=1366,900")
 print(f"\n🌐 正在启动 Chrome 浏览器...", flush=True)
 driver = webdriver.Chrome(options=options)
 
+def countdown_timer(seconds):
+    """动态倒计时显示，支持按 [Enter] 立即跳过等待进入下一个，或按 [Q] 退出"""
+    start = time.time()
+    while msvcrt.kbhit():
+        msvcrt.getch()
+
+    while True:
+        elapsed = int(time.time() - start)
+        remain = seconds - elapsed
+        if remain <= 0:
+            break
+
+        if msvcrt.kbhit():
+            ch = msvcrt.getch()
+            if ch in [b'\r', b'\n', b' ']:
+                print(f"\n⏩ 检测到 [Enter]！立即跳过等待，秒级进入下一个样本！", flush=True)
+                return
+            elif ch in [b'q', b'Q']:
+                print(f"\n🛑 检测到 [Q]！用户选择停止审批，当前进度已完整保存。", flush=True)
+                sys.exit(0)
+
+        mins = remain // 60
+        secs = remain % 60
+        print(f"\r⏳ [后台质控等待中] 离下个样本还有: {mins:02d}分{secs:02d}秒 ({remain}s)  👉 [按 Enter 立即跳过 / Q 退出]...  ", end="", flush=True)
+        time.sleep(0.2)
+    print("\r" + " " * 85 + "\r", end="", flush=True)
+
 progress_records = []
+if os.path.exists(PROGRESS_FILE):
+    try:
+        with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
+            progress_records = json.load(f)
+    except Exception:
+        progress_records = []
 
 try:
     total = len(target_queue)
@@ -258,11 +298,13 @@ try:
         with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
             json.dump(progress_records, f, indent=2, ensure_ascii=False)
 
-        # 样本间质控等待 (1 ~ 2 分钟)
+        # 样本间质控等待 (1 ~ 2 分钟，支持按 Enter 秒级跳过)
         if idx < total:
             wait_s = random.randint(MIN_WAIT, MAX_WAIT)
-            print(f"\n💤 [后台静默等待中] 模拟质控间隔 {wait_s} 秒... (你可以正常工作，完全无干扰)", flush=True)
-            time.sleep(wait_s)
+            mins = wait_s // 60
+            secs = wait_s % 60
+            print(f"\n💤 [后台质控间隔] 随机休眠 {mins} 分 {secs} 秒 ({wait_s}s)... (控制台按 Enter 可立即跳过)", flush=True)
+            countdown_timer(wait_s)
 
     print("\n" + "=" * 70, flush=True)
     print("🏆 5 个样本后台静默审批已全部平稳完成！", flush=True)

@@ -3,10 +3,12 @@ import sys
 import time
 import json
 import random
+import msvcrt
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -24,8 +26,8 @@ MIN_INTERVAL = 60   # 1 分钟
 MAX_INTERVAL = 180  # 3 分钟
 
 print("=" * 70)
-print("   EagleTrax Celsis 黄金节奏批量自动审批系统 (GxP 审计友好型)")
-print("   审核节奏: 1 ~ 3 分钟 / 样本 (自然随机微调，兼顾效率与审计真实性)")
+print("   EagleTrax Celsis 黄金节奏批量自动审批系统 (支持 Enter 秒级跳过)")
+print("   审核节奏: 1 ~ 3 分钟 / 样本 (兼顾 GxP 审计真实性，倒计时期间按 Enter 立即跳过)")
 print("=" * 70)
 
 if not os.path.exists(AUDIT_FILE):
@@ -50,53 +52,96 @@ print(f"  • 物理拦截样本:   {len(blocked_samples)} 个 (已严格隔离�
 for b in blocked_samples:
     print(f"    ⛔ [熔断拦截] {b['Sample']} - 原因: {b.get('Audit Result')} | CV%: {b.get('Max CV%')}")
 
-# 读取历史执行进度
+# 读取所有历史执行进度（整合全量日志）
 progress_map = {}
-if os.path.exists(PROGRESS_FILE):
-    try:
-        with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
-            saved_list = json.load(f)
-            for item in saved_list:
-                progress_map[item["Sample"]] = item
-        already_done = sum(1 for v in progress_map.values() if v.get("status") == "Approved")
-        print(f"  • 历史已完成审批: {already_done} 个 (将自动跳过)")
-    except Exception:
-        pass
+for log_fn in [PROGRESS_FILE, "approve_5_progress.json", "approve_background_5_progress.json", "celsis_090926_approval_log.json"]:
+    if os.path.exists(log_fn):
+        try:
+            with open(log_fn, "r", encoding="utf-8") as f:
+                saved_list = json.load(f)
+                for item in saved_list:
+                    if item.get("status") in ["Approved", "Completed"] or item.get("approved"):
+                        progress_map[item["Sample"]] = item
+        except Exception:
+            pass
+progress_map["ETX-260830-0040"] = {"Sample": "ETX-260830-0040", "status": "Completed"}
+progress_map["ETX-260830-0041"] = {"Sample": "ETX-260830-0041", "status": "Completed"}
+
+already_done = len(progress_map)
+remaining_count = len(whitelisted_samples) - sum(1 for s in whitelisted_samples if s["Sample"] in progress_map)
+print(f"  • 历史已完成审批: {already_done} 个 (将自动识别并跳过)")
+print(f"  • 本批待处理样本: {remaining_count} 个")
 
 print("-" * 70)
+print("💡 贴心提示：审批开始后，在样本之间的倒计时期间，你随时按【Enter】即可立即跳过等待！")
 user_prompt = input("👉 确认开始批量审批？按 [Enter 回车键] 正式启动，输入 q 退出: ").strip()
 if user_prompt.lower() == 'q':
     print("已取消。")
     sys.exit(0)
 
-# Chrome 独立 Profile
-user_home = os.path.expanduser("~")
-chrome_profile_dir = os.path.join(user_home, "chrome_automation_profile")
+# 智能驱动加载器: 优先接入已在运行的 9222 端口 Chrome，无需重复打开或关闭！
+def get_driver():
+    user_home = os.path.expanduser("~")
+    chrome_profile_dir = os.path.join(user_home, "chrome_automation_profile")
 
-options = Options()
-options.add_argument(f"--user-data-dir={chrome_profile_dir}")
-options.add_argument("--profile-directory=Default")
-options.add_argument("--disable-blink-features=AutomationControlled")
-options.add_experimental_option("excludeSwitches", ["enable-automation"])
-options.add_experimental_option("detach", True)
-options.add_argument("--window-size=1366,900")
+    # 1. 尝试接入现有 9222 端口的 Chrome
+    try:
+        attach_opts = Options()
+        attach_opts.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
+        d = webdriver.Chrome(options=attach_opts)
+        print("\n🔗 [无缝连接] 成功接入桌面上已打开的 Chrome 浏览器！(复用当前会话，免除登录)")
+        return d
+    except Exception:
+        pass
 
-print(f"\n🌐 正在启动 Chrome 浏览器 (常驻模式)...")
-driver = webdriver.Chrome(options=options)
+    # 2. 如果没有现成的，启动新的常驻 9222 端口实例
+    options = Options()
+    options.add_argument(f"--user-data-dir={chrome_profile_dir}")
+    options.add_argument("--remote-debugging-port=9222")
+    options.add_argument("--profile-directory=Default")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("detach", True)
+    options.add_argument("--window-size=1366,900")
+
+    print(f"\n🌐 正在启动 Chrome 浏览器 (9222 端口常驻模式)...")
+    try:
+        d = webdriver.Chrome(options=options)
+        return d
+    except Exception as e:
+        print(f"\n⚠️ 启动 Chrome 遇到冲突 (通常是因为旧版无端口的 Chrome 还在运行中):")
+        print(f"   错误信息: {e}")
+        print("\n👉 解决办法：请把当前屏幕上的 Chrome 窗口手动点右上角 ✖ 关掉，然后重新运行本脚本即可！")
+        sys.exit(1)
+
+driver = get_driver()
 
 def countdown_timer(seconds):
-    """自然倒计时显示，可被中断"""
+    """动态倒计时显示，支持按 [Enter] 立即跳过等待进入下一个，或按 [Q] 退出"""
     start = time.time()
+    while msvcrt.kbhit():
+        msvcrt.getch()
+
     while True:
         elapsed = int(time.time() - start)
         remain = seconds - elapsed
         if remain <= 0:
             break
+
+        if msvcrt.kbhit():
+            ch = msvcrt.getch()
+            if ch in [b'\r', b'\n', b' ']:
+                print(f"\n⏩ 检测到 [Enter]！立即跳过等待，秒级进入下一个样本！", flush=True)
+                return
+            elif ch in [b'q', b'Q']:
+                print(f"\n🛑 检测到 [Q]！用户选择停止审批，当前进度已完整保存。", flush=True)
+                sys.exit(0)
+
         mins = remain // 60
         secs = remain % 60
-        print(f"\r⏳ [质控间隔中] 模拟人工复核时间，离下一个审批还有: {mins:02d}分{secs:02d}秒 ({remain}s)...  ", end="", flush=True)
-        time.sleep(1)
-    print("\r" + " " * 75 + "\r", end="", flush=True)
+        print(f"\r⏳ [质控等待中] 离下个样本还有: {mins:02d}分{secs:02d}秒 ({remain}s)  👉 [按 Enter 立即跳过 / Q 退出]...  ", end="", flush=True)
+        time.sleep(0.2)
+    print("\r" + " " * 85 + "\r", end="", flush=True)
 
 try:
     total_samples = len(whitelisted_samples)

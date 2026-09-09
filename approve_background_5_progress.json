@@ -1,0 +1,32 @@
+[
+  {
+    "Sample": "ETX-260831-0109",
+    "status": "Completed",
+    "time": "2026-09-09 17:34:07",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260831-0144",
+    "status": "Completed",
+    "time": "2026-09-09 17:35:24",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260831-0204",
+    "status": "Completed",
+    "time": "2026-09-09 17:36:41",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260831-0310",
+    "status": "Completed",
+    "time": "2026-09-09 17:38:57",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260831-0413",
+    "status": "Completed",
+    "time": "2026-09-09 17:40:42",
+    "note": "Approved successfully"
+  }
+]

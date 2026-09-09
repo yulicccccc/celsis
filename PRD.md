@@ -110,6 +110,15 @@ Whenever generating Celsis data entry automation deliverables, the agent MUST de
   - If a sample's volume is entered in the wrong method field, or entered in both fields, or missing when specified in Prep Notes, trigger an immediate **Audit Discrepancy (Volume Inversion / Placement Anomaly)** and block automated approval until reviewed by the lead analyst.
 
 
+### Rule 10: Interactive Pacing & Real-time Skip Control (交互式节奏与秒级跳过法则)
+- **Background & Ergonomics**: While GxP cadence (1~3 minutes) prevents unnatural bulk audit logs, an analyst observing the console may desire immediate progression without waiting out the countdown timer when time is tight.
+- **Interactive Listening Specification**:
+  - Non-blocking keyboard monitoring via `msvcrt.kbhit()` during all sample-to-sample countdown intervals.
+  - **Press [Enter] or [Space]**: Instantly aborts the remaining countdown and transitions to the next sample in `< 200ms`.
+  - **Press [Q]**: Gracefully exits the approval engine, ensuring all in-flight logs and JSON progress states are completely flushed and persisted.
+- **Auto-Discovery & Dynamic Selection**:
+  - Multi-sample runners (e.g. 5-sample runner) dynamically discover and queue the next unapproved PASS whitelist samples, automatically ignoring all samples verified as `Approved` or `Completed` across historical execution logs.
+
 ---
 
 ## 3. Human-in-the-Loop Safeguards
