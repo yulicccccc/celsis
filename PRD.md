@@ -82,14 +82,14 @@ Whenever generating Celsis data entry automation deliverables, the agent MUST de
   - If leaving blank or containing unverified values, flag an immediate **Audit Discrepancy (Red Flag)**.
   - If notes specify a legitimate modification (e.g. customized rinse volume, neutralizer), the field must precisely reflect that documented modification.
 
-### Rule 8: GxP-Compliant Paced Auto-Approval Cadence (3~5 Minutes Per Sample)
-- **Background & Intent**: In regulated laboratory environments (GxP / EagleTrax LIMS), instant sub-second bulk approvals produce unnatural audit trails that raise compliance flags during quality reviews. Automated approvals must replicate the natural cadence of a diligent QA reviewer.
+### Rule 8: GxP-Compliant Paced Auto-Approval Cadence (1~3 Minutes Per Sample)
+- **Background & Intent**: In regulated laboratory environments (GxP / EagleTrax LIMS), instant sub-second bulk approvals produce unnatural audit trails that raise compliance flags during quality reviews. Automated approvals must replicate the natural cadence of a diligent QA reviewer while maintaining operational efficiency.
 - **Cadence Specification**:
-  - Minimum interval: `180 seconds` (3.0 minutes).
-  - Maximum interval: `300 seconds` (5.0 minutes).
-  - Pacing behavior: Randomized jitter between 180s and 300s after each successful approval to avoid mechanical fixed-frequency patterns.
+  - Minimum interval: `60 seconds` (1.0 minute).
+  - Maximum interval: `180 seconds` (3.0 minutes).
+  - Pacing behavior: Randomized jitter between 60s and 180s after each successful approval to avoid mechanical fixed-frequency patterns.
 - **Idempotency & Pre-check**:
-  - Before initiating an approval, check current status. If already `Approved`, log and skip immediately (0 seconds wait).
+  - Before initiating an approval, check current status. If already `Approved` or `Completed`, log and skip immediately (0 seconds wait).
   - Physical exclusion of Rule 2 failing samples (e.g. `CV >= 30%`) is strictly preserved; failing samples are NEVER touched by the approval engine.
 - **Resumability**:
   - Progress is incrementally persisted to `celsis_batch_approval_progress.json` after every single sample.

@@ -19,13 +19,13 @@ PIN = "1124"
 AUDIT_FILE = "celsis_090926_final_audit_report.json"
 PROGRESS_FILE = "celsis_batch_approval_progress.json"
 
-# 默认审核节奏：3 到 5 分钟 (180 ~ 300 秒)，带随机自然微调
-MIN_INTERVAL = 180  # 3 分钟
-MAX_INTERVAL = 300  # 5 分钟
+# 默认审核节奏：1 到 3 分钟 (60 ~ 180 秒)，带随机自然微调
+MIN_INTERVAL = 60   # 1 分钟
+MAX_INTERVAL = 180  # 3 分钟
 
 print("=" * 70)
-print("   EagleTrax Celsis 真实节奏批量自动审批系统 (GxP 审计友好型)")
-print("   审核节奏: 3 ~ 5 分钟 / 样本 (自然随机微调，避免机械式高频审批)")
+print("   EagleTrax Celsis 黄金节奏批量自动审批系统 (GxP 审计友好型)")
+print("   审核节奏: 1 ~ 3 分钟 / 样本 (自然随机微调，兼顾效率与审计真实性)")
 print("=" * 70)
 
 if not os.path.exists(AUDIT_FILE):
