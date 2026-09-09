@@ -28,5 +28,35 @@
     "status": "Completed",
     "time": "2026-09-09 17:40:42",
     "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260831-0564",
+    "status": "Completed",
+    "time": "2026-09-09 17:49:59",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260831-0587",
+    "status": "Completed",
+    "time": "2026-09-09 17:50:17",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260831-0602",
+    "status": "Completed",
+    "time": "2026-09-09 17:50:34",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260831-0613",
+    "status": "Completed",
+    "time": "2026-09-09 17:50:51",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260831-0619",
+    "status": "Completed",
+    "time": "2026-09-09 17:51:15",
+    "note": "Approved successfully"
   }
 ]
