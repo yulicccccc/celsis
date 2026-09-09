@@ -78,9 +78,10 @@ options.add_argument(f"--user-data-dir={chrome_profile_dir}")
 options.add_argument("--profile-directory=Default")
 options.add_argument("--disable-blink-features=AutomationControlled")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
+options.add_experimental_option("detach", True)
 options.add_argument("--window-size=1366,900")
 
-print(f"\n🌐 正在启动 Chrome 浏览器...")
+print(f"\n🌐 正在启动 Chrome 浏览器 (常驻模式)...")
 driver = webdriver.Chrome(options=options)
 
 def countdown_timer(seconds):
@@ -135,11 +136,12 @@ try:
             except Exception:
                 pass
 
-            # 轮询登录完成
+            # 轮询登录完成，严谨等待微软 SSO 重定向完全结束
             start_l = time.time()
             while True:
                 time.sleep(3)
-                if "/account/login" not in driver.current_url.lower():
+                now_url = driver.current_url.lower()
+                if "eagleanalytical.com" in now_url and "/account/login" not in now_url and "microsoft" not in now_url and "login.live" not in now_url and "signin-oidc" not in now_url:
                     print("✅ 登录恢复成功！")
                     break
                 if time.time() - start_l > 180:
@@ -160,12 +162,12 @@ try:
             print(f"  ⚠️ 读取状态失败: {e}")
             continue
 
-        # 如果已经是 Approved 状态，直接记录跳过（无需等待 3-5 分钟）
-        if current_status.lower() == "approved":
-            print(f"  🎉 [已确认] 该样本已经是 Approved 状态！跳过。")
+        # 如果已经是 Approved 或 Completed 状态，直接记录跳过（无需等待 3-5 分钟）
+        if current_status.lower() in ["approved", "completed"]:
+            print(f"  🎉 [已确认] 该样本当前状态为 [{current_status}] (已完成审批)！跳过。")
             progress_map[sample_id] = {
                 "Sample": sample_id,
-                "status": "Approved",
+                "status": current_status,
                 "approved_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "already_approved": True
             }
@@ -306,5 +308,4 @@ except Exception as e:
     print(f"\n❌ 运行中出现异常: {e}")
 
 finally:
-    driver.quit()
-    print("🔒 浏览器已安全退出。")
+    print("\n👉 提示：Chrome 浏览器已配置常驻模式，未被自动关闭。如需关闭，可随时手动点击右上角 ✖ 关掉。")

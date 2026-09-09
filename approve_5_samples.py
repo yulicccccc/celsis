@@ -27,7 +27,8 @@ SELECTED_SAMPLES = [
 ]
 
 print("=" * 70)
-print("   EagleTrax Celsis 5 样本进阶自动审批测试 (全质控规则守护)")
+print("   EagleTrax Celsis 5 样本进阶自动审批测试 (常驻浏览器模式)")
+print("   浏览器退出后将保持打开，绝不自动关闭，方便随时人工查看或手动关闭")
 print("=" * 70)
 
 # 读取审计报告
@@ -68,7 +69,7 @@ else:
 print("-" * 70)
 input("👉 按【Enter 回车键】正式启动 Chrome 浏览器开始审批...")
 
-# 启动 Chrome
+# 启动 Chrome (配置常驻 detach 模式)
 user_home = os.path.expanduser("~")
 chrome_profile_dir = os.path.join(user_home, "chrome_automation_profile")
 
@@ -77,9 +78,10 @@ options.add_argument(f"--user-data-dir={chrome_profile_dir}")
 options.add_argument("--profile-directory=Default")
 options.add_argument("--disable-blink-features=AutomationControlled")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
+options.add_experimental_option("detach", True)  # 核心配置：浏览器常驻，脚本结束后不关闭浏览器！
 options.add_argument("--window-size=1366,900")
 
-print(f"\n🌐 正在启动 Chrome 浏览器...")
+print(f"\n🌐 正在启动 Chrome 浏览器 (已配置常驻模式)...")
 driver = webdriver.Chrome(options=options)
 
 def countdown_timer(seconds):
@@ -112,10 +114,10 @@ try:
         driver.get(target_url)
         time.sleep(3)
 
-        # 检查偶发登录
+        # 检查是否需要登录，严谨等待微软 SSO 重定向完全结束
         cur_url = driver.current_url.lower()
         if "/account/login" in cur_url or "microsoft" in cur_url or "login.live" in cur_url:
-            print("🔑 检测到登录页面，等待登录...")
+            print("🔑 检测到登录页面，正在进行自动登录辅助...")
             try:
                 user_input = WebDriverWait(driver, 4).until(
                     EC.presence_of_element_located((By.ID, "Username"))
@@ -123,22 +125,29 @@ try:
                 if not user_input.get_attribute("value"):
                     user_input.clear()
                     user_input.send_keys(USERNAME)
+                    print(f"  └─ 自动填入用户名: {USERNAME}")
                 cont_btn = WebDriverWait(driver, 4).until(
                     EC.element_to_be_clickable((By.XPATH, "//input[@value='Continue'] | //button[contains(text(), 'Continue')]"))
                 )
                 cont_btn.click()
+                print("  └─ 自动点击 Continue 按钮")
             except Exception:
                 pass
 
+            print("👉 如有手机 Authenticator MFA 请在手机上点击确认...")
             start_l = time.time()
             while True:
                 time.sleep(3)
-                if "/account/login" not in driver.current_url.lower():
-                    print("✅ 登录状态恢复！")
+                now_url = driver.current_url.lower()
+                # 严谨条件：必须完全脱离 login、microsoft、signin-oidc 且处于 eagleanalytical.com 下
+                if "eagleanalytical.com" in now_url and "/account/login" not in now_url and "microsoft" not in now_url and "login.live" not in now_url and "signin-oidc" not in now_url:
+                    print(f"✅ 登录恢复成功！耗时 {int(time.time() - start_l)} 秒。")
                     break
                 if time.time() - start_l > 180:
                     print("❌ 登录超时，程序退出。")
                     sys.exit(1)
+
+            # 登录完成后重新回到目标样本页面
             driver.get(target_url)
             time.sleep(3)
 
@@ -150,13 +159,14 @@ try:
         current_status = select_obj.first_selected_option.text.strip()
         print(f"  📋 页面当前状态: [{current_status}]")
 
-        if current_status.lower() == "approved":
-            print(f"  🎉 [已确认] 该样本已经是 Approved 状态！无需重复操作，直接跳过。")
+        # 在 EagleTrax 中，已审批通过的状态会显示为 Approved 或 Completed
+        if current_status.lower() in ["approved", "completed"]:
+            print(f"  🎉 [已确认] 该样本当前状态为 [{current_status}]（已经是完成/已审批状态）！无需重复操作，跳过。")
             progress_records.append({
                 "Sample": sample_id,
-                "status": "Approved",
+                "status": current_status,
                 "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                "note": "Already approved"
+                "note": "Already completed/approved"
             })
             continue
 
@@ -172,7 +182,7 @@ try:
             di_vol_elem = driver.find_element(By.ID, "SubmissionTestResults_4__Value") if len(driver.find_elements(By.ID, "SubmissionTestResults_4__Value")) > 0 else None
             di_vol = di_vol_elem.get_attribute("value").strip() if di_vol_elem else ""
 
-            print(f"     方法: [{method_val}] | MF体积栏: '{mf_vol or '(空)'}' | DI体积栏: '{di_vol or '(空)'}'")
+            print(f"     检测方法: [{method_val}] | MF体积栏: '{mf_vol or '(空)'}' | DI体积栏: '{di_vol or '(空)'}'")
 
             if "membrane" in method_val.lower():
                 if di_vol:
@@ -226,7 +236,7 @@ try:
             EC.element_to_be_clickable((By.ID, "ChangeTestStatusSaveButton"))
         )
         save_btn.click()
-        print(f"  [4/4] 已点击 Save 按钮提交授权！")
+        print(f"  [4/4] 已点击绿色 Save 按钮提交授权！")
 
         # 等待弹窗消失
         try:
@@ -247,11 +257,11 @@ try:
         final_status = Select(verify_elem).first_selected_option.text.strip()
         print(f"  🎯 最终审批状态: [{final_status}]")
 
-        if final_status.lower() == "approved":
-            print(f"  🎉 [成功] 样本 {sample_id} 审批成功归档！")
+        if final_status.lower() in ["approved", "completed"]:
+            print(f"  🎉 [成功] 样本 {sample_id} 审批成功归档！当前状态: [{final_status}]")
             progress_records.append({
                 "Sample": sample_id,
-                "status": "Approved",
+                "status": final_status,
                 "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "note": "Approved successfully"
             })
@@ -280,15 +290,13 @@ try:
     print("🏆 5 个样本自动审批测试全部顺利完成！")
     print(f"📁 详细结果已存入: {PROGRESS_FILE}")
     print("=" * 70)
-    input("👉 按【Enter 回车键】安全关闭浏览器...")
 
 except KeyboardInterrupt:
     print("\n\n⏸️ 用户主动中断。")
 
 except Exception as e:
     print(f"\n❌ 发生异常: {e}")
-    input("👉 按【Enter 回车键】退出...")
 
 finally:
-    driver.quit()
-    print("🔒 浏览器已安全退出。测试完毕。")
+    # 按照用户要求：绝不自动关闭浏览器！保持常驻，供用户随时查看或手动关闭
+    print("\n👉 提示：Chrome 浏览器已常驻保持打开，未被关闭。如果你想关闭它，可以手动点右上角 ✖ 关掉。")
