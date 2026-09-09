@@ -1,65 +1,64 @@
-# Project State
+# Project State — Celsis LIMS Automation
 
-## Current state
+> **Current System Status**: `Prototype — Not validated for GxP use.`
+> **Active Milestone**: Golden Case Validation & Verification.
 
-**Milestone:** Data Entry V1 usable  
-**User acceptance:** 2026-08-13  
-**Status:** Prototype — Not validated for GxP use
+---
 
-## What is working
+## 1. Executive Summary
 
-### Data interpretation
+- **Project Name**: Celsis LIMS Data Entry & Audit Automation
+- **Target System**: EagleTrax / LIMS (Celsis USP 71 Sterility Testing)
+- **Deployment Status**: Local Execution / Offline Validation Only (**Cloudflare Pages Deployment Deferred**)
 
-- Matching Daily Control vs Workload is treated as a prerequisite.
-- ATP comes from Daily Control.
-- Max RLU is taken from the `RLU` result column.
-- CV >= 30% is a hard exception.
-- MF / DI can coexist in the same workload.
-- Suffix-normalized ETX lookup is supported conceptually.
-- Cross-run reconstruction rules are documented.
+---
 
-### Navigation
+## 2. Key Decisions & Locked Scope
 
-Bookmarklet V3:
+1. **Dual-Track Workflow Approved**:
+   - AI Co-pilot handles PDF parsing, anomaly detection, Daily Control validation, and exception explanations.
+   - Deterministic Parser handles standard batches, Max RLU calculation, and Batch JSON generation.
+   - Human Analyst approves JSON payload, verifies first sample, and manually signs/saves in LIMS.
 
-- high-contrast visual states,
-- retries asynchronous DOM scans,
-- searches rows / anchors,
-- supports same-origin iframe inspection,
-- prefers SubmissionTest Details,
-- has Re-scan,
-- opens one page at a time.
+2. **Strict Verification Failsafe**:
+   - `Expected` values must be manually confirmed by human analysts. Automations/parsers must NOT auto-generate expected values.
+   - 3-Way Consistency Check required: `Human Expected` vs `ChatGPT Output` vs `Antigravity Python Result`.
 
-### Data entry
+3. **Production Restrictions**:
+   - No direct network modification to EagleTrax.
+   - No automatic clicking of Save/Submit.
+   - No Cloudflare deployment pending Golden Case validation.
 
-PowerShell V1:
+4. **Future Roadmap Decision (User Approved)**:
+   - User selected **Method 1 (Playwright Auto-Fill Copilot)** for future workflow evolution.
+   - Script will automatically discover today's ETX links from Routine Tests, open detail tabs, DOM-inject the 13 fields, and trigger/fill the `Add Note` dialog modal (`#AddSubmissionTestNote`), leaving the page ready for the analyst to review and click Save manually.
 
-- Enter-only operator trigger,
-- fixed tab sequence confirmed in current EagleTrax form,
-- group-specific notes,
-- clipboard support,
-- `Q` stop,
-- no automatic Save/Submit.
+5. **MS Check Dynamic Link Resolution Protocol Validated (2026-09-09)**:
+   - Successfully validated 100% dynamic URL resolution for EagleTrax Celsis test details pages without hardcoded URLs.
+   - Batch `090426-2011` (8 samples) achieved 8/8 strict match with zero stale-DOM race collisions (`find_all_batch_links_strict.py`).
 
-## Known limitations
+---
 
-1. Bookmarklet can only find rows present in the loaded/accessible DOM.
-   Pagination and active filters may hide valid ETXs.
-2. PowerShell uses keyboard focus and tab order.
-   A UI change can displace fields.
-3. Day-7 start date may be derived and requires first-sample confirmation.
-4. PDF/OCR text can be malformed.
-5. No formal production validation has been completed.
-6. Independent Reviewer automation is not yet production-approved.
+## 3. Active Golden Cases
 
-## Immediate next engineering steps
+| Golden Case ID | Batch ID | Date | Samples | Status | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **GC-073126-2222** | `073126-2222` | 2026-07-31 | 10 | **Validated (3-Way Match)** | Daily Control ATP 96305; TSB 992; FTM 2138; Special Suffix `0762-4/5` -> `0762` |
+| **GC-073126-2011** | `073126-2011` | 2026-07-31 | 8 | **Validated (3-Way Match)** | Daily Control ATP 112570; TSB 1033; FTM 2450; 100% Passed (CV < 30%) |
+| **GC-090426-2011** | `090426-2011` | 2026-09-04 | 8 | **Validated (3-Way Match & 8/8 Links)** | Daily Control ATP 88987; GS (TSB 2176, FTM 7334); ES (TSB 2597, FTM 8089); 100% Passed (CV < 30%); 8/8 Links dynamically resolved |
 
-1. Convert batch-specific generated data into a structured `Batch JSON`.
-2. Keep Bookmarklet and PowerShell as fixed templates reading that payload.
-3. Build Golden Cases from de-identified original reports.
-4. Add exact three-way checks:
-   - human expected,
-   - JS / web engine,
-   - Python reviewer engine.
-5. Add explicit source hashes and run/media lineage.
-6. Replace tab-navigation with DOM-field targeting only after field IDs/names are mapped and tested.
+---
+
+## 4. Known File Map
+
+- `PRD.md`: Core product requirements, locked business rules, and Rule 6 (Link Resolution Protocol).
+- `PROJECT_STATE.md`: Single source of truth for project state and decision log.
+- `ACCEPTANCE_TESTS.md`: Acceptance test specifications & Golden Case test suite.
+- `EVIDENCE_INDEX.md`: Evidence trail for test runs and 3-way verification reports.
+- `find_all_batch_links_strict.py`: Deterministic batch link resolver using MS Check protocol and race-condition guards.
+- `celsis_090426_2011_links_verified.json`: 100% verified mapping of ETX IDs to authentic EagleTrax URLs.
+- `Celsis_073126_2011_DataEntry.ps1`: Enter-Only PowerShell automation payload for batch `073126-2011`.
+- `Celsis_090426_2011_DataEntry_EnterOnly.ps1`: Enter-Only PowerShell automation payload with automated clipboard note management for batch `090426-2011`.
+- `Celsis_090426_2011_ETX-260826-0374_DataEntry_EnterOnly.ps1`: Dedicated single-sample automation payload for `ETX-260826-0374`.
+
+

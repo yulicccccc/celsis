@@ -17,8 +17,19 @@ venv/
 *.xlsx
 *.xls
 *.docx
+*.zip
+extracted_package/
+
+# Scratch & probe scripts
+run_*.bat
+inspect_*.py
+celsis_ms_*.py
+find_all_batch_links.py
+celsis_*_links.json
+!celsis_*_links_verified.json
 
 # Browser/session artifacts
+.playwright_session/
 *.har
 *.log
 cookies*
