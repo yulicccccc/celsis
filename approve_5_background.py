@@ -61,18 +61,39 @@ if not target_queue:
     print("\n🎉 恭喜！当前批次的所有合规白名单样本均已全部审批完毕！", flush=True)
     sys.exit(0)
 
-user_home = os.path.expanduser("~")
-chrome_profile_dir = os.path.join(user_home, "chrome_automation_profile")
+def get_driver():
+    user_home = os.path.expanduser("~")
+    chrome_profile_dir = os.path.join(user_home, "chrome_automation_profile")
 
-options = Options()
-options.add_argument(f"--user-data-dir={chrome_profile_dir}")
-options.add_argument("--profile-directory=Default")
-options.add_argument("--disable-blink-features=AutomationControlled")
-options.add_experimental_option("excludeSwitches", ["enable-automation"])
-options.add_argument("--window-size=1366,900")
+    try:
+        attach_opts = Options()
+        attach_opts.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
+        d = webdriver.Chrome(options=attach_opts)
+        print("\n🔗 [无缝连接] 成功接入桌面上已打开的 Chrome 浏览器！(复用当前会话，免除登录)", flush=True)
+        return d
+    except Exception:
+        pass
 
-print(f"\n🌐 正在启动 Chrome 浏览器...", flush=True)
-driver = webdriver.Chrome(options=options)
+    options = Options()
+    options.add_argument(f"--user-data-dir={chrome_profile_dir}")
+    options.add_argument("--remote-debugging-port=9222")
+    options.add_argument("--profile-directory=Default")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("detach", True)
+    options.add_argument("--window-size=1366,900")
+
+    print(f"\n🌐 正在启动 Chrome 浏览器 (9222 端口常驻模式)...", flush=True)
+    try:
+        d = webdriver.Chrome(options=options)
+        return d
+    except Exception as e:
+        print(f"\n⚠️ 启动 Chrome 遇到冲突 (通常是因为旧版无端口的 Chrome 还在运行中):", flush=True)
+        print(f"   错误信息: {e}", flush=True)
+        print("\n👉 解决办法：请把当前屏幕上的 Chrome 窗口手动点右上角 ✖ 关掉，然后重新运行本脚本即可！", flush=True)
+        sys.exit(1)
+
+driver = get_driver()
 
 def countdown_timer(seconds):
     """动态倒计时显示，支持按 [Enter] 立即跳过等待进入下一个，或按 [Q] 退出"""
