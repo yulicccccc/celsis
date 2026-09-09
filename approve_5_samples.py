@@ -7,6 +7,7 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -27,8 +28,8 @@ SELECTED_SAMPLES = [
 ]
 
 print("=" * 70)
-print("   EagleTrax Celsis 5 样本进阶自动审批测试 (常驻浏览器模式)")
-print("   浏览器退出后将保持打开，绝不自动关闭，方便随时人工查看或手动关闭")
+print("   EagleTrax Celsis 5 样本进阶自动审批测试 (9222 端口无缝常驻模式)")
+print("   浏览器退出后将保持打开；再次运行自动接入已打开窗口，绝不闪退或冲突")
 print("=" * 70)
 
 # 读取审计报告
@@ -67,22 +68,44 @@ else:
     print("🛡️ 已选择: 黄金质控节奏模式 (间隔 1 ~ 3 分钟 / 60 ~ 180 秒)")
 
 print("-" * 70)
-input("👉 按【Enter 回车键】正式启动 Chrome 浏览器开始审批...")
+input("👉 按【Enter 回车键】正式开始审批...")
 
-# 启动 Chrome (配置常驻 detach 模式)
-user_home = os.path.expanduser("~")
-chrome_profile_dir = os.path.join(user_home, "chrome_automation_profile")
+# 智能驱动加载器: 优先接入已在运行的 9222 端口 Chrome，无需重复打开或关闭！
+def get_driver():
+    user_home = os.path.expanduser("~")
+    chrome_profile_dir = os.path.join(user_home, "chrome_automation_profile")
 
-options = Options()
-options.add_argument(f"--user-data-dir={chrome_profile_dir}")
-options.add_argument("--profile-directory=Default")
-options.add_argument("--disable-blink-features=AutomationControlled")
-options.add_experimental_option("excludeSwitches", ["enable-automation"])
-options.add_experimental_option("detach", True)  # 核心配置：浏览器常驻，脚本结束后不关闭浏览器！
-options.add_argument("--window-size=1366,900")
+    # 1. 尝试接入现有 9222 端口的 Chrome
+    try:
+        attach_opts = Options()
+        attach_opts.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
+        d = webdriver.Chrome(options=attach_opts)
+        print("\n🔗 [无缝连接] 成功接入桌面上已打开的 Chrome 浏览器！(复用当前会话，免除登录)")
+        return d
+    except Exception:
+        pass
 
-print(f"\n🌐 正在启动 Chrome 浏览器 (已配置常驻模式)...")
-driver = webdriver.Chrome(options=options)
+    # 2. 如果没有现成的，启动新的常驻 9222 端口实例
+    options = Options()
+    options.add_argument(f"--user-data-dir={chrome_profile_dir}")
+    options.add_argument("--remote-debugging-port=9222")
+    options.add_argument("--profile-directory=Default")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("detach", True)
+    options.add_argument("--window-size=1366,900")
+
+    print(f"\n🌐 正在启动 Chrome 浏览器 (9222 端口常驻模式)...")
+    try:
+        d = webdriver.Chrome(options=options)
+        return d
+    except Exception as e:
+        print(f"\n⚠️ 启动 Chrome 遇到冲突 (通常是因为旧版无端口的 Chrome 还在运行中):")
+        print(f"   错误信息: {e}")
+        print("\n👉 解决办法：请把当前屏幕上的 Chrome 窗口手动点右上角 ✖ 关掉，然后重新运行本脚本即可！")
+        sys.exit(1)
+
+driver = get_driver()
 
 def countdown_timer(seconds):
     """动态倒计时显示"""
@@ -139,7 +162,6 @@ try:
             while True:
                 time.sleep(3)
                 now_url = driver.current_url.lower()
-                # 严谨条件：必须完全脱离 login、microsoft、signin-oidc 且处于 eagleanalytical.com 下
                 if "eagleanalytical.com" in now_url and "/account/login" not in now_url and "microsoft" not in now_url and "login.live" not in now_url and "signin-oidc" not in now_url:
                     print(f"✅ 登录恢复成功！耗时 {int(time.time() - start_l)} 秒。")
                     break
@@ -147,7 +169,6 @@ try:
                     print("❌ 登录超时，程序退出。")
                     sys.exit(1)
 
-            # 登录完成后重新回到目标样本页面
             driver.get(target_url)
             time.sleep(3)
 
@@ -215,9 +236,7 @@ try:
         print(f"  [1/4] 已选择 'Approved' (value={val})")
         time.sleep(1)
 
-        # 填写账号与 PIN (采用 JS 清空 + Ctrl+A Backspace 双重保险，防止网页自带默认值导致变成 qchenqchen)
-        from selenium.webdriver.common.keys import Keys
-
+        # 填写账号与 PIN (JS 清空 + Ctrl+A 退格双保险，杜绝 qchenqchen)
         aun_field = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.ID, "AUN"))
         )
@@ -307,5 +326,5 @@ except Exception as e:
     print(f"\n❌ 发生异常: {e}")
 
 finally:
-    # 按照用户要求：绝不自动关闭浏览器！保持常驻，供用户随时查看或手动关闭
-    print("\n👉 提示：Chrome 浏览器已常驻保持打开，未被关闭。如果你想关闭它，可以手动点右上角 ✖ 关掉。")
+    # 常驻模式：不关闭浏览器
+    print("\n👉 提示：Chrome 浏览器已常驻保持打开（9222端口），未被关闭。可随时手动点击右上角 ✖ 关掉。")
