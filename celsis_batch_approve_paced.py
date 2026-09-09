@@ -224,19 +224,27 @@ try:
         print(f"  [1/4] 已选择 'Approved' (value={val})")
         time.sleep(1)
 
-        # 2. 填写 Username
+        # 2. 填写 Username (JS 清空 + Ctrl+A Backspace 防重叠)
+        from selenium.webdriver.common.keys import Keys
+
         aun_field = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.ID, "AUN"))
         )
-        aun_field.clear()
+        driver.execute_script("arguments[0].value = '';", aun_field)
+        aun_field.send_keys(Keys.CONTROL, "a")
+        aun_field.send_keys(Keys.BACKSPACE)
+        time.sleep(0.1)
         aun_field.send_keys(USERNAME)
-        print(f"  [2/4] 已填入账号: {USERNAME}")
+        print(f"  [2/4] 已填入账号: {aun_field.get_attribute('value')}")
 
         # 3. 填写 PIN
         apd_field = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.ID, "APD"))
         )
-        apd_field.clear()
+        driver.execute_script("arguments[0].value = '';", apd_field)
+        apd_field.send_keys(Keys.CONTROL, "a")
+        apd_field.send_keys(Keys.BACKSPACE)
+        time.sleep(0.1)
         apd_field.send_keys(PIN)
         print(f"  [3/4] 已填入 PIN 码: ****")
         time.sleep(0.5)
