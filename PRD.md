@@ -31,13 +31,22 @@ Automate the forensic audit, data extraction, and payload formatting of Celsis R
                     Manual Save & Sign
 ```
 
-### 1.3 Mandatory 4-in-1 Delivery Package
-Whenever generating Celsis data entry automation deliverables, the agent MUST deliver the complete 4-in-1 suite:
-1. **① 书签下载器 HTML (`<BATCH>_书签下载器.html`)**: Standalone page with one-click drag-and-drop JavaScript bookmarklet to locate & open test pages in EagleTrax.
-2. **② Enter-only PowerShell (`<BATCH>_DataEntry_EnterOnly.ps1`)**: Keystroke automation macro with automated clipboard note management.
-3. **③ RLU 核对表 (`<BATCH>_Review_Table.tsv`)**: Tab-separated comparison dataset.
-4. **④ 完整包 ZIP (`<BATCH>_Complete_Package.zip`)**: Bundled zip containing all deliverables above.
-
+### 1.4 Daily Batch Quick-Audit Golden SOP (每日批次极速审计标准工作流)
+To maximize throughput and ensure 100% GxP compliance with human oversight:
+1. **User Input**: The user supplies the daily Celsis packet PDF and pastes the Markdown links table extracted in 1 second from EagleTrax (`Test Status: Data Review` + `Test Type: Celsis Sterility Test`, 200 rows/page).
+2. **AI Deep Forensic Audit**:
+   - Extract instrument controls and sample rows from the PDF.
+   - Live-inspect each test URL across all DOM fields.
+   - Crosscheck Rule 1 (ATP), Rule 2 (Max RLU & CV%), Rule 7 (Mod), Rule 9 (Volume placement MF/DI), Rule 11 (Data Review status), and Rule 12 (Canonical note volume).
+3. **Defect & Remediation Action Report (问题清单与改法明确指引)**:
+   - AI outputs a concise, actionable report:
+     - **哪个有问题 (Which sample has an issue)**
+     - **有什么问题 (What the exact issue is)**
+     - **需要改什么 (Exact instructions on which field to modify and the correct value)**
+4. **Strict Approval Freeze (审批完全冻结，先改后批)**:
+   - **Strictly DO NOT auto-approve**. Automated approval is completely paused until user explicit permission.
+   - The user/analyst reviews the defect report and manually corrects the errors on EagleTrax.
+   - Only after the user confirms all issues are rectified and issues the explicit command (e.g. "开始审批"), the batch approval engine will be launched.
 
 ---
 

@@ -46,6 +46,12 @@
    - Integrated `ensure_edit_mode()` into Playwright auto data entry flow (`celsis_auto_data_entry.py`).
    - Dynamically detects read-only/disabled form state, locates the green action button (`Enter Data` / `Enter Results` / `Modify Results` in `.panel-heading`), clicks it, and verifies fields unlock via `wait_for_function` before field injection. Includes DOM attribute fallback. Zero GxP risk: never auto-saves.
 
+8. **Daily Batch Fast-Audit & Gatekeeper SOP Approved (2026-09-10)**:
+   - **Fast Input Flow**: User supplies daily PDF packet and pastes direct filtered Markdown links table from EagleTrax (`Test Status: Data Review` + `Test Type: Celsis Sterility Test`, 200 rows/page).
+   - **AI Deep Crosscheck**: AI parses PDF and verifies live DOM fields across Rules 1, 2, 7, 9, 11, 12.
+   - **Actionable Defect Reporting**: AI must clearly output: 哪个有问题 (Which sample), 有什么问题 (What issue), 需要改什么 (Exact field and value to fix).
+   - **Strict Approval Gatekeeper**: All automated approvals are strictly frozen until the user finishes manual corrections on EagleTrax and gives the explicit command to execute approvals.
+
 ---
 
 ## 3. Active Golden Cases
