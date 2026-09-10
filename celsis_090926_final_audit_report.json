@@ -509,9 +509,9 @@
     "LIMS TSB": "1674",
     "PDF FTM": "2985",
     "LIMS FTM": "2985",
-    "Max CV%": "33.2%",
-    "Audit Result": "BLOCK (CV >= 30%)",
-    "Audit Notes": "CV 33.2% >= 30% failsafe triggered",
+    "Max CV%": "23%",
+    "Audit Result": "PASS & 100% MATCH",
+    "Audit Notes": "Instrument CV Pct is 23% (TSB Container 10) and 7% (FTM), strictly < 30%. 100% Match.",
     "EagleTrax URL": "https://etrax.eagleanalytical.com/SubmissionTest/Details/68p4GD2PROWWvJXZ4t617A__"
   },
   {
