@@ -48,9 +48,10 @@ Whenever generating Celsis data entry automation deliverables, the agent MUST de
 - **Enforcement**: Must be mapped globally to all sample payload records.
 - **Failsafe**: If Daily Control is missing or mismatched, flag immediate error.
 
-### Rule 2: 30% CV Failsafe (Physical Block)
-- **Condition**: Scan all replicate readings. If any replicate `CV >= 30%` or Result is `Positive`, trigger an absolute physical exclusion.
-- **Action**: Remove the bottle from the entry whitelist and output a re-run action item (`.ics`). Do NOT auto-populate failing samples.
+### Rule 2: 30% CV Failsafe (Physical Block & Instrument Truth Authority)
+- **Source Truth Authority**: The sample CV% MUST strictly be determined by the official `CV Pct` column printed on the Charles River Celsis report. Third-party recalculation formulas (e.g. sample standard deviation with ddof=1) are strictly prohibited, as Celsis firmware calculates CV using population standard deviation (N=2).
+- **Condition**: If any replicate printed `CV Pct >= 30%` or Result is `Positive`, trigger an absolute physical exclusion.
+- **Action**: Remove the bottle from the entry whitelist and output a re-run action item (`.ics`). Do NOT auto-populate or approve failing samples.
 
 ### Rule 3: Max RLU Extraction & OCR Decoupling
 - **Flattening**: For valid samples, flatten replicate readings.
