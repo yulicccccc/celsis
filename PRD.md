@@ -31,22 +31,22 @@ Automate the forensic audit, data extraction, and payload formatting of Celsis R
                     Manual Save & Sign
 ```
 
-### 1.4 Daily Batch Quick-Audit Golden SOP (每日批次极速审计标准工作流)
-To maximize throughput and ensure 100% GxP compliance with human oversight:
-1. **User Input**: The user supplies the daily Celsis packet PDF and pastes the Markdown links table extracted in 1 second from EagleTrax (`Test Status: Data Review` + `Test Type: Celsis Sterility Test`, 200 rows/page).
-2. **AI Deep Forensic Audit**:
-   - Extract instrument controls and sample rows from the PDF.
-   - Live-inspect each test URL across all DOM fields.
-   - Crosscheck Rule 1 (ATP), Rule 2 (Max RLU & CV%), Rule 7 (Mod), Rule 9 (Volume placement MF/DI), Rule 11 (Data Review status), and Rule 12 (Canonical note volume).
-3. **Defect & Remediation Action Report (问题清单与改法明确指引)**:
-   - AI outputs a concise, actionable report:
-     - **哪个有问题 (Which sample has an issue)**
-     - **有什么问题 (What the exact issue is)**
-     - **需要改什么 (Exact instructions on which field to modify and the correct value)**
-4. **Strict Approval Freeze (审批完全冻结，先改后批)**:
-   - **Strictly DO NOT auto-approve**. Automated approval is completely paused until user explicit permission.
-   - The user/analyst reviews the defect report and manually corrects the errors on EagleTrax.
-   - Only after the user confirms all issues are rectified and issues the explicit command (e.g. "开始审批"), the batch approval engine will be launched.
+### 1.4 Daily Batch 4-Step Golden SOP (每日批次四步黄金协同工作流)
+To maximize throughput, minimize manual searching, and guarantee 100% GxP data integrity:
+1. **Step 1 (PDF 提取)**: The user provides the daily Celsis packet PDF. The AI extracts all daily control ATPs, sample RLU1/RLU2/RLU values, printed CV% values, negative interpretations, and corresponding PDF page numbers.
+2. **Step 2 (链接直连与实时比对)**: The user filters EagleTrax (`Test Status: Data Review` + `Test Type: Celsis Sterility Test`, 200 rows/page) and pastes the full Markdown links table directly to the AI. The AI bypasses manual search, directly accesses each test details page via URL, extracts all live DOM fields, and crosschecks against the PDF dataset across Rules 1, 2, 7, 9, 11, and 12.
+3. **Step 3 (精准问题诊断报告)**: The AI delivers a structured audit report clearly highlighting:
+   - **哪些通过了 (PASS Whitelist)**: Samples that match 100% across all parameters.
+   - **哪些没通过 (Defect Action List)**: Must explicitly state:
+     - **哪个有问题 (Sample ID & Link)**
+     - **有什么问题 (Exact discrepancy)**
+     - **在 PDF 的第几页 (Precise PDF Page Number)**
+     - **我要怎么改 (Step-by-step instructions on exact field and correct value)**
+4. **Step 4 (人工修正与按需授权自动审批)**:
+   - The user reviews the defect report and manually makes the required modifications in EagleTrax.
+   - **Strict Approval Freeze**: The AI NEVER executes automated approvals on its own.
+   - If the user decides to manually approve on their own, the batch completes cleanly.
+   - Only when the user explicitly instructs the AI to perform approvals (e.g. "帮我做 approval" / "开始审批"), the AI launches the paced approval engine.
 
 ---
 

@@ -46,11 +46,15 @@
    - Integrated `ensure_edit_mode()` into Playwright auto data entry flow (`celsis_auto_data_entry.py`).
    - Dynamically detects read-only/disabled form state, locates the green action button (`Enter Data` / `Enter Results` / `Modify Results` in `.panel-heading`), clicks it, and verifies fields unlock via `wait_for_function` before field injection. Includes DOM attribute fallback. Zero GxP risk: never auto-saves.
 
-8. **Daily Batch Fast-Audit & Gatekeeper SOP Approved (2026-09-10)**:
-   - **Fast Input Flow**: User supplies daily PDF packet and pastes direct filtered Markdown links table from EagleTrax (`Test Status: Data Review` + `Test Type: Celsis Sterility Test`, 200 rows/page).
-   - **AI Deep Crosscheck**: AI parses PDF and verifies live DOM fields across Rules 1, 2, 7, 9, 11, 12.
-   - **Actionable Defect Reporting**: AI must clearly output: 哪个有问题 (Which sample), 有什么问题 (What issue), 需要改什么 (Exact field and value to fix).
-   - **Strict Approval Gatekeeper**: All automated approvals are strictly frozen until the user finishes manual corrections on EagleTrax and gives the explicit command to execute approvals.
+8. **Finalized 4-Step Daily Collaboration SOP (四步黄金协同工作流 - 2026-09-10 最终确立)**:
+   - **Step 1 (PDF 提取)**: 用户提供当日 PDF 报告，AI 全量提取每日质控 ATP、样本各平皿 RLU/CV%、阴性判定及页码。
+   - **Step 2 (链接秒级直连 & DOM 深度比对)**: 用户在 EagleTrax 一键过滤（`Test Status: Data Review` + `Test Type: Celsis Sterility Test`，200 条/页）并将 Markdown 链接表直接发给 AI。AI 批量提取各详情页 live DOM 数据，与 PDF 进行全维度比对（Rules 1, 2, 7, 9, 11, 12）。
+   - **Step 3 (精准问题诊断报告)**: AI 输出结构化报告，明确列出：
+     - ① 哪些样本通过了（PASS 白名单）；
+     - ② 哪些样本没通过，并重点告知：**具体是什么问题**、**在 PDF 的第几页**、**分析员/用户具体需要去网站改什么**。
+   - **Step 4 (人工修正与按需授权自动审批)**:
+     - 用户前往 LIMS 手动修正错误；
+     - **审批绝对冻结**：AI 绝不擅自自动审批。如果用户决定自己手动点完，则本批次归档；如果用户需要 AI 帮忙做 approval 并明确下达指令（如“开始审批”），AI 才启动后台静默审批引擎。
 
 ---
 
