@@ -72,37 +72,46 @@ print("💡 审批引擎即将启动并自动将浏览器最小化到任务栏�
 print("💡 等待期间若想加快进度，在当前控制台按【Enter 回车键】即可秒级切换到下一个样本！", flush=True)
 print("-" * 75, flush=True)
 
+import socket
+
+def is_port_open(port=9222):
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.settimeout(0.3)
+            return s.connect_ex(('127.0.0.1', port)) == 0
+    except Exception:
+        return False
+
 # 智能驱动加载器: 优先接入已在运行的 9222 端口 Chrome，无需重复打开或关闭！
 def get_driver():
     user_home = os.path.expanduser("~")
     chrome_profile_dir = os.path.join(user_home, "chrome_automation_profile")
 
-    try:
-        attach_opts = Options()
-        attach_opts.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
-        d = webdriver.Chrome(options=attach_opts)
-        print("\n🔗 [无缝连接] 成功接入桌面上已打开的 Chrome 浏览器！(复用当前会话，免除登录)", flush=True)
-        return d
-    except Exception:
-        pass
+    if is_port_open(9222):
+        try:
+            attach_opts = Options()
+            attach_opts.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
+            d = webdriver.Chrome(options=attach_opts)
+            print("\n🔗 [无缝连接] 成功接入桌面上已打开的 Chrome 浏览器！(复用当前会话，免除登录)", flush=True)
+            return d
+        except Exception:
+            pass
 
     options = Options()
     options.add_argument(f"--user-data-dir={chrome_profile_dir}")
-    options.add_argument("--remote-debugging-port=9222")
     options.add_argument("--profile-directory=Default")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option("detach", True)
     options.add_argument("--window-size=1366,900")
 
-    print(f"\n🌐 正在启动 Chrome 浏览器 (9222 端口常驻模式)...", flush=True)
+    print(f"\n🌐 正在启动 Chrome 浏览器 (使用 profile: chrome_automation_profile)...", flush=True)
     try:
         d = webdriver.Chrome(options=options)
         return d
     except Exception as e:
-        print(f"\n⚠️ 启动 Chrome 遇到冲突 (通常是因为旧版无端口的 Chrome 还在运行中):", flush=True)
+        print(f"\n⚠️ 启动 Chrome 遇到冲突:", flush=True)
         print(f"   错误信息: {e}", flush=True)
-        print("\n👉 解决办法：请把当前屏幕上的 Chrome 窗口手动点右上角 ✖ 关掉，然后重新运行本脚本即可！", flush=True)
+        print("\n👉 解决办法：请把当前屏幕上的自动化 Chrome 窗口手动关掉，然后重新运行本脚本！", flush=True)
         sys.exit(1)
 
 driver = get_driver()
@@ -218,6 +227,20 @@ try:
                 "note": "Already completed/approved"
             })
             continue
+
+        # 质控前置红线：只有状态为 Data Review 的样本才允许审批！
+        # 若仍处于 Sample Analysis 或其他未就绪状态，必须严格拦截并告知用户！
+        if current_status.lower() != "data review":
+            print(f"  ⛔ [SOP 状态拦截] 质控警报: 样本 {sample_id} 当前状态为 [{current_status}] (非 Data Review，通常为 Sample Analysis 等进行中阶段)！", flush=True)
+            print(f"     已严格拦截，安全跳过，绝不执行 Approve 操作，已记入预警日志汇报给用户！", flush=True)
+            progress_records.append({
+                "Sample": sample_id,
+                "status": current_status,
+                "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "note": f"Blocked: Not in Data Review (Current: {current_status})"
+            })
+            continue
+
 
         # 2. Rule 9: 质控方法与体积栏位互斥复核 (MF 过滤体积 vs DI 接种体积)
         print(f"  🔍 [Rule 9 质控复核] 正在校验测试方法与体积填入栏位...", flush=True)

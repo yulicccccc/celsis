@@ -119,6 +119,17 @@ Whenever generating Celsis data entry automation deliverables, the agent MUST de
 - **Auto-Discovery & Dynamic Selection**:
   - Multi-sample runners (e.g. 5-sample runner) dynamically discover and queue the next unapproved PASS whitelist samples, automatically ignoring all samples verified as `Approved` or `Completed` across historical execution logs.
 
+### Rule 11: Strict "Data Review" Pre-requisite Gate (前置状态拦截法则)
+- **Background & GxP Rationale**: In EagleTrax workflow, tests transition through progressive lifecycles (`Sample Analysis` -> `Data Review` -> `Approved` / `Completed`). Only tests that have reached the `Data Review` phase are ready and authorized for approval. Tests still undergoing `Sample Analysis` (or any other non-Data Review state) must NEVER be approved prematurely.
+- **Enforcement**:
+  1. Inspect `TestStatusId` upon loading the test page.
+  2. If status is `Approved` or `Completed`, auto-verify and skip.
+  3. If status is **NOT** `Data Review` (e.g. `Sample Analysis`, `In Progress`, `Pending`), trigger an immediate **SOP Status Interception**:
+     - **DO NOT** select `Approved` or input credentials.
+     - Record the sample ID, URL, and current status in the progress log as `Blocked: Not in Data Review (Current: <Status>)`.
+     - Explicitly alert and report the intercepted sample to the user.
+  4. Only when status is strictly `Data Review` may the engine proceed to Rule 9 volume verification and subsequent approval submission.
+
 ---
 
 ## 3. Human-in-the-Loop Safeguards
