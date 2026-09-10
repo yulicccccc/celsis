@@ -1,0 +1,773 @@
+[
+  {
+    "Sample":"ETX-260827-0040",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":616,
+    "Max FTM RLU":"N\/A",
+    "Max CV%":"0.0%",
+    "Pages":[
+      29
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260827-0640",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"645",
+    "Max FTM RLU":"773",
+    "Max CV%":"10.7%",
+    "Pages":[
+      29,
+      30
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260830-0040",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"2432",
+    "Max FTM RLU":"8526",
+    "Max CV%":"3.8%",
+    "Pages":[
+      6,
+      7
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260830-0041",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"2363",
+    "Max FTM RLU":"6878",
+    "Max CV%":"4.9%",
+    "Pages":[
+      6,
+      7
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0002",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":"N\/A",
+    "Max FTM RLU":"N\/A",
+    "Max CV%":"0.0%",
+    "Pages":[
+      9
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260831-0004",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":"N\/A",
+    "Max FTM RLU":"N\/A",
+    "Max CV%":"0.0%",
+    "Pages":[
+      29
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260831-0019",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":2877,
+    "Max FTM RLU":"N\/A",
+    "Max CV%":"22.6%",
+    "Pages":[
+      6
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260831-0083",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":"N\/A",
+    "Max FTM RLU":"N\/A",
+    "Max CV%":"0.0%",
+    "Pages":[
+      10
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260831-0105",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"299",
+    "Max FTM RLU":"309",
+    "Max CV%":"16.7%",
+    "Pages":[
+      29,
+      30
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0108",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"3601",
+    "Max FTM RLU":"4577",
+    "Max CV%":"2.8%",
+    "Pages":[
+      31,
+      32
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0109",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"2852",
+    "Max FTM RLU":"8329",
+    "Max CV%":"2.0%",
+    "Pages":[
+      31,
+      32
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0142",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"3290",
+    "Max FTM RLU":"7693",
+    "Max CV%":"3.2%",
+    "Pages":[
+      31,
+      32
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0144",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"2737",
+    "Max FTM RLU":"9391",
+    "Max CV%":"0.8%",
+    "Pages":[
+      31,
+      32
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0204",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"256",
+    "Max FTM RLU":"355",
+    "Max CV%":"12.9%",
+    "Pages":[
+      29,
+      30
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0225",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"3176",
+    "Max FTM RLU":"5788",
+    "Max CV%":"1.9%",
+    "Pages":[
+      32
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0413",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"3076",
+    "Max FTM RLU":"10107",
+    "Max CV%":"3.7%",
+    "Pages":[
+      10,
+      11
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0504",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":2308,
+    "Max FTM RLU":"N\/A",
+    "Max CV%":"2.7%",
+    "Pages":[
+      10
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260831-0557",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":175,
+    "Max FTM RLU":260,
+    "Max CV%":"0.0%",
+    "Pages":[
+      20,
+      21
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260831-0564",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"3414",
+    "Max FTM RLU":"7769",
+    "Max CV%":"2.6%",
+    "Pages":[
+      10,
+      11
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0587",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"2644",
+    "Max FTM RLU":"7471",
+    "Max CV%":"3.3%",
+    "Pages":[
+      8,
+      9
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0604",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":"N\/A",
+    "Max FTM RLU":7940,
+    "Max CV%":"0.0%",
+    "Pages":[
+      7
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260831-0613",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"2899",
+    "Max FTM RLU":"8309",
+    "Max CV%":"6.9%",
+    "Pages":[
+      6,
+      7
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0619",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"2877",
+    "Max FTM RLU":"6782",
+    "Max CV%":"3.0%",
+    "Pages":[
+      7
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0664",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"238",
+    "Max FTM RLU":"313",
+    "Max CV%":"14.7%",
+    "Pages":[
+      29,
+      30
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0667",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":146,
+    "Max FTM RLU":"N\/A",
+    "Max CV%":"0.0%",
+    "Pages":[
+      20
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260831-0673",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"3281",
+    "Max FTM RLU":"8229",
+    "Max CV%":"2.7%",
+    "Pages":[
+      10,
+      11
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0683",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"3514",
+    "Max FTM RLU":"8232",
+    "Max CV%":"4.3%",
+    "Pages":[
+      10,
+      11
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0694",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"2806",
+    "Max FTM RLU":"7940",
+    "Max CV%":"4.2%",
+    "Pages":[
+      6
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260831-0737",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":682,
+    "Max FTM RLU":187,
+    "Max CV%":"0.8%",
+    "Pages":[
+      20,
+      21
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260831-0837",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"3207",
+    "Max FTM RLU":"7929",
+    "Max CV%":"2.1%",
+    "Pages":[
+      10,
+      11
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0040",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"2670",
+    "Max FTM RLU":"4540",
+    "Max CV%":"3.1%",
+    "Pages":[
+      32
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0046",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"2648",
+    "Max FTM RLU":"4849",
+    "Max CV%":"2.1%",
+    "Pages":[
+      31,
+      32
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0063",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"218",
+    "Max FTM RLU":"490",
+    "Max CV%":"5.3%",
+    "Pages":[
+      16
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0075",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":244,
+    "Max FTM RLU":573,
+    "Max CV%":"0.0%",
+    "Pages":[
+      38,
+      39
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0229",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"258",
+    "Max FTM RLU":"505",
+    "Max CV%":"14.2%",
+    "Pages":[
+      16
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0265",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":254,
+    "Max FTM RLU":432,
+    "Max CV%":"8.3%",
+    "Pages":[
+      38,
+      39
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0283",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":300,
+    "Max FTM RLU":589,
+    "Max CV%":"0.6%",
+    "Pages":[
+      38,
+      39
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0365",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":281,
+    "Max FTM RLU":497,
+    "Max CV%":"4.5%",
+    "Pages":[
+      38,
+      39
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0375",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":122811240,
+    "Max FTM RLU":4093,
+    "Max CV%":"72.8%",
+    "Pages":[
+      22,
+      23
+    ],
+    "Rule 2 Status":"BLOCK (CV >= 30%)"
+  },
+  {
+    "Sample":"ETX-260901-0376",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":116311171,
+    "Max FTM RLU":12430,
+    "Max CV%":"139.8%",
+    "Pages":[
+      24,
+      25
+    ],
+    "Rule 2 Status":"BLOCK (CV >= 30%)"
+  },
+  {
+    "Sample":"ETX-260901-0381",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"233",
+    "Max FTM RLU":"474",
+    "Max CV%":"17.9%",
+    "Pages":[
+      16
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0385",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"1105",
+    "Max FTM RLU":"2940",
+    "Max CV%":"21.3%",
+    "Pages":[
+      14,
+      15
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0392",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"1674",
+    "Max FTM RLU":"2985",
+    "Max CV%":"33.2%",
+    "Pages":[
+      35,
+      36
+    ],
+    "Rule 2 Status":"BLOCK (CV >= 30%)"
+  },
+  {
+    "Sample":"ETX-260901-0398",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":257,
+    "Max FTM RLU":539,
+    "Max CV%":"8.9%",
+    "Pages":[
+      38,
+      39
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0411",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"1201",
+    "Max FTM RLU":"2664",
+    "Max CV%":"10.5%",
+    "Pages":[
+      19
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0423",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":11309,
+    "Max FTM RLU":2368,
+    "Max CV%":"24.0%",
+    "Pages":[
+      24,
+      25
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0428",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"251",
+    "Max FTM RLU":"535",
+    "Max CV%":"13.5%",
+    "Pages":[
+      16
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0438",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"1429",
+    "Max FTM RLU":"2215",
+    "Max CV%":"12.6%",
+    "Pages":[
+      14,
+      15
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0469",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":241,
+    "Max FTM RLU":526,
+    "Max CV%":"2.1%",
+    "Pages":[
+      38,
+      39
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0476",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":2709,
+    "Max FTM RLU":"N\/A",
+    "Max CV%":"0.1%",
+    "Pages":[
+      14
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0478",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"2969",
+    "Max FTM RLU":"7410",
+    "Max CV%":"3.8%",
+    "Pages":[
+      15
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0557",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"946",
+    "Max FTM RLU":"2600",
+    "Max CV%":"1.4%",
+    "Pages":[
+      33,
+      34
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0620",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"1425",
+    "Max FTM RLU":"2726",
+    "Max CV%":"20.5%",
+    "Pages":[
+      35,
+      36
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0639",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"286",
+    "Max FTM RLU":"605",
+    "Max CV%":"11.2%",
+    "Pages":[
+      16
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0649",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":284,
+    "Max FTM RLU":583,
+    "Max CV%":"2.5%",
+    "Pages":[
+      38,
+      39
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0666",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":242,
+    "Max FTM RLU":716,
+    "Max CV%":"5.6%",
+    "Pages":[
+      38,
+      39
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0670",
+    "Instrument":"2011",
+    "Daily ATP":"95167",
+    "Max TSB RLU":"1270",
+    "Max FTM RLU":"2634",
+    "Max CV%":"14.3%",
+    "Pages":[
+      35,
+      36
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260901-0673",
+    "Instrument":"2222",
+    "Daily ATP":92047,
+    "Max TSB RLU":17341,
+    "Max FTM RLU":3689,
+    "Max CV%":"95.1%",
+    "Pages":[
+      22,
+      23
+    ],
+    "Rule 2 Status":"BLOCK (CV >= 30%)"
+  },
+  {
+    "Sample":"ETX-260901-0681",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":259,
+    "Max FTM RLU":529,
+    "Max CV%":"0.0%",
+    "Pages":[
+      38,
+      39
+    ],
+    "Rule 2 Status":"PASS"
+  },
+  {
+    "Sample":"ETX-260901-0692",
+    "Instrument":"2222",
+    "Daily ATP":"92047",
+    "Max TSB RLU":"229",
+    "Max FTM RLU":"556",
+    "Max CV%":"28.4%",
+    "Pages":[
+      16
+    ],
+    "Rule 2 Status":"PASS & 100% MATCH"
+  },
+  {
+    "Sample":"ETX-260902-0813",
+    "Instrument":"2011",
+    "Daily ATP":95167,
+    "Max TSB RLU":"N\/A",
+    "Max FTM RLU":2201,
+    "Max CV%":"4.9%",
+    "Pages":[
+      37
+    ],
+    "Rule 2 Status":"PASS"
+  }
+]

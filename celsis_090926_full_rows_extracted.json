@@ -1,0 +1,5670 @@
+[
+  {
+    "page_num": 1,
+    "wl_name": "090926-2222-Daily Control.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-Daily Control.wkl",
+        "y_range": [
+          20,
+          56
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Inst Bl | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          104,
+          136
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 8:42:35 AM | Analyst: cdu |",
+        "y_range": [
+          170,
+          197
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 100.0 | Positive Cut-off: 100.0 | |",
+        "y_range": [
+          235,
+          261
+        ]
+      },
+      {
+        "raw_text": "1 Instrument blankG) 4] 2] 3] Negative! 9/9/2026 | 8:46:31 AM",
+        "y_range": [
+          365,
+          399
+        ]
+      },
+      {
+        "raw_text": "D Peron clue to cv Pet fuctun than 30% - Cccp O8Sep &C",
+        "y_range": [
+          447,
+          501
+        ]
+      },
+      {
+        "raw_text": "Ada Conoung/) leo :",
+        "y_range": [
+          584,
+          622
+        ]
+      },
+      {
+        "raw_text": "4) (ela cympiongen headers - O08 2661 ~ ThOo",
+        "y_range": [
+          703,
+          760
+        ]
+      },
+      {
+        "raw_text": "2) Chi claily wah and mmre O5AS50lL [yan",
+        "y_range": [
+          810,
+          896
+        ]
+      },
+      {
+        "raw_text": "3) Obu pruning cored ey SOA AGB!",
+        "y_range": [
+          923,
+          996
+        ]
+      },
+      {
+        "raw_text": "kK) Lo CUCL Cra vetley COUR A",
+        "y_range": [
+          1022,
+          1100
+        ]
+      },
+      {
+        "raw_text": "6} Eagk Pcpette E00 aS",
+        "y_range": [
+          1238,
+          1316
+        ]
+      },
+      {
+        "raw_text": "ee",
+        "y_range": [
+          1764,
+          1855
+        ]
+      },
+      {
+        "raw_text": "io) a",
+        "y_range": [
+          1861,
+          1901
+        ]
+      },
+      {
+        "raw_text": "Whew",
+        "y_range": [
+          1916,
+          1960
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 2,
+    "wl_name": "090926-2222-Daily Control.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-Daily Control.wkl",
+        "y_range": [
+          14,
+          52
+        ]
+      },
+      {
+        "raw_text": "| Batch: B | Assay Name: AMPiScreen Health Reag. | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          95,
+          130
+        ]
+      },
+      {
+        "raw_text": "1 Assay Date/Time: 9/9/2026 8:42:35 AM | Analyst: cdu |",
+        "y_range": [
+          166,
+          196
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 1000.0 | Positive Cut-off: 1000.0 | |",
+        "y_range": [
+          229,
+          259
+        ]
+      },
+      {
+        "raw_text": "i",
+        "y_range": [
+          268,
+          284
+        ]
+      },
+      {
+        "raw_text": "T | Reagent blank | 75| 74 75 | Negative 9/9/2026 [8:49:47AM|1{ 3}",
+        "y_range": [
+          348,
+          393
+        ]
+      },
+      {
+        "raw_text": "a oe",
+        "y_range": [
+          1497,
+          1514
+        ]
+      },
+      {
+        "raw_text": "9",
+        "y_range": [
+          1545,
+          1581
+        ]
+      },
+      {
+        "raw_text": "Oo\u201d",
+        "y_range": [
+          1591,
+          1610
+        ]
+      },
+      {
+        "raw_text": "a ie",
+        "y_range": [
+          1666,
+          1690
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 3,
+    "wl_name": "090926-2222-Daily Control.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-Daily Control.wkl",
+        "y_range": [
+          17,
+          58
+        ]
+      },
+      {
+        "raw_text": "LL",
+        "y_range": [
+          74,
+          91
+        ]
+      },
+      {
+        "raw_text": "| Batch: C | Assay Name: AMPiScreen Health ATP P | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          97,
+          131
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 8:42:35 AM | Analyst: cdu |",
+        "y_range": [
+          167,
+          196
+        ]
+      },
+      {
+        "raw_text": "1 Negative Cut-off: 50000.0 | Positive Cut-off: 50000.0 | |",
+        "y_range": [
+          232,
+          260
+        ]
+      },
+      {
+        "raw_text": "(crepe ee ee en eee \u2014\u2014\u2014",
+        "y_range": [
+          269,
+          286
+        ]
+      },
+      {
+        "raw_text": "| T ATP Positive Control | 91100 92993 | 92047 Positive | 9/9/2026 | 8:52:56 AM | - 1| 4|",
+        "y_range": [
+          348,
+          391
+        ]
+      },
+      {
+        "raw_text": "gy",
+        "y_range": [
+          1532,
+          1550
+        ]
+      },
+      {
+        "raw_text": "Ue",
+        "y_range": [
+          1592,
+          1619
+        ]
+      },
+      {
+        "raw_text": "rey",
+        "y_range": [
+          1634,
+          1665
+        ]
+      },
+      {
+        "raw_text": "ny",
+        "y_range": [
+          1710,
+          1753
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 4,
+    "wl_name": "090926-2222-2-Daily Control.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-2-Daily Control.wkl",
+        "y_range": [
+          15,
+          52
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Inst BI | Instrument Type: Advance 2 | Start Temperature: 19.7 |",
+        "y_range": [
+          100,
+          132
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 8:55:54 AM | Analyst: cdu |",
+        "y_range": [
+          167,
+          192
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 100.0 | Positive Cut-off: 100.0 | |",
+        "y_range": [
+          232,
+          257
+        ]
+      },
+      {
+        "raw_text": "| 1 | Instrument blank (1) 2 4| 3 | Negative] 9/9/2026 | 8:59:29 AM | 33 | 3]",
+        "y_range": [
+          362,
+          395
+        ]
+      },
+      {
+        "raw_text": "\u00ae Bonun clue to CU Pel lickin Thon 20% ~ CCD 69 Sep 2g 7",
+        "y_range": [
+          445,
+          495
+        ]
+      },
+      {
+        "raw_text": "AD",
+        "y_range": [
+          1586,
+          1604
+        ]
+      },
+      {
+        "raw_text": "OR",
+        "y_range": [
+          1627,
+          1678
+        ]
+      },
+      {
+        "raw_text": "cyWy",
+        "y_range": [
+          1771,
+          1791
+        ]
+      },
+      {
+        "raw_text": "py\u201d",
+        "y_range": [
+          1797,
+          1813
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 5,
+    "wl_name": "090926-2222-3-Daily Control.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-3-Daily Control.wkl",
+        "y_range": [
+          14,
+          55
+        ]
+      },
+      {
+        "raw_text": "\u2014\u2014 EEE ie, |",
+        "y_range": [
+          72,
+          90
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Inst Bl | Instrument Type: Advance 2 | Start Temperature: 19.8 |",
+        "y_range": [
+          94,
+          130
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:03:23 AM | Analyst: cdu |",
+        "y_range": [
+          165,
+          195
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 100.0 | Positive Cut-off: 100.0 | |",
+        "y_range": [
+          230,
+          260
+        ]
+      },
+      {
+        "raw_text": "1a pp tL eee",
+        "y_range": [
+          267,
+          286
+        ]
+      },
+      {
+        "raw_text": "j T linstrument blank 2 2 | 2 | Negative 9/9/2026 [9:06:49 AM | 0 6|",
+        "y_range": [
+          347,
+          390
+        ]
+      },
+      {
+        "raw_text": "Vo",
+        "y_range": [
+          1466,
+          1484
+        ]
+      },
+      {
+        "raw_text": "Coy",
+        "y_range": [
+          1506,
+          1545
+        ]
+      },
+      {
+        "raw_text": "HH",
+        "y_range": [
+          1557,
+          1576
+        ]
+      },
+      {
+        "raw_text": "e OX",
+        "y_range": [
+          1652,
+          1690
+        ]
+      },
+      {
+        "raw_text": "ey",
+        "y_range": [
+          1758,
+          1780
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 6,
+    "wl_name": "090926-2222.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222.wki",
+        "y_range": [
+          18,
+          56
+        ]
+      },
+      {
+        "raw_text": "i Th",
+        "y_range": [
+          74,
+          91
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.1 |",
+        "y_range": [
+          97,
+          132
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:18:13 AM | Analyst: cdu |",
+        "y_range": [
+          168,
+          196
+        ]
+      },
+      {
+        "raw_text": "1 Negative Cut-off: 7152.0 | Positive Cut-off: 7152.0 | |",
+        "y_range": [
+          232,
+          261
+        ]
+      },
+      {
+        "raw_text": "| a",
+        "y_range": [
+          269,
+          287
+        ]
+      },
+      {
+        "raw_text": "| \u20147 TSB ME--ve contro-GS| 2416 | 2352 | 2384|GalOK | 9/9/2026 |10:16:35AM| 1/ + 5]",
+        "y_range": [
+          348,
+          391
+        ]
+      },
+      {
+        "raw_text": "| 2 _TETX-260830-0041-4/5 | 2302 | 2334|2363|Negative| 9/0/2026 |10:16:54AM| 1] 2]",
+        "y_range": [
+          395,
+          439
+        ]
+      },
+      {
+        "raw_text": "| 3 ETX-200830-0040-4/5 7383 | 2481 [2432 | Negative| 9/9/2026 | 10:17:14 AM | 2| 5|",
+        "y_range": [
+          443,
+          486
+        ]
+      },
+      {
+        "raw_text": "4 TETX-260831-0694-4/5 T2880 | 2722 | 2806 | Negative| 9/9/2026 1 10:17:34 AM r 3f 4f",
+        "y_range": [
+          489,
+          533
+        ]
+      },
+      {
+        "raw_text": "|\u2014 5 | ETX-260831-0019-4/5 | 2815 | 2038 | 2877 |Negative| 9/9/2026 | 10:17:54 AM 2{. 44",
+        "y_range": [
+          537,
+          580
+        ]
+      },
+      {
+        "raw_text": "I 6 ETX-260831-0613-4/5 2847 | 2951 [2899 | Negative| 9/9/2026 [10:18:14 AM ; 2} 4]",
+        "y_range": [
+          583,
+          627
+        ]
+      },
+      {
+        "raw_text": "| a es Ss \u201d",
+        "y_range": [
+          630,
+          646
+        ]
+      },
+      {
+        "raw_text": "A Wh",
+        "y_range": [
+          1689,
+          1738
+        ]
+      },
+      {
+        "raw_text": "PO ae",
+        "y_range": [
+          1787,
+          1830
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 7,
+    "wl_name": "090926-2222.wkl",
+    "batch": "",
+    "assay_name": "ANMPiScreen Health Assay",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222.wkl",
+        "y_range": [
+          8,
+          45
+        ]
+      },
+      {
+        "raw_text": "a ns |",
+        "y_range": [
+          65,
+          81
+        ]
+      },
+      {
+        "raw_text": "| Batch: B | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.1 |",
+        "y_range": [
+          88,
+          122
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:18:13 AM | Analyst: cdu |",
+        "y_range": [
+          158,
+          186
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 22996.5 / Positive Cut-off: 22996.5 | |",
+        "y_range": [
+          222,
+          251
+        ]
+      },
+      {
+        "raw_text": "(i A",
+        "y_range": [
+          260,
+          276
+        ]
+      },
+      {
+        "raw_text": "| T lFTM.MF~ve contro-Gs | 7440 7891 | 7666 Cal OK 9/9/2026 | 10:18:44 AM | 3 4 |",
+        "y_range": [
+          339,
+          381
+        ]
+      },
+      {
+        "raw_text": "{2 |ETX-260830-0041-4/5 | 6640] 7116 | 6878 | Negative] 9/9/2026 |10:19:04AM| 3 4|",
+        "y_range": [
+          387,
+          429
+        ]
+      },
+      {
+        "raw_text": "| 3 ETX-260830-0040-4/5 | 8299] 8753 8526 Negative 9/9/2026 10:19:24 AM 3 5 |",
+        "y_range": [
+          433,
+          476
+        ]
+      },
+      {
+        "raw_text": "|-_4_ lETx-260831-0604-4/5 | 7064] 7915 | 7940 | Negative! 9/9/2026 | 10:19:44 AM Oo; 4",
+        "y_range": [
+          480,
+          522
+        ]
+      },
+      {
+        "raw_text": "} 5 TETX-260831-0619-4/5 6834 | 6729 6782 Negative | 9/9/2026 [10:20:04 AM | 1 7|",
+        "y_range": [
+          528,
+          570
+        ]
+      },
+      {
+        "raw_text": "j 6 TETX-260831-0613-4/5 7905 | 8712 | 8309 Negative| 9/9/2026 [70:20:24 AM | 5 5 |",
+        "y_range": [
+          574,
+          616
+        ]
+      },
+      {
+        "raw_text": "Wye",
+        "y_range": [
+          1563,
+          1590
+        ]
+      },
+      {
+        "raw_text": "qa)\"",
+        "y_range": [
+          1607,
+          1635
+        ]
+      },
+      {
+        "raw_text": "cw \u2014",
+        "y_range": [
+          1647,
+          1676
+        ]
+      },
+      {
+        "raw_text": "0) ae",
+        "y_range": [
+          1709,
+          1746
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 8,
+    "wl_name": "090926-2222.wkl",
+    "batch": "",
+    "assay_name": "AMPiScreen Health Assay",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222.wkl",
+        "y_range": [
+          5,
+          43
+        ]
+      },
+      {
+        "raw_text": "rs aL LL",
+        "y_range": [
+          62,
+          80
+        ]
+      },
+      {
+        "raw_text": "| Batch: Cc | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.1 |",
+        "y_range": [
+          84,
+          120
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:18:13 AM | Analyst: cdu",
+        "y_range": [
+          155,
+          185
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 8109.0 | Positive Cut-off: 8109.0 | j",
+        "y_range": [
+          219,
+          249
+        ]
+      },
+      {
+        "raw_text": "[1 | TSB,MF*PBS,-ve control-GS | 2659 | 2747|2703|Cal OK | 9/9/2026 |10:20:54AM[  2| 3]",
+        "y_range": [
+          337,
+          380
+        ]
+      },
+      {
+        "raw_text": "| 2 TETxX-260831-0602-4/5 2685 | 2698 | 2602| Negative! 9/0/2026 |10:21:14AM[ Oo; 3]",
+        "y_range": [
+          383,
+          427
+        ]
+      },
+      {
+        "raw_text": "f 3 TETX-260831-0587-4/5 [2582 2706 | 2044 Negative| 9/9/2026 [70:21:34AM] 2,4 | AM",
+        "y_range": [
+          430,
+          476
+        ]
+      },
+      {
+        "raw_text": "1 _\u2014_ a \u2014",
+        "y_range": [
+          477,
+          494
+        ]
+      },
+      {
+        "raw_text": "anQ\u201d",
+        "y_range": [
+          1502,
+          1518
+        ]
+      },
+      {
+        "raw_text": "Ky",
+        "y_range": [
+          1528,
+          1560
+        ]
+      },
+      {
+        "raw_text": "nee",
+        "y_range": [
+          1672,
+          1705
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 9,
+    "wl_name": "090926-2222.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222.wkl",
+        "y_range": [
+          9,
+          47
+        ]
+      },
+      {
+        "raw_text": "| Batch: D | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.1 |",
+        "y_range": [
+          89,
+          124
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:18:13 AM | Analyst: cdu |",
+        "y_range": [
+          159,
+          187
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 24652.5 | Positive Cut-off: 24652.5 | |",
+        "y_range": [
+          223,
+          252
+        ]
+      },
+      {
+        "raw_text": "ne LL st LL",
+        "y_range": [
+          262,
+          279
+        ]
+      },
+      {
+        "raw_text": "}\u2014 7  }FTNME+PBS -ve control-GS | 8146 | 8289 18218| Cal OK | 9/9/2026 |10:22:04AM|  1/  5{",
+        "y_range": [
+          340,
+          384
+        ]
+      },
+      {
+        "raw_text": "j 2 TETX-260831-0002-4/5 8701 | 8477 135890 Negative! 9/9/2026 [40:22:23 AM | 1 | 4|",
+        "y_range": [
+          388,
+          430
+        ]
+      },
+      {
+        "raw_text": "| 3 TETX-260831-0587-4/5 [73331 760817471 | Negative! 9/9/2026 |10:22:43AM| 2| 5]",
+        "y_range": [
+          435,
+          477
+        ]
+      },
+      {
+        "raw_text": "Vy\"",
+        "y_range": [
+          1527,
+          1550
+        ]
+      },
+      {
+        "raw_text": "ae le",
+        "y_range": [
+          1612,
+          1639
+        ]
+      },
+      {
+        "raw_text": "an @:\u00a5",
+        "y_range": [
+          1697,
+          1715
+        ]
+      },
+      {
+        "raw_text": "fn we",
+        "y_range": [
+          1793,
+          1814
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 10,
+    "wl_name": "090926-2222.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222.wkl",
+        "y_range": [
+          7,
+          45
+        ]
+      },
+      {
+        "raw_text": "\u2014 a as |",
+        "y_range": [
+          64,
+          81
+        ]
+      },
+      {
+        "raw_text": "| Batch: E | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.1 |",
+        "y_range": [
+          87,
+          122
+        ]
+      },
+      {
+        "raw_text": "] Assay Date/Time: 9/9/2026 9:18:13 AM | Analyst: cdu |",
+        "y_range": [
+          157,
+          186
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 10287.0 | Positive Cut-off: 10287.0 | ; |",
+        "y_range": [
+          222,
+          251
+        ]
+      },
+      {
+        "raw_text": "I \u2014 7 lTSB Dive control-GS| 3407 | 3451 13429 | Cal OK 9/9/2026 | 10:23:13 AM | 1] 5|",
+        "y_range": [
+          338,
+          381
+        ]
+      },
+      {
+        "raw_text": "| 2 lETx-260831-0413-1 | 2404 2543 | 2519 Negative| 9/9/2026 | 10:23:34 AM a |",
+        "y_range": [
+          385,
+          430
+        ]
+      },
+      {
+        "raw_text": "l 3 TETX-260831-0413-(2 | 3133| 3019|3076|Negative| 9/9/2026 |10:2354AM| 2|  5|",
+        "y_range": [
+          433,
+          477
+        ]
+      },
+      {
+        "raw_text": "|_4 1 ETX-260831-0413-(3 | 20801 3149|3000| Negative) 9/9/2026 |10:24:14AM/ 3] ~\u2014\u2014sS |",
+        "y_range": [
+          479,
+          524
+        ]
+      },
+      {
+        "raw_text": "[5 TETxX-260831-0413-(4 | 2480 | 2538] 2509| Negative! 9/9/2026 |10:24:34AM{i[\u20144|",
+        "y_range": [
+          527,
+          571
+        ]
+      },
+      {
+        "raw_text": "6 | ETX-260831-0683-(1 | 3478 3475 3477 | Negative] 9/9/2026 [10:2454AM|o| 3 AM[ Of 3]",
+        "y_range": [
+          573,
+          619
+        ]
+      },
+      {
+        "raw_text": "| 7 ETX-260831-0083-(2 | 2675 2580 | 2628 Negative] 9/9/2026 [10:25:14AM{ 2] AM",
+        "y_range": [
+          620,
+          666
+        ]
+      },
+      {
+        "raw_text": "8 TETX-260831-0683-(3 3503 | 36243514 Negative! 9/9/2026 [10:26:34 AM [of 3i",
+        "y_range": [
+          667,
+          712
+        ]
+      },
+      {
+        "raw_text": "| 9 TETX-260831-0083-(4 2680 | 2688 | 2689 Negative 9/9/2026 [10:25:54AM| 0{ ~\u20144+4 AM| Of 4]",
+        "y_range": [
+          714,
+          759
+        ]
+      },
+      {
+        "raw_text": "40 TETX-260831-0683(5 | 3000 | 2893|2047|Negative| 9/9/2026 |10:26.14AM| 2] ~\u20144|",
+        "y_range": [
+          762,
+          806
+        ]
+      },
+      {
+        "raw_text": "11 |ETX-260831-083741 12385 | 2411 [2398 | Negative] 9/9/2026 [10:26:35AM| 1/6] a",
+        "y_range": [
+          808,
+          854
+        ]
+      },
+      {
+        "raw_text": "12 |ETX-260831-0837-(2 12608 | 2602 | 2605 | Negative| 9/9/2026 | 10:26:54 AM a) |",
+        "y_range": [
+          855,
+          900
+        ]
+      },
+      {
+        "raw_text": "| 43 TETX-260831-0837(3 | 3179| 3234 | 3207|Negative| 9/9/2026 |10:27:13AM| 1/34",
+        "y_range": [
+          903,
+          947
+        ]
+      },
+      {
+        "raw_text": "1d TETK-200831-0837-(4 2658 2730 | 2694 Negative| 9/9/2026 {10:27:34 AM rT a4{. 44",
+        "y_range": [
+          949,
+          994
+        ]
+      },
+      {
+        "raw_text": "45] ETX-200831-0837(5 | 2420| 2462|2446|Negative| 9/9/2026 |10:27:;54AM| 1/44",
+        "y_range": [
+          997,
+          1041
+        ]
+      },
+      {
+        "raw_text": "f 16 TETX-260831-0504-(1 2260 | 2347 | 2308 | Negative 9/9/2026 | 10:28:15 AM rT 2{ 44",
+        "y_range": [
+          1043,
+          1088
+        ]
+      },
+      {
+        "raw_text": "| 17 TETX-260831-0564(2 3370 3457 | 3414] Negative| 9/9/2026 | 70:28:34 AM a |",
+        "y_range": [
+          1091,
+          1135
+        ]
+      },
+      {
+        "raw_text": "| 48 TETX-260831-0564(3 | 2494 | 2562 |2528|Negative| 9/0/2026 [10:28:54AM| 1/ \u20143{",
+        "y_range": [
+          1137,
+          1182
+        ]
+      },
+      {
+        "raw_text": "f 19 TETX-260831-0564-(4 2636 2708 | 2672 Negative 9/9/2026 [70:29:14AM[1{ si | AM[ so 1|_ iB]",
+        "y_range": [
+          1184,
+          1230
+        ]
+      },
+      {
+        "raw_text": "| 20 | ETX-260831-0564-(5 | 2404 | 2568|2531|Negativel 9/0/2026 |10:29:34AM[1| 44",
+        "y_range": [
+          1231,
+          1276
+        ]
+      },
+      {
+        "raw_text": "i 34 | ETX-260831-06734(1 [2304 | 2369 2382 | Negative| 9/9/2026 | 10:29:54 AM [\u20144[ |",
+        "y_range": [
+          1278,
+          1322
+        ]
+      },
+      {
+        "raw_text": "\\ 92 TETX-260831-067342 | 3268| 3204 |3281| Negative! 9/9/2026 |10:30:14AM[ OO] \u2014s4|",
+        "y_range": [
+          1326,
+          1370
+        ]
+      },
+      {
+        "raw_text": "[33 TETX-260831-067313 | 2745| 2809 | 2777|Negative| 9/9/2026 |10:30:34AM[1[ 44",
+        "y_range": [
+          1372,
+          1416
+        ]
+      },
+      {
+        "raw_text": "[94 TETX-200831-0673-(4 | 2570| 2487 | 2520 | Negative| 9/9/2026 [10:30:54AM| 2/ 3)",
+        "y_range": [
+          1419,
+          1463
+        ]
+      },
+      {
+        "raw_text": "[95 TETX-260831-0673(5 | 2413| 2476 |2445|Negative| 9/9/2026 |10:31:14AM| 1/44",
+        "y_range": [
+          1467,
+          1511
+        ]
+      },
+      {
+        "raw_text": "L _ eC\u2018 SS 1. nal he ae a",
+        "y_range": [
+          1513,
+          1529
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 11,
+    "wl_name": "090926-2222.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222.wkl",
+        "y_range": [
+          8,
+          44
+        ]
+      },
+      {
+        "raw_text": "| Batch: F | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.1 |",
+        "y_range": [
+          94,
+          126
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:18:13 AM | Analyst: cdu |",
+        "y_range": [
+          159,
+          185
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 22600.5 | Positive Cut-off: 22600.5 | |",
+        "y_range": [
+          224,
+          250
+        ]
+      },
+      {
+        "raw_text": "| 1 FTM,DI,-ve control-GS| 7486! 7581] 7534|/CalOK | 9/9/2026 | 10:31:44 AM 1 7]",
+        "y_range": [
+          354,
+          381
+        ]
+      },
+      {
+        "raw_text": "| 2 |ETX-260831-0413-(1 | 8307| 7889| 8098]|Negative] 9/9/2026 |10:32:04AM;| 3] \u00b0}#4]",
+        "y_range": [
+          402,
+          429
+        ]
+      },
+      {
+        "raw_text": "| 3  |ETX-260831-0413-(2 | 7977| 8149] 8063|Negative| 9/9/2026 | 10:32:24 AM| 1] 5]",
+        "y_range": [
+          449,
+          476
+        ]
+      },
+      {
+        "raw_text": "| 4  |ETX-260831-0413-(3 | 6664! 6546] 6605]Negative| 9/9/2026 | 10:32:44 AM 1 4]",
+        "y_range": [
+          495,
+          522
+        ]
+      },
+      {
+        "raw_text": "f \u00a7 | ETX-260831-0413-(4 |10179] 10035| 10107] Negative] 9/9/2026 |10:33:04AM/ 1] \u00b0}&#6]",
+        "y_range": [
+          543,
+          570
+        ]
+      },
+      {
+        "raw_text": "| 6 |ETX-260831-0683-(1 | 7799| 7626] 7713]Negative| 9/9/2026 | 10:33:24 AM 1 4]",
+        "y_range": [
+          589,
+          616
+        ]
+      },
+      {
+        "raw_text": "| 7  |ETX-260831-0683-(2 | 5989] 6390] 6190]Negative| 9/9/2026 | 10:33:44 AM 3] 6]",
+        "y_range": [
+          637,
+          664
+        ]
+      },
+      {
+        "raw_text": "| 8  |ETX-260831-0683-(3 | 7545] 7766] 7656]Negative| 9/9/2026 | 10:34:04 AM | 1] 5]",
+        "y_range": [
+          684,
+          711
+        ]
+      },
+      {
+        "raw_text": "| 9 |ETX-260831-0683-(4 | 7625] 8068] 7847]Negative| 9/9/2026 | 10:34:24 AM 3 5]",
+        "y_range": [
+          730,
+          757
+        ]
+      },
+      {
+        "raw_text": "| 10 |ETX-260831-0683-(5 | 8484] 7980] 8232]Negative| 9/9/2026 | 10:34:44 AM| 3; 3]",
+        "y_range": [
+          778,
+          805
+        ]
+      },
+      {
+        "raw_text": "| 11 ETX-260831-0837-(1 | 6404] 6457] 6431} Negative] 9/9/2026 | 10:35:04 AM 0 5]",
+        "y_range": [
+          825,
+          851
+        ]
+      },
+      {
+        "raw_text": "{ 12 |ETX-260831-0837-(2 | 6691] 6655| 6673| Negative! 9/9/2026 |10:35:24AM| O| 4/]",
+        "y_range": [
+          872,
+          904
+        ]
+      },
+      {
+        "raw_text": "1} 13 |ETX-260831-0837-(3 | 6670] 6476] 6573] Negative! 9/9/2026 | 10:35:44 AM| 1] 4]",
+        "y_range": [
+          919,
+          946
+        ]
+      },
+      {
+        "raw_text": "| 14 |ETX-260831-0837-(4 | 6659] 6568] 6614] Negative] 9/9/2026 | 10:36:04 AM 1 4]",
+        "y_range": [
+          965,
+          992
+        ]
+      },
+      {
+        "raw_text": "} 15 |ETX-260831-0837-(5 | 7774] 8083} 7929]Negative| 9/9/2026 | 10:36:24 AM| 2} 4]",
+        "y_range": [
+          1013,
+          1040
+        ]
+      },
+      {
+        "raw_text": "| 16  |ETX-260831-0564-(1 | 6242] 6477! 6360]|Negative| 9/9/2026 | 10:36:44 AM} 2| 4]",
+        "y_range": [
+          1059,
+          1086
+        ]
+      },
+      {
+        "raw_text": "| 17  |ETX-260831-0564-(2 | 6076] 6237! 6157 ]|Negative] 9/9/2026 |10:37:;04AM! 1] 385]",
+        "y_range": [
+          1107,
+          1134
+        ]
+      },
+      {
+        "raw_text": "| 18 ETX-260831-0564-(3 | 7658] 7880} 7769] Negative] 9/9/2026 | 10:37:24 AM] 1] 4]",
+        "y_range": [
+          1153,
+          1180
+        ]
+      },
+      {
+        "raw_text": "| 19 ETX-260831-0564-(4 | 6097] 6102] 6100] Negative} 9/9/2026 | 10:37:44 AM] 0] 4]",
+        "y_range": [
+          1201,
+          1228
+        ]
+      },
+      {
+        "raw_text": "} 20  |ETX-260831-0564-(5 | 7167] 6986] 7077 j|Negative| 9/9/2026 | 10:38:04 AM] 1] 4]",
+        "y_range": [
+          1248,
+          1275
+        ]
+      },
+      {
+        "raw_text": "| 24 |ETX-260831-0673-(1 | 6805] 7067] 6936 |Negative| 9/9/2026 | 10:38:24 AM | 2| 5]",
+        "y_range": [
+          1294,
+          1321
+        ]
+      },
+      {
+        "raw_text": "| 22 |ETX-260831-0673-(2 | 8217] 8241] 8229|Negative| 9/9/2026 | 10:38:44 AM} 0] 5]",
+        "y_range": [
+          1342,
+          1369
+        ]
+      },
+      {
+        "raw_text": "| 23 | ETX-260831-0673-(3 | 8195] 8234] 82151]Negative| 9/9/2026 | 10:39:04 AM 0} 3] ,",
+        "y_range": [
+          1389,
+          1415
+        ]
+      },
+      {
+        "raw_text": "| 24 |ETX-260831-0673-(4 | 7579] 7627] 7603 ]|Negative} 9/9/2026 |10:39:\u00b024AM| OO] 45]",
+        "y_range": [
+          1436,
+          1463
+        ]
+      },
+      {
+        "raw_text": "| 25 |ETX-260831-0673-(5 | 6522] 6630] 6576|Negative| 9/9/2026 | 10:39:44 AM | 1] 4]",
+        "y_range": [
+          1483,
+          1510
+        ]
+      },
+      {
+        "raw_text": "NA",
+        "y_range": [
+          1962,
+          2000
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 12,
+    "wl_name": "090926-2222-2.wkl",
+    "batch": "A",
+    "assay_name": "AMPiScreen Health Assay",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-Z.WkKI",
+        "y_range": [
+          0,
+          37
+        ]
+      },
+      {
+        "raw_text": "| Batch: A Assay Name: AMPiScreen Health Assay Instrument Type: Advance 2 Start Temperature: 20.4 |",
+        "y_range": [
+          75,
+          114
+        ]
+      },
+      {
+        "raw_text": "| nn [eosin nt as |",
+        "y_range": [
+          119,
+          137
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 10:53:06 AM | Analyst: cdu ; |",
+        "y_range": [
+          148,
+          179
+        ]
+      },
+      {
+        "raw_text": "| a",
+        "y_range": [
+          184,
+          202
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 1776.0 | Positive Cut-off: 1776.0 | ; |",
+        "y_range": [
+          212,
+          244
+        ]
+      },
+      {
+        "raw_text": "| en a i Se alll >",
+        "y_range": [
+          1267,
+          1286
+        ]
+      },
+      {
+        "raw_text": "pope",
+        "y_range": [
+          1921,
+          1950
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 13,
+    "wl_name": "090926-2222-2.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-2.wkl",
+        "y_range": [
+          4,
+          48
+        ]
+      },
+      {
+        "raw_text": "= \u2014 Tassny Name: AMPiScreen Health Assay Instrument Type! Advance 2. | Start Temperature: 20.4",
+        "y_range": [
+          49,
+          149
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 10:53:06 AM _| Analyst cdu",
+        "y_range": [
+          152,
+          214
+        ]
+      },
+      {
+        "raw_text": "5b",
+        "y_range": [
+          1766,
+          1785
+        ]
+      },
+      {
+        "raw_text": "ec)",
+        "y_range": [
+          1857,
+          1910
+        ]
+      },
+      {
+        "raw_text": "ali",
+        "y_range": [
+          1931,
+          1961
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 14,
+    "wl_name": "090926-2222-2.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-2.wkl",
+        "y_range": [
+          14,
+          52
+        ]
+      },
+      {
+        "raw_text": "a es |",
+        "y_range": [
+          69,
+          88
+        ]
+      },
+      {
+        "raw_text": "| Batch: C | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.4 |",
+        "y_range": [
+          92,
+          129
+        ]
+      },
+      {
+        "raw_text": "a A tl",
+        "y_range": [
+          135,
+          152
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 10:53:06 AM | Analyst: cdu |",
+        "y_range": [
+          164,
+          194
+        ]
+      },
+      {
+        "raw_text": "] Negative Cut-off: 8653.5 | Positive Cut-off: 8653.5 | ; |",
+        "y_range": [
+          228,
+          259
+        ]
+      },
+      {
+        "raw_text": "ae LS",
+        "y_range": [
+          264,
+          284
+        ]
+      },
+      {
+        "raw_text": "\u2014T I TSB Di-ve control-AOD| 2862 | 2917 12885 | Cal OK | 9/9/2026 [i:57:11AM| 1,4 AM] 1] 4 |",
+        "y_range": [
+          344,
+          389
+        ]
+      },
+      {
+        "raw_text": "| 3 \u2014TETx-260901-0476-(1 | 2711| 2706 |2709|Negative| 9/9/2026 |11:57:31AM| 0| 4]",
+        "y_range": [
+          390,
+          437
+        ]
+      },
+      {
+        "raw_text": "70 | ETx-260901-0385(3 | 1041| 950] 096 |Negativel 9/9/2026 |12:00:i0PM| 5/44",
+        "y_range": [
+          767,
+          812
+        ]
+      },
+      {
+        "raw_text": "} 15 TETX-260901-0438-(2 1218 | 1073 1146 | Negativel 9/9/2026 | 42:07:51 PM r 6] 44",
+        "y_range": [
+          1002,
+          1047
+        ]
+      },
+      {
+        "raw_text": "i 16 lETX-260901-0438-(3 14347 7510 | 1429 | Negative 9/9/2026 li20277PM|6{ \u2014=5| |B] SCS",
+        "y_range": [
+          1048,
+          1095
+        ]
+      },
+      {
+        "raw_text": "yee",
+        "y_range": [
+          1683,
+          1701
+        ]
+      },
+      {
+        "raw_text": "ce",
+        "y_range": [
+          1791,
+          1846
+        ]
+      },
+      {
+        "raw_text": "i pe",
+        "y_range": [
+          1867,
+          1898
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 15,
+    "wl_name": "090926-2222-2.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-2. wk!",
+        "y_range": [
+          18,
+          53
+        ]
+      },
+      {
+        "raw_text": "| Batch: D | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.4 ]",
+        "y_range": [
+          103,
+          135
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 10:53:06 AM | Analyst: cdu |",
+        "y_range": [
+          169,
+          195
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 16135.5 | Positive Cut-off: 16135.5 | |",
+        "y_range": [
+          234,
+          260
+        ]
+      },
+      {
+        "raw_text": "! 1. |FTM,DI,-ve control-AOD| 5447] 531015379|CalOK | 9/9/2026 |12:03:21PM; 1] #41",
+        "y_range": [
+          364,
+          391
+        ]
+      },
+      {
+        "raw_text": "| 2 | ETX-260901-0478-(1 4861 | 5088 | 4975 | Negative} 9/9/2026 | 12:03:41 PM | 2 5]",
+        "y_range": [
+          411,
+          444
+        ]
+      },
+      {
+        "raw_text": "| 3  |ETX-260901-0478-(2 6550 | 6651 | 6601 | Negative} 9/9/2026 | 12:04:01 PM 4) 6]",
+        "y_range": [
+          458,
+          486
+        ]
+      },
+      {
+        "raw_text": "| 4  |ETX-260901-0478-(3 6721 | 6746 | 6734 | Negative| 9/9/2026 | 12:04:21 PM 0 4]",
+        "y_range": [
+          505,
+          532
+        ]
+      },
+      {
+        "raw_text": "} 5  |ETX-260901-0478-(4 | 5512] 5610]5561] Negative] 9/9/2026 | 12:04:41 PM 1} 5]",
+        "y_range": [
+          552,
+          580
+        ]
+      },
+      {
+        "raw_text": "| 6 |ETX-260901-0478-(5 | 7356] 7463|7410| Negative] 9/9/2026 | 12:05:01 PM] 1| 5]",
+        "y_range": [
+          599,
+          626
+        ]
+      },
+      {
+        "raw_text": "|} 7  |ETX-260901-0478-(6 | 5627] 5683] 5655| Negative] 9/9/2026 |12:05:21PM| Oj] 4]",
+        "y_range": [
+          647,
+          678
+        ]
+      },
+      {
+        "raw_text": "8 ETX-260901-0385-(1 2377 | 2399 | 2388 | Negative] 9/9/2026 |12:05:41PM/| O| 8 5]",
+        "y_range": [
+          693,
+          720
+        ]
+      },
+      {
+        "raw_text": "| 9 |ETX-260901-0385-(2 | 2499] 2205 | 2352|Negative] 9/9/2026 | 12:06:01 PM 6| 4]",
+        "y_range": [
+          740,
+          767
+        ]
+      },
+      {
+        "raw_text": "i 10 |\u00a3ETX-260901-0385-(3 2961 | 2668 | 2815| Negative| 9/9/2026 | 12:06:21 PM 5] 4]",
+        "y_range": [
+          787,
+          814
+        ]
+      },
+      {
+        "raw_text": "! 11 |ETX-260901-0385-(4 1888 | 1901]1895| Negative] 9/9/2026 |12:06:41PM;| O] } 5]",
+        "y_range": [
+          834,
+          861
+        ]
+      },
+      {
+        "raw_text": "| 12 | ETX-260901-0385-(5 3007 | 2873 | 2940 | Negative| 9/9/2026 | 12:07:01 PM | 2) 5]",
+        "y_range": [
+          881,
+          914
+        ]
+      },
+      {
+        "raw_text": "f 13  |ETX-260901-0385-(6 | 2070] 2242|2156| Negative] 9/9/2026 | 12:07:21 PM | 4]. 4}",
+        "y_range": [
+          928,
+          956
+        ]
+      },
+      {
+        "raw_text": "| 14 | ETX-260901-0438-(1 1924! 199511960] Negative] 9/9/2026 | 12:07:41 PM] 2 | 4]",
+        "y_range": [
+          975,
+          1002
+        ]
+      },
+      {
+        "raw_text": "| 15 |ETX-260901-0438-(2 1933 | 1816 | 1875| Negative] 9/9/2026 | 12:08:01 PM | 3] 4]",
+        "y_range": [
+          1022,
+          1050
+        ]
+      },
+      {
+        "raw_text": "| 16 | ETX-260901-0438-(3 21441 1792|1968]| Negative] 9/9/2026 | 12:08:21 PM] 9g] 6]",
+        "y_range": [
+          1069,
+          1096
+        ]
+      },
+      {
+        "raw_text": "| 17  |ETX-260901-0438-(4 | 2075} 2075 | 2075] Negative} 9/9/2026 |12:08:41PM| oO] #5]",
+        "y_range": [
+          1117,
+          1144
+        ]
+      },
+      {
+        "raw_text": "1 18\u00b0 | ETX-260901-0438-(5 | 2319] 2110] 2215]|Negative] 9/9/2026 | 12:09:01 PM] 5} 4]",
+        "y_range": [
+          1163,
+          1190
+        ]
+      },
+      {
+        "raw_text": "bee",
+        "y_range": [
+          1748,
+          1775
+        ]
+      },
+      {
+        "raw_text": "eee",
+        "y_range": [
+          1777,
+          1811
+        ]
+      },
+      {
+        "raw_text": "- oo |",
+        "y_range": [
+          1812,
+          1856
+        ]
+      },
+      {
+        "raw_text": "eth",
+        "y_range": [
+          1862,
+          1906
+        ]
+      },
+      {
+        "raw_text": "nope",
+        "y_range": [
+          1943,
+          1970
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 16,
+    "wl_name": "090926-2222-3.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-3.wkl",
+        "y_range": [
+          17,
+          53
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.4 \u2014 |",
+        "y_range": [
+          102,
+          133
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 12:24:20 PM | Analyst: cdu |",
+        "y_range": [
+          168,
+          194
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 1981.5 | Positive Cut-off: 1981.5 | |",
+        "y_range": [
+          233,
+          259
+        ]
+      },
+      {
+        "raw_text": "| 1 |TSB,DI+300mI,-ve control-| 673] 648} 661/CalOK | 9/9/2026 | 1:12:34 PM| 2| 4]",
+        "y_range": [
+          362,
+          390
+        ]
+      },
+      {
+        "raw_text": "| 2  |ETX-260901-0063-(1 | 222| 213] 218|Negative! 9/9/2026 | 1:12:54 PM] 2 | 5]",
+        "y_range": [
+          409,
+          436
+        ]
+      },
+      {
+        "raw_text": "| 3. |ETX-260901-0063-(2 | 193] 208} 201 |Negative} 9/9/2026 | 1:13:13 PM] 4] 4]",
+        "y_range": [
+          457,
+          484
+        ]
+      },
+      {
+        "raw_text": "| 4  |ETX-260901-0063-(3 | 200| 215} 208|Negative} 9/9/2026 |1:13:34PM{/ 4] }8 4]",
+        "y_range": [
+          503,
+          531
+        ]
+      },
+      {
+        "raw_text": "| 5 |ETX-260901-0063-(4 | 203] 199] 201 |Negative] 9/9/2026 | 1:13:54 PM] 4 4}",
+        "y_range": [
+          550,
+          579
+        ]
+      },
+      {
+        "raw_text": "| 6 | ETX-260901-0229-(1 | 198 | 196 | 197 | Negative} 9/9/2026 | 1:14:14 PM | 1 | 4}",
+        "y_range": [
+          597,
+          630
+        ]
+      },
+      {
+        "raw_text": "} 7 | ETX-260901-0229-(2 | 229| 190} 210|Negative] 9/9/2026 | 1:14:34PM;} 9] 4]",
+        "y_range": [
+          644,
+          677
+        ]
+      },
+      {
+        "raw_text": "| 8 |ETX-260901-0229-(3 | 2231 209] 216]Negative| 9/9/2026 | 1:14:53 PM 3 4]",
+        "y_range": [
+          691,
+          719
+        ]
+      },
+      {
+        "raw_text": "| 9  |ETX-260901-0229-(4 | 265| 250] 258|Negative] 9/9/2026 | 1:15:14PM; 3} \u00b0}&#47",
+        "y_range": [
+          738,
+          766
+        ]
+      },
+      {
+        "raw_text": "f 10 | ETX-260901-0692-(1 | 230] 213] 222|Negative| 9/9/2026 | 1:15:34 PM 4] 4]",
+        "y_range": [
+          785,
+          812
+        ]
+      },
+      {
+        "raw_text": "| 11  |ETX-260901-0692-(2 | 231| 224] 228]Negative] 9/9/2026 | 1:15:54 PM} 2] 4]",
+        "y_range": [
+          832,
+          860
+        ]
+      },
+      {
+        "raw_text": "| 12 | ETX-260901-0692-(3 | 219| 209] 214!Negative| 9/9/2026 | 1:16:13 PM} 2) 3]",
+        "y_range": [
+          879,
+          906
+        ]
+      },
+      {
+        "raw_text": "| 13 |ETX-260901-0692-(4 | 219] 239] 229/Negative| 9/9/2026 | 1:16:33 PM] 4) 4]",
+        "y_range": [
+          927,
+          954
+        ]
+      },
+      {
+        "raw_text": "| 14 |ETX-260901-0428-(1 | 254| 237] 2461]Negative} 9/9/2026 | 1:16:54PM; 3] 3 3]",
+        "y_range": [
+          973,
+          1001
+        ]
+      },
+      {
+        "raw_text": "| 15 |ETX-260901-0428-(2 | 262] 239] 2511Negative| 9/9/2026 | 1:17:14 PM} 5 | 3]",
+        "y_range": [
+          1021,
+          1047
+        ]
+      },
+      {
+        "raw_text": "| 16 |ETX-260901-0428-(3 | 243) 224] 234|Negative| 9/9/2026 |1:17:34PM;} 4] 3]",
+        "y_range": [
+          1067,
+          1095
+        ]
+      },
+      {
+        "raw_text": "| 17 | ETX-260901-0428-(4 | 2221 204] 213|]Negative! 9/9/2026 | 1:17:54 PM| 4] 4]",
+        "y_range": [
+          1114,
+          1141
+        ]
+      },
+      {
+        "raw_text": "| 18 |ETX-260901-0639-(1 | 231] 222] 227 |Negative] 9/9/2026 | 1:18:14 PM 2) 5]",
+        "y_range": [
+          1161,
+          1189
+        ]
+      },
+      {
+        "raw_text": "| 19 |ETX-260901-0639-(2 | 218] 190] 204}Negative| 9/9/2026 | 1:18:34 PM} 7| 3 3]",
+        "y_range": [
+          1208,
+          1236
+        ]
+      },
+      {
+        "raw_text": "| 20 |ETX-260901-0639-(3 | 236] 226] 231 |Negative| 9/9/2026 | 1:18:54 PM] 2) 5]",
+        "y_range": [
+          1254,
+          1283
+        ]
+      },
+      {
+        "raw_text": "| 21 |ETX-260901-0639-(4 | 302] 269] 286|Negative| 9/9/2026 | 1:19:14PM] 6] } 3]",
+        "y_range": [
+          1302,
+          1330
+        ]
+      },
+      {
+        "raw_text": "| 22 |ETX-260901-0381-(1 | 231] 205| 218]Negative] 9/9/2026 | 1:19:34 PM | 6] 3]",
+        "y_range": [
+          1349,
+          1376
+        ]
+      },
+      {
+        "raw_text": "| 23 |ETX-260901-0381-(2 | 203] 262]| 233)Negative| 9/9/2026 | 1:19:54PM] 13] \u00b0&#4]",
+        "y_range": [
+          1396,
+          1424
+        ]
+      },
+      {
+        "raw_text": "| 24 |ETX-260901-0381-(3 | 238] 205| 222)Negative| 9/9/2026 | 1:20:14 PM] 7 | 3]",
+        "y_range": [
+          1443,
+          1470
+        ]
+      },
+      {
+        "raw_text": "| 25 |ETX-260901-0381-(4 | 226] 229] 228|Negative| 9/9/2026 | 1:20:34 PM| 1 4]",
+        "y_range": [
+          1490,
+          1518
+        ]
+      },
+      {
+        "raw_text": "a \u2014",
+        "y_range": [
+          1812,
+          1986
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 17,
+    "wl_name": "090926-2222-3.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-3.wkl",
+        "y_range": [
+          14,
+          55
+        ]
+      },
+      {
+        "raw_text": "j Batch: B 1 Assay Name: AMPiScreen Health Assay instrument Type: Advance 2 | Start Temperature: 20.4",
+        "y_range": [
+          67,
+          131
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 12:24:20 PM | Analyst: cdu |",
+        "y_range": [
+          164,
+          196
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 4003.5 / Positive Cut-off: 4003.5 | - |",
+        "y_range": [
+          228,
+          261
+        ]
+      },
+      {
+        "raw_text": "op D2",
+        "y_range": [
+          1853,
+          1970
+        ]
+      },
+      {
+        "raw_text": "NV",
+        "y_range": [
+          1971,
+          2019
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 18,
+    "wl_name": "090926-2222-3.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-3.wkl",
+        "y_range": [
+          15,
+          56
+        ]
+      },
+      {
+        "raw_text": "| Batch: c 1 Assay Name: AMPiScreen Health Assay | instrument Type: Advance 2 | start Temperature: 20.4",
+        "y_range": [
+          65,
+          132
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 12:24:20 PM | Analyst: cdu |",
+        "y_range": [
+          163,
+          197
+        ]
+      },
+      {
+        "raw_text": "fo 2 | : a",
+        "y_range": [
+          228,
+          882
+        ]
+      },
+      {
+        "raw_text": "Nb",
+        "y_range": [
+          1671,
+          1689
+        ]
+      },
+      {
+        "raw_text": "(vy",
+        "y_range": [
+          1762,
+          1778
+        ]
+      },
+      {
+        "raw_text": "cl",
+        "y_range": [
+          1811,
+          1846
+        ]
+      },
+      {
+        "raw_text": "Whe",
+        "y_range": [
+          1893,
+          1919
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 19,
+    "wl_name": "090926-2222-3.wkl",
+    "batch": "D",
+    "assay_name": "AMPiScreen Health Assay",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-3.wkli",
+        "y_range": [
+          2,
+          37
+        ]
+      },
+      {
+        "raw_text": "} Batch: D | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.4 ]",
+        "y_range": [
+          87,
+          119
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 12:24:20 PM | Analyst: cdu |",
+        "y_range": [
+          153,
+          182
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 16290.0 | Positive Cut-off: 16290.0 | |",
+        "y_range": [
+          218,
+          244
+        ]
+      },
+      {
+        "raw_text": "| 1 |FTM,DI,-ve control-AOD! 5399} 546115430|CalOK | 9/9/2026 | 1:33:24 PM] 1] 5]",
+        "y_range": [
+          348,
+          375
+        ]
+      },
+      {
+        "raw_text": "| 2  |ETX-260901-0411-(1 | 2450] 2282 |2366|Negative| 9/9/2026 | 1:33:44 PM | 4| 4]",
+        "y_range": [
+          394,
+          422
+        ]
+      },
+      {
+        "raw_text": "} 3 ETX-260901-0411-(2 | 1961] 173511848]|Negative| 9/9/2026 | 1:34:04PM|] 6] }\u00bb8# 45]",
+        "y_range": [
+          442,
+          469
+        ]
+      },
+      {
+        "raw_text": "|} 4 ETX-260901-0411-(3 | 2168] 2140] 2154] Negative] 9/9/2026 | 1:34:24 PM | 1] 4]",
+        "y_range": [
+          488,
+          516
+        ]
+      },
+      {
+        "raw_text": "| 5 ETX-260901-0411-(4 | 1907] 1866 |1887|Negative| 9/9/2026 | 1:34:44 PM] 1] 5]",
+        "y_range": [
+          535,
+          564
+        ]
+      },
+      {
+        "raw_text": "|} 6 ETX-260901-0411-(5 | 2056] 2020 | 2038 | Negative] 9/9/2026 | 1:35:04 PM] 1] 4]",
+        "y_range": [
+          583,
+          610
+        ]
+      },
+      {
+        "raw_text": "| 7  |ETX-260901-0411-(6 | 2480| 2847 |2664|Negative| 9/9/2026 | 1:35:24 PM | 7\\ 7]",
+        "y_range": [
+          630,
+          657
+        ]
+      },
+      {
+        "raw_text": "| 8  |ETX-260901-0411-(7 | 1782] 2067|1925)Negative| 9/9/2026 | 1:35:44 PM] 7| 4]",
+        "y_range": [
+          677,
+          704
+        ]
+      },
+      {
+        "raw_text": "| 9  j|ETX-260901-0411-(8 | 2647] 2649|2648)Negative| 9/9/2026 | 1:36:04 PM] 0] 6]",
+        "y_range": [
+          724,
+          751
+        ]
+      },
+      {
+        "raw_text": "} 10 ETX-260901-0411-(8 2593 | 2468 | 2531] Negative] 9/9/2026 | 1:36:24 PM | 2| 5}",
+        "y_range": [
+          770,
+          797
+        ]
+      },
+      {
+        "raw_text": "} 11 | ETX-260901-0411-(10 | 2366] 245912413)Negative) 9/9/2026 | 1:36:44PM| 2] 5|",
+        "y_range": [
+          818,
+          851
+        ]
+      },
+      {
+        "raw_text": "oo",
+        "y_range": [
+          1732,
+          1790
+        ]
+      },
+      {
+        "raw_text": "wee",
+        "y_range": [
+          1858,
+          1895
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 20,
+    "wl_name": "090926-2222-4.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-4.wkl",
+        "y_range": [
+          28,
+          65
+        ]
+      },
+      {
+        "raw_text": "SSS EEE GEE as |",
+        "y_range": [
+          85,
+          101
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.0 |",
+        "y_range": [
+          108,
+          142
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 2:42:07 PM | Analyst: cdu : |",
+        "y_range": [
+          178,
+          206
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 1497.0 | Positive Cut-off: 1497.0 | }",
+        "y_range": [
+          242,
+          271
+        ]
+      },
+      {
+        "raw_text": "Me Sei ST",
+        "y_range": [
+          280,
+          296
+        ]
+      },
+      {
+        "raw_text": "1 | TSB Di+300mI*T80,-ve control-ES| 501| 497| 499|CalOK | 9/9/2026 |3:27:;59PM| o| 4",
+        "y_range": [
+          360,
+          402
+        ]
+      },
+      {
+        "raw_text": "[2 |ETX-260831-0737-(1 84| 79] 682|Negative| 9/9/2026 | 3:28:20PM| 3]  4i",
+        "y_range": [
+          407,
+          451
+        ]
+      },
+      {
+        "raw_text": "| 3 TETX-260831-0737-(2 84 | 85 | 85 | Negative| 9/9/2026 |3:28:40PM[ 1| \u2014*5| 3:28:40PM| 1| 5]",
+        "y_range": [
+          454,
+          499
+        ]
+      },
+      {
+        "raw_text": "| 4 TETX-260831-0737-(3 o7| 95] 96|Negative] 9/9/2026 |320:00PMl 1] 44",
+        "y_range": [
+          500,
+          544
+        ]
+      },
+      {
+        "raw_text": "[5 ETX-260831-0557-(1 | 153| 143] 148 | Negative! 9/9/2026 | 3:29:20PM| 3[ \u2014=\u00ab |",
+        "y_range": [
+          548,
+          592
+        ]
+      },
+      {
+        "raw_text": "| 6 J ETX-260831-0557-(2 | 157| 130] 148 | Negative! 97/9/2026 | 3:29:40PM|  6| 3",
+        "y_range": [
+          595,
+          639
+        ]
+      },
+      {
+        "raw_text": "| 7 TETX-260831-0667-(3 | 154| 137] 146 | Negative! 9/9/2026 | 3:30:00PM| 6/6 |",
+        "y_range": [
+          642,
+          686
+        ]
+      },
+      {
+        "raw_text": "[8 TETX-200831-0557-(4 | 461| 189] 175|Negative! 9/9/2026 |[3:30:19PM| 8/3",
+        "y_range": [
+          689,
+          733
+        ]
+      },
+      {
+        "raw_text": "No",
+        "y_range": [
+          1612,
+          1634
+        ]
+      },
+      {
+        "raw_text": "ean",
+        "y_range": [
+          1666,
+          1735
+        ]
+      },
+      {
+        "raw_text": "n C7",
+        "y_range": [
+          1772,
+          1806
+        ]
+      },
+      {
+        "raw_text": "ae eile",
+        "y_range": [
+          1871,
+          1895
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 21,
+    "wl_name": "090926-2222-4.wkl",
+    "batch": "B",
+    "assay_name": "AMPiScreen Health Assay",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-4.wkl",
+        "y_range": [
+          3,
+          38
+        ]
+      },
+      {
+        "raw_text": "| Batch: B | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.0 |",
+        "y_range": [
+          88,
+          120
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 2:42:07 PM | Analyst: cdu |",
+        "y_range": [
+          154,
+          183
+        ]
+      },
+      {
+        "raw_text": "i Negative Cut-off: 2998.5 | Positive Cut-off: 2998.5 | |",
+        "y_range": [
+          219,
+          244
+        ]
+      },
+      {
+        "raw_text": "| 1. |FTM,DI+300mI+T80,-ve control-ES| 1010] 98911000]CalOK | 9/9/2026 | 3:30:49 PM] 1) 5]",
+        "y_range": [
+          349,
+          376
+        ]
+      },
+      {
+        "raw_text": "| 2  |\u20acETX-260831-0737-(1 1 177] 197] 187 |Negative] 9/9/2026 | 3:31:09 PM | 5 5]",
+        "y_range": [
+          395,
+          422
+        ]
+      },
+      {
+        "raw_text": "3  |ETX-260831-0737-(2 215| 194] 205]Negative] 9/9/2026 | 3:31:30PM| 5/ ~}\u00bb& 5]",
+        "y_range": [
+          443,
+          470
+        ]
+      },
+      {
+        "raw_text": "k 4 | ETX-260831-0737-(3 | 208] 191] 200!Negative] 9/9/2026 | 3:31:50 PM | 4 5 |",
+        "y_range": [
+          489,
+          517
+        ]
+      },
+      {
+        "raw_text": "| 5 ~\u2014- | ETX-260831-0557-(1 | 514] 377] 446)Negative| 9/9/2026 | 3:32:10 PM] 15 5]",
+        "y_range": [
+          537,
+          566
+        ]
+      },
+      {
+        "raw_text": "| 6 | ETX-260831-0557-(2 | 299] 282] 291]|Negative| 9/9/2026 | 3:32:30 PM | 3] 6]",
+        "y_range": [
+          584,
+          611
+        ]
+      },
+      {
+        "raw_text": "| 7 |ETX-260831-0557-(3 } 255] 264] 260|Negative] 9/9/2026 | 3:32:;0PM| 2 5]",
+        "y_range": [
+          631,
+          664
+        ]
+      },
+      {
+        "raw_text": "| 8  |ETX-260831-0557-(4 331] 344] 338]Negative] 9/9/2026 | 3:33:10 PM] 2; #4",
+        "y_range": [
+          678,
+          705
+        ]
+      },
+      {
+        "raw_text": "cen",
+        "y_range": [
+          1658,
+          1688
+        ]
+      },
+      {
+        "raw_text": "\u00a2 Oe",
+        "y_range": [
+          1779,
+          1816
+        ]
+      },
+      {
+        "raw_text": "Whe",
+        "y_range": [
+          1852,
+          1883
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 22,
+    "wl_name": "090926-2222-4.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-4.wkl",
+        "y_range": [
+          18,
+          57
+        ]
+      },
+      {
+        "raw_text": "| Batch: Cc | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.0 |",
+        "y_range": [
+          98,
+          133
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 2:42:07 PM | Analyst: cdu |",
+        "y_range": [
+          168,
+          198
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 8961.0 | Positive Cut-off: 8961.0 | |",
+        "y_range": [
+          233,
+          262
+        ]
+      },
+      {
+        "raw_text": "a LL",
+        "y_range": [
+          270,
+          289
+        ]
+      },
+      {
+        "raw_text": "| : a ITSBDi-ve contro-ES| 2978 | 2996 2987 | Cal OK 9/9/2026 3:33:40 PM | 0) 6|",
+        "y_range": [
+          350,
+          392
+        ]
+      },
+      {
+        "raw_text": "[2 TETX-260901-0375(1 | 1177| 11511 1164| Negative] 9/9/2026 [3:34:00PM|  1| 44",
+        "y_range": [
+          397,
+          441
+        ]
+      },
+      {
+        "raw_text": "[3 _TETx-260001-03752 | 1252| 122811240| Negative! 9/9/2026 | 3:34:20 PM| tT) 4",
+        "y_range": [
+          444,
+          487
+        ]
+      },
+      {
+        "raw_text": "| 4 TETx-260901-037543 | 1199] 1079 ]1139|Negativel 9/9/2026 | 3:3440PMl 5/4]",
+        "y_range": [
+          490,
+          535
+        ]
+      },
+      {
+        "raw_text": "[5 TETX-260901-0375-(4 | 1336 | 1202|1269|Negativel 9/0/2026 |3:35:00PM! 5] 5|",
+        "y_range": [
+          538,
+          582
+        ]
+      },
+      {
+        "raw_text": "i 6 | ETX260901-037545 T2244 | 7008 | 1116 | Negative 9/9/2026 13:35:20 PM [fo]",
+        "y_range": [
+          584,
+          629
+        ]
+      },
+      {
+        "raw_text": "| 7 TETX-260901-03756 | 12361 104111139| Negative! 9/9/2026 [3:3540PM| 9[ \u00abS|",
+        "y_range": [
+          632,
+          676
+        ]
+      },
+      {
+        "raw_text": "f 8 TETX-260901-0375-(7 1272 | 1161 11217 | Negative| 9/9/2026 [3:36:00PM|-5{ 5 | PM[ 5] \u2014s 5 |",
+        "y_range": [
+          679,
+          724
+        ]
+      },
+      {
+        "raw_text": "| 9 lET-260901-03758 | 1302| 1052|1177| Negative! 9/9/2026 |3:36:20PM| 11[ 3]",
+        "y_range": [
+          725,
+          771
+        ]
+      },
+      {
+        "raw_text": "j 10 TETX-260901-0375-9 7358 | 1454 7406 | Negative 9/9/2026 [3:36:40 PM r3f.3i",
+        "y_range": [
+          773,
+          818
+        ]
+      },
+      {
+        "raw_text": "1 TETX-260901-0375-(101 1411 | 1289 | 1350 Negative] 9/9/2026 | 3:37:00 PM Tr 5{ 3]",
+        "y_range": [
+          820,
+          865
+        ]
+      },
+      {
+        "raw_text": "12 TETX-260901-0673-(1 1256 1236 | 1246 Negative| 9/9/2026 [a37.20PM[ 1! 3i{ PM[ ot] 3]",
+        "y_range": [
+          867,
+          912
+        ]
+      },
+      {
+        "raw_text": "13 TETx-260901-067342 1333 | 7348 17341 | Negative] 9/9/2026 | 3:37:40 PM rtf 4",
+        "y_range": [
+          914,
+          958
+        ]
+      },
+      {
+        "raw_text": "[ 14 TETX-260901-0673-(3 1245 | 7344 1295 | Negative] 9/9/2026 | 3:37:59 PM a |",
+        "y_range": [
+          960,
+          1006
+        ]
+      },
+      {
+        "raw_text": "[15 JETX-200901-0673-(4 | 1252| 1496 |1374| Negative! 9/9/2026 [3:38:19PM| 9/34",
+        "y_range": [
+          1008,
+          1052
+        ]
+      },
+      {
+        "raw_text": "f 16 lETX-260901-0673-(5 7141 | 7288 | 1215 | Negative! 97/9/2026 | 3:38:39 PM | r 6] 44",
+        "y_range": [
+          1054,
+          1099
+        ]
+      },
+      {
+        "raw_text": "| 17 [ETx-260901-0673(6 | 1577| 1350|1464|Negative| 9/9/2026 [3:30:00PM| 8] 3",
+        "y_range": [
+          1102,
+          1147
+        ]
+      },
+      {
+        "raw_text": "| 18 lETX-260901-067347 1454 | 7422 | 1438 | Negative] 9/9/2026 | 3:39:20 PM a |",
+        "y_range": [
+          1149,
+          1194
+        ]
+      },
+      {
+        "raw_text": "| 19 | ETx-260901-0673-(8 | 1266] 1334] 1300| Negative) 9/9/2026 [3:30:40PM[ 3/4",
+        "y_range": [
+          1196,
+          1241
+        ]
+      },
+      {
+        "raw_text": "I-30 | ETx-260901-067349 | 1451| 12451 1348|Negative! 9/9/2026 [3:40:00PM| 8/ \u20143|",
+        "y_range": [
+          1243,
+          1287
+        ]
+      },
+      {
+        "raw_text": "131 ETX-260901-0673-(10| 1178| 1267 | 1223|Negative| 9/9/2026 [3:40:20PM| 4/4 J",
+        "y_range": [
+          1290,
+          1335
+        ]
+      },
+      {
+        "raw_text": "1 oo | ee | i, | a ah = -",
+        "y_range": [
+          1337,
+          1353
+        ]
+      },
+      {
+        "raw_text": "po",
+        "y_range": [
+          1784,
+          1910
+        ]
+      },
+      {
+        "raw_text": "np",
+        "y_range": [
+          1918,
+          1960
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 23,
+    "wl_name": "090926-2222-4.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-4.wkl",
+        "y_range": [
+          18,
+          54
+        ]
+      },
+      {
+        "raw_text": "| Batch: D | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.0 ]",
+        "y_range": [
+          103,
+          135
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 2:42:07 PM | Analyst: cdu |",
+        "y_range": [
+          169,
+          195
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 16207.5 | Positive Cut-off: 16207.5 | |",
+        "y_range": [
+          234,
+          260
+        ]
+      },
+      {
+        "raw_text": "| 1. |FTM,DI,-ve control-ES| 5456] 5349/5403] CalOK | 9/9/2026 | 3:40:50 PM | 1] 5]",
+        "y_range": [
+          364,
+          391
+        ]
+      },
+      {
+        "raw_text": "| 2 ETX-260901-0375-(1 | 3260] 2768 |3014| Negative} 9/9/2026 | 3:41:09 PM| 8 7]",
+        "y_range": [
+          410,
+          439
+        ]
+      },
+      {
+        "raw_text": "| 3. |ETX-260901-0375-(2 | 2133] 2082/2108] Negative) 9/9/2026 | 3:41:30 PM| 1] 5]",
+        "y_range": [
+          458,
+          485
+        ]
+      },
+      {
+        "raw_text": "| 4  |ETX-260901-0375-(3 | 1930] 1907/1919] Negative} 9/9/2026 | 3:41:50 PM| 1; = 5]",
+        "y_range": [
+          504,
+          536
+        ]
+      },
+      {
+        "raw_text": "| \u00a7 | ETX-260901-0375-(4 | 1943] 1865]1904]| Negative] 9/9/2026 | 3:42:10PM| 2] 7|",
+        "y_range": [
+          552,
+          580
+        ]
+      },
+      {
+        "raw_text": "| 6 |ETX-260901-0375-(5 | 2098] 2055 | 2077 | Negative! 9/9/2026 | 3:42:30 PM| 1} 6]",
+        "y_range": [
+          598,
+          627
+        ]
+      },
+      {
+        "raw_text": "| 7 +|ETX-260901-0375-(6 | 3808] 3719|3764|Negative| 9/9/2026 | 3:42:50 PM] 4 7]",
+        "y_range": [
+          645,
+          674
+        ]
+      },
+      {
+        "raw_text": "| 8 |ETX-260901-0375-(7 | 2471] 2528} 2500 | Negative} 9/9/2026 | 3:43:09 PM} 1| 5]",
+        "y_range": [
+          693,
+          720
+        ]
+      },
+      {
+        "raw_text": "| 9  |ETX-260901-0375-(8 | 2707 | 2873 | 2790] Negative} 9/9/2026 | 3:43:30 PM 3] 5]",
+        "y_range": [
+          739,
+          768
+        ]
+      },
+      {
+        "raw_text": "| 10  |ETX-260901-0375-(9 | 2910] 2693 | 2802|Negative| 9/9/2026 | 3:43:49 PM |} 4] 6 |",
+        "y_range": [
+          787,
+          815
+        ]
+      },
+      {
+        "raw_text": "} 11  |ETX-260901-0375-(10| 3960 | 4225 | 4093 | Negative; 9/9/2026 | 3:44:09 PM | 3] 5]",
+        "y_range": [
+          834,
+          866
+        ]
+      },
+      {
+        "raw_text": "| 12 | ETX-260901-0673-(1 | 2615 | 2484 | 2550 Negative | 9/9/2026 | 3:44:30 PM 3] 5]",
+        "y_range": [
+          880,
+          914
+        ]
+      },
+      {
+        "raw_text": "} 13 |ETX-260901-0673-(2 | 2311] 2332 |2322| Negative) 9/9/2026 | 3:44:49 PM | Oo; = 6",
+        "y_range": [
+          928,
+          960
+        ]
+      },
+      {
+        "raw_text": "14 |ETX-260901-0673-(3 | 2017 | 2494 | 2256 | Negative! 9/9/2026 | 3:45:09 PM 1) 7]",
+        "y_range": [
+          974,
+          1007
+        ]
+      },
+      {
+        "raw_text": "| 15 |ETX-260901-0673-(4 | 2994] 2967 | 2981 | Negative] 9/9/2026 | 3:45:29PM} 0] 5}",
+        "y_range": [
+          1022,
+          1054
+        ]
+      },
+      {
+        "raw_text": "| 16 |ETX-260901-0673-(5 | 3462| 2847/3155] Negative] 9/9/2026 | 3:45:49 PM | 10; 7]",
+        "y_range": [
+          1068,
+          1100
+        ]
+      },
+      {
+        "raw_text": "| 17 |ETX-260901-0673-(6 | 1852] 1896 | 1874| Negative) 9/9/2026 | 3:46:09PM| 1] 6]",
+        "y_range": [
+          1116,
+          1149
+        ]
+      },
+      {
+        "raw_text": "} 18 |ETX-260901-0673-(7 | 2214] 1867 | 2041 | Negative) 9/9/2026 | 3:46:30 PM] 9] 5]",
+        "y_range": [
+          1163,
+          1195
+        ]
+      },
+      {
+        "raw_text": "| 19 |ETX-260901-0673(8 | 3869] 3509 | 3689 | Negative] 9/9/2026 | 3:46:50 PM <3 ee |",
+        "y_range": [
+          1209,
+          1241
+        ]
+      },
+      {
+        "raw_text": "| 20  |ETX-260901-0673-(9 | 3489] 3270] 3380] Negative| 9/9/2026 | 3:47:10 PM | 3 | 4]",
+        "y_range": [
+          1257,
+          1284
+        ]
+      },
+      {
+        "raw_text": "| 21 |ETX-260901-0673-(10} 2989 | 2500 | 2745| Negative! 9/9/2026 | 3:47:30 PM Q| 4]",
+        "y_range": [
+          1303,
+          1331
+        ]
+      },
+      {
+        "raw_text": "AC ie",
+        "y_range": [
+          1927,
+          1968
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 24,
+    "wl_name": "090926-2222-5.wk|",
+    "batch": "A",
+    "assay_name": "AMPiScreen Health Assay",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-5.wkl",
+        "y_range": [
+          3,
+          40
+        ]
+      },
+      {
+        "raw_text": "EEE EERIE as |",
+        "y_range": [
+          60,
+          76
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.4 |",
+        "y_range": [
+          83,
+          117
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 5:17:57 PM | Analyst: cdu |",
+        "y_range": [
+          153,
+          184
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 8011.5 | Positive Cut-off: 8011.5 | |",
+        "y_range": [
+          218,
+          246
+        ]
+      },
+      {
+        "raw_text": "j T ITSBDI-ve control-AOD| 2550 | 2782 | 2671 lCal OK | 9/9/2026 | 6:02:04 PM 4] 5]",
+        "y_range": [
+          335,
+          376
+        ]
+      },
+      {
+        "raw_text": "| 2 TETX-260901-0423-(1 1230 | 1120 11180 Negative} 9/9/2026 6:02:24 PM 5) 4",
+        "y_range": [
+          382,
+          426
+        ]
+      },
+      {
+        "raw_text": "| 3 TETX-260001-0423-(2 1057 | 1191 11124 Negative| 9/9/2026 6:02:44PM;\u20146|_\u2014\u2014s8 | PM[ \u2014-6|_\u2014s8",
+        "y_range": [
+          429,
+          474
+        ]
+      },
+      {
+        "raw_text": "| 4 ETX-260901-04234(3 1197 | 1209 1203 Negative| 9/9/2026 6:03:04 PM | 0 5 |",
+        "y_range": [
+          477,
+          520
+        ]
+      },
+      {
+        "raw_text": "[5 |ETX-260901-0423(4 | 1266] 1313|1290|Negative| 9/9/2026 |6:03:24PM|_2[ \u2014\u00ab4|",
+        "y_range": [
+          523,
+          567
+        ]
+      },
+      {
+        "raw_text": "| 6 TETX-260001-0423-(5 7304 | 1244 1271 |Negative| 9/9/2026 | 6:03:44 PM [2] 3h",
+        "y_range": [
+          570,
+          615
+        ]
+      },
+      {
+        "raw_text": "| 7 | ETX-260901-0423-(6 | 1262} 1215|1239|Negative! 9/9/2026 |6:04:03PM|  2| 4]",
+        "y_range": [
+          618,
+          662
+        ]
+      },
+      {
+        "raw_text": "lg | ETx-260901-0423(7 | 1181] 1308| 1245|Negative| 9/9/2026 |6:0424PM|  5/  5|",
+        "y_range": [
+          664,
+          707
+        ]
+      },
+      {
+        "raw_text": "| 9 lETX-260901-0423-(8 1521 1294 1408 | Negative | 9/9/2026 6:04:44 PM 8 4|",
+        "y_range": [
+          712,
+          755
+        ]
+      },
+      {
+        "raw_text": "l40 | ETX-260001-0423-@ | 1368] 125011309|Negative| 9/9/2026 |6:05:03PM| 5/44",
+        "y_range": [
+          758,
+          802
+        ]
+      },
+      {
+        "raw_text": "| 1 TETX-260901-0423-(10 | 7299 | 1392 1346 | Negative] 9/9/2026 | 6:05:23 PM a) |",
+        "y_range": [
+          805,
+          850
+        ]
+      },
+      {
+        "raw_text": "| 42 | ETX-260901-0376(1 | 1200] 1211| 1206 | Negative] 9/9/2026 |6:05:43PM[ 0! \u201844",
+        "y_range": [
+          852,
+          896
+        ]
+      },
+      {
+        "raw_text": "[43 TETx-260001-0376-(2 | 1175| 1169] 1172|Negative| 9/9/2026 |6:06:04PM| Of 7|",
+        "y_range": [
+          899,
+          944
+        ]
+      },
+      {
+        "raw_text": "|14 |ETX-260901-0376-3 | 1305| 1222} 1509 |Negative| 9/9/2026 [6:06:23PM|  7/ 5",
+        "y_range": [
+          947,
+          990
+        ]
+      },
+      {
+        "raw_text": "| 16 | ETx-260901-0376-4 | 1488] 1202|1300|Negative| 9/9/2026 |6.06e:44PMl 7] 7|",
+        "y_range": [
+          993,
+          1037
+        ]
+      },
+      {
+        "raw_text": "16 TETX-260001-0376-(5 7211 | 1193 1202 | Negative] 9/9/2026 \u2018|6:07:04PM| i[ 44 PM] 1] 4]",
+        "y_range": [
+          1041,
+          1085
+        ]
+      },
+      {
+        "raw_text": "|\u201447__ TETX-260901-0376(6 | 1233| 1232|1233|Negative!| 9/9/2026 |6:07:24PM| Oo] \u20144t",
+        "y_range": [
+          1088,
+          1131
+        ]
+      },
+      {
+        "raw_text": "| 48} ETx-260901-0376(7 | 1178| 116311171 | Negative] 9/9/2026 |6:07:43PM| 1] 3]",
+        "y_range": [
+          1134,
+          1177
+        ]
+      },
+      {
+        "raw_text": "| 79 | ETX-260901-0376-8 | 1320] 1190} 1255 |Negative| 9/9/2026 |6:08:03PM| 5/5 |",
+        "y_range": [
+          1182,
+          1226
+        ]
+      },
+      {
+        "raw_text": "i 20 | ETX-260901-0376-4(9 7244 | 1223 | 1234 Negative| 9/9/2026 [608:23PM[1| 4 | PM",
+        "y_range": [
+          1228,
+          1273
+        ]
+      },
+      {
+        "raw_text": "| 21 ETX-260901-0376-(10 1332 | 1151 14242 | Negative| 9/9/2026 | 6:08:44 PM 7| 4]",
+        "y_range": [
+          1276,
+          1316
+        ]
+      },
+      {
+        "raw_text": "ING ee",
+        "y_range": [
+          1942,
+          1975
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 25,
+    "wl_name": "090926-2222-5.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2222-5.wk!",
+        "y_range": [
+          28,
+          65
+        ]
+      },
+      {
+        "raw_text": "| Batch: B | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 20.4 |",
+        "y_range": [
+          109,
+          144
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 5:17:57 PM | Analyst: cdu '",
+        "y_range": [
+          179,
+          208
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 16764.0 ) Positive Cut-off: 16764.0 | |",
+        "y_range": [
+          243,
+          270
+        ]
+      },
+      {
+        "raw_text": "| T lFTM DI,-ve control-AOD] 5511 5665 5588 | Cal OK 9/9/2026 6:09:13 PM| 1 5f",
+        "y_range": [
+          362,
+          401
+        ]
+      },
+      {
+        "raw_text": "} 2  |ETX-260901-0423-(1 | 2129] 2053 | 2091| Negative] 9/9/2026 | 6:09:33PM; 2} 5]",
+        "y_range": [
+          418,
+          451
+        ]
+      },
+      {
+        "raw_text": "| 3 __TETX-260901-0423-(2 | 2053| 2034 |2044|Negative| 9/9/2026 |[6:09:54PM| 0]  5|",
+        "y_range": [
+          455,
+          499
+        ]
+      },
+      {
+        "raw_text": "[4 | ETX-260901-0423(3 | 2307| 2146 | 2227|Negative| 9/9/2026 | 6:10:13PM|  4{ 8]",
+        "y_range": [
+          502,
+          546
+        ]
+      },
+      {
+        "raw_text": "| _\u00a7  |ETXx-260001-0423(4 | 2035| 2207 |2121|Negative| 9/9/2026 |6:10:33PM| 4] 6",
+        "y_range": [
+          549,
+          592
+        ]
+      },
+      {
+        "raw_text": "| 6 |ETX-260901-0423-(5 | 2057| 1951 |2004|Negative| 9/9/2026 |6:10:53PM| 3] ~~ 5|",
+        "y_range": [
+          597,
+          640
+        ]
+      },
+      {
+        "raw_text": "[7 |ETXx-260001-0423(6 | 2204| 2249 |2227|Negative| 9/9/2026 | 6:11:13 PM | T| 6|",
+        "y_range": [
+          643,
+          686
+        ]
+      },
+      {
+        "raw_text": "} 8 | ETX-260901-042347 | 2119] 1978 | 2049|Negative| 9/9/2026 |6:117:33PM| 3] 6 |",
+        "y_range": [
+          690,
+          734
+        ]
+      },
+      {
+        "raw_text": "[9 | ETx-260001-0423-(8 | 2309| 2427 |2368|Negative| 9/9/2026 |6:11:54PM| 2] \u20186 |",
+        "y_range": [
+          738,
+          781
+        ]
+      },
+      {
+        "raw_text": "} 10 lETX-260901-04239 3040 | 2159 | 2100 | Negative| 9/9/2026 6:12:14 PM] 3;\u2014Ct\u00e9T\u2018d",
+        "y_range": [
+          784,
+          827
+        ]
+      },
+      {
+        "raw_text": "741 | ETX-260901-0423-(10 | 2281} 2252 | 2267|Negative! 9/9/2026 | 6:12:33 PM| T| 6|",
+        "y_range": [
+          832,
+          871
+        ]
+      },
+      {
+        "raw_text": "| 12  |ETX-260901-0376-(1 | 3103] 3174]3139) Negative] 9/9/2026 | 6:12:553PM| 1 6]",
+        "y_range": [
+          888,
+          921
+        ]
+      },
+      {
+        "raw_text": "| 13 ETX-260901-0376-(2 3497 | 3073 13285 Negative 9/9/2026 | 6:13:13 PM 6 6 |",
+        "y_range": [
+          925,
+          966
+        ]
+      },
+      {
+        "raw_text": "| 14  |ETX-260901-0376-(3 3169 | 3185 | 3177 |Negative| 9/9/2026 | 6:13:34 PM] 0] 4]",
+        "y_range": [
+          982,
+          1012
+        ]
+      },
+      {
+        "raw_text": "| 15 |E1Tx-260901-0376-(4 | 3027| 3267 |3147|Negative| 9/9/2026 |6:13:54PM/ 4/5]",
+        "y_range": [
+          1019,
+          1063
+        ]
+      },
+      {
+        "raw_text": "| 16 lETX-260901-0376(5 3213 3480 | 3347 Negative| 9/9/2026 | 6:14:14 PM | 4 7|",
+        "y_range": [
+          1067,
+          1106
+        ]
+      },
+      {
+        "raw_text": "| 17 | ETX-260901-0376-(6 | 2744 | 3125 | 2935 | Negative | 9/9/2026 | 6:14:34 PM | 6 | 5 |",
+        "y_range": [
+          1123,
+          1158
+        ]
+      },
+      {
+        "raw_text": "| 18 lETX-260901-0376(7 2586 | 2292 12430 | Negative| 9/9/2026 6:14:53 PM | 6 | 5]",
+        "y_range": [
+          1161,
+          1200
+        ]
+      },
+      {
+        "raw_text": "| 19 | ETX-260901-0376-(8 | 2355 | 2392 | 2374 | Negative| 9/9/2026 | 6:15:13 PM | 1 | 7}",
+        "y_range": [
+          1217,
+          1251
+        ]
+      },
+      {
+        "raw_text": "| 20 | ETX-260001-0376-(9 | 2606 | 2746 | 2676|Negative| 9/9/2026 |6:15:34PM| 3] 44",
+        "y_range": [
+          1254,
+          1297
+        ]
+      },
+      {
+        "raw_text": "[21 | E1X-260901-037610 | 2373] 2261 | 2317| Negative! 9/9/2026 | 6:15:53 PM | 2| 5 |",
+        "y_range": [
+          1302,
+          1341
+        ]
+      },
+      {
+        "raw_text": "ge",
+        "y_range": [
+          1787,
+          1866
+        ]
+      },
+      {
+        "raw_text": "ec)",
+        "y_range": [
+          1867,
+          1909
+        ]
+      },
+      {
+        "raw_text": "np",
+        "y_range": [
+          1931,
+          1970
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 26,
+    "wl_name": "090926-2011-Daily Control.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011-Daily Control.wkl",
+        "y_range": [
+          12,
+          47
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Inst. Bl | Instrument Type: Advance 2 | Start Temperature: 19.4 |",
+        "y_range": [
+          97,
+          129
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 8:59:44 AM | Analyst: cdu |",
+        "y_range": [
+          163,
+          192
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 100.0 | Positive Cut-off: 100.0 | |",
+        "y_range": [
+          228,
+          255
+        ]
+      },
+      {
+        "raw_text": "} 1 Instrument blank| 28] 36] 32]Negative 13 4| 9/9/2026 | 9:04:02 AM}",
+        "y_range": [
+          358,
+          385
+        ]
+      },
+      {
+        "raw_text": "BAW COs WNCLb Bs",
+        "y_range": [
+          468,
+          502
+        ]
+      },
+      {
+        "raw_text": "4) Cho amptocrwn neaginis 05266)~ Th00",
+        "y_range": [
+          590,
+          648
+        ]
+      },
+      {
+        "raw_text": "2) Clin duly waoh and mme OSasgl- [han",
+        "y_range": [
+          715,
+          774
+        ]
+      },
+      {
+        "raw_text": "3) Goo phummiag cured Le\u00bb Dok agAl",
+        "y_range": [
+          827,
+          890
+        ]
+      },
+      {
+        "raw_text": "4) Wow anay arvetto COoneay",
+        "y_range": [
+          938,
+          999
+        ]
+      },
+      {
+        "raw_text": "5) ATP Ponttwe Control OLUEG\\ - 1483",
+        "y_range": [
+          1047,
+          1102
+        ]
+      },
+      {
+        "raw_text": "\u00a2) Eagh Pcpefte- E00ad",
+        "y_range": [
+          1156,
+          1214
+        ]
+      },
+      {
+        "raw_text": "ay eal",
+        "y_range": [
+          1922,
+          1965
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 27,
+    "wl_name": "090926-2011-Daily Control.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011-Daily Control.wkl",
+        "y_range": [
+          23,
+          61
+        ]
+      },
+      {
+        "raw_text": "| Batch: B | Assay Name: AMPiScreen Health Reag. Instrument Type: Advance 2 | Start Temperature: 19.4 |",
+        "y_range": [
+          104,
+          139
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 8:59:44 AM | Analyst: cdu |",
+        "y_range": [
+          174,
+          202
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 1000.0 | Positive Cut-off: 1000.0 | }",
+        "y_range": [
+          238,
+          267
+        ]
+      },
+      {
+        "raw_text": "f 7 [Reagent blank | 75 72 | 74|Negative| 2|  4/ 9/9/2026 | 9:07:30 AM] 9/9/2026 | 9:07:30 AM",
+        "y_range": [
+          357,
+          402
+        ]
+      },
+      {
+        "raw_text": "Cen",
+        "y_range": [
+          1602,
+          1634
+        ]
+      },
+      {
+        "raw_text": "wh",
+        "y_range": [
+          1641,
+          1678
+        ]
+      },
+      {
+        "raw_text": "acy",
+        "y_range": [
+          1717,
+          1765
+        ]
+      },
+      {
+        "raw_text": "wo",
+        "y_range": [
+          1836,
+          1869
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 28,
+    "wl_name": "090926-2011-Daily Control.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011-Daily Control.wkl",
+        "y_range": [
+          12,
+          53
+        ]
+      },
+      {
+        "raw_text": "a a as |",
+        "y_range": [
+          69,
+          87
+        ]
+      },
+      {
+        "raw_text": "| Batch: C Assay Name: AMPiScreen Health ATP P | Instrument Type: Advance 2 | Start Temperature: 19.4 }",
+        "y_range": [
+          92,
+          127
+        ]
+      },
+      {
+        "raw_text": "Fo nl",
+        "y_range": [
+          135,
+          151
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 8:59:44 AM | Analyst: cdu 1",
+        "y_range": [
+          163,
+          192
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 50000.0 | Positive Cut-off: 50000.0 | |",
+        "y_range": [
+          227,
+          257
+        ]
+      },
+      {
+        "raw_text": "| 2 en a en",
+        "y_range": [
+          264,
+          282
+        ]
+      },
+      {
+        "raw_text": "i : 7 | ATP Positive Control 700459 | 89874 95167 | Positive | 6 4| 9/9/2026 [9:10:37 AM |",
+        "y_range": [
+          344,
+          387
+        ]
+      },
+      {
+        "raw_text": "L _ [",
+        "y_range": [
+          390,
+          407
+        ]
+      },
+      {
+        "raw_text": "Ow",
+        "y_range": [
+          1538,
+          1556
+        ]
+      },
+      {
+        "raw_text": "a.) ie",
+        "y_range": [
+          1582,
+          1616
+        ]
+      },
+      {
+        "raw_text": "ri \u2014",
+        "y_range": [
+          1617,
+          1659
+        ]
+      },
+      {
+        "raw_text": "et",
+        "y_range": [
+          1725,
+          1746
+        ]
+      },
+      {
+        "raw_text": "KY",
+        "y_range": [
+          1828,
+          1845
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 29,
+    "wl_name": "090926-2011.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011.wkl",
+        "y_range": [
+          25,
+          63
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          105,
+          140
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:40:46 AM | Analyst: cdu |",
+        "y_range": [
+          175,
+          204
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 1528.5 | Positive Cut-off: 1528.5 | |",
+        "y_range": [
+          240,
+          269
+        ]
+      },
+      {
+        "raw_text": "Ch pl.",
+        "y_range": [
+          278,
+          295
+        ]
+      },
+      {
+        "raw_text": "f 1 TSB,DI+300ml,-ve control-ES | 492| 527 510 | Cal OK 3 : 3 | 9/9/2026 | 10:28:07 AM |",
+        "y_range": [
+          357,
+          400
+        ]
+      },
+      {
+        "raw_text": "Z lETX-260831-0204(3 236 | 232 234 Negative 1 3] 9/9/2026 | 10:29:07 AM | AM",
+        "y_range": [
+          498,
+          542
+        ]
+      },
+      {
+        "raw_text": "5 TETX-260831-0204-(4 244 234 | 239 | Negative 2) 3 [ 9/9/2026 | 10:29:27 AM | 10:29:27 AM",
+        "y_range": [
+          545,
+          590
+        ]
+      },
+      {
+        "raw_text": "6 | ETx-260831-0204-(5 | 497 | 204 | 201 | Negative 2 4| 9/9/2026 | 10:29:47 AM |",
+        "y_range": [
+          592,
+          636
+        ]
+      },
+      {
+        "raw_text": "| 7 TETX-260831-020446 211| 212] 212| Negative) 0| 4] 9/9/2026 | 10:30:08 AM|",
+        "y_range": [
+          639,
+          684
+        ]
+      },
+      {
+        "raw_text": "F) ETX-260831 0204-7 256 256 | 256 Negative| 0 3 | 9/9/2026 | 10:30:28 AM | 10:30:28 AM",
+        "y_range": [
+          685,
+          731
+        ]
+      },
+      {
+        "raw_text": "} 9 lETX-260031-0004-(1 231 | DA4 | 238 Negative] 3] 2| 9/9/2026 | 10:30:47 AM | AM",
+        "y_range": [
+          733,
+          777
+        ]
+      },
+      {
+        "raw_text": "| 10 lETx-260831-0664-(2 | 250| 215| 237 | Negative) 9]  4{ 9/9/2026 | 10:31:08 AM|",
+        "y_range": [
+          779,
+          824
+        ]
+      },
+      {
+        "raw_text": ") 71 ETX-260831-0004(3 234 | 225 | 230 Negative] 2 | 4| 9/9/2026 | 10:31:27 AM | AM",
+        "y_range": [
+          827,
+          871
+        ]
+      },
+      {
+        "raw_text": "| 12 ETX-260827-0640-(1 642 | 647 | 645 Negative 0 5| 9/9/2026 | 10:31:47 AM | AM",
+        "y_range": [
+          874,
+          917
+        ]
+      },
+      {
+        "raw_text": "i 13 ETX-260827-0640-(2 612 646 | 629 Negative 3 3} 9/9/2026 | 10:32:07 AM | AM",
+        "y_range": [
+          920,
+          965
+        ]
+      },
+      {
+        "raw_text": "| 14 ETX-260827-0040-(3 553 BAB | 551 | Negative 0| 4} 9/9/2026 | 10:32:27 AM | AM",
+        "y_range": [
+          968,
+          1012
+        ]
+      },
+      {
+        "raw_text": "| 15 ETX-260827-0640-(4 531 | 618 | 575 Negative] 8 [ 3 [9/9/2026 | 10:32:48 AM | 10:32:48 AM",
+        "y_range": [
+          1016,
+          1060
+        ]
+      },
+      {
+        "raw_text": "} 16 lETX-260827-064045 618 | 647 633 | Negative| 2) 3] 97/9/2026 | 10:33:07 AM} 10:33:07 AM",
+        "y_range": [
+          1062,
+          1107
+        ]
+      },
+      {
+        "raw_text": "| 7 ETX-260827-0640-(6 645 | 622 | 634 Negative 2| 6 [9798/2026 | 10:33:27 AM} 10:33:27 AM",
+        "y_range": [
+          1109,
+          1154
+        ]
+      },
+      {
+        "raw_text": "| 18 ETX-260827-0040(7 616} 615 616 | Negative 0 4| 9/9/2026 [10:33:47 AM } AM",
+        "y_range": [
+          1156,
+          1200
+        ]
+      },
+      {
+        "raw_text": "| 19 ETX-260831-0105-(1 286 | 311 | 299 Negative] 4| / 3} 9/9/2026 | 10:34:07 AM | 10:34:07 AM",
+        "y_range": [
+          1203,
+          1247
+        ]
+      },
+      {
+        "raw_text": "30 TETX-260831-0105-(2 296 | 259| 278|Negative| 71 3| 9/9/2026 | 10:34:27 AM|",
+        "y_range": [
+          1249,
+          1294
+        ]
+      },
+      {
+        "raw_text": "t 21 |ETX-260831-010543 208 | 235 | 367 | Negative| 12 [2] 9/9/2026 | 10:34:47 AM | 9/9/2026 | 10:34:47 AM",
+        "y_range": [
+          1297,
+          1342
+        ]
+      },
+      {
+        "raw_text": "22 TETX-260831-010544 | 213| 241| 227|Negativel 6]  3| 9/9/2026 | 10:35:07 AM|",
+        "y_range": [
+          1343,
+          1388
+        ]
+      },
+      {
+        "raw_text": "[93 TETX-260831-010545 | 220| 224] 222|Negative|  1|  4{| 9/9/2026 | 10:35:28 AM|",
+        "y_range": [
+          1391,
+          1436
+        ]
+      },
+      {
+        "raw_text": "| 94 ETX-260831-0105(6 | 260 232] 246 | Negative 5; 3) 9/9/2026 | 10:35:47 AM]",
+        "y_range": [
+          1438,
+          1482
+        ]
+      },
+      {
+        "raw_text": "| 35 TETX-260831-01054(7 | 228| 210| 224| Negative) 2 4| 9/9/2026 | 10:36:07 AM |",
+        "y_range": [
+          1484,
+          1529
+        ]
+      },
+      {
+        "raw_text": "tL oe SE * u J ae he 5 - -",
+        "y_range": [
+          1532,
+          1548
+        ]
+      },
+      {
+        "raw_text": "wie",
+        "y_range": [
+          1982,
+          2020
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 30,
+    "wl_name": "090926-2011.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011.wkl",
+        "y_range": [
+          15,
+          52
+        ]
+      },
+      {
+        "raw_text": "| Batch: B | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          102,
+          134
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:40:46 AM | Analyst: cdu |",
+        "y_range": [
+          167,
+          193
+        ]
+      },
+      {
+        "raw_text": "I Negative Cut-off: 2338.5 | Positive Cut-off: 2338.5 | |",
+        "y_range": [
+          232,
+          257
+        ]
+      },
+      {
+        "raw_text": "| 1 | FTM,DI+300ml,-ve control-ES} 800] 759} 780|CalOK | 3 4] 9/9/2026 | 10:36:37 AM |",
+        "y_range": [
+          362,
+          390
+        ]
+      },
+      {
+        "raw_text": "| 2. |ETX-260831-0204-(1 263} 295 | 279 | Negative 6 6] 9/9/2026 | 10:36:57 AM}",
+        "y_range": [
+          409,
+          442
+        ]
+      },
+      {
+        "raw_text": "| 3  |ETX-260831-0204-(2 = | 334] 278] 306 | Negative 9| 5] 9/9/2026 | 10:37:18 AM |",
+        "y_range": [
+          457,
+          484
+        ]
+      },
+      {
+        "raw_text": "| 4  |ETX-260831-0204-(3 |} 290] 293] 292 | Negative] 1] \u00a7| 9/9/2026 | 10:37:37 AM}",
+        "y_range": [
+          503,
+          531
+        ]
+      },
+      {
+        "raw_text": "1 \u00a7  {ETX-260831-0204-(4 | 266] 290] 278 | Negative! 4| 5| 9/9/2026 | 10:37:56 AMI",
+        "y_range": [
+          550,
+          577
+        ]
+      },
+      {
+        "raw_text": "| 6 ETX-260831-0204-(5 |} 265] 231] 248 | Negative] TI 4} 9/9/2026 | 10:38:17 AM}",
+        "y_range": [
+          597,
+          626
+        ]
+      },
+      {
+        "raw_text": "| 7 ETX-260831-0204-(6 | 373] 337] 355 | Negative! 5| 3] 9/9/2026 | 10:38:37 AM |",
+        "y_range": [
+          644,
+          671
+        ]
+      },
+      {
+        "raw_text": "1 8  |ETX-260831-0204-(7 \u2014 | 323] 275] 299 | Negative! 8| 4] 9/9/2026 | 10:38:56 AM |",
+        "y_range": [
+          692,
+          719
+        ]
+      },
+      {
+        "raw_text": "1 9 ETX-260831-0664-(1 | 274] 286] 280 | Negative 2 4| 9/9/2026 | 10:39:19 AM }",
+        "y_range": [
+          738,
+          765
+        ]
+      },
+      {
+        "raw_text": ", 10 ETX-260831-0664-(2 | 313] 313] 313] Negative 0 4] 9/9/2026 | 10:39:37 AM }",
+        "y_range": [
+          785,
+          812
+        ]
+      },
+      {
+        "raw_text": "| 11 |ETX-260831-0664-(3 \u2014 | 313}! 254] 284|/Negative) 10} 4] 9/9/2026 | 10:39:57 AM}",
+        "y_range": [
+          833,
+          860
+        ]
+      },
+      {
+        "raw_text": "| 12 |ETX-260827-0640-(1 | 6981 705] 702 | Negative 0 31 9/9/2026 | 10:40:19 AM}",
+        "y_range": [
+          879,
+          906
+        ]
+      },
+      {
+        "raw_text": "| 13 |ETX-260827-0640-(2 } 703] 718] 711 | Negative 1| 5| 9/9/2026 | 10:40:36 AM |",
+        "y_range": [
+          927,
+          959
+        ]
+      },
+      {
+        "raw_text": "| 14 ETX-260827-0640-(3 729| 721} 725 | Negative 1 3} 9/9/2026 | 10:40:58 AM}",
+        "y_range": [
+          973,
+          1000
+        ]
+      },
+      {
+        "raw_text": "| 15 | ETX-260827-0640-(4 | 779] 766] 773 | Negative 4 ~\u00a7| 9/9/2026 | 10:41:17 AMI",
+        "y_range": [
+          1021,
+          1047
+        ]
+      },
+      {
+        "raw_text": "| 16 ETX-260827-0640-(5 | 712] 7111] 712 | Negative 0 4] 9/9/2026 | 10:41:37 AMI",
+        "y_range": [
+          1067,
+          1095
+        ]
+      },
+      {
+        "raw_text": "| 17  |ETX-260827-0640-(6 | 772| 676]! 724 | Negative 7 3] 9/9/2026 | 10:41:57 AM]",
+        "y_range": [
+          1114,
+          1141
+        ]
+      },
+      {
+        "raw_text": "| 18 ETX-260827-0640-(7 736 | 732) 734 | Negative 0 4) 9/9/2026 | 10:42:17 AM]",
+        "y_range": [
+          1161,
+          1188
+        ]
+      },
+      {
+        "raw_text": "fF 19 ETX-260831-0105-(1 329} 288) 309 | Negative 7| 3] 9/9/2026 | 10:42:36 AM]",
+        "y_range": [
+          1208,
+          1235
+        ]
+      },
+      {
+        "raw_text": "f 20 |ETX-260831-0105-(2 = | 260) 280] 270|Negative| 4} 31 9/9/2026 | 10:42:57 AM]",
+        "y_range": [
+          1256,
+          1283
+        ]
+      },
+      {
+        "raw_text": "| 21 | ETX-260831-0105-(3 310 | 305 | 308 | Negative 1] 4} 9/9/2026 | 10:43:17 AM |",
+        "y_range": [
+          1302,
+          1335
+        ]
+      },
+      {
+        "raw_text": "| 22 !ETX-260831-0105-(4 324! 271] 298 | Negative 9| A| 9/9/2026 | 10:43:37 AM |",
+        "y_range": [
+          1349,
+          1376
+        ]
+      },
+      {
+        "raw_text": "| 23 |ETX-260831-0105-(5 256 | 272] 264 | Negative 3| 4] 9/9/2026 | 10:43:58 AM]",
+        "y_range": [
+          1396,
+          1424
+        ]
+      },
+      {
+        "raw_text": "| 24 |ETX-260831-0105-(6 285| 242) 264 | Negative 8| 3] 9/9/2026 | 10:44:17 AM]",
+        "y_range": [
+          1443,
+          1470
+        ]
+      },
+      {
+        "raw_text": "| 25  |ETX-260831-0105-(7 276 | 277 | 277 | Negative! O| 4] 9/9/2026 | 10:44:39 AM |",
+        "y_range": [
+          1491,
+          1518
+        ]
+      },
+      {
+        "raw_text": "een",
+        "y_range": [
+          1717,
+          1735
+        ]
+      },
+      {
+        "raw_text": "ee",
+        "y_range": [
+          1737,
+          1755
+        ]
+      },
+      {
+        "raw_text": "ae",
+        "y_range": [
+          1807,
+          1825
+        ]
+      },
+      {
+        "raw_text": "peo Sphh",
+        "y_range": [
+          1851,
+          2010
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 31,
+    "wl_name": "090926-2011.wkI",
+    "batch": "C",
+    "assay_name": "AMPiScreen Health Assay",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "VWVorkiload neport: 090926-2011.wki",
+        "y_range": [
+          0,
+          35
+        ]
+      },
+      {
+        "raw_text": "| Batch: Cc | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          84,
+          117
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:40:46 AM | Analyst: cdu j",
+        "y_range": [
+          149,
+          177
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 8356.5 | Positive Cut-off: 8356.5 | |",
+        "y_range": [
+          214,
+          242
+        ]
+      },
+      {
+        "raw_text": "| 1 lTSB,MF,-ve control-ES | 2727 | 2844 | 2786 Cal OK | 2| 4] 9/9/2026 10:45:15 AM |",
+        "y_range": [
+          335,
+          375
+        ]
+      },
+      {
+        "raw_text": "| 2  |ETX-260831-0144-4/5 | 2741 | 2732 | 2737 | Negative 0] 3] 9/9/2026 | 10:45:36 AM |",
+        "y_range": [
+          392,
+          421
+        ]
+      },
+      {
+        "raw_text": "| 3  |ETX-260831-0142-4/5 | 3215] 336413290 | Negative] 2| 6| 9/9/2026 | 10:45:55 AM |",
+        "y_range": [
+          439,
+          469
+        ]
+      },
+      {
+        "raw_text": "| 4 | ETX~-260901-0040-4/5 | 2650 | 2689 | 2670 | Negative| 1 | 4} 9/9/2026 | 10:46:17 AM |",
+        "y_range": [
+          477,
+          515
+        ]
+      },
+      {
+        "raw_text": "| 5  |ETX-260831-0109-4/5 | 2865 | 2838 | 2852 | Negative| 0] 4] 9/9/2026 | 10:46:36 AM |",
+        "y_range": [
+          533,
+          562
+        ]
+      },
+      {
+        "raw_text": "| 6 | ETX-260901-0046-4/5 2623 | 2672 | 2648 Negative] 1 4 9/9/2026 140:47:06 AM",
+        "y_range": [
+          570,
+          609
+        ]
+      },
+      {
+        "raw_text": "| 7  |\u00a3TX-260831-0225-4/5 | 3202] 3149 | 3176 | Negative| 41] 2| 9/9/2026 | 10:47:27 AM]",
+        "y_range": [
+          627,
+          656
+        ]
+      },
+      {
+        "raw_text": "| 8  |ETX-260831-0108-4/5 | 3530 | 3672 | 3601 | Negative| 2 | 3] 9/9/2026 | 10:47:48 AM]",
+        "y_range": [
+          674,
+          704
+        ]
+      },
+      {
+        "raw_text": "oy",
+        "y_range": [
+          1593,
+          1625
+        ]
+      },
+      {
+        "raw_text": "\u2014 CRN",
+        "y_range": [
+          1641,
+          1666
+        ]
+      },
+      {
+        "raw_text": "rn (~",
+        "y_range": [
+          1737,
+          1766
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 32,
+    "wl_name": "090926-2011.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011.wkl",
+        "y_range": [
+          19,
+          56
+        ]
+      },
+      {
+        "raw_text": "| Batch: D | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          104,
+          136
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:40:46 AM | Analyst: cdu |",
+        "y_range": [
+          170,
+          196
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 26986.5 | Positive Cut-off: 26986.5 | |",
+        "y_range": [
+          235,
+          261
+        ]
+      },
+      {
+        "raw_text": "| 1 | FTM,MF,-ve control-ES | 8695] 9296 | 8996] Cal OK } 3] 5} 9/9/2026 | 10:48:18 AM |",
+        "y_range": [
+          364,
+          392
+        ]
+      },
+      {
+        "raw_text": "| 2 ETX-260831-0144-4/5 | 94421 9340 | 9391] Negative| 1] 4} 9/9/2026 | 10:48:39 AM |",
+        "y_range": [
+          412,
+          440
+        ]
+      },
+      {
+        "raw_text": "| 3 ETX-260831-0142-4/5 | 76711 7714] 7693] Negative| 0] 4} 9/9/2026 | 10:49:00 AM |",
+        "y_range": [
+          459,
+          487
+        ]
+      },
+      {
+        "raw_text": "| 4 ETX-260901-0040-4/5 | 4440 | 4639 | 4540] Negative] 2| 5] 9/9/2026 | 10:49:18 AM]",
+        "y_range": [
+          505,
+          534
+        ]
+      },
+      {
+        "raw_text": "| 5 | ETX-260831-0109-4/5 | 8210] 8448 | 8329] Negative] 1] 5| 9/9/2026 | 10:49:40 AM |",
+        "y_range": [
+          553,
+          581
+        ]
+      },
+      {
+        "raw_text": "| 6 | ETX-260901-0046-4/5 | 4777 | 4920 | 4849] Negative | 4] 4] 9/9/2026 | 10:50:11 AM]",
+        "y_range": [
+          599,
+          627
+        ]
+      },
+      {
+        "raw_text": "| 7 +|ETX-260831-0225-4/5 | 5864} 5711 |5788]| Negative | 1] 5) 9/9/2026 | 10:50:31 AM]",
+        "y_range": [
+          647,
+          675
+        ]
+      },
+      {
+        "raw_text": "| 8 | ETX-260831-0108-4/5 | 4542] 4611 | 4577] Negative | 1| 8] 9/9/2026 | 10:50:49 AM |",
+        "y_range": [
+          693,
+          721
+        ]
+      },
+      {
+        "raw_text": "ow",
+        "y_range": [
+          1623,
+          1640
+        ]
+      },
+      {
+        "raw_text": "(a",
+        "y_range": [
+          1784,
+          1831
+        ]
+      },
+      {
+        "raw_text": "TAS oe",
+        "y_range": [
+          1892,
+          1921
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 33,
+    "wl_name": "090926-201 1.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011.wkl",
+        "y_range": [
+          15,
+          51
+        ]
+      },
+      {
+        "raw_text": "| Batch: E | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          102,
+          133
+        ]
+      },
+      {
+        "raw_text": "1 Assay Date/Time: 9/9/2026 9:40:46 AM | Analyst: cdu |",
+        "y_range": [
+          167,
+          192
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 6756.0 | Positive Cut-off: 6756.0 | |",
+        "y_range": [
+          232,
+          257
+        ]
+      },
+      {
+        "raw_text": "| 1 | TSB,Di,-ve control-ES} 2014 | 2490 | 2252] Cal OK | 11 3] 9/9/2026 | 10:51:26 AM]",
+        "y_range": [
+          362,
+          389
+        ]
+      },
+      {
+        "raw_text": "| 2  |ETX-260901-0557-(1 | 935] 956] 946 | Negative 4 4] 9/9/2026 | 10:51:45 AM]",
+        "y_range": [
+          409,
+          436
+        ]
+      },
+      {
+        "raw_text": "| 3 | ETX-260901-0557-(2 | 946] 928) 937 | Negative] 1] 5] 9/9/2026 | 10:52:04 AM |",
+        "y_range": [
+          457,
+          489
+        ]
+      },
+      {
+        "raw_text": "CO",
+        "y_range": [
+          1592,
+          1619
+        ]
+      },
+      {
+        "raw_text": "Fon Valle",
+        "y_range": [
+          1725,
+          1745
+        ]
+      },
+      {
+        "raw_text": "ge",
+        "y_range": [
+          1811,
+          1828
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 34,
+    "wl_name": "090926-2011.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011.wkl",
+        "y_range": [
+          18,
+          53
+        ]
+      },
+      {
+        "raw_text": "| Batch: F | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          103,
+          136
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 9:40:46 AM | Analyst: cdu }",
+        "y_range": [
+          169,
+          195
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 24906.0 | Positive Cut-off: 24906.0 | |",
+        "y_range": [
+          234,
+          262
+        ]
+      },
+      {
+        "raw_text": "| 1 |FTMDI,-ve control-ES} 8096 | 8508 | 8302| Cal OK 2 4| 9/9/2026 | 10:52:41 AM]",
+        "y_range": [
+          364,
+          392
+        ]
+      },
+      {
+        "raw_text": "| 2  |ETX-260901-0557-(1 | 2588 | 2612 | 2600 | Negative | 0 3] 9/9/2026 | 10:53:08 AM]",
+        "y_range": [
+          412,
+          444
+        ]
+      },
+      {
+        "raw_text": "| 3  |ETX-260901-0557-(2 | 2166] 2154 | 2160 | Negative] 0 5| 9/9/2026 | 10:53:26 AM]",
+        "y_range": [
+          458,
+          486
+        ]
+      },
+      {
+        "raw_text": "aw",
+        "y_range": [
+          1606,
+          1624
+        ]
+      },
+      {
+        "raw_text": "HK",
+        "y_range": [
+          1692,
+          1710
+        ]
+      },
+      {
+        "raw_text": "Owe",
+        "y_range": [
+          1773,
+          1793
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 35,
+    "wl_name": "090926-2011-2.wkl",
+    "batch": "A",
+    "assay_name": "AMPiScreen Health Assay",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011-2.wkl",
+        "y_range": [
+          4,
+          41
+        ]
+      },
+      {
+        "raw_text": "| Batch: A | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.8 |",
+        "y_range": [
+          90,
+          122
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 11:16:19 AM | Analyst: cdu |",
+        "y_range": [
+          155,
+          182
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 8650.5 | Positive Cut-off: 8650.5 | |",
+        "y_range": [
+          220,
+          246
+        ]
+      },
+      {
+        "raw_text": "| 1 | TSB,DI,-ve control-AOD| 2890 | 2877 | 2884 | Cal OK 0 3] 9/9/2026 | 12:03:22 PM]",
+        "y_range": [
+          352,
+          379
+        ]
+      },
+      {
+        "raw_text": "| 2  |ETX-260901-0670-(1 1057 | 1047 | 1052 | Negative | 0 4| 9/9/2026 | 12:03:46 PM }",
+        "y_range": [
+          398,
+          426
+        ]
+      },
+      {
+        "raw_text": "i 3 ETX-260901 -0670-(2 1248 | 111411181] Negative! 6 4| 9/9/2026 | 12:04:15 PM }",
+        "y_range": [
+          445,
+          472
+        ]
+      },
+      {
+        "raw_text": "| 4  |ETX-260901-0670-3 | 1202] 1127 ]1165] Negative] 3) 5] 9/9/2026 | 12:04:36 PM }",
+        "y_range": [
+          492,
+          520
+        ]
+      },
+      {
+        "raw_text": "| 5  |{ETX-260901-0670-(4 | 1121/ 978] 1050] Negative} 7] 3] 9/9/2026 | 12:05:01 PM }",
+        "y_range": [
+          539,
+          567
+        ]
+      },
+      {
+        "raw_text": "| 6 | ETX-260901-0670-(5 | 1039 | 1118 | 1079 | Negative 4| 4} 9/9/2026 | 12:05:28 PM]",
+        "y_range": [
+          585,
+          619
+        ]
+      },
+      {
+        "raw_text": "| 7  |ETX-260901-0670-(6 | 1287] 1253] 1270| Negative 1] 4| 9/9/2026 | 12:05:47 PM |",
+        "y_range": [
+          633,
+          661
+        ]
+      },
+      {
+        "raw_text": "| 8 ETX-260901-0670-(7 | 1031] 998] 1015| Negative 2 5| 9/9/2026 | 12:06:10 PM }",
+        "y_range": [
+          680,
+          708
+        ]
+      },
+      {
+        "raw_text": "| 9 ETX-260901-0670-(8 | 1322 | 1205 j 1264] Negative 5 4) 9/9/2026 | 12:06:34 PM |",
+        "y_range": [
+          727,
+          760
+        ]
+      },
+      {
+        "raw_text": "| 10 |ETX-260901-0670-(9 | 1314] 1177| 1246] Negative 5 2{ 9/9/2026 | 12:06:54 PM }",
+        "y_range": [
+          774,
+          801
+        ]
+      },
+      {
+        "raw_text": "|} 11. |ETX-260901-0670-(10 | 1265] 1200 | 1233] Negative 3 2} 9/9/2026 | 12:07:15 PM |",
+        "y_range": [
+          822,
+          854
+        ]
+      },
+      {
+        "raw_text": "|} 12 |ETX-260901-0620-(1 | 1108) 1168] 1138] Negative] 3 3| 9/9/2026 | 12:07:45 PM |",
+        "y_range": [
+          868,
+          901
+        ]
+      },
+      {
+        "raw_text": "{ 13 |ETX-260901-0620-(2 | 1064] 1001 | 1033] Negative| 3 4| 9/9/2026 | 12:08:04 PM |",
+        "y_range": [
+          915,
+          942
+        ]
+      },
+      {
+        "raw_text": "| 14 |ETX-260901-0620-(3 | 1437] 1413] 1425] Negative] 1 4] 9/9/2026 | 12:08:24 PM]",
+        "y_range": [
+          962,
+          990
+        ]
+      },
+      {
+        "raw_text": "| 15 |ETX-260901-0620-(4 1010] 1127 | 1069] Negative] 5 4| 9/9/2026 | 12:08:45 PM]",
+        "y_range": [
+          1009,
+          1036
+        ]
+      },
+      {
+        "raw_text": "| 16  |ETX-260901-0620-(5 1158 | 1026 | 1092 | Negative| 6 5| 9/9/2026 | 12:09:05 PM}",
+        "y_range": [
+          1056,
+          1084
+        ]
+      },
+      {
+        "raw_text": "| 17 |ETX-260801-0620-(6 | 1151] 1153]1152] Negative] 0| 4| 9/9/2026 | 12:09:24 PM}",
+        "y_range": [
+          1103,
+          1130
+        ]
+      },
+      {
+        "raw_text": "} 18 |ETX-260801-0620-(7 | 821] 932] 877|Negative) 6! 6] 9/9/2026 | 12:09:44 PM]",
+        "y_range": [
+          1149,
+          1183
+        ]
+      },
+      {
+        "raw_text": "} 19 |ETX-260901-0620-(8 | 1080] 1196 | 1138 | Negative 5 2} 9/9/2026 | 12:10:05 PM",
+        "y_range": [
+          1197,
+          1230
+        ]
+      },
+      {
+        "raw_text": "} 20 |ETX-260901-0620-(9 | 1123] 1030} 1077 | Negative] 4] 4] 9/9/2026 | 12:10:24 PM]",
+        "y_range": [
+          1244,
+          1276
+        ]
+      },
+      {
+        "raw_text": "] 21 ETX-260901-0620-(10 | 1071 | 1048 | 1060 Negative | 1 | 4| 9/9/2026 | 12:10:44 PM]",
+        "y_range": [
+          1291,
+          1324
+        ]
+      },
+      {
+        "raw_text": "} 22  |ETX-260901-0392-(1 | 1160] 1081 | 1121] Negative] 4| 3] 9/9/2026 | 12:11:04 PM]",
+        "y_range": [
+          1338,
+          1370
+        ]
+      },
+      {
+        "raw_text": "} 23 |ETX-260901-0392-(2 | 1289] 1217/1253|Negative! 3] 4] 9/9/2026 | 12:11:25 PM]",
+        "y_range": [
+          1385,
+          1418
+        ]
+      },
+      {
+        "raw_text": "| 24 |ETX-260901-0392-(3 | 1073] 971] 1022] Negative! 5 | 4| 9/9/2026 | 12:11:45 PM]",
+        "y_range": [
+          1432,
+          1459
+        ]
+      },
+      {
+        "raw_text": "} 25 ETX-260901-0392-(4 | 1249} 1161 | 1205] Negative] 4| 3] 9/9/2026 | 12:12:05 PM]",
+        "y_range": [
+          1479,
+          1506
+        ]
+      },
+      {
+        "raw_text": "} 26 |ETX-260901-0392-(5 | 1011] 1112]1062|Negative) 5! 6] 9/9/2026 | 12:12:25 PM]",
+        "y_range": [
+          1526,
+          1558
+        ]
+      },
+      {
+        "raw_text": "| 27 {ETX-260901-0392-(6 | 1210] 1098] 1154] Negative 5 2\\| 9/9/2026 | 12:12:44 PM",
+        "y_range": [
+          1573,
+          1600
+        ]
+      },
+      {
+        "raw_text": "| 28 | ETX~-26090 1-0392-(7 1204 | 1269 | 1237 Negative| 3| 4] 9/9/2026 | 12:13:04 PM }",
+        "y_range": [
+          1619,
+          1653
+        ]
+      },
+      {
+        "raw_text": "| 29 |ETX-260901-0392-(8 1168 | 1226 | 1197] Negative] 2| 3] 9/9/2026 | 12:13:23 PM]",
+        "y_range": [
+          1667,
+          1694
+        ]
+      },
+      {
+        "raw_text": "| 30 |ETX-260901-0392-(9 1134] 1029 | 1082] Negative] 5 | 4| 9/9/2026 | 12:13:47 PM }",
+        "y_range": [
+          1714,
+          1741
+        ]
+      },
+      {
+        "raw_text": "| 31 | ETX-260901-0392-(10 1281 | 2067 | 1674 Negative | 23 | 3 | 9/9/2026 | 12:14:06 PM |",
+        "y_range": [
+          1761,
+          1794
+        ]
+      },
+      {
+        "raw_text": "a a eee",
+        "y_range": [
+          1866,
+          2044
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 36,
+    "wl_name": "090926-2011-2.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011-2.wkl",
+        "y_range": [
+          17,
+          53
+        ]
+      },
+      {
+        "raw_text": "| Batch: B | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.8 |",
+        "y_range": [
+          103,
+          135
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 11:16:19 AM | Analyst: cdu |",
+        "y_range": [
+          168,
+          197
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 16453.5 | Positive Cut-off: 16453.5 | |",
+        "y_range": [
+          233,
+          259
+        ]
+      },
+      {
+        "raw_text": "| 1 |FTM,DI,-ve control-AOD| 5472 | 5497 | 5485 | Cal OK 0 41 9/9/2026 | 12:14:42 PM",
+        "y_range": [
+          363,
+          391
+        ]
+      },
+      {
+        "raw_text": "| 2 | ETX-260901-0670-(1 | 2215 | 2010 }2113 i Negative | 5 5 | 9/9/2026 | 12:15:04 PM]",
+        "y_range": [
+          410,
+          443
+        ]
+      },
+      {
+        "raw_text": "| 3  |ETX-260901-0670-(2 | 2394] 2029 | 2212| Negative] 8] 4] 9/9/2026 | 12:15:23 PM]",
+        "y_range": [
+          458,
+          486
+        ]
+      },
+      {
+        "raw_text": "| 4  |ETX-260901-0670-(3 | 2495] 2742 | 2619| Negative} 5] 4] 9/9/2026 | 12:15:43 PM]",
+        "y_range": [
+          504,
+          532
+        ]
+      },
+      {
+        "raw_text": "| 5  |ETX-260901-0670-(4 | 2532] 2089 | 2311 | Negative 10] 6] 9/9/2026 | 12:16:07 PM]",
+        "y_range": [
+          552,
+          580
+        ]
+      },
+      {
+        "raw_text": "| 6  |ETX-260901-0670-(5 | 2477] 2603 | 2540 | Negative 2) 4] 9/9/2026 | 12:16:32 PM |",
+        "y_range": [
+          598,
+          626
+        ]
+      },
+      {
+        "raw_text": "| 7 ~~ +|ETX-260901-0670-(6 | 2198! 1932 | 2065] Negative 6] 5] 9/9/2026 | 12:16:55 PM |",
+        "y_range": [
+          645,
+          674
+        ]
+      },
+      {
+        "raw_text": "| 8  |ETX-260901-0670-(7 | 2133] 2065 | 2099 | Negative 2| 4] 9/9/2026 | 12:17:14PM]",
+        "y_range": [
+          692,
+          720
+        ]
+      },
+      {
+        "raw_text": "1 9 |ETX-260901-0670-(8 2549 | 2082 | 2316 | Negative] 10 | 4] 9/9/2026 | 12:17:34 PM |",
+        "y_range": [
+          739,
+          767
+        ]
+      },
+      {
+        "raw_text": "} 10 | ETX-260901-0670-(9 | 2545] 2722 | 2634 | Negative| 3] 5| 9/9/2026 | 12:17:54 PM |",
+        "y_range": [
+          787,
+          814
+        ]
+      },
+      {
+        "raw_text": "} 11 ETX-260901-0670-(10 | 2212] 2488 | 2350 | Negative] 6 | 6] 9/9/2026 | 12:18:14 PM}",
+        "y_range": [
+          833,
+          861
+        ]
+      },
+      {
+        "raw_text": "} 12 |ETX-260901-0620-(1 2818 | 2633 | 2726 | Negative | 3 | 7| 9/9/2026 | 12:18:35 PM }",
+        "y_range": [
+          880,
+          907
+        ]
+      },
+      {
+        "raw_text": "} 13  |ETX-260901-0620-(2 | 2548] 2299 | 2424 | Negative] 5 | 6] 9/9/2026 | 12:18:55 PM }",
+        "y_range": [
+          928,
+          955
+        ]
+      },
+      {
+        "raw_text": "} 14 |ETX-260901-0620-(3 | 2132] 2107 | 2120 | Negative| 1] 5] 9/9/2026 | 12:19:14 PM |",
+        "y_range": [
+          974,
+          1002
+        ]
+      },
+      {
+        "raw_text": "} 15 |ETX-260901-0620-(4 | 1932] 1443/1688] Negative| 14] 5] 9/9/2026 | 12:19:52 PM |",
+        "y_range": [
+          1022,
+          1050
+        ]
+      },
+      {
+        "raw_text": "| 16 |ETX-260901-0620-(5 | 1763] 1781 11772|Negative| 4] 4| 9/9/2026 | 12:20:13PM]",
+        "y_range": [
+          1068,
+          1096
+        ]
+      },
+      {
+        "raw_text": "} 17 |ETX-260901-0620-(6 | 2121] 1906 | 2014] Negative] 5] 4] 9/9/2026 | 12:20:40 PM]",
+        "y_range": [
+          1116,
+          1144
+        ]
+      },
+      {
+        "raw_text": "} 18 |ETX-260901-0620-(7 | 2260] 1991 | 2126 | Negative] 6 5] 9/9/2026 | 12:21:01 PM |",
+        "y_range": [
+          1162,
+          1190
+        ]
+      },
+      {
+        "raw_text": "} 19 |ETX-260901-0620-(8 | 1879| 2169 | 2024 | Negative 7 6] 9/9/2026 | 12:21:21 PM",
+        "y_range": [
+          1209,
+          1238
+        ]
+      },
+      {
+        "raw_text": "| 20 |ETX-260901-0620-(9 2528 | 2601 | 2565 | Negative| 1 4| 9/9/2026 | 12:21:49 PM]",
+        "y_range": [
+          1256,
+          1284
+        ]
+      },
+      {
+        "raw_text": "} 21  |}|ETX-260901-0620-(10 | 1947] 1715] 1831 | Negative | 6 6| 9/9/2026 | 12:22:12 PM]",
+        "y_range": [
+          1303,
+          1331
+        ]
+      },
+      {
+        "raw_text": "| 22 |ETX-260901-0392-(1 | 2130! 2220 | 2175]! Negative | 2 6| 9/9/2026 | 12:22:39 PM |",
+        "y_range": [
+          1351,
+          1378
+        ]
+      },
+      {
+        "raw_text": "1 23 |\u00a3ETX-260901-0392-(2 2303 | 2352 | 2328 | Negative! 1 7] 9/9/2026 | 12:23:07 PM |",
+        "y_range": [
+          1397,
+          1425
+        ]
+      },
+      {
+        "raw_text": "} 24 |ETX-260901-0392-(3 2418 | 2180 | 2299 | Negative | 5 4| 9/9/2026 | 12:23:24 PM |",
+        "y_range": [
+          1444,
+          1472
+        ]
+      },
+      {
+        "raw_text": "| 25 |ETX-260901-0392-(4 | 2929] 3041 | 2985 | Negative} 2 4| 9/9/2026 | 12:23:52 PM |",
+        "y_range": [
+          1492,
+          1519
+        ]
+      },
+      {
+        "raw_text": "| 26 |ETX-260901-0392-(5 | 2193] 2212 | 2203] Negative! 0 4| 9/9/2026 | 12:24:15 PM]",
+        "y_range": [
+          1538,
+          1566
+        ]
+      },
+      {
+        "raw_text": "| 27 |ETX-260901-0392-(6 | 2058] 1990 | 2024 | Negative} 2 5] 9/9/2026 | 12:24:36 PM |",
+        "y_range": [
+          1586,
+          1614
+        ]
+      },
+      {
+        "raw_text": "| 28 |ETX-260901-0392-(7 | 2468] 2540 | 2504 | Negative 1 4] 9/9/2026 | 12:24:55 PM",
+        "y_range": [
+          1632,
+          1661
+        ]
+      },
+      {
+        "raw_text": "| 29 |ETX-260901-0392-(8 | 2119] 2155 | 2137 | Negative 1 Al} 9/9/2026 | 12:25:14 PM]",
+        "y_range": [
+          1679,
+          1713
+        ]
+      },
+      {
+        "raw_text": "| 30 |ETX-260901-0392-9 | 1947] 1761] 1854| Negative 5 5] 9/9/2026 | 12:25:34 PM |",
+        "y_range": [
+          1726,
+          1755
+        ]
+      },
+      {
+        "raw_text": "} 31 | ETX-260901-0392-(10 | 2472] 2138 | 2305 | Negative 7 6] 9/9/2026 | 12:25:54 PM |",
+        "y_range": [
+          1773,
+          1806
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 37,
+    "wl_name": "090926-2011-2.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011-2.wkl",
+        "y_range": [
+          19,
+          56
+        ]
+      },
+      {
+        "raw_text": "| Batch: Cc | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.8 |",
+        "y_range": [
+          105,
+          139
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 11:16:19 AM | Analyst: cdu |",
+        "y_range": [
+          170,
+          201
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 5761.5 | Positive Cut-off: 5761.5 | |",
+        "y_range": [
+          235,
+          262
+        ]
+      },
+      {
+        "raw_text": "| 1 | FTM,-ve control | 1920] 1921 | 1921] Cal OK 0 5| 9/9/2026 | 12:26:24 PM |",
+        "y_range": [
+          367,
+          395
+        ]
+      },
+      {
+        "raw_text": "} 2. |ETX-260902-0813-(1 | 2062] 2103 | 2083] Negative 4] A}! 9/9/2026 | 12:26:43 PM]",
+        "y_range": [
+          413,
+          442
+        ]
+      },
+      {
+        "raw_text": "| 3 |ETX-260902-0813-(2 | 2071 | 2055 | 2063| Negative Oo} 5| 9/9/2026 | 12:27:04 PM |",
+        "y_range": [
+          460,
+          490
+        ]
+      },
+      {
+        "raw_text": "|} 4 ETX-260902-0813-(3 | 2165] 2194 | 2180] Negative 1] 3] 9/9/2026 | 12:27:23 PM]",
+        "y_range": [
+          507,
+          536
+        ]
+      },
+      {
+        "raw_text": "| 5  |ETX-260902-0813-(4 | 1929] 2058 | 1994 | Negative; 3| 4} 9/9/2026 | 12:27:44 PM]",
+        "y_range": [
+          554,
+          588
+        ]
+      },
+      {
+        "raw_text": "| 6 =| ETX-260902-0813-(5 | 2125 | 2277 | 2201 | Negative| 3] 3] 9/9/2026 | 12:28:04 PM |",
+        "y_range": [
+          602,
+          630
+        ]
+      },
+      {
+        "raw_text": "| 7 ~~ | ETX-260902-0813-(6 | 2140] 2225 | 2183 | Negative 2] 3] 9/9/2026 | 12:28:24 PM]",
+        "y_range": [
+          648,
+          677
+        ]
+      },
+      {
+        "raw_text": "| 8 |} ETX-260902-0813-(7 | 2217] 2061 | 2139 | Negative 4] 7) 9/9/2026 | 12:28:45 PM]",
+        "y_range": [
+          695,
+          724
+        ]
+      },
+      {
+        "raw_text": "|} 9  |ETX-260902-0813-(8 | 1850| 1946 | 1898 | Negative 3] 4| 9/9/2026 | 12:29:04 PM}",
+        "y_range": [
+          743,
+          771
+        ]
+      },
+      {
+        "raw_text": "} 10 | ETX-260902-0813-(9 | 2011] 1948] 1980] Negative 2 6] 9/9/2026 | 12:29:24 PM }",
+        "y_range": [
+          789,
+          819
+        ]
+      },
+      {
+        "raw_text": "} 11 |ETX-260902-0813-(1 | 2042] 2059 | 2051 | Negative 0 4] 9/9/2026 | 12:29:44 PM }",
+        "y_range": [
+          837,
+          866
+        ]
+      },
+      {
+        "raw_text": "} 12 |ETX-260902-0813-(1 | 2295 | 2250 | 2273) Negative) 1 6] 9/9/2026 | 12:30:04 PM |",
+        "y_range": [
+          883,
+          912
+        ]
+      },
+      {
+        "raw_text": "} 13  |ETX-260902-0813-(1 | 2092 | 2157 | 2125] Negative] 2 5] 9/9/2026 | 12:30:24 PM |",
+        "y_range": [
+          930,
+          960
+        ]
+      },
+      {
+        "raw_text": "Cane",
+        "y_range": [
+          1706,
+          1736
+        ]
+      },
+      {
+        "raw_text": "Pa, eae -",
+        "y_range": [
+          1743,
+          1774
+        ]
+      },
+      {
+        "raw_text": "Ap oe",
+        "y_range": [
+          1902,
+          1933
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 38,
+    "wl_name": "090926-2011-3.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011-3.wkl",
+        "y_range": [
+          23,
+          60
+        ]
+      },
+      {
+        "raw_text": "] Batch: A | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          107,
+          140
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 1:53:02 PM | Analyst: cdu }",
+        "y_range": [
+          174,
+          200
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 2086.5 | Positive Cut-off: 2086.5 | }",
+        "y_range": [
+          239,
+          265
+        ]
+      },
+      {
+        "raw_text": "| 1. |TSB,DI-ve control-ES| 683] 708] 696}CalOK | 2) 4] 9/9/2026 | 2:40:31 PM |",
+        "y_range": [
+          368,
+          396
+        ]
+      },
+      {
+        "raw_text": "| 2 | ETX-260901-0265-(1 | 235 | 238 | 237 | Negative] 1 | 4) 9/9/2026 | 2:40:52 PM |",
+        "y_range": [
+          414,
+          448
+        ]
+      },
+      {
+        "raw_text": "| 3 ETX-260901-0265-(2 | 261 | 232 | 247 | Negative] 6} 4| 9/9/2026 | 2:41:13 PM |",
+        "y_range": [
+          462,
+          495
+        ]
+      },
+      {
+        "raw_text": "} 4 ETX-260901-0265-(3 | 265| 224] 245 | Negative] 8] 3] 9/9/2026 | 2:41:37 PM]",
+        "y_range": [
+          508,
+          537
+        ]
+      },
+      {
+        "raw_text": "] 5 ETX-260901-0265-(4 | 247] 260] 254 | Negative 3| 4| 9/9/2026 | 2:41:58 PM |",
+        "y_range": [
+          555,
+          585
+        ]
+      },
+      {
+        "raw_text": "} 6 ETX-260901-0649-(1 | 266| 241] 254 | Negative 5] 4} 9/9/2026 | 2:42:27 PM]",
+        "y_range": [
+          603,
+          631
+        ]
+      },
+      {
+        "raw_text": "| 7 ETX-260901-0649-(2 | 263] 256] 260 | Negative 44 3} 9/9/2026 | 2:42:48 PM]",
+        "y_range": [
+          650,
+          679
+        ]
+      },
+      {
+        "raw_text": "} 8 ETX-260901-0649-(3 | 272] 248] 260 | Negative 5 4] 9/9/2026 } 2:43:08 PM j",
+        "y_range": [
+          697,
+          726
+        ]
+      },
+      {
+        "raw_text": "} 9 ETX-260901-0649-(4 | 266| 301] 284 | Negative 6 4| 9/9/2026 | 2:43:27 PM |",
+        "y_range": [
+          744,
+          772
+        ]
+      },
+      {
+        "raw_text": "} 10 ETX-260901-0075-(1 | 255] 232] 244 | Negative 5 4} 9/9/2026 | 2:43:48 PM}",
+        "y_range": [
+          790,
+          820
+        ]
+      },
+      {
+        "raw_text": "| 11 |ETX-260901-0075-(2 | 266] 233] 250] Negative 7 4] 9/9/2026 | 2:44:07 PM }",
+        "y_range": [
+          838,
+          866
+        ]
+      },
+      {
+        "raw_text": "} 12 ETX-260901-0075-(3 | 237] 217] 227 | Negative 4 5| 9/9/2026 | 2:44:27 PM |",
+        "y_range": [
+          884,
+          914
+        ]
+      },
+      {
+        "raw_text": "} 13 ETX-260901-0075-(4 | 238] 215] 227 | Negative 5 4] 9/9/2026 | 2:44:47 PM]",
+        "y_range": [
+          932,
+          961
+        ]
+      },
+      {
+        "raw_text": "| 14 |ETX-260901-0666-(1 | 240] 234] 237 | Negative 1 3] 9/9/2026 | 2:45:07 PM |",
+        "y_range": [
+          979,
+          1007
+        ]
+      },
+      {
+        "raw_text": "| 15 ETX-260901-0666-(2 ] 251 | 232 | 242 | Negative 4} 4) 9/9/2026 | 2:45:27 PM |",
+        "y_range": [
+          1026,
+          1059
+        ]
+      },
+      {
+        "raw_text": "| 16 |ETX-260901-0666-(3 | 231] 233] 232 | Negative 0} 5] 9/9/2026 | 2:45:47 PM]",
+        "y_range": [
+          1073,
+          1106
+        ]
+      },
+      {
+        "raw_text": "| 17 ETX-260901-0666-(4 | 243 | 225 | 234 | Negative 4 | 4| 9/9/2026 | 2:46:08 PM |",
+        "y_range": [
+          1119,
+          1150
+        ]
+      },
+      {
+        "raw_text": "} 18 |ETX-260901-0398-(1 | 242] 233] 238 | Negative 2 | 5| 9/9/2026 | 2:46:28 PM |",
+        "y_range": [
+          1167,
+          1196
+        ]
+      },
+      {
+        "raw_text": "| 19 |ETX-260901-0398-(2 | 252] 221| 237 | Negative| 7 | 3} 9/9/2026 | 2:46:47 PM |",
+        "y_range": [
+          1214,
+          1243
+        ]
+      },
+      {
+        "raw_text": "{| 20 | ETX-260901-0398-(3 | 206] 222] 214|Negative; \u00a7 4 6} 9/9/2026 | 2:47:07 PM}",
+        "y_range": [
+          1261,
+          1294
+        ]
+      },
+      {
+        "raw_text": "{ 21  #|ETX-260901-0398-(4 | 258] 256] 257 | Negative] 0 3] 9/9/2026 | 2:47:27 PM |",
+        "y_range": [
+          1308,
+          1336
+        ]
+      },
+      {
+        "raw_text": "| 22 ETX-260901-0365-(1 237 248 | 243 Negative | 2 4] 9/9/2026 | 2:47:47 PM J",
+        "y_range": [
+          1354,
+          1385
+        ]
+      },
+      {
+        "raw_text": "{ 23 |ETX-260901-0365-(2 | 238] 217] 228 | Negative 5} 5| 9/9/2026 | 2:48:08 PM]",
+        "y_range": [
+          1402,
+          1430
+        ]
+      },
+      {
+        "raw_text": "| 24 ETX-260901-0365-(3 | 260 250 | 255 | Negative 2} 3] 9/9/2026 | 2:48:27 PM]",
+        "y_range": [
+          1448,
+          1481
+        ]
+      },
+      {
+        "raw_text": "| 25 ETX-260901-0365-(4 j 272 | 290 | 281 | Negative 3] 5] 9/9/2026 | 2:48:50 PM |",
+        "y_range": [
+          1496,
+          1529
+        ]
+      },
+      {
+        "raw_text": "| 26  |ETX-260901-0681-(1 | 250] 236] 243 | Negative 3] 4] 9/9/2026 | 2:49:10 PM]",
+        "y_range": [
+          1543,
+          1571
+        ]
+      },
+      {
+        "raw_text": "| 27 |ETX-260901-0681-(2 | 272| 245] 259 | Negative 5] 4| 9/9/2026 | 2:49:32 PM]",
+        "y_range": [
+          1589,
+          1620
+        ]
+      },
+      {
+        "raw_text": "| 28 |ETX-260901-0681-(3 | 239] 253] 246 | Negative 3] 5| 9/9/2026 | 2:49:55 PM |",
+        "y_range": [
+          1637,
+          1666
+        ]
+      },
+      {
+        "raw_text": "| 29 | ETX-260901-0283-(1 233 | 235 | 234 | Negative | 0 | 6 | 9/9/2026 | 2:50:17 PM |",
+        "y_range": [
+          1683,
+          1716
+        ]
+      },
+      {
+        "raw_text": "} 30 |ETX-260901-0283-(2 | 292{ 307] 300 | Negative] 3] 4] 9/9/2026 | 2:50:44 PM]",
+        "y_range": [
+          1731,
+          1760
+        ]
+      },
+      {
+        "raw_text": "{ 31 |ETX-260901-0283-(3 | 187] 217] 202 | Negative] 7) 6| 9/9/2026 | 2:51:02 PM |",
+        "y_range": [
+          1778,
+          1806
+        ]
+      },
+      {
+        "raw_text": "} 32 |ETX-260901-0283-(4 | 264] 267] 266 | Negative] 1 5| 9/9/2026 | 2:51:27 PM]",
+        "y_range": [
+          1824,
+          1854
+        ]
+      },
+      {
+        "raw_text": "{ 33 |ETX-260901-0469-(1 | 233] 223] 228 | Negative] 2 4] 9/9/2026 | 2:51:52 PM |",
+        "y_range": [
+          1872,
+          1905
+        ]
+      },
+      {
+        "raw_text": "] 34 | ETX-260901-0469-(2 | 244 | 237 | 241 | Negative] 1 3| 9/9/2026 | 2:52:17 PM]",
+        "y_range": [
+          1918,
+          1953
+        ]
+      },
+      {
+        "raw_text": "{ 35 |ETX-260901-0469-(3 | 238] 199] 219 | Negative] 9] 4) 9/9/2026 | 2:52:37 PM]",
+        "y_range": [
+          1966,
+          1995
+        ]
+      },
+      {
+        "raw_text": "|} 36  |ETX-260901-0469-(4 | 234] 239] 237 | Negative} 1| 4} 9/9/2026 | 2:52:58 PM |",
+        "y_range": [
+          2013,
+          2046
+        ]
+      }
+    ]
+  },
+  {
+    "page_num": 39,
+    "wl_name": "090926-2011-3.wkl",
+    "batch": "",
+    "assay_name": "",
+    "neg_cutoff": null,
+    "pos_cutoff": null,
+    "rows": [
+      {
+        "raw_text": "Workload Report: 090926-2011-3.wkl",
+        "y_range": [
+          23,
+          58
+        ]
+      },
+      {
+        "raw_text": "| Batch: B | Assay Name: AMPiScreen Health Assay | Instrument Type: Advance 2 | Start Temperature: 19.6 |",
+        "y_range": [
+          108,
+          140
+        ]
+      },
+      {
+        "raw_text": "| Assay Date/Time: 9/9/2026 1:53:02 PM | Analyst: cdu |",
+        "y_range": [
+          174,
+          202
+        ]
+      },
+      {
+        "raw_text": "| Negative Cut-off: 3846.0 | Positive Cut-off: 3846.0 | |",
+        "y_range": [
+          239,
+          265
+        ]
+      },
+      {
+        "raw_text": "| 1 | FTM,DI,-ve control-ES|} 1248] 1316 |}1282}CalOK | 3 6| 9/9/2026 | 2:53:29 PM |",
+        "y_range": [
+          369,
+          396
+        ]
+      },
+      {
+        "raw_text": "| 2 ETX-260901-0265-(1 435| 428] 432 | Negative] 1 5| 9/9/2026 | 2:53:49 PM |",
+        "y_range": [
+          415,
+          442
+        ]
+      },
+      {
+        "raw_text": "} 3  |ETX-260901-0265-(2 | 462] 435) 449/Negativel $3) 4] 9/9/2026 | 2:54:08 PMj",
+        "y_range": [
+          463,
+          496
+        ]
+      },
+      {
+        "raw_text": "| 4 | ETX-260901-0265-(3 518 | 518 | 518 Negative} 0| 6 i 9/9/2026 | 2:54:28 PM |",
+        "y_range": [
+          509,
+          542
+        ]
+      },
+      {
+        "raw_text": "} 5  |ETX-260901-0265-(4 | 421] 530] 476/Negativel 11) 5| 9/9/2026 | 2:54:50 PM |",
+        "y_range": [
+          557,
+          590
+        ]
+      },
+      {
+        "raw_text": "| 6 JETX-260901-0649-(1 572] 593]/ 583 | Negative 2! . 6] 9/9/2026 | 2:55:09 PM ]",
+        "y_range": [
+          603,
+          631
+        ]
+      },
+      {
+        "raw_text": "| 7 | ETX-260901-0649-(2 | 541 | 522 | 532 | Negative 2| 6} 9/9/2026 | 2:55:34 PM]",
+        "y_range": [
+          650,
+          683
+        ]
+      },
+      {
+        "raw_text": "|} 8  |ETX-260901-0649-(3 | 520] 460] 490 | Negative 6 | 5} 9/9/2026 | 2:55:59 PM |",
+        "y_range": [
+          698,
+          731
+        ]
+      },
+      {
+        "raw_text": "| 9 JETX-260901-0649-(4 | 522] 615| 569 | Negative 8} 6} 9/9/2026 | 2:56:21 PM |",
+        "y_range": [
+          744,
+          772
+        ]
+      },
+      {
+        "raw_text": "} 10 |ETX-260901-0075-(1 | 399] 386] 393 | Negative 2 5} 9/9/2026 | 2:56:38 PM |",
+        "y_range": [
+          792,
+          821
+        ]
+      },
+      {
+        "raw_text": "} 11  |ETX-260901-0075-(2 | 580] 565] 573 | Negative 1) A} 9/9/2026 | 2:57:01 PM |",
+        "y_range": [
+          839,
+          872
+        ]
+      },
+      {
+        "raw_text": "| 12 |ETX-260901-0075-(3 | 361} 426] 394 | Negative 8 4] 9/9/2026 | 2:57:22 PM |",
+        "y_range": [
+          885,
+          912
+        ]
+      },
+      {
+        "raw_text": "| 13 |ETX-260901-0075-(4 | 522] 468] 495 | Negative 5 7| 9/9/2026 | 2:57:42 PM |",
+        "y_range": [
+          933,
+          960
+        ]
+      },
+      {
+        "raw_text": "| 14 |ETX-260901-0666-(1 | 534] 463] 499 | Negative 7] 4] 9/9/2026 | 2:58:04 PM |",
+        "y_range": [
+          979,
+          1007
+        ]
+      },
+      {
+        "raw_text": "| 15 {ETX-260901-0666-(2 | 500] 504] 502 | Negative 0 5| 9/9/2026 | 2:58:25 PM |",
+        "y_range": [
+          1027,
+          1054
+        ]
+      },
+      {
+        "raw_text": "} 16 |ETX-260901-0666-(3 | 775] 657] 716 | Negative ts} 4] 9/9/2026 | 2:58:52 PM]",
+        "y_range": [
+          1073,
+          1101
+        ]
+      },
+      {
+        "raw_text": "} 17 |ETX-260901-0666-(4 | 471] 516] 494 | Negative 5 4] 9/9/2026 | 2:59:12 PM |",
+        "y_range": [
+          1121,
+          1152
+        ]
+      },
+      {
+        "raw_text": "f 18 |ETX-260901-0398-(1 | 513! 501] 507 | Negative 1} 5] 9/9/2026 | 2:59:36 PM |",
+        "y_range": [
+          1168,
+          1195
+        ]
+      },
+      {
+        "raw_text": "| 19 | ETX-260901-0398-(2 528| 409] 469 | Negative 13 5| 9/9/2026 | 2:59:55 PM |",
+        "y_range": [
+          1214,
+          1243
+        ]
+      },
+      {
+        "raw_text": "| 20  |ETX-260901-0398-(3 | 506| 472] 489 | Negative! 31 3] 9/9/2026 | 3:00:19 PM }",
+        "y_range": [
+          1262,
+          1289
+        ]
+      },
+      {
+        "raw_text": "| 21  |ETX-260901-0398-(4 573| 505| 539 | Negativel 6 | 5] 9/9/2026 { 3:00:41 PM I",
+        "y_range": [
+          1308,
+          1336
+        ]
+      },
+      {
+        "raw_text": "} 22 |ETX-260901-0365-(1 | 525] 440] 483|Negative} 9] 6] 9/9/2026 | 3:01:00 PM}",
+        "y_range": [
+          1356,
+          1388
+        ]
+      },
+      {
+        "raw_text": "| 23 |ETX-260901-0365-(2 | 497| 497] 497 | Negative] OO} 4] 9/9/2026 | 3:01:26 PM }",
+        "y_range": [
+          1403,
+          1430
+        ]
+      },
+      {
+        "raw_text": "| 24 | ETX-260901-0365-(3 | 496}! 470] 483] Negative] 3] 5] 9/9/2026 | 3:01:48 PM }",
+        "y_range": [
+          1449,
+          1476
+        ]
+      },
+      {
+        "raw_text": "| 25 |ETX-260901-0365-(4 | 459] 529] 494 | Negative] 7\\ 6] 9/9/2026 | 3:02:15 PM }",
+        "y_range": [
+          1497,
+          1524
+        ]
+      },
+      {
+        "raw_text": "| 26 |ETX-260901-0681-(1 | 546] 512]| 529 | Negative] 3] 5] 9/9/2026 | 3:02:33 PM |",
+        "y_range": [
+          1543,
+          1571
+        ]
+      },
+      {
+        "raw_text": "} 27 |ETX-260901-0681-(2 | 527] 512/ 520 | Negative} 1/ = 6 | - 9/9/2026 | 3:02:53 PM |",
+        "y_range": [
+          1591,
+          1624
+        ]
+      },
+      {
+        "raw_text": "| 28 | ETX-260901-0681-(3 j 477 | 477 | 477 | Negative} 0} 5| 9/9/2026 | 3:03:13 PM |",
+        "y_range": [
+          1637,
+          1670
+        ]
+      },
+      {
+        "raw_text": "| 29 | ETX-260901-0283-(1 | 559 | 497 528 | Negative| ; 6] 7| 9/9/2026 | 3:03:34 PM | PM",
+        "y_range": [
+          1684,
+          1718
+        ]
+      },
+      {
+        "raw_text": "| 30  |ETX-260901-0283-(2 | 491] 452] 472 | Negative] 4}  =5]| +9/9/2026 | 3:03:53 PM |",
+        "y_range": [
+          1732,
+          1759
+        ]
+      },
+      {
+        "raw_text": "| 31 |ETX-260901-0283-(3 | 476] 497] 487 | Negative] 2| 3] 9/9/2026 | 3:04:12 PM |",
+        "y_range": [
+          1778,
+          1806
+        ]
+      },
+      {
+        "raw_text": "| 32  |ETX-260901-0283-(4 | 582] 596] 589 | Negative 1] 4| 9/9/2026 | 3:04:34 PM |",
+        "y_range": [
+          1826,
+          1853
+        ]
+      },
+      {
+        "raw_text": "| 33 | ETX-260901-0469-(1 | 510] 542] 526 | Negative| 3] 4} 9/9/2026 | 3:04:53 PM |",
+        "y_range": [
+          1873,
+          1900
+        ]
+      },
+      {
+        "raw_text": "| 34 | ETX-260901-0469-(2 | 598] 648] 623] Negative] 4| 6] 9/9/2026 | 3:05:13 PM }",
+        "y_range": [
+          1919,
+          1946
+        ]
+      },
+      {
+        "raw_text": "} 35 |ETX-260901-0469-(3 | 512} 513] 513]Negative) 0! 4! 9/9/2026 | 3:05:33 PM |",
+        "y_range": [
+          1967,
+          2000
+        ]
+      },
+      {
+        "raw_text": "| 36 | ETX-260901-0469-(4 481] 516] 499 | Negative] 4] 5| 9/9/2026 | 3:05:53 PM |",
+        "y_range": [
+          2013,
+          2041
+        ]
+      }
+    ]
+  }
+]

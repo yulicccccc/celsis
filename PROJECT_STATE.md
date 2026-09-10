@@ -51,7 +51,7 @@
 | **GC-073126-2222** | `073126-2222` | 2026-07-31 | 10 | **Validated (3-Way Match)** | Daily Control ATP 96305; TSB 992; FTM 2138; Special Suffix `0762-4/5` -> `0762` |
 | **GC-073126-2011** | `073126-2011` | 2026-07-31 | 8 | **Validated (3-Way Match)** | Daily Control ATP 112570; TSB 1033; FTM 2450; 100% Passed (CV < 30%) |
 | **GC-090426-2011** | `090426-2011` | 2026-09-04 | 8 | **Validated (3-Way Match & 8/8 Links & Full DOM Verified)** | Daily Control ATP 88987; GS (TSB 2176, FTM 7334); ES (TSB 2597, FTM 8089); 100% Passed (CV < 30%); 8/8 Links dynamically resolved; DOM field map verified |
-| **BATCH-090926** | `090926-2222` & `090926-2011` | 2026-09-09 | 39 | **Step 1 & Step 2 Validated (39/39 Links Resolved)** | 31-page dual-instrument batch; ATP 2222: 92047, ATP 2011: 95167; 38 negative samples passed; 1 sample `ETX-260901-0392` container (10) failed CV threshold (33.2% >= 30%) and physically blocked (Rule 2); 39/39 Live EagleTrax links resolved |
+| **BATCH-090926** | `090926-2222` & `090926-2011` | 2026-09-09 | 54 | **Complete Batch Processed (51 Approved + 2 Vol Errors Caught + 1 CV Cleared)** | Complete 39-page master batch containing 54 unique samples. ATP 2222: 92047, ATP 2011: 95167. 51 samples approved and verified as `[Completed]` in live LIMS. Rule 9 volume placement errors intercepted on 2 samples (`ETX-260831-0737` and `ETX-260901-0557`) and subsequently corrected by analyst. `ETX-260901-0392` confirmed 100% passing (official instrument CV Pct = 23% strictly < 30%), clearing the sample variance recalculation discrepancy. Rule 11 verified: zero samples in `Sample Analysis`. |
 
 ---
 
