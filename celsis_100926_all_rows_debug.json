@@ -1,0 +1,2222 @@
+[
+  {
+    "page": 9,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "_ Daten. Uv |, Assay Name. AWFIOCreen Medill Assay [INSIUMent lYpe. ANGvalcCe & | Olall ICMPeralure., 42U.4 1"
+  },
+  {
+    "page": 9,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} Assay Date/Time: 9/10/2026 11:25:11 AM | Analyst: cdu ]"
+  },
+  {
+    "page": 9,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 7992.0 | Positive Cut-off: 7992.0 | i"
+  },
+  {
+    "page": 9,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Sample | Product | RLU1| RLU2| RLU| Result | Read Date| Read Time | CV Pct} Bkgnd|"
+  },
+  {
+    "page": 9,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "1 1. | TSB,MF+IPM,-ve control-ES | 2608 | 2720 | 2664|Cal OK | 9/10/2026 | 12:35:57 PM} 2] 3] |"
+  },
+  {
+    "page": 9,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 2 | ETX-260901-0510-2/3 2783 | 2895 | 2839 | Negative} 9/10/2026 | 12:36:17 PM} 2] 4]"
+  },
+  {
+    "page": 9,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "coor"
+  },
+  {
+    "page": 9,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "Po !"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "maw. POsay NAMIC, PNT IOUSSI TIGA Moody | HH ISEIMIRCHL TYG. PUVAIICG & | OLAEL POMIPeraAtuIe, 2U.4\n| |"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "1 Assay Date/Time: 9/10/2026 11:25:11 AM | Analyst: cdu 1"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Negative Cut-off: 15060.0 | Positive Cut-off: 15060.0 | |"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Sample | Product | RLU1| RLU2} RLU| Result | Read Date} Read Time | CV Pct] Bkgnd]"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 1 FTM,MF+IPM,-ve control-ES | 4980 } 5060 | 5020} Cal OK | 9/10/2026 | 12:36:47 PM 1 4]"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 2 | ETX-260901-0510-2/3 | 5211] 5513 | 5362 | Negative} 9/10/2026 | 12:37:07 PM| 3] BE"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "GR"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "\\O~ i"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "nO\u201d"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "V7 H"
+  },
+  {
+    "page": 10,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "Rea"
+  },
+  {
+    "page": 12,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "yee * ee eee rE PE INEST BRPRREREE FUE f CR PRS RU E EERE Re Fw s FC ORE CEES s e tT"
+  },
+  {
+    "page": 12,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Assay Date/Time: 9/10/2026 11:25:11 AM | Analyst: cdu |"
+  },
+  {
+    "page": 12,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Negative Cut-off: 17085.0 | Positive Cut-off: 17085.0 | | i"
+  },
+  {
+    "page": 12,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Sample | Product | RLU1| RLU2] RLU| Result | Read Date} Read Time | CV Pct| Bkgnd]"
+  },
+  {
+    "page": 12,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| #1. |FTM,MF+TSB soak,-ve controi-ES | 5718 | 5672|5695|Cal OK | 9/10/2026 |12:38:27PM/ OO]; #\u00a3\u00ae\u00a344"
+  },
+  {
+    "page": 12,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 2. | ETX-260901-0731-4/5 6526 | 6057 | 6292} Negative| 9/10/2026 | 12:38:47 PM 4 4]"
+  },
+  {
+    "page": 12,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "aD"
+  },
+  {
+    "page": 12,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "ad"
+  },
+  {
+    "page": 11,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "7, batch. \u00a9 | Assay Name. Aliriocreen meat Assay | instrument type. Aavance < $ | olan temperature. <U.2 |"
+  },
+  {
+    "page": 11,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Assay Date/Time: 9/10/2026 11:25:11 AM | Analyst: cdu |"
+  },
+  {
+    "page": 11,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 7477.5 | Positive Cut-off: 7477.5 | | H"
+  },
+  {
+    "page": 11,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} Sample | Product | RLU1| RLU2} RLU| Result | Read Date} Read Time | CV Pct| Bkgnd] i"
+  },
+  {
+    "page": 11,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "1 | TSB,MF+TSB soak,-ve control-ES | 2401 | 2584 | 2493| Cal OK | 9/10/2026 | 12:37:37 PM] 4; 2]"
+  },
+  {
+    "page": 11,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 2. | ETX-260901-0731-4/5 | 2937 | 2968 | 2953 | Negative] 9/10/2026 | 12:37:57 PM | 1} 4] i"
+  },
+  {
+    "page": 11,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "io"
+  },
+  {
+    "page": 11,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "a oa"
+  },
+  {
+    "page": 11,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "+ ve i"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "fj Rawk | Pweoay NGAI, PUI IOUT PISCE POOKY fF IPIORIUIEIOEEL \u00a7 YE. PVRS GP REL POUNCE. Ce Tt"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Assay Date/Time: 9/10/2026 11:25:11 AM | Analyst: cdu |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 7486.5 | Positive Cut-off: 7486.5 | |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Sample } Product | RLU1| RLU2} RLU| Result | Read Date} Read Time | CV Pct | Bkgndj"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "1 TSB,DI,-ve control-AOD] 2544 | 2447 | 2496] Cal OK | 9/10/2026 | 12:14:57 PM} 2) 3]"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "2 ETX-260901-0318-(1 1050 | 1056 | 1053 | Negative] 9/10/2026 | 12:15:17 PM 0] 5]"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 3  {|ETX-260901-0318-(2 | 1143] 1079]1111| Negative] 9/10/2026 | 12:15:37 PM] 3] 4] :"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "4  |ETX-260901-0318-(3 | 1036] 1039 | 1038] Negative] 9/10/2026 | 12:15:57 PM| 0] 4]"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "5 ETX-260901-0371-(1 1186 | 1152 | 1169 | Negative] 9/10/2026 | 12:16:17 PM 1 4] /"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "1 6 ETX-260901-0371-(2 1096 | 1022 | 1059 | Negative] 9/10/2026 | 12:16:37 PM | 3] 3] |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 7 | ETX-260901-0371-(3 | 1292] 1335] 1314] Negative} 9/10/2026 | 12:16:57 PM} 2) 4! |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 8 \u2014 |ETX-260901-0371-(4 | 1476] 1252 | 1364] Negative} 9/10/2026 | 12:17:17 PM} 8] 5] |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 9 |ETX-260827-0291-(1 | 2357] 2316 | 2337] Negative} 9/10/2026 | 12:17:37 PM| 1} 8] |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 10 |ETX-260827-0291-(2 | 2405] 2461 | 2433] Negative} 9/10/2026 | 12:17:56 PM| 1 5] |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "|} 11 | ETX-260827-0291-(3 | 2503] 2567 | 2535| Negative) 9/10/2026 | 12:18:17 PM 1} 8] i"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 12  |ETX-260827-0291-(4 | 2782] 2842 | 2812] Negative} 9/10/2026 | 12:18:37 PM] 1) 5] i"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 13  |ETX-260901-0565-(1 {| 764} 796] 780|Negative} 9/10/2026 |12:18:57PM| 2} #4] :"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "|} 14 |ETX-260901-0565-(2 | 1176] 1143 | 1160} Negative) 9/10/2026 | 12:19:17 PM] 1} 4) |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 15 |ETX-260901-0316-(1 {| 1188] 1174 | 1181] Negative} 9/10/2026 |12:19:37 PM} 1 4] i"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "16 | ETX-260901-0316-(2 | 1239] 1156] 1198] Negative] 9/10/2026 |12:19:57PM| 3] 4] i"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "|} 17 |ETX-260901-0553-(1 | 935] 891] 913]|Negative) 9/10/2026 | 12:20:17 PM 2 5] i"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "18 | ETX-260901-0553-(2 887] 912} 900 | Negative] 9/10/2026 | 12:20:37 PM| = 1 4] |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "19 | ETX-260901-0574-(1 1180 | 1177 | 1179] Negative} 9/10/2026 | 12:20:57 PM Oo}. 5] |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 20 |ETX-260901-0574-(2 | 1185) 1184] 1185] Negative) 9/10/2026 | 12:21:17 PM} 0} 3] |"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "21 ~~ +| EFX-260901-0632-(1 | 2306] 2291 | 2299| Negative) 9/10/2026 | 12:21:37 PM} Oo} 3] i"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 22 |ETX-260901-0632-(2 | 2934) 2931 | 2933] Negative) 9/10/2026 | 12:21:57 PM} 0} 5] H"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "23 =| ETX-260901-0321-(1 | 2065] 2174 | 2120} Negative] 9/10/2026 |12:22:17PM| 3] #7] L"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "24 =| ETX-260901-0321-(2 2016 | 2034 | 2025] Negative} 9/10/2026 | 12:22:37 PM 0 3] 1"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "25 =| ETX-260901-0321-(3 | 2208 | 2068 | 2138] Negative] 9/10/2026 | 12:22:57 PM 3 5 i"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "26 =| ETX-260901-0321-(4 | 1809] 1957 | 1883] Negative} 9/10/2026 | 12:23:17 PM| 4) 2]"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 27 |ETX-260901-0321-(5 | 2014] 2249 | 2132] Negative} 9/10/2026 | 12:23:37 PM| 6 6]"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "28 | ETX-260901-0532-(1 | 778| 759] 769] Negative] 9/10/2026 | 12:23:57 PM tf 3]"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 29 |ETX-260901-0532-(2 | 879] 796] 838} Negative} 9/10/2026 | 12:24:17 PM| 5] 3] i"
+  },
+  {
+    "page": 7,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "30 =| ETX-260901-0517-(1 751] 781] 766 | Negative) 9/10/2026 | 12:24:37 PM| 2} 4]"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "gy meer fF PST SUCRE Eee FUE BRINE ONSET F UNSCHIEEE FEY \u2014 ff ES URUE UE SIERE FR e TU GREE PETIT Re Se qi"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Assay Date/Time: 9/10/2026 11:25:11 AM | Analyst: cdu |"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "}| Negative Cut-off: 29863.5 | Positive Cut-off: 29863.5 | | H"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Sample | Product | RLU1 | RLU2] RLU} Result | Read Date} Read Time | CV Pct! Bkgnd|"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 1 = |FTM,DI,-ve controil-AOD/ 10256] 9653 |9955|]Cal OK | 9/10/2026 | 12:25:27 PM| 3] 5] A"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 2 ETX-260901-0318-(1 4224 | 4442 | 4333 | Negative] 9/10/2026 | 12:25:47 PM 3 8 |"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 3. |ETX-260901-0318-(2 | 3818] 3657 | 3738 | Negative} 9/10/2026 | 12:26:07 PM| 2] 61 H"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 4  |ETX-260901-0318-(3 | 3268} 3288 | 3278] Negative] 9/10/2026 | 12:26:27 PM 0 5 H"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "5 ETX-260901-0371-(1 3617 | 3964 | 3791 | Negative} 9/10/2026 | 12:26:47 PM 5 5 i"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 6 \u2014 | ETX-260901-0371-(2 | 3419} 3484 | 3452] Negative) 9/10/2026 | 12:27:07 PM] 1] 4] |"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 7 {| ETX-260901-0371-(3 | 3972] 4002 | 3987 | Negative] 9/10/2026 | 12:27:27 PM 0} 4] i"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 8 | ETX-260901-0371-(4 | 3981] 4102 | 4042| Negative) 9/10/2026 | 12:27:47 PM] 1} 5] |"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 9 | ETX-260827-0291-(1 8812 | 8875 | 8844 | Negative] 9/10/2026 | 12:28:07 PM 0 4 |"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "10 ETX-260827-0291-(2 8674 | 9003 | 8839 | Negative} 9/10/2026 | 12:28:27 PM 2 5 |"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 11. | ETX-260827-0291-(3 | 9556] 9292 | 9424 | Negative} 9/10/2026 | 12:28:47 PM] 1] 5] i"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 12  |ETX-260827-0291-(4 | 7855] 7854 | 7855] Negative] 9/10/2026 | 12:29:07 PM 0 5] :"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 13 |ETX-260901-0565-(1 | 2234] 2044 | 2139] Negative| 9/10/2026 | 12:29:27 PM} 4) 5] :"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 14 | ETX-260901-0565-(2 3330 | 3243 | 3287 | Negative} 9/10/2026 | 12:29:47 PM 1 7 '"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 15 |ETX-260901-0316-(1 | 3470] 3321 | 3396] Negative] 9/10/2026 | 12:30:07 PM} 2) 5]"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 16 |ETX-260901-0316-(2 | 3358 | 3339 | 3349! Negative] 9/10/2026 | 12:30:27 PM | Oo} 5]"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 17 | ETX-260901-0553-(1 2781 | 2886 | 2834 | Negative] 9/10/2026 | 12:30:47 PM 2 5] i"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 18 |ETX-260901-0553-(2 | 2494] 2587 | 2541 | Negative] 9/10/2026 | 12:31:08 PM | 2] 6] A"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 19 |ETX-260901-0574-(1 | 1944] 1950 |1947)|Negative| 9/10/2026 |12:31:27PM;} Of} 5] {"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 20 | ETX-260901-0574-(2 | 2221 | 2242 | 2232 | Negative] 9/10/2026 | 12:31:47 PM | 0} 5] 1"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "|} 21 |ETX-260901-0632-1 | 7037] 7406 | 7222| Negative} 9/10/2026 | 12:32:07 PM} = 3| ai :"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "i- 22 | ETX-260901-0632-(2 7622 | 8016 | 7819) Negative} 9/10/2026 | 12:32:27 PM 3 5 :"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 23 | ETX-260901-0321-(1 | 6109] 3909 | 5009] Negative| 9/10/2026 | 12:32:47 PM] 22) 5]"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 24 | ETX-260901-0321-(2 | 4325] 4885 | 4605|Negative| 9/10/2026 |} 12:33:07 PM| 6] 5] :"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 25 |ETX-260901-0321-(3 | 3683] 3858 | 3771 | Negative} 9/10/2026 | 12:33:27 PM| 2] 5] t"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "|} 26 | ETX-260901-0321-(4 4694 | 4710 | 4702] Negative] 9/10/2026 | 12:33:47 PM 0 3 i"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "|} 27 | ETX-260901-0321-(5 | 2808] 3090} 2949] Negative] 9/10/2026 | 12:34:07 PM} 5] 4] |"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "|} 28 |ETX-260901-0532-(1 | 2669} 2482 | 2576 | Negative] 9/10/2026 | 12:34:27 PM} 4) 4] |"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 29 | ETX-260901-0532-(2 2155 | 2174 | 2165 | Negative} 9/10/2026 | 12:34:47 PM 0 3 |"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 30 | ETX-260901-0517-(1 | 2221] 2515 | 2368 | Negative] 9/10/2026 | 12:35:07 PM| 6] 6] j"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "L317 | ET%260901-0517-(2_ | 2431 | 2447 | 2439 | Negative] 9/10/2026 | 12:35:27PM] OO; 3}\noO |\n\n|\n\nya C00 u"
+  },
+  {
+    "page": 8,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "_\u2014"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Gatch: A | Assay Name: AlViriocreen health Assay | Instrument type: Advance < | start lemperature: <U.2 |"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "}| Assay Date/Time: 9/10/2026 9:25:47 AM | Analyst: cdu 1"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 7468.5 | Positive Cut-off: 7468.5 | 1 i"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| Sample | Product | RLU1} RLU2|} RLU| Result | Read Date} Read Time | CV Pct| Bkgnd]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 1 |TSB,MF,-ve control-GS |} 2448 | 2531 | 2490] Cal OK | 9/10/2026 | 10:13:47 AM | 2] 6]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 2  |ETX-260831-0194-4/6 | 2661 | 2613 | 2637 | Negative} 9/10/2026 | 10:14:08 AM | 4) 9 3]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 3. |ETX-260831-0216-4/6 | 2458 | 2627 | 2543] Negative| 9/10/2026 | 10:14:28 AM | 3] 4] i"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 4  |ETX-260831-0180-4/6 | 2294] 2394 | 2344|Negative| 9/10/2026 |10:14:47AM| 2] 3]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 5 ~ |ETX-260901-0784-4/5 | 3232 | 3225 |3229]Negative| 9/10/2026 | 10:15:08 AM} Oo] 4]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 6 [ETX-260901-0629-4/5 | 3088 | 3227 | 3158] Negative} 9/10/2026 | 10:15:28 AM} 2) 4l"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 7  |ETX-260831-0258-4/6 | 2699 | 2799 | 2749] Negative! 9/10/2026 |10:15:48AM| 2] \u00b0#\u00a344"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 8  JETX-260901-0041-4/6 | 2360 | 2418 | 2389 | Negative| 9/10/2026 | 10:16:08 AM| 41] 4} !"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "|} 9 |ETX-260901-0045-4/6 | 3229] 3300 | 3265|Negative| 9/10/2026 | 10:16:28 AM 4] 4]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 10 | ETX-260831-0208-4/6 | 3435 | 3484 | 3460 | Negative} 9/10/2026 | 10:16:47 AM] 4] 3] i"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 11 |ETX-260901-0043-4/6 | 3114] 3024 | 3069] Negative| 9/10/2026 | 10:17:08 AM! 4] 4] :"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 12 |ETX-260901-0039-4/5 | 2539 | 2557 | 2548 | Negative; 9/10/2026 | 10:17:27 AM; #\u00a3O| 3]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 13 |ETX-260831-0183-4/6 | 3289} 3297 | 3293] Negative] 9/10/2026 |10:17:48AM;} Oj] #57"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 14 |ETX-260831-0210-4/5 | 3396] 3371 | 3384| Negative] 9/10/2026 | 10:18:08 AM [) 7]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 15  |}EFX-260831-0202-4/5 | 3280] 3192 | 3236] Negative] 9/10/2026 | 10:18:28 AM] 1} 4]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 16  |ETX-260831-0106-4/5 | 3305] 3134 | 3220| Negative| 9/10/2026 | 10:18:48 AM| 3] 5]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 17 ETX-260831-0149-4/5 | 3241] 3338 | 3290] Negative] 9/10/2026 | 10:19:08 AM 1 3]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 18 | ETX-260831-0171-4/5 | 2757 | 2732 |2745| Negative} 9/10/2026 | 10:19:28 AM} Oo; 24"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 19 | ETX-260831-0224-4/5 | 3375} 3343] 3359] Negative} 9/10/2026 | 10:19:48 AM} Oo; 3i"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 20 | ETX-260901-0050-4/5 | 3163] 3286 | 3225] Negative! 9/10/2026 | 10:20:08 AM] 2| 4l \u2018"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 21 |ETX-260831-0214-4/6 | 3275] 3272|3274| Negative] 9/10/2026 |10:20:28AM;| #\u00a3O|} 6] |"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "22 ETX-260831-0192-4/5 | 3256 | 326313260] Negative| 9/10/2026 | 10:20:48 AM 0 4] !"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 23  |ETX-260901-0042-4/5 | 2655 | 2830 | 2743] Negative| 9/10/2026 | 10:21:08 AM | 3] 2] i"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "|} 24 |ETX-260831-0155-4/5 | 3032] 317413103] Negative) 9/10/2026 | 10:21:28 AM } 2| 4] |"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "|} 25 | ETX-260831-0173-4/5 | 3061 | 3112 | 3087 | Negative; 9/10/2026 | 10:21:48 AM | 1; 4]"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 26 |ETX-260831-0198-4/5 | 2595] 2478 | 2537 | Negative] 9/10/2026 | 10:22:08 AM 2) 4] H"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 27 + |ETX-260901-0048-4/5 | 3307] 3423 | 3365 | Negative! 9/10/2026 | 10:22:28 AM} 2| 71 1"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 28 jETX-260901-0047-4/5 | 3032) 3109 | 3071 | Negative! 9/10/2026 | 10:22:48 AM | 1) 21 |"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 29 ETX-260831-0110-4/5 | 3177 | 3214] 3196] Negative} 9/10/2026 | 10:23:08 AM 1 2] |"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 30 | ETX-260831-0229-4/5 | 3096) 3122] 3109] Negative] 9/10/2026 | 10:23:28 AM | 0| 3] |"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 31. | ETX-260901-0044-4/5 | 3225! 3220 | 3223] Negative! 9/10/2026 |10:23:48AM| #\u00a3O|} 3] |"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "Hy 32 | ETX-260831-0233-5/5 | 3138 | 3180 | 3159 | Negative| 9/10/2026 | 10:24:08 AM] 1 | 4] i"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "} 33  |ETX-260831-0207-4/5 | 3983] 4002 13993] Negative] 9/10/2026 | 10:24:28 AM | Oo}; 3f |"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 34 #|ETX-260831-0118-4/5 | 2772] 2694! 2733] Negative! 9/10/2026 | 10:24:47 AM} 41| 4l i}"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "| 35  |ETX-260901-0049-4/5 | 3027] 3165 | 3096} Negative! 9/10/2026 | 10:25:08 AM | \u2014 2) 4] t"
+  },
+  {
+    "page": 5,
+    "inst": "2222",
+    "media": "TSB",
+    "text": "36 | ETX-260831-0196-4/5 | 2649] 2640 | 2645| Negative! 9/10/2026 | 10:25:28 AM 0 2] \u2018"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "if atv. fF PRO SUCCES eC UUEE PN EF OE Ef PERE CERES Eee FC Se ES eee ee Ne tT"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Assay Date/Time: 9/10/2026 9:25:47 AM | Analyst: cdu |"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Negative Cut-off: 16503.0 | Positive Cut-off: 16503.0 | |"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| Sample | Product | RLU1| RLU2| RLU | Result | Read Date} Read Time | CV Pct| Bkgnd|"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| #1. |FTM,MF,-ve control-GS| 5377| 5625! 5501|CalOK | 9/10/2026 | 10:25:58 AM | 2) 4]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "2 ETX-260831-0194-4/6 | 12806 | 12756/ 12781 | Negative] 9/10/2026 | 10:26:18 AM 0 4]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 3 | ETX-260831-0216-4/6 | 6253] 6390] 6322 {Negative} 9/10/2026 | 10:26:37 AM | 1) 6]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 4 ETX-260831-0180-4/6 | 5336] 5507| 5422 | Negative] 9/10/2026 | 10:26:58 AM] 2| 6]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 5 ETX-260901-0784-4/5 | 5040] 5341] 5191] Negative] 9/10/2026 | 10:27:18 AM 3 3]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 6 \u2014 | ETX-260901-0629-4/5 | 5855] 6108] 5982] Negative} 9/10/2026 | 10:27:38 AM | 2) 5]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 7  |ETX-260831-0258-4/6 | 5589} 5603] 5596] Negative] 9/10/2026 | 10:27:57 AM} Oo] 5] H"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 8  |ETX-260901-0041-4/6 | 5861}! 5812| 5837] Negative! 9/10/2026 | 10:28:18 AM| fon 5]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 9  |ETX-260901-0045-4/6 | 4818] 5024] 4921 |Negative) 9/10/2026 |10:28:37AM| 2| #5]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 10 |ETX-260831-0208-4/6 | 7286] 7270] 7278] Negative| 9/10/2026 | 10:28:57 AM 0 4} |"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 11\u00b0 |ETX-260901-0043-4/6 | 7009} 7168] 7089] Negative| 9/10/2026 | 10:29:17 AM| 1) 4}"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 12  |ETX-260901-0039-4/5 | 5987] 6160] 6074} Negative) 9/10/2026 | 10:29:37 AM | 1) 3] i"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 13 | ETX-260831-0183-4/6 | 5085] 5253] 5169] Negative| 9/10/2026 | 10:29:57 AM | 2) 5] 1"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "14 | ETX-260831-0210-4/5 | 5603) 5705] 5654 | Negative} 9/10/2026 |10:30:18AM| 1] 4] i"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 15 |ETX-260831-0202-4/5 | 5549] 5767) 5658! Negative}] 9/10/2026 | 10:30:38 AM | 2) 5] i"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "16 | ETX-260831-0106-4/5 | 4988) 5226] 5107} Negative} 9/10/2026 | 10:30:57 AM | 2| 6] H"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "17 \u2018| ETX-260831-0149-4/5 | 5608] 5672] 5640] Negative} 9/10/2026 | 10:31:17 AM; 1] 6] i"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 18 |ETX-260831-0171-4/5 | 6102] 6048] 6075 | Negative] 9/10/2026 | 10:31:38 AM| 0) 5] j"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "19 | ETX-260831-0224-4/5 | 5375] 5421| 5398] Negative| 9/10/2026 | 10:31:58 AM| Oo; 6) i"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 20  |ETX-260901-0050-4/5 | 5608] 5880! 5744} Negative] 9/10/2026 | 10:32:18 AM} 2) 6] H"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "21 ETX-260831-0214-4/6 | 5081] 5067] 5074 | Negative] 9/10/2026 | 10:32:37 AM} 0} 6] i"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "22 | ETX-260831-0192-4/5 | 5218] 5261] 5240 | Negative! 9/10/2026 | 10:32:58 AM ~\u20146hO})Ct~\u201c\u2018 Z\u2018*\u201dZS t"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 23 | ETX-260901-0042-4/5 | 5242] 5356] 5299] Negative] 9/10/2026 | 10:33:18 AM | 1] 4) i"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "24 |ETX-260831-0155-4/5 | 5525] 5484] 5505 | Negative] 9/10/2026 | 10:33:37 AM| 0} 5] |"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "25 | ETX-260831-0173-4/5 | 5729] 5864] 5797] Negative} 9/10/2026 | 10:33:58 AM| 1) 4] i"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "26 =| ETX-260831-0198-4/5 | 5366} 5116] 5241 | Negative] 9/10/2026 |10:34:18AM| #2] #5] |"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 27  |ETX-260901-0048-4/5 | 5726] 5914] 5820] Negative] 9/10/2026 | 10:34:37 AM| 2) 4) 1"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "] 28 | ETX-260901-0047-4/5 | 5623] 5797] 5710] Negative} 9/10/2026 | 10:34:57 AM} 2| 6] |"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 29  |ETX-260831-0110-4/5 | 5285] 5105! 5195] Negative] 9/10/2026 | 10:35:18 AM 2) 366]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 30 | ETX-260831-0229-4/5 | 5118] 5013] 5066] Negative} 9/10/2026 | 10:35:38 AM} 1] 4) i"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "} 31  |ETX-260901-0044-4/5 | 5048] 5080] 5064 | Negative} 9/10/2026 | 10:35:58 AM} 0} 5] h"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 32  |ETX-260831-0233-5/5 | 5147] 5425] 5286] Negative} 9/10/2026 | 10:36:17 AM} 3] 4]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 33 | ETX-260831-0207-4/5 | 5488] 5290] 5389] Negative} 9/10/2026 |10:36:383AM} 2] #45]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "| 34 | ETX-260831-0118-4/5 | 5394] 5320] 5357] Negative] 9/10/2026 | 10:36:58 AM} 1) 6]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "35 =| ETX-260901-0049-4/5 | 5222] 5228] 5225] Negative! 9/10/2026 | 10:37:18 AM} 0! 6]"
+  },
+  {
+    "page": 6,
+    "inst": "2222",
+    "media": "FTM",
+    "text": "36 =| ETX-260831-0196-4/5 | 5104] 5129] 5117] Negative! 9/10/2026 | 10:37:38 AM \u20146O})CCA*CS"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Batch: A | Assay Name: AlviFlocreen heatin Assay | instrument type. Advance < | ota lemperature, Iv. 7"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Assay Date/Time: 9/10/2026 10:27:51 AM | Analyst: cdu |"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 1876.5 | Positive Cut-off: 1876.5 | | H"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Sample | Product | RLU1} RLU2| RLU} Result | CV Pct| Bkgnd| Read Date| Read Time | i"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "} 4 TSB,D!+300ml,-ve control-AOD| 627] 624] 626 | Cal OK 0 5} 9/10/2026 | 11:16:16 AM] |"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "|\" 2. |ETX-260901-0141-(1 208] 243] 226 | Negative 8 2| 9/10/2026 | 11:16:36 AM] !"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 3 ETX-260901-0141-(2 244) 227| 236 Negative 4 4} 9/10/2026 11:16:55 AM| i"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "] 4 ETX-260901-0141-(3 202! 203] 203 Negative 0 4] 9/10/2026 | 11:17:15 AM| 11:17:15 AM"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "|\u2014_5  [E1x-260901-0141-(4 238 | 243| 241 | Negative 7 5| 9/10/2026 | 11:17:36 AM|"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 6. |ETX-260901-0141-(5 211] 192] 202 | Negative 5 5} 9/10/2026 | 11:17:56 AM}"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 7 ETX-260001-0141-(6 214] 195] 205 Negative 5 3] 9/10/2026 | 11:18:16 AM |"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "[8 | ETX-260901-0141-(7 798| 213 | 206 | Negative 4 3| 9/10/2026 [11:18:36 AM]"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "9 ETX-260901-0158-(1 273] 289) 281 | Negative 3] 4| 9/10/2026 | 11:18:56 AM] 11:18:56 AM"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "10 ETX-260901-0158-(2 220| 259] 240 Negative 8 4] 9/10/2026 | 11:19:17 AM]"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "11\u2018: | ETX-260901-0158-(3 193] 194] 194 | Negative 0 4] 9/10/2026 | 11:19:36 AM}"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 12 ETX-260831-0203-(1 542] 554] 548 Negative 1 3] 9/10/2026 11:19:56 AM |"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "1 13 ETX-260831-0203-(2 592] 591 | 592 Negative 0 6} 9/10/2026 11:20:15 AM | i"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 14 ETX-260831-0203-(3 648! 596 | 622 | Negative 4 4] 9/10/2026 | 11:20:36 AM | AM i"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 15 ETX-260831-0203-(4 673| 703; 688 Negative 2 3] 9/10/2026 | 11:20:56 AM | |"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "} 16  |ETX-260831-0203-(5 658] 699] 679 | Negative 3 4] 9/10/2026 | 11:21:16 AM] i"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 47 |ETX-260831-0203-(6 639 | 642 | 641 | Negative 0 3] 9/10/2026 [11:21:36 AM] |"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 18 ETX-260831-0203-(7 652) 657] 655 Negative 0 4} 9/10/2026 11:21:57 AM| i"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "\u2014_ {"
+  },
+  {
+    "page": 16,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "ee |"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Assay Date/Time: 9/10/2026 10:27:51 AM | Analyst: cdu |"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Negative Cut-off: 2362.5 | Positive Cut-off: 2362.5 | 1 {"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Sample | Product | RLU1| RLU2| RLU] Result | CV Pct} Bkgnd| Read Date} Read Time | i"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 4 |FTM,DI+300mI,-ve control-AOD] 806] 769] 788|CalOK | 2] 4] 9/10/2026 | 11:22:28 AM | 1"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 2  |ETX-260901-0141-(1 288| 238] 263 | Negative 10 4} 9/10/2026 | 11:22:48 AM | :"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "3 ~~ | ETX-260901-0141-(2 303] 275] 289 | Negative} 5] 6}: 9/10/2026 | 11:23:06 AM | i"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "4 ETX-260901-0141-(3 246 | 226) 236 | Negative 4 4] 9/10/2026 | 11:23:26 AM |"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 5 | ETX-260901-0141-(4 | 295] 242) 269 | Negative] 10] 5| 9/10/2026 | 11:23:46 AM | t"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 6  |ETX-260901-0141-(5\u2014 | 268} 252) 260 | Negative] 3] 5} 9/10/2026 | 11:24:07 AM} :"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 7 ETX-260901-0141-(6 249| 301] 275 | Negative 9 3} 9/10/2026 | 11:24:27 AM} i"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 8  |ETX-260901-0141-(7 269) 243) 256 | Negative} 5] 7} 9/10/2026 | 11:24:46 AM] t"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "' 9 ETX-260901-0158-(1 241] 247] 244 | Negative 1 5| 9/10/2026 | 11:25:06 AM | t"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 10 |ETX-260901-0158-(2 | 224] 234 | 229 | Negative] 2] 2} 9/10/2026 | 11:25:26 AM] :"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "41. | ETX-260901-0158-(3 249] 240] 245|Negative) \u00a7 2} 5] 9/10/2026 | 11:25:46 AM]"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "12 ETX-260831-0203-(1 622] 635] 629 | Negative 1 3] 9/10/2026 | 11:26:06 AM]"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 13 | ETX-260831-0203-(2 | 666] 640! 653 | Negative} 2) 5] 9/10/2026 | 11:26:27 AM]"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 14 |ETX-260831-0203-(3 675] 665] 670 | Negative 1 3] 9/10/2026 | 11:26:46 AM] :"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 15 |ETX-260831-0203-4 == | 706] 724] 715] Negative} 1] 4} 9/10/2026 | 11:27:07 AM]"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 16  |ETX-260831-0203-(5 666] 652] 659]}Negative} 1) 5] 9/10/2026 | 11:27:26 AM] |"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 17 ETX-260831-0203-(6 593} 519] 556 | Negative) 7 5| 9/10/2026 11:27:47 AM] i"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 18 |ETX-260831-0203-(7 | 590] 585] 588 | Negative] oO] 4} 9/10/2026 | 11:28:06 AM |"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "eT |"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "oo\nsepom"
+  },
+  {
+    "page": 17,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "new"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Assay Date/Time: 9/10/2026 10:27:51 AM | Analyst: cdu 1"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 10398.0 | Positive Cut-off: 10398.0 i 1"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Sample | Read Time |"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "1 1 [14:28:38 AM {"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 2 | 11:28:56 AM]"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "1 3  |11:29:17 AM]"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "1 4 \u2014 | 11:29:37 AM] i"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 5 | 11:29:56 AM] \u2018"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 6 | 11:30:18 AM] i"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "1 7 4 411:30:35 AMI i"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 8  1|11:30:57 AMI i"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 9 [44:31:18 AMT"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 10 | 11:31:37 AM] 1"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "1} 11 4 141:32:08 AM] i"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "|} 12 | 11:32:29 AM]"
+  },
+  {
+    "page": 19,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "oe |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "peace. |, Assay NATO. AWIPIOUICSI MICA Moody = | HSSUTUTHIOHE IY Pe. PUVA G | OLAIL PCI VSTAMME. TO 1"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Assay Date/Time: 9/10/2026 10:27:51 AM | Analyst: cdu |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 10398.0 | Positive Cut-off: 10398.0 | |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Sample | Product | RLU1| RLU2| RLU| Result | CV Pct} Bkgnd| Read Date |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "1 | TSB,MF,-ve control-AODE7TX-260904-0038-3/() 3458 | 3474 | 3466 | Cal OK O} = 8 |._: 9/10/2026 | !"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 2 | ETK260884-0487-3/R TY Tx ~ 160901- CO 3Kat_ 3074 | 3074 [3074] Negative! 0 4| 9/10/2026\n3 | ETX-260831-0137-3/5 2883 | 2936 | 2910 | Negative 1 3] 9/10/2026 i"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "4 ETX-260831-0134-3/5 2656 | 2202 | 2429 | Negative 9 4 9/10/2026 | H"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "5 ETX-260831-0140-3/5 2633 | 2691 | 2662 | Negative] \u2014 1| 2| 9/10/2026 |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "6 ETX-260831-0267-3/5 3116 | 2944 | 3030 | Negative 3) ~=\u00a7 | 9/10/2026 |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "7  |ETX-260901-0037-3/5 2555 | 2418 | 2487 | Negative] 3] 3} 9/10/2026 | :"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "8 ETX-260831-0249-4/6 2642 | 2699 | 2671 Negative 1 3 9/10/2026 |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "9 |ETX-260831-0146-3/5 3005 | 3016 | 3011 | Negative] 0} 4} 9/10/2026 |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "10 | ETX-260831-0195-3/5 2839 | 2588 | 2714) Negative] 5] 2| 9/10/2026 |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "11. | ETX-260831-0274-3/5 2306 | 2796 | 2551 | Negative 10 5} 9/10/2026 | ."
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "12 |ETX-260831-0276-3/5 2871 | 2856 | 2864 | Negative] 0! 2)! 9/10/2026 |"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "@ FE CCD 10 Sep 2"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| ae"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "ae\nC"
+  },
+  {
+    "page": 18,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "whe"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "teew, Pe eres Fee ERNE NPE EE ENP CRE EE IEA ff PURSES RHC C URES Few eFC SEE ewe ,"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Assay Date/Time: 9/10/2026 10:27:51 AM | Analyst: cdu |"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Negative Cut-off: 23758.5 | Positive Cut-off: 23758.5 | 1"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Sample | Read Time |"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 41 =| 11:33:01 AM}"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 2  |11:33:24 AM]"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 3  |11:33:42 AM]"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 4  1|11:34:05 AM] :"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 5 [11:34:26 AM}"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 6  |11:34:54 AM]"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 7  |11:35:13 AM}"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 8  |11:35:33 AM] i"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "|} 9 11:35:54 AM |"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 10 4|11:36:14 AM]"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 11) [11:36:33 AM]"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 12 | 11:36:53 AM] ]"
+  },
+  {
+    "page": 21,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "ee"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "pj eas. \u00a9 | Assay NAINS, AWITIOUICCH MICAH POoay =| PIS URUIC TEE IYO. SUVS 2 | OLAEE PCIe ature, 1 |"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Assay Date/Time: 9/10/2026 10:27:51 AM | Analyst: cdu ]"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 6607.5 | Positive Cut-off: 6607.5 | |"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Sample | Product | RLU1|} RLU2} RLU| Result | CV Pct} Bkgnd| Read Date} Read Time |"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 1. |TSB,DI-ve control-AOD] 2464] 1941 | 2203]Cal OK | 12) \u00a7] 9/10/2026 | 11:37:23 AM]"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 2. |ETX-260902-0437-(1 | 2495 | 2377 | 2436|Negative) 2] 2) 9/10/2026 | 11:37:43 AM |"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 3. |ETX-260902-0437-(2 | 2697 | 2805 | 2751 | Negative 2 5} 9/10/2026 | 11:38:04 AM |"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 4 | ETX-260902-0437-(3 | 2467] 2611 | 2539 | Negative 3 4} 9/10/2026 | 11:38:23 AM | i"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "} 5 ETX-260902-0437-(4 2257 | 2206 | 2232 | Negative 1 3] 9/10/2026 | 11:38:42 AM] :"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 6  |JETX-260902-0437-(5 | 2658] 3081 | 2870] Negative] 7} 4] 9/10/2026 | 11:39:02 AM }"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "{ 1"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "ee"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "A"
+  },
+  {
+    "page": 22,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "Rea i"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "_eaun, | Assay INGE, NIP IOUIGUIT PICGI Mosay | HISUUINOE Eye. PMV 2 | NEE POTIPCT RMI, 1 T"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} Assay Date/Time: 9/10/2026 10:27:51 AM | Analyst: cdu |"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Negative Cut-off: 29005.5 | Positive Cut-off: 29005.5 | |"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} Sample | Product | RLU1} RLU2|} RLU} Result | CV Pct| Bkgnd| Read Date} Read Time | i"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "1 FTM,DI,-ve contro!|-AOD| 9300 | 10037 | 9669 | Cal OK 4 5} 9/10/2026 | 11:39:32 AM |"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 2. |ETX-260902-0437-(1 | 8514] 8803] 8659] Negative! 2] 6} 9/10/2026 | 11:39:53 AM | I"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "3 ETX-260902-0437-(2 8730 | 9096 | 8913] Negative 2 4) 9/10/2026 11:40:12 AM] t"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 4 \u2014 | ETX-260902-0437-(3 | 6447] 8615|7531|Negative} 14] 4) 9/10/2026 | 11:40:34 AM] i"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 5 ETX-260902-0437-(4 9596 | 10278 | 9937 | Negative 3 4} 9/10/2026 | 11:40:52 AM] H"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "|} 6 ETX-260902-0437-(5 6906 | 7228 | 7067 | Negative 2 6} 9/10/2026 | 11:41:13 AM] |"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "a"
+  },
+  {
+    "page": 23,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "nt Dm |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "gy Mater. | Assay NAMIC. VIP IOUIOST TIGA Moody | IEISLIUITIOTIL EYRE. PUVA eo | EL POMIPOCTALUIO, 1. Tt"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "}| Assay Date/Time: 9/10/2026 10:27:51 AM | Analyst: cdu |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "}| Negative Cut-off: 23758.5 | Positive Cut-off: 23758.5 | 1"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Sample | Product | RLU1} RLU2} RLU | Resuit | CV Pct} Bkgnd| Read Date |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "1 | FTM,MF,-ve control AODETX-260904-0038-3/j) 7719} 8120] 7920}CalOK | 3] \u2014 6| 9/10/2026"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "[2 | ER\u20ac26088+-043-3 DE Ty. aco q0l-Co3k-ais| 8915 | 7692 | 8304 [Negative|  7[ \u00ab4 |_ 9/10/2026"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 3 ETX-260831-0137-3/5 7520 | 8443] 7982 | Negative 6 5| 9/10/2026 }"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 4 ~ |ETX-260831-0134-3/5 | 6913] 7117] 7015| Negative} 4] 6{ 9/10/2026 |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 5  |ETX-260831-0140-3/5 10591 | 11329 | 10960 | Negative 3 9} 9/10/2026 |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 6 ETX-260831-0267-3/5 6577 | 6644] 6611 | Negative 1 7} 9/10/2026 |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 7 |ETX-260901-0037-3/5 | 7926| 7767)| 7847 | Negative] 41} 4] 9/10/2026 |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 8  |ETX-260831-0249-4/6 = | 7148] 7279; 7214 | Negative) 1} ~~ 6} 9/10/2026 |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 9 | ETX-260831-0146-3/5 | 7617) 7306) 7462|Negative} 2] 3) 9/10/2026 |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "} 10 |ETX-260831-0195-3/5 7990 | 7837] 7914] Negative 1 4} 9/10/2026 }"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "1 11. | ETX-260831-0274-3/5 | 8972] 9450} 9211 | Negative] 3) 4} 9/10/2026 |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 12 | ETX-260831-0276-3/5 | 8503] 8609] 8556] Negative] 1) 4] 9/10/2026 |"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "\u00a9 FE -ced 10 Sep2e :"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "oa"
+  },
+  {
+    "page": 20,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "Nye |"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "if moments FO fF RSA SUCEEe  F UIT CREE EF UNRIPEEE FOU \u2014 | SE CRE RUCSEOEEE Fe Fer Be PRE CERO EE) T"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Assay Date/Time: 9/10/2026 11:46:37 AM | Analyst: cdu |"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 1279.5 | Positive Cut-off: 1279.5 | | |"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Sample | Product | RLU1} RLU2/} RLU] Result | CV Pct| Bkgnd| Read Date| Read Time |"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 1. | TSB,DI+300mI+T80,-ve control-ES| 429} 424] 427|CalOK | 4} 4} 9/10/2026 | 12:30:34 PM] |"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "2 ETX-260901-0476-(1 116| 118] 117 | Negative 1 4} 9/10/2026 | 12:30:59 PM |"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 3  |ETX-260901-0476~2 | 139] 140] 140 | Negative} 0} 7; 9/10/2026 | 12:31:23 PM] 1"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 4 \u2014 | ETX-260901-0476-(3 | 139] 117] 128)Negative} $9} 5] 9/10/2026 | 12:31:46 PM] |"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| 5 ETX-260901-0476-(4 222| 167) 195] Negative 14 4] 9/10/2026 | 12:32:23 PM | i"
+  },
+  {
+    "page": 24,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "oe |"
+  },
+  {
+    "page": 26,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "pPpReaw. ww LEWIS PSAs FUER BND ONEE F ENRSCHIREE FN OCAY \u2014 | SRR RE AE EDE ER Be PUNE Be RAE FETE MEARE EM i"
+  },
+  {
+    "page": 26,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Assay Date/Time: 9/10/2026 11:46:37 AM | Analyst: cdu |"
+  },
+  {
+    "page": 26,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "| Negative Cut-off: 2008.5 | Positive Cut-off: 2008.5. | 1 i"
+  },
+  {
+    "page": 26,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "7 Sample | Product } RLU1 | RLU2 | RLU | Result | CV Pct| Bkgnd| Read Date} i"
+  },
+  {
+    "page": 26,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "1 TSB+300ml,-ve control-DK 683 656 670 | Cal OK 2] 4] 9/10/2026 | 1"
+  },
+  {
+    "page": 26,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "2 | ETX-260818-0652-(A8) (4\\| 9999999 | 9999999| 9999999 | Overload 999} 105] 9/10/2026 |"
+  },
+  {
+    "page": 26,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "@) Confumestion test - Cop 10 Sp 26 ~ 005 - 26.2023,"
+  },
+  {
+    "page": 26,
+    "inst": "2011",
+    "media": "TSB",
+    "text": "wh i"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Assay Date/Time: 9/10/2026 11:46:37 AM | Analyst: edu |"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Negative Cut-off: 1884.0 | Positive Cut-off: 1884.0 | } '"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Sample | Product | RLU1| RLU2| RLU} Result | CV Pct} Bkgnd| Read Date| Read Time |"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 1. |FTM,DI+300mI+T80,-ve control-ES} 589] 667] 628]Cal OK 6 5] 9/10/2026 | 12:33:13 PM"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 2. | ETX-260901-0476-(1 | 135] 158] 147 | Negative 8 5| 9/10/2026 | 12:33:36 PM"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 3 ETX-260901-0476-(2 170] 163} 167 Negative 2 6| 9/10/2026 12:33:56 PM] |"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "i] 4 | ETX-260901-0476-(3 194] 333] 264 | Negative 26 6} 9/10/2026 12:34:17 PM} i"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "5 | ETX-260901-0476-(4 === ~\u2014 | \u00ab~449| 462] 456 | Negative 4 6] 9/10/2026 | 12:34:38 PM] I"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "a. aie"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "NO"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "room"
+  },
+  {
+    "page": 25,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "wh"
+  },
+  {
+    "page": 27,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "gf aww. FR TURNER Ng LORE PRN NONE EE PNPRAENEE CUA PR ee eee eee eee Eee Oe ee eee |"
+  },
+  {
+    "page": 27,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Assay Date/Time: 9/10/2026 11:46:37 AM | Analyst: cdu | i"
+  },
+  {
+    "page": 27,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Negative Cut-off: 2008.5 | Positive Cut-off: 2008.5 | |"
+  },
+  {
+    "page": 27,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| Sample! Read Time |"
+  },
+  {
+    "page": 27,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 1 [12:35:17 PM}"
+  },
+  {
+    "page": 27,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "| 2 | 12:35:36 PM] Sf"
+  },
+  {
+    "page": 27,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "NOVA i"
+  },
+  {
+    "page": 27,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "cor |"
+  },
+  {
+    "page": 27,
+    "inst": "2011",
+    "media": "FTM",
+    "text": "wy |"
+  }
+]

@@ -1,0 +1,932 @@
+[
+  {
+    "Sample": "ETX-260810-0052",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      26
+    ],
+    "Status": "EXCLUDED (User Command: Overload/Special)",
+    "Notes": "User explicitly instructed to skip ETX-260818-0652"
+  },
+  {
+    "Sample": "ETX-260827-0291",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2812,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0106",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3220,
+    "Max FTM RLU": null,
+    "Max CV%": "3%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0110",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "1%",
+    "Pages": [
+      5
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0118",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2733,
+    "Max FTM RLU": null,
+    "Max CV%": "1%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0134",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      18,
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0137",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": 7982,
+    "Max CV%": "N/A",
+    "Pages": [
+      18,
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0140",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": 10960,
+    "Max CV%": "N/A",
+    "Pages": [
+      18,
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0146",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      18,
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0149",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3290,
+    "Max FTM RLU": 5640,
+    "Max CV%": "1%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0155",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3103,
+    "Max FTM RLU": null,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0170",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "2%",
+    "Pages": [
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0171",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2745,
+    "Max FTM RLU": 6075,
+    "Max CV%": "0%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0173",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3087,
+    "Max FTM RLU": null,
+    "Max CV%": "1%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0180",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2344,
+    "Max FTM RLU": null,
+    "Max CV%": "2%",
+    "Pages": [
+      5
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0183",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3293,
+    "Max FTM RLU": 5169,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0192",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3260,
+    "Max FTM RLU": null,
+    "Max CV%": "0%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0194",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2637,
+    "Max FTM RLU": 12781,
+    "Max CV%": "4%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0195",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      18,
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0196",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2645,
+    "Max FTM RLU": null,
+    "Max CV%": "0%",
+    "Pages": [
+      5
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0198",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0202",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3236,
+    "Max FTM RLU": 5658,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0203",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": 715,
+    "Max CV%": "7%",
+    "Pages": [
+      16,
+      17
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0207",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3993,
+    "Max FTM RLU": null,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0208",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3460,
+    "Max FTM RLU": 7278,
+    "Max CV%": "4%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0210",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3384,
+    "Max FTM RLU": 5654,
+    "Max CV%": "1%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0214",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3274,
+    "Max FTM RLU": null,
+    "Max CV%": "0%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0216",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2543,
+    "Max FTM RLU": 6322,
+    "Max CV%": "9%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0224",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3359,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0229",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3109,
+    "Max FTM RLU": null,
+    "Max CV%": "1%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0233",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3159,
+    "Max FTM RLU": null,
+    "Max CV%": "3%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0249",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      18,
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0258",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2749,
+    "Max FTM RLU": 5596,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0267",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      18
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0274",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": 9211,
+    "Max CV%": "3%",
+    "Pages": [
+      18,
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260831-0276",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      18,
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0037",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": 7847,
+    "Max CV%": "N/A",
+    "Pages": [
+      18,
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0039",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2548,
+    "Max FTM RLU": null,
+    "Max CV%": "1%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0041",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2389,
+    "Max FTM RLU": 5837,
+    "Max CV%": "9%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0042",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2743,
+    "Max FTM RLU": null,
+    "Max CV%": "3%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0043",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3069,
+    "Max FTM RLU": 7089,
+    "Max CV%": "1%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0044",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3223,
+    "Max FTM RLU": null,
+    "Max CV%": "0%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0045",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3265,
+    "Max FTM RLU": 4921,
+    "Max CV%": "4%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0047",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3071,
+    "Max FTM RLU": null,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0048",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3365,
+    "Max FTM RLU": null,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0049",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3096,
+    "Max FTM RLU": null,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0050",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3225,
+    "Max FTM RLU": null,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0141",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": 289,
+    "Max CV%": "10%",
+    "Pages": [
+      16,
+      17
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0158",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": 245,
+    "Max CV%": "2%",
+    "Pages": [
+      16,
+      17
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0316",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 1181,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0318",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 1111,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0321",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2138,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0371",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 1364,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0476",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      24,
+      25
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0510",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      9,
+      10
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0517",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 831,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0532",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 838,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0553",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 913,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0565",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 1160,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0574",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 1185,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0629",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3158,
+    "Max FTM RLU": 5082,
+    "Max CV%": "2%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0632",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 13035,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      7,
+      8
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0731",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 2953,
+    "Max FTM RLU": null,
+    "Max CV%": "9%",
+    "Pages": [
+      11,
+      12
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260901-0784",
+    "Instrument": "2222",
+    "ATP Positive": "92940",
+    "Max TSB RLU": 3229,
+    "Max FTM RLU": 5191,
+    "Max CV%": "0%",
+    "Pages": [
+      5,
+      6
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260902-0437",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      22,
+      23
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260902-0457",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": null,
+    "Max CV%": "N/A",
+    "Pages": [
+      23
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  },
+  {
+    "Sample": "ETX-260904-0038",
+    "Instrument": "2011",
+    "ATP Positive": "92099",
+    "Max TSB RLU": null,
+    "Max FTM RLU": 7920,
+    "Max CV%": "N/A",
+    "Pages": [
+      20
+    ],
+    "Status": "PASS",
+    "Notes": "Valid Negative"
+  }
+]
