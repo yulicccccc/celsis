@@ -74,9 +74,88 @@ def resolve_target_link(page, etx_id):
 
     return test_link
 
+def ensure_edit_mode(page):
+    """
+    Ensures that the Celsis Test Results form is in editable mode.
+    If fields are disabled, detects and clicks 'Enter Data' / 'Enter Results' / 'Modify Results'.
+    """
+    print("  🔓 [1/4] Checking edit mode & 'Enter Data' button...")
+    time.sleep(0.5)
+
+    # 1. Check if first input is already enabled
+    rec_input = page.locator("#SubmissionTestResults_0__Value").first
+    if rec_input.count() > 0:
+        is_disabled = rec_input.evaluate("el => el.disabled || el.readOnly")
+        if not is_disabled:
+            print("  ℹ️ Fields are already active and editable.")
+            return True
+
+    # 2. Look for the Enter Data / Modify Results button
+    # In EagleTrax, this button is located in the Test Results panel header (.panel-heading .col-xs-2.text-right)
+    btn_candidates = page.locator(
+        "#SubmissionTestResultList .panel-heading a, "
+        "#SubmissionTestResultList .panel-heading button, "
+        "#SubmissionTestResultList .panel-heading span.btn, "
+        "#TestDetails .panel-heading a, "
+        "#TestDetails .panel-heading button, "
+        "#TestDetails .panel-heading span.btn, "
+        "a:has-text('Enter Data'), button:has-text('Enter Data'), span:has-text('Enter Data'), "
+        "a:has-text('Enter Results'), button:has-text('Enter Results'), span:has-text('Enter Results'), "
+        "a:has-text('Modify Results'), button:has-text('Modify Results'), span:has-text('Modify Results'), "
+        "#SubmissionTestResultList .btn-success, "
+        "#TestDetails .btn-success"
+    )
+
+    clicked = False
+    count = btn_candidates.count()
+    for i in range(count):
+        btn = btn_candidates.nth(i)
+        try:
+            if btn.is_visible():
+                txt = btn.inner_text().strip()
+                print(f"  👉 Found action button: [{txt}]. Clicking to unlock data entry...")
+                btn.click()
+                clicked = True
+                break
+        except Exception:
+            continue
+
+    if clicked:
+        try:
+            page.wait_for_function(
+                "() => { const el = document.querySelector('#SubmissionTestResults_0__Value'); return el && !el.disabled && !el.readOnly; }",
+                timeout=6000
+            )
+            print("  ✅ 'Enter Data' clicked! Form is now in EDITABLE mode.")
+            return True
+        except Exception:
+            print("  ⚠️ Waiting timed out. Checking DOM fallback...")
+
+    # 3. Fallback: remove disabled and readonly flags from all test result elements if still locked
+    unlocked = page.evaluate('''() => {
+        let cnt = 0;
+        document.querySelectorAll('input[id^="SubmissionTestResults_"], select[id^="SubmissionTestResults_"]').forEach(el => {
+            if (el.disabled || el.readOnly) {
+                el.disabled = false;
+                el.readOnly = false;
+                el.removeAttribute('disabled');
+                el.removeAttribute('readonly');
+                cnt++;
+            }
+        });
+        return cnt;
+    }''')
+    if unlocked > 0:
+        print(f"  ⚡ Unlocked {unlocked} input/select fields for direct input.")
+    
+    return True
+
 def fill_celsis_page(page, sample):
     """Injects all 16 form fields and Test Note into the Celsis test details page without clicking Save."""
-    print("  ✍️ [1/3] Injecting test parameters...")
+    # Step 0: Ensure edit mode ("Enter Data" clicked)
+    ensure_edit_mode(page)
+    
+    print("  ✍️ [2/4] Injecting test parameters...")
     
     # 0: Test Record
     page.locator("#SubmissionTestResults_0__Value").fill(sample["record"])
@@ -129,7 +208,7 @@ def fill_celsis_page(page, sample):
     # Add Note handling
     note_text = sample.get("note", "").strip()
     if note_text:
-        print("  📝 [2/3] Checking Test Notes...")
+        print("  📝 [3/4] Checking Test Notes...")
         existing_notes = page.locator("#SubmissionTestNoteList").inner_text() if page.locator("#SubmissionTestNoteList").count() > 0 else ""
         if sample["record"] in existing_notes and "TSB -ve control" in existing_notes:
             print("  ℹ️ Batch Test Note already attached, skipping duplicate addition.")

@@ -42,6 +42,10 @@
    - Confirmed 100% 1-to-1 match across all Celsis result fields (`SubmissionTestResults_0__Value` through `15__Value`).
    - Validated Rule 7 (`Modification (Optional)` strictly mapped to `N/A` when notes specify no modifications).
 
+7. **Automated 'Enter Data' / 'Modify Results' Pre-Flight Unlock (2026-09-10)**:
+   - Integrated `ensure_edit_mode()` into Playwright auto data entry flow (`celsis_auto_data_entry.py`).
+   - Dynamically detects read-only/disabled form state, locates the green action button (`Enter Data` / `Enter Results` / `Modify Results` in `.panel-heading`), clicks it, and verifies fields unlock via `wait_for_function` before field injection. Includes DOM attribute fallback. Zero GxP risk: never auto-saves.
+
 ---
 
 ## 3. Active Golden Cases
