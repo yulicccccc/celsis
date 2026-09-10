@@ -131,6 +131,19 @@ Whenever generating Celsis data entry automation deliverables, the agent MUST de
      - Explicitly alert and report the intercepted sample to the user.
   4. Only when status is strictly `Data Review` may the engine proceed to Rule 9 volume verification and subsequent approval submission.
 
+### Rule 12: Standard Test Note Volume Extraction & Crosscheck Rule (标准测试备注体积提取与交叉核验法则)
+- **Background & GxP Rationale**: In EagleTrax Test Notes (`SubmissionTestNoteList`), multiple preparation notes are often recorded by technicians (e.g., reagent lots, vessel replacements, pre-dilution ratios such as `5mL of sample + 15mL of Tween80 added into 200mL FTM`). However, the official, authoritative per-media test volume follows a standardized sentence structure established in laboratory protocols:
+  - Direct Inoculation: `Method: DI. <X> mL of sample added per media`
+  - Membrane Filtration: `Method: MF. <X> mL of sample filtered per media`
+  - Or canonical equivalent: `<X> mL of sample added per media` / `<X> mL per media`.
+- **Authoritative Hierarchy**:
+  1. **Canonical Test Volume**: The `<X> mL` specified in `... of sample added/filtered per media` is the true GxP sample volume that MUST be populated in LIMS `Amount of sample added into media` (`SubmissionTestResults_4__Value`) or `Amount of sample filtered into media` (`SubmissionTestResults_3__Value`).
+  2. **Non-Test Proportions**: Intermediate preparation notes, aliquots, or surfactant ratios (e.g. `5mL of sample + 15mL Tween80`) represent sample prep modifications, NOT the final test volume per media. They must never be confused with the canonical volume.
+- **Enforcement & Audit Gatekeeper**:
+  - The audit parser scans Test Notes for pattern `(?:Method:\s*(?:DI|MF)\.\s*)?(\d+(?:\.\d+)?)\s*m[lL]\s+of\s+sample\s+(?:added|filtered)\s+per\s+media`.
+  - If found, the extracted volume `<X>` is strictly crosschecked against the live LIMS input field.
+  - If the live input field is empty (e.g. analyst forgot to enter the volume) or does not match the canonical `<X>`, trigger an immediate **Rule 12 Volume Integrity Flag** and physically block automated approval until corrected.
+
 ---
 
 ## 3. Human-in-the-Loop Safeguards

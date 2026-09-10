@@ -227,6 +227,25 @@ try:
                 if filt_vol:
                     discrepancies.append(f"DI Rule 9 violation: Filtered Volume is NOT empty ('{filt_vol}')")
 
+            # Check Rule 12: Standard Test Note Volume Extraction & Crosscheck
+            canonical_vol = None
+            for n in notes:
+                m_vol = re.search(r'(?:Method:\s*(?:DI|MF)\.\s*)?(\d+(?:\.\d+)?)\s*m[lL]\s+(?:of\s+sample\s+)?(?:added|filtered)\s+per\s+media', n, re.IGNORECASE)
+                if m_vol:
+                    canonical_vol = m_vol.group(1)
+                    break
+            
+            if canonical_vol:
+                current_entered_vol = filt_vol if "Membrane" in method_val else added_vol
+                if not current_entered_vol:
+                    discrepancies.append(f"Rule 12 violation: Note specifies {canonical_vol} mL per media, but entered volume is empty")
+                else:
+                    try:
+                        if float(current_entered_vol) != float(canonical_vol):
+                            discrepancies.append(f"Rule 12 mismatch: Note specifies {canonical_vol} mL per media, but entered volume is '{current_entered_vol}'")
+                    except Exception:
+                        pass
+
             # Check ATP
             if atp_val and pdf_atp and atp_val != pdf_atp:
                 discrepancies.append(f"ATP mismatch: LIMS='{atp_val}' vs PDF='{pdf_atp}'")
