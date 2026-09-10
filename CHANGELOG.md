@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-10 — V1.0.0 Celsis End-to-End Audit & Paced Approval System Accepted
+
+### Milestone Achievements
+- **Full Batch Verification**: Complete 39-page master batch (`09SEP26.pdf`) containing 54 unique samples processed across dual instruments (`#2011`, `#2222`) and dual media (`TSB`, `FTM`).
+- **Paced Approval Engine**: GxP-compliant auto-approval cadence (1~2 min natural jitter) with automatic taskbar minimization and non-blocking `[Enter]` skip / `[Q]` exit interactive controls.
+- **Rule 2 Instrument Authority**: Locked rule establishing Charles River report printed `CV Pct` as the single source of truth for variation; prohibited external sample standard deviation ($ddof=1$) recalculations.
+- **Rule 9 Volume Exclusivity**: Successfully intercepted 2 live pre-approval data placement anomalies (Membrane Filtration with volume mistakenly placed in Direct Inoculation column) on `ETX-260831-0737` and `ETX-260901-0557`, preventing premature uncompliant approval.
+- **Rule 11 Data Review Gate**: Strictly gated approvals to samples in `Data Review`, ensuring zero premature approvals for samples still under `Sample Analysis`.
+- **Fast Direct Routing**: Validated direct URL resolution via `/Submission/Details/{sid}` achieving sub-second lookup without stale DOM collisions.
+
 ## 2026-08-13 — Data Entry V1 accepted
 
 ### Accepted workflow
