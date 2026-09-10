@@ -69,5 +69,8 @@
 
 - `Celsis_090426_2011_DataEntry_EnterOnly.ps1`: Enter-Only PowerShell automation payload with automated clipboard note management for batch `090426-2011`.
 - `Celsis_090426_2011_ETX-260826-0374_DataEntry_EnterOnly.ps1`: Dedicated single-sample automation payload for `ETX-260826-0374`.
+- `celsis_auto_data_entry.py`: End-to-end Playwright Data Entry Auto-Pilot script (searches ETX, navigates to details, injects 16 fields, adds Test Note, and halts for manual review without clicking Save).
+- `run_auto_data_entry.bat`: One-click desktop launcher for the Data Entry Auto-Pilot.
+
 
 
