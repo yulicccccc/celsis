@@ -202,5 +202,59 @@
     "status": "Completed",
     "time": "2026-09-09 23:19:01",
     "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260901-0375",
+    "status": "Completed",
+    "time": "2026-09-09 23:21:07",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260901-0376",
+    "status": "Completed",
+    "time": "2026-09-09 23:23:03",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260901-0398",
+    "status": "Completed",
+    "time": "2026-09-09 23:24:49",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260901-0423",
+    "status": "Completed",
+    "time": "2026-09-09 23:26:16",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260901-0469",
+    "status": "Completed",
+    "time": "2026-09-09 23:27:40",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260901-0649",
+    "status": "Completed",
+    "time": "2026-09-09 23:29:51",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260901-0666",
+    "status": "Completed",
+    "time": "2026-09-09 23:31:42",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260901-0673",
+    "status": "Completed",
+    "time": "2026-09-09 23:33:25",
+    "note": "Approved successfully"
+  },
+  {
+    "Sample": "ETX-260901-0681",
+    "status": "Completed",
+    "time": "2026-09-09 23:34:53",
+    "note": "Approved successfully"
   }
 ]
