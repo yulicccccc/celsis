@@ -21,8 +21,8 @@ PROGRESS_FILE = "celsis_110926_approval_progress.json"
 
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument("--min-wait", type=int, default=15, help="Min wait seconds")
-parser.add_argument("--max-wait", type=int, default=30, help="Max wait seconds")
+parser.add_argument("--min-wait", type=int, default=50, help="Min wait seconds (default 50s for 1-min cadence)")
+parser.add_argument("--max-wait", type=int, default=70, help="Max wait seconds (default 70s for 1-min cadence)")
 args, _ = parser.parse_known_args()
 MIN_WAIT = args.min_wait
 MAX_WAIT = args.max_wait

@@ -153,6 +153,13 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
   - If found, the extracted volume `<X>` is strictly crosschecked against the live LIMS input field.
   - If the live input field is empty (e.g. analyst forgot to enter the volume) or does not match the canonical `<X>`, trigger an immediate **Rule 12 Volume Integrity Flag** and physically block automated approval until corrected.
 
+### Rule 13: 1-Minute Cadence for Automated Approval (自动审批 1 分钟/样本质控节律法则)
+- **Background & GxP Rationale**: When running unattended automated approvals for pre-audited whitelist samples, the approval pace must mirror a realistic human QA review to maintain the integrity and credibility of the LIMS electronic audit trail. Sub-second or burst approvals look synthetic, whereas overly prolonged delays reduce operational efficiency. Per user directive, the optimal, standardized approval rhythm is established at **approximately 1 minute per sample**.
+- **Cadence Specification**:
+  - **Default Wait Interval**: Set to a randomized window of **50 ~ 70 seconds** (average 60s / 1 min) between consecutive sample approvals.
+  - **Audit Trail Realism**: Each electronic signature timestamp in EagleTrax (`AUN`, `APD`, `ChangeTestStatusSaveButton`) naturally spaces out by ~1 minute, fully satisfying internal QA audit inspection standards.
+  - **Console Override**: Retains non-blocking keyboard monitoring (Rule 10): pressing `[Enter]` immediately skips the remaining countdown for real-time acceleration when desired.
+
 ---
 
 ## 3. Human-in-the-Loop Safeguards

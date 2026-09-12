@@ -34,6 +34,7 @@ Before entry:
 - Preserve rerun/run/media lineage.
 - No silent OCR guesses.
 - Base ETX is used for LIMS lookup; raw source labels remain traceable.
+- Automated Approval Cadence: When batch automated approval is authorized by the user, default to approximately 1 minute per sample (~50-70s randomized sleep) to ensure realistic GxP audit trail spacing, while preserving non-blocking Enter-to-skip control.
 
 ## 4. Data Entry UX contract
 
