@@ -1,0 +1,254 @@
+[
+  {
+    "page": 1,
+    "is_daily": true,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "a |  | Charles river"
+  },
+  {
+    "page": 2,
+    "is_daily": true,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "a | Charles river | "
+  },
+  {
+    "page": 3,
+    "is_daily": true,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": "2026",
+    "header_snippet": "om | Charles river | "
+  },
+  {
+    "page": 4,
+    "is_daily": true,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "Om | Charles river | "
+  },
+  {
+    "page": 5,
+    "is_daily": true,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "A",
+    "atp": null,
+    "header_snippet": "ee | Charles river | "
+  },
+  {
+    "page": 6,
+    "is_daily": false,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "omy | Charles river | "
+  },
+  {
+    "page": 7,
+    "is_daily": false,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "CS |  | Charles river"
+  },
+  {
+    "page": 8,
+    "is_daily": false,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "ae Oe | Charles river | "
+  },
+  {
+    "page": 9,
+    "is_daily": false,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "Oe | Charles river | "
+  },
+  {
+    "page": 10,
+    "is_daily": false,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "Com | Charles river | "
+  },
+  {
+    "page": 11,
+    "is_daily": false,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "oS | Charles river | "
+  },
+  {
+    "page": 12,
+    "is_daily": false,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "a oe | Charles river | "
+  },
+  {
+    "page": 13,
+    "is_daily": false,
+    "inst": "2222",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "Co. | Charles river | "
+  },
+  {
+    "page": 14,
+    "is_daily": true,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "om | Charles river | "
+  },
+  {
+    "page": 15,
+    "is_daily": true,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "om | charles river | "
+  },
+  {
+    "page": 16,
+    "is_daily": true,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "C",
+    "atp": "2026",
+    "header_snippet": "CoS | Charles river | "
+  },
+  {
+    "page": 17,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "Oo | Charles river | "
+  },
+  {
+    "page": 18,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "Qu |  | Charles river"
+  },
+  {
+    "page": 19,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "a |  | Charles river"
+  },
+  {
+    "page": 20,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "a | Charles river | "
+  },
+  {
+    "page": 21,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "LOE |  | Charles river"
+  },
+  {
+    "page": 22,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "F",
+    "atp": null,
+    "header_snippet": "om | Charles river | "
+  },
+  {
+    "page": 23,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "G",
+    "atp": null,
+    "header_snippet": "Com | Charles river | "
+  },
+  {
+    "page": 24,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "Ome | Charles river | "
+  },
+  {
+    "page": 25,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "Com | Charles river | "
+  },
+  {
+    "page": 26,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "Com | Charles river | "
+  },
+  {
+    "page": 27,
+    "is_daily": false,
+    "inst": "2011",
+    "media": "UNKNOWN",
+    "batch": "UNKNOWN",
+    "atp": null,
+    "header_snippet": "om | Charles river | "
+  },
+  {
+    "page": 28,
+    "is_daily": false,
+    "inst": "UNKNOWN",
+    "media": "UNKNOWN",
+    "batch": "D",
+    "atp": null,
+    "header_snippet": "Com | Charles river | "
+  }
+]
