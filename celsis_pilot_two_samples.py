@@ -244,25 +244,45 @@ def fill_celsis_page(page, sample):
         if sample["record"] in existing_notes and "TSB -ve control" in existing_notes:
             print("  ℹ️ Batch Test Note already attached, skipping duplicate addition.")
         else:
-            add_note_btn = page.locator("#AddSubmissionTestNote")
-            if add_note_btn.count() > 0 and add_note_btn.is_visible():
-                print("  👉 Clicking 'Add Note' button...")
-                add_note_btn.click()
-                time.sleep(1)
-                
-                try:
-                    modal = page.locator(".modal.in, #myModal, .modal-dialog, div[role='dialog']").first
-                    modal.wait_for(state="visible", timeout=6000)
-                    textarea = modal.locator("textarea, input[type='text'][name*='Note']").first
-                    textarea.fill(note_text)
-                    time.sleep(0.5)
-                    
-                    save_note_btn = modal.locator("button:has-text('Save'), input[value='Save'], button:has-text('Submit'), button.btn-primary").first
-                    save_note_btn.click()
+            note_added = False
+            # Strategy A: Inline Add Test Note panel at page bottom
+            inline_box = page.locator("textarea#Content, textarea[name='Content'], textarea[name*='Note'], #AddTestNote textarea, .panel:has-text('Add Test Note') textarea").first
+            if inline_box.count() > 0 and inline_box.is_visible():
+                print("  👉 Found inline Add Test Note textarea. Injecting note...")
+                inline_box.fill(note_text)
+                time.sleep(0.5)
+                inline_btn = page.locator("input[value='Add Test Note'], button:has-text('Add Test Note'), .panel:has-text('Add Test Note') .btn-primary").first
+                if inline_btn.count() > 0 and inline_btn.is_visible():
+                    inline_btn.click()
                     time.sleep(1.5)
-                    print("  ✅ Test Note successfully added to record!")
-                except Exception as ne:
-                    print(f"  ⚠️ Could not auto-fill note modal: {ne}. Note copied to clipboard as fallback.")
+                    print("  ✅ Test Note successfully saved via inline panel!")
+                    note_added = True
+
+            # Strategy B: Modal dialog fallback
+            if not note_added:
+                add_note_btn = page.locator("#AddSubmissionTestNote").first
+                if add_note_btn.count() > 0 and add_note_btn.is_visible():
+                    print("  👉 Clicking 'Add Note' button...")
+                    add_note_btn.click()
+                    time.sleep(1)
+                    try:
+                        modal = page.locator(".modal.in, #myModal, .modal-dialog, div[role='dialog']").first
+                        modal.wait_for(state="visible", timeout=4000)
+                        textarea = modal.locator("textarea, input[type='text'][name*='Note']").first
+                        textarea.fill(note_text)
+                        time.sleep(0.5)
+                        save_note_btn = modal.locator("button:has-text('Save'), input[value='Save'], button:has-text('Submit'), button.btn-primary").first
+                        save_note_btn.click()
+                        time.sleep(1.5)
+                        print("  ✅ Test Note successfully added via modal!")
+                        note_added = True
+                    except Exception:
+                        pass
+
+            if not note_added:
+                import subprocess
+                subprocess.run(["powershell", "-command", f"Set-Clipboard -Value @'\n{note_text}\n'@"], check=False)
+                print("  📋 Note copied to clipboard as fallback.")
 
 def run_pilot():
     print("=" * 65)
