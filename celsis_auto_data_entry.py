@@ -285,17 +285,60 @@ def run_auto_data_entry(batch_payload):
 
         url_now = page.url.lower()
         if "/account/login" in url_now or "microsoft" in url_now or "login.live" in url_now:
-            print("\n[ACTION REQUIRED] Please complete SSO/MFA sign-in in the Chrome window...")
+            print("\n🔑 Detected login page, auto-filling username 'qchen'...")
+            try:
+                user_box = page.locator("#Username, input[name='Username']").first
+                if user_box.count() > 0 and user_box.is_visible():
+                    if not user_box.input_value():
+                        user_box.fill("qchen")
+                        print("  └─ Entered Username: qchen")
+                    cont_btn = page.locator("input[value='Continue'], button:has-text('Continue')").first
+                    if cont_btn.count() > 0 and cont_btn.is_visible():
+                        cont_btn.click()
+                        print("  └─ Clicked Continue button")
+                        time.sleep(2)
+            except Exception:
+                pass
+
+            print("\n👉 Please complete SSO/MFA sign-in in the Chrome window...")
             start_t = time.time()
+            logged_in = False
             while time.time() - start_t < 300:
                 time.sleep(3)
-                u = page.url.lower()
-                if "etrax.eagleanalytical.com" in u and "/account/login" not in u and "microsoft" not in u:
-                    print("\n[SUCCESS] Login verified! Continuing...")
-                    page.goto("https://etrax.eagleanalytical.com/Submission", wait_until="networkidle")
-                    time.sleep(2)
+
+                # 1. Check if any tab in context has reached EagleTrax post-login
+                for p_tab in ctx.pages:
+                    try:
+                        u_tab = p_tab.url.lower()
+                        if "etrax.eagleanalytical.com" in u_tab and "/account/login" not in u_tab and "microsoft" not in u_tab and "login.live" not in u_tab:
+                            page = p_tab
+                            logged_in = True
+                            print("\n[SUCCESS] Login detected from active EagleTrax tab! Continuing...")
+                            break
+                    except Exception:
+                        pass
+                if logged_in:
                     break
+
+                # 2. Active Re-navigation Polling: ping Submission URL to test if session cookies are now set
+                try:
+                    page.goto("https://etrax.eagleanalytical.com/Submission", wait_until="domcontentloaded", timeout=8000)
+                    time.sleep(1.5)
+                except Exception:
+                    pass
+
+                u = page.url.lower()
+                if "etrax.eagleanalytical.com" in u and "/account/login" not in u and "microsoft" not in u and "login.live" not in u:
+                    print("\n[SUCCESS] Login verified via active probe! Continuing...")
+                    logged_in = True
+                    break
+
                 print(".", end="", flush=True)
+
+            if not logged_in:
+                print("\n❌ [TIMEOUT] Login was not completed within 5 minutes. Stopping.")
+                ctx.close()
+                return
 
         for idx, sample in enumerate(samples, start=1):
             etx_id = sample["id"]

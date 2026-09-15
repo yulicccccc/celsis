@@ -327,13 +327,34 @@ def run_pilot():
             logged_in = False
             while time.time() - start_t < 300:
                 time.sleep(3)
+
+                # 1. Check if any tab in context has reached EagleTrax post-login
+                for p_tab in ctx.pages:
+                    try:
+                        u_tab = p_tab.url.lower()
+                        if "etrax.eagleanalytical.com" in u_tab and "/account/login" not in u_tab and "microsoft" not in u_tab and "login.live" not in u_tab:
+                            page = p_tab
+                            logged_in = True
+                            print("\n[SUCCESS] Login detected from active EagleTrax tab! Continuing...")
+                            break
+                    except Exception:
+                        pass
+                if logged_in:
+                    break
+
+                # 2. Active Re-navigation Polling: ping Submission URL to test if session cookies are now set
+                try:
+                    page.goto("https://etrax.eagleanalytical.com/Submission", wait_until="domcontentloaded", timeout=8000)
+                    time.sleep(1.5)
+                except Exception:
+                    pass
+
                 u = page.url.lower()
                 if "etrax.eagleanalytical.com" in u and "/account/login" not in u and "microsoft" not in u and "login.live" not in u:
-                    print("\n[SUCCESS] Login verified! Continuing...")
-                    page.goto("https://etrax.eagleanalytical.com/Submission", wait_until="domcontentloaded")
-                    time.sleep(2)
+                    print("\n[SUCCESS] Login verified via active probe! Continuing...")
                     logged_in = True
                     break
+
                 print(".", end="", flush=True)
 
             if not logged_in:
