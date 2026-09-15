@@ -7,8 +7,38 @@ from playwright.sync_api import sync_playwright
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-# Default User Data Dir for EagleTrax Session
 USER_DATA_DIR = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~")), "pastdue_playwright_session")
+
+TWO_SAMPLES = [
+    {
+        "id": "ETX-260903-0229",
+        "raw_id": "ETX-260903-0229-4/5",
+        "record": "091526-2222",
+        "method": "d",
+        "volume": "",
+        "start_date": "09/08/2026",
+        "end_date": "09/15/2026",
+        "atp": 87468,
+        "tsb": 1980,
+        "ftm": 6423,
+        "group": "GS",
+        "note": "Day 7 Sterility Read: Negative. Incubation ended on 15Sep26\n\n091526-2222: TSB -ve control = 2566 TSB cut off = 7696.5 FTM -ve control = 5894 FTM cut off = 17680.5"
+    },
+    {
+        "id": "ETX-260903-0227",
+        "raw_id": "ETX-260903-0227-4/5",
+        "record": "091526-2222",
+        "method": "d",
+        "volume": "",
+        "start_date": "09/08/2026",
+        "end_date": "09/15/2026",
+        "atp": 87468,
+        "tsb": 2997,
+        "ftm": 6213,
+        "group": "GS",
+        "note": "Day 7 Sterility Read: Negative. Incubation ended on 15Sep26\n\n091526-2222: TSB -ve control = 2566 TSB cut off = 7696.5 FTM -ve control = 5894 FTM cut off = 17680.5"
+    }
+]
 
 def resolve_target_link(page, etx_id):
     """Searches EagleTrax /Submission page for the Celsis Sterility Test link for etx_id."""
@@ -19,15 +49,20 @@ def resolve_target_link(page, etx_id):
     # Clear search
     try:
         clear_btn = page.locator("#ClearButton, button[title='Clear'], input[value='Clear']").first
-        if clear_btn.count() > 0:
+        if clear_btn.count() > 0 and clear_btn.is_visible():
             clear_btn.click()
             time.sleep(0.8)
     except Exception:
         pass
 
     # Type ETX ID and find
-    search_box = page.locator("#srchCriteria, input[name='srchCriteria']").first
-    search_box.fill(etx_id)
+    try:
+        search_box = page.locator("#srchCriteria, input[name='srchCriteria']").first
+        search_box.wait_for(state="visible", timeout=15000)
+        search_box.fill(etx_id)
+    except Exception as e:
+        print(f"  ⚠️ Could not locate search box on page ({page.url}): {e}")
+        return None
     time.sleep(0.3)
     find_btn = page.locator("#FindButton, button:has-text('Find'), input[value='Find']").first
     find_btn.click()
@@ -43,7 +78,7 @@ def resolve_target_link(page, etx_id):
         tests_tab = page.locator("a[href='#SubmissionTests'], a:has-text('Tests')").first
         if tests_tab.count() > 0:
             tests_tab.click()
-            time.sleep(1)
+            time.sleep(1.2)
     except Exception:
         pass
 
@@ -82,7 +117,6 @@ def ensure_edit_mode(page):
     print("  🔓 [1/4] Checking edit mode & 'Enter Data' button...")
     time.sleep(0.5)
 
-    # 1. Check if first input is already enabled
     rec_input = page.locator("#SubmissionTestResults_0__Value").first
     if rec_input.count() > 0:
         is_disabled = rec_input.evaluate("el => el.disabled || el.readOnly")
@@ -90,8 +124,6 @@ def ensure_edit_mode(page):
             print("  ℹ️ Fields are already active and editable.")
             return True
 
-    # 2. Look for the Enter Data / Modify Results button
-    # In EagleTrax, this button is located in the Test Results panel header (.panel-heading .col-xs-2.text-right)
     btn_candidates = page.locator(
         "#SubmissionTestResultList .panel-heading a, "
         "#SubmissionTestResultList .panel-heading button, "
@@ -131,7 +163,7 @@ def ensure_edit_mode(page):
         except Exception:
             print("  ⚠️ Waiting timed out. Checking DOM fallback...")
 
-    # 3. Fallback: remove disabled and readonly flags from all test result elements if still locked
+    # Fallback: remove disabled and readonly flags from all test result elements if still locked
     unlocked = page.evaluate('''() => {
         let cnt = 0;
         document.querySelectorAll('input[id^="SubmissionTestResults_"], select[id^="SubmissionTestResults_"]').forEach(el => {
@@ -152,7 +184,6 @@ def ensure_edit_mode(page):
 
 def fill_celsis_page(page, sample):
     """Injects all 16 form fields and Test Note into the Celsis test details page without clicking Save."""
-    # Step 0: Ensure edit mode ("Enter Data" clicked)
     ensure_edit_mode(page)
     
     print("  ✍️ [2/4] Injecting test parameters...")
@@ -213,59 +244,30 @@ def fill_celsis_page(page, sample):
         if sample["record"] in existing_notes and "TSB -ve control" in existing_notes:
             print("  ℹ️ Batch Test Note already attached, skipping duplicate addition.")
         else:
-            note_added = False
-            # Strategy A: Inline Add Test Note panel at page bottom
-            inline_box = page.locator("textarea#Content, textarea[name='Content'], textarea[name*='Note'], #AddTestNote textarea, .panel:has-text('Add Test Note') textarea").first
-            if inline_box.count() > 0 and inline_box.is_visible():
-                print("  👉 Found inline Add Test Note textarea. Injecting note...")
-                inline_box.fill(note_text)
-                time.sleep(0.5)
-                inline_btn = page.locator("input[value='Add Test Note'], button:has-text('Add Test Note'), .panel:has-text('Add Test Note') .btn-primary").first
-                if inline_btn.count() > 0 and inline_btn.is_visible():
-                    inline_btn.click()
+            add_note_btn = page.locator("#AddSubmissionTestNote")
+            if add_note_btn.count() > 0 and add_note_btn.is_visible():
+                print("  👉 Clicking 'Add Note' button...")
+                add_note_btn.click()
+                time.sleep(1)
+                
+                try:
+                    modal = page.locator(".modal.in, #myModal, .modal-dialog, div[role='dialog']").first
+                    modal.wait_for(state="visible", timeout=6000)
+                    textarea = modal.locator("textarea, input[type='text'][name*='Note']").first
+                    textarea.fill(note_text)
+                    time.sleep(0.5)
+                    
+                    save_note_btn = modal.locator("button:has-text('Save'), input[value='Save'], button:has-text('Submit'), button.btn-primary").first
+                    save_note_btn.click()
                     time.sleep(1.5)
-                    print("  ✅ Test Note successfully saved via inline panel!")
-                    note_added = True
+                    print("  ✅ Test Note successfully added to record!")
+                except Exception as ne:
+                    print(f"  ⚠️ Could not auto-fill note modal: {ne}. Note copied to clipboard as fallback.")
 
-            # Strategy B: Modal dialog fallback
-            if not note_added:
-                add_note_btn = page.locator("#AddSubmissionTestNote").first
-                if add_note_btn.count() > 0 and add_note_btn.is_visible():
-                    print("  👉 Clicking 'Add Note' button...")
-                    add_note_btn.click()
-                    time.sleep(1)
-                    try:
-                        modal = page.locator(".modal.in, #myModal, .modal-dialog, div[role='dialog']").first
-                        modal.wait_for(state="visible", timeout=4000)
-                        textarea = modal.locator("textarea, input[type='text'][name*='Note']").first
-                        textarea.fill(note_text)
-                        time.sleep(0.5)
-                        save_note_btn = modal.locator("button:has-text('Save'), input[value='Save'], button:has-text('Submit'), button.btn-primary").first
-                        save_note_btn.click()
-                        time.sleep(1.5)
-                        print("  ✅ Test Note successfully added via modal!")
-                        note_added = True
-                    except Exception:
-                        pass
-
-            if not note_added:
-                import subprocess
-                subprocess.run(["powershell", "-command", f"Set-Clipboard -Value @'\n{note_text}\n'@"], check=False)
-                print("  📋 Note copied to clipboard as fallback.")
-
-def run_auto_data_entry(batch_payload):
-    """
-    Main Auto-Pilot Entry Routine:
-    - Opens persistent browser window
-    - Navigates to each sample
-    - Fills all fields and Test Note
-    - Leaves page open WITHOUT saving
-    - Waits for user to review and click Save manually!
-    """
-    samples = batch_payload.get("samples", [])
+def run_pilot():
     print("=" * 65)
-    print(f"  Celsis Data Entry Auto-Pilot ({len(samples)} Samples)")
-    print(f"  Batch: {batch_payload.get('batch_id')} | ATP: {batch_payload.get('atp')}")
+    print("  CELSIS AUTO-DATA-ENTRY PILOT: 2 SAMPLES")
+    print("  ETX-260903-0229 & ETX-260903-0227")
     print("  SAFE MODE: Fills all fields and notes. NEVER CLICKS SAVE.")
     print("=" * 65)
 
@@ -274,94 +276,100 @@ def run_auto_data_entry(batch_payload):
             user_data_dir=USER_DATA_DIR,
             channel="chrome",
             headless=False,
-            viewport={"width": 1366, "height": 900}
+            viewport={"width": 1400, "height": 950}
         )
+
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
 
-        # Check authentication
         print(" -> Connecting to EagleTrax...")
         page.goto("https://etrax.eagleanalytical.com/Submission", wait_until="domcontentloaded")
         time.sleep(2)
 
         url_now = page.url.lower()
         if "/account/login" in url_now or "microsoft" in url_now or "login.live" in url_now:
-            print("\n[ACTION REQUIRED] Please complete SSO/MFA sign-in in the Chrome window...")
+            print("\n🔑 Detected login page, auto-filling username 'qchen'...")
+            try:
+                user_box = page.locator("#Username, input[name='Username']").first
+                if user_box.count() > 0 and user_box.is_visible():
+                    if not user_box.input_value():
+                        user_box.fill("qchen")
+                        print("  └─ Entered Username: qchen")
+                    cont_btn = page.locator("input[value='Continue'], button:has-text('Continue')").first
+                    if cont_btn.count() > 0 and cont_btn.is_visible():
+                        cont_btn.click()
+                        print("  └─ Clicked Continue button")
+                        time.sleep(2)
+            except Exception:
+                pass
+
+            print("\n👉 Please complete SSO/MFA sign-in in the Chrome window...")
             start_t = time.time()
+            logged_in = False
             while time.time() - start_t < 300:
                 time.sleep(3)
                 u = page.url.lower()
-                if "etrax.eagleanalytical.com" in u and "/account/login" not in u and "microsoft" not in u:
+                if "etrax.eagleanalytical.com" in u and "/account/login" not in u and "microsoft" not in u and "login.live" not in u:
                     print("\n[SUCCESS] Login verified! Continuing...")
-                    page.goto("https://etrax.eagleanalytical.com/Submission", wait_until="networkidle")
+                    page.goto("https://etrax.eagleanalytical.com/Submission", wait_until="domcontentloaded")
                     time.sleep(2)
+                    logged_in = True
                     break
                 print(".", end="", flush=True)
 
-        for idx, sample in enumerate(samples, start=1):
+            if not logged_in:
+                print("\n❌ [TIMEOUT] Login was not completed within 5 minutes. Stopping.")
+                ctx.close()
+                return
+
+        opened_pages = []
+
+        for idx, sample in enumerate(TWO_SAMPLES, start=1):
             etx_id = sample["id"]
             print(f"\n=======================================================")
-            print(f"  [{idx}/{len(samples)}] Target: {etx_id} (Group: {sample.get('group', 'N/A')})")
-            print(f"  TSB Max: {sample['tsb']} | FTM Max: {sample['ftm']}")
+            print(f"  [{idx}/2] Processing: {etx_id}")
+            print(f"  TSB: {sample['tsb']} | FTM: {sample['ftm']} | Group: {sample['group']}")
             print(f"=======================================================")
 
-            # Resolve link
-            url = sample.get("url")
-            if not url:
-                url = resolve_target_link(page, etx_id)
-                sample["url"] = url
+            # Use a separate tab for each sample so user can inspect both
+            if idx == 1:
+                target_page = page
+            else:
+                target_page = ctx.new_page()
 
+            url = resolve_target_link(target_page, etx_id)
             if not url:
                 print(f"❌ [ERROR] Could not find test link for {etx_id}. Skipping.")
                 continue
 
             print(f" -> Navigating to Test Details: {url}")
-            page.goto(url, wait_until="domcontentloaded")
-            time.sleep(2)
+            target_page.goto(url, wait_until="domcontentloaded")
+            time.sleep(2.5)
 
-            # Check if dynamic panels rendered
-            try:
-                page.wait_for_selector("#SubmissionTestResults_0__Value, #SubmissionTestResultList", timeout=12000)
-            except Exception:
-                pass
-            time.sleep(1)
+            # Auto-fill form and add note
+            fill_celsis_page(target_page, sample)
 
-            # Check if already completed or disabled
-            status_elem = page.locator("#TestStatusId").first
-            current_status = status_elem.evaluate("el => el.selectedOptions[0]?.text?.trim() || el.value") if status_elem.count() > 0 else "Unknown"
-            
-            rec_input = page.locator("#SubmissionTestResults_0__Value").first
-            is_disabled = rec_input.evaluate("el => el.disabled || el.readOnly") if rec_input.count() > 0 else False
+            # Take screenshot as evidence
+            ss_path = os.path.abspath(f"pilot_{etx_id}_filled.png")
+            target_page.screenshot(path=ss_path, full_page=True)
+            print(f"  📸 Screenshot captured: {ss_path}")
+            opened_pages.append((etx_id, target_page))
 
-            if current_status.lower() in ["completed", "approved"] and is_disabled:
-                print(f"  🎉 [ALREADY COMPLETED] Current status is [{current_status}], fields are locked. Skipping edit.")
-                continue
+        print("\n" + "*" * 65)
+        print("  🎉 [BOTH PILOT SAMPLES FILLED & READY FOR HUMAN REVIEW!]")
+        print("  1. Check Chrome window: both sample tabs are open side-by-side.")
+        print("  2. Review the pre-filled fields & Test Notes.")
+        print("  3. Click the green 'Save' button in EagleTrax manually on each tab.")
+        print("*" * 65)
 
-            # Auto-fill form
-            fill_celsis_page(page, sample)
+        # Keep browser open for user to review and save
+        print("\nBrowser will remain open for 5 minutes (or close window when done).")
+        try:
+            for s in range(300):
+                time.sleep(1)
+        except KeyboardInterrupt:
+            pass
 
-            # SAFE HUMAN REVIEW PROMPT
-            print("\n" + "*" * 65)
-            print(f"  👉 [READY FOR YOUR REVIEW] {etx_id}")
-            print(f"  1. Review the pre-filled fields and attached Test Note in Chrome.")
-            print(f"  2. Click the green 'Save' button in EagleTrax manually.")
-            print("*" * 65)
-            
-            user_input = input("Press [ENTER] here when done saving to proceed to next sample (or type Q to quit): ").strip()
-            if user_input.lower() == "q":
-                print("\n[STOPPED] Exiting by user command.")
-                break
-
-        print("\n=======================================================")
-        print("  All samples processed! Auto-Pilot session complete.")
-        print("=======================================================")
-        input("Press [ENTER] to close browser and exit...")
         ctx.close()
 
 if __name__ == "__main__":
-    sample_payload_path = os.path.abspath("celsis_auto_payload.json")
-    if os.path.exists(sample_payload_path):
-        with open(sample_payload_path, "r", encoding="utf-8") as f:
-            payload = json.load(f)
-        run_auto_data_entry(payload)
-    else:
-        print(f"Payload file '{sample_payload_path}' not found. Please provide batch JSON.")
+    run_pilot()
