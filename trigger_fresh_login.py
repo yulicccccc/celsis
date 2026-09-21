@@ -20,24 +20,24 @@ opts.add_argument("--disable-blink-features=AutomationControlled")
 opts.add_experimental_option("excludeSwitches", ["enable-automation"])
 opts.add_argument("--window-size=1366,900")
 
-print("🌐 Launching Chrome to capture verification code...", flush=True)
+print("🌐 Launching Chrome for fresh login...", flush=True)
 driver = webdriver.Chrome(options=opts)
 
 try:
+    # Go to signout or direct login
     driver.get("https://etrax.eagleanalytical.com/Submission")
     time.sleep(2)
 
     cur_url = driver.current_url.lower()
     if "/account/login" in cur_url or "microsoft" in cur_url or "login.live" in cur_url:
-        print("Redirected to login. Handling username...", flush=True)
+        print("Handling username...", flush=True)
         try:
-            u_input = WebDriverWait(driver, 4).until(
+            u_input = WebDriverWait(driver, 5).until(
                 EC.presence_of_element_located((By.ID, "Username"))
             )
-            if not u_input.get_attribute("value"):
-                u_input.clear()
-                u_input.send_keys("qchen")
-            cont_btn = WebDriverWait(driver, 4).until(
+            u_input.clear()
+            u_input.send_keys("qchen")
+            cont_btn = WebDriverWait(driver, 5).until(
                 EC.element_to_be_clickable((By.XPATH, "//input[@value='Continue'] | //button[contains(text(), 'Continue')]"))
             )
             cont_btn.click()
@@ -45,22 +45,31 @@ try:
         except Exception:
             pass
 
+        # If on Microsoft login page and says "Send another request" or similar
+        try:
+            resend_btn = driver.find_elements(By.XPATH, "//a[contains(text(), 'Send another') or contains(text(), 'resend') or contains(text(), 'try again')]")
+            if resend_btn:
+                resend_btn[0].click()
+                print("Clicked resend request...", flush=True)
+                time.sleep(2)
+        except Exception:
+            pass
+
         start_l = time.time()
-        while True:
+        while time.time() - start_l < 180:
             time.sleep(1.0)
             now_url = driver.current_url.lower()
 
-            # Save screenshot continuously
             try:
                 driver.save_screenshot("login_code.png")
             except Exception:
                 pass
 
-            # Check for richId-number or displaySign or any 2-digit number element
+            # Extract 2-digit number
             code = None
             try:
-                elem = driver.find_elements(By.XPATH, "//*[@id='richId-number' or contains(@class, 'display-sign-in-large-text') or contains(@class, 'number') or contains(@id, 'displaySign') or @data-testid='display-sign-in-large-text']")
-                for el in elem:
+                elements = driver.find_elements(By.XPATH, "//*[@id='richId-number' or contains(@class, 'display-sign-in-large-text') or contains(@class, 'number') or @data-testid='display-sign-in-large-text']")
+                for el in elements:
                     txt = el.text.strip()
                     if txt.isdigit() and len(txt) == 2:
                         code = txt
@@ -69,9 +78,7 @@ try:
                 pass
 
             if code:
-                print(f"\n==========================================", flush=True)
-                print(f"  👉 MICROSOFT MFA CODE: 【 {code} 】", flush=True)
-                print(f"==========================================\n", flush=True)
+                print(f"MFA_CODE:{code}", flush=True)
 
             try:
                 kmsi = driver.find_elements(By.ID, "KmsiCheckboxField")
@@ -84,12 +91,8 @@ try:
                 pass
 
             if "eagleanalytical.com" in now_url and "/account/login" not in now_url and "microsoft" not in now_url and "login.live" not in now_url:
-                print(f"✅ Logged in successfully ({int(time.time() - start_l)}s)!", flush=True)
-                break
-            if time.time() - start_l > 180:
-                print("Timeout waiting for login.", flush=True)
+                print("LOGIN_SUCCESS", flush=True)
                 break
 
 finally:
-    # Keep Chrome open or let it remain on port 9222
-    print("Code check step finished.", flush=True)
+    print("Done.", flush=True)

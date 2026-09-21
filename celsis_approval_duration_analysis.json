@@ -1,0 +1,96 @@
+{
+  "packet_summaries": [
+    {
+      "packet": "01SEP26.pdf",
+      "total_samples": 88,
+      "approved_count": 86,
+      "start_time": "2026-09-01 02:30:23 PM",
+      "end_time": "2026-09-01 04:06:37 PM",
+      "gross_seconds": 5774.0,
+      "gross_formatted": "1h 36m 14s",
+      "net_seconds": 5774.0,
+      "net_formatted": "1h 36m 14s",
+      "breaks_count": 0,
+      "avg_interval_seconds": 67.9,
+      "avg_interval_formatted": "1m 7s",
+      "approvers": [
+        "OAjayi"
+      ]
+    },
+    {
+      "packet": "02SEP26.pdf",
+      "total_samples": 32,
+      "approved_count": 31,
+      "start_time": "2026-08-27 01:50:15 PM",
+      "end_time": "2026-09-02 02:27:13 PM",
+      "gross_seconds": 520618.0,
+      "gross_formatted": "144h 36m 58s",
+      "net_seconds": 1673.0,
+      "net_formatted": "27m 53s",
+      "breaks_count": 1,
+      "avg_interval_seconds": 55.6,
+      "avg_interval_formatted": "55s",
+      "approvers": [
+        "OAjayi"
+      ]
+    },
+    {
+      "packet": "03SEP26.pdf",
+      "total_samples": 50,
+      "approved_count": 50,
+      "start_time": "2026-09-03 04:16:33 PM",
+      "end_time": "2026-09-03 04:48:33 PM",
+      "gross_seconds": 1920.0,
+      "gross_formatted": "32m 0s",
+      "net_seconds": 1920.0,
+      "net_formatted": "32m 0s",
+      "breaks_count": 0,
+      "avg_interval_seconds": 39.2,
+      "avg_interval_formatted": "39s",
+      "approvers": [
+        "OAjayi"
+      ]
+    },
+    {
+      "packet": "04SEP26.pdf",
+      "total_samples": 41,
+      "approved_count": 41,
+      "start_time": "2026-08-28 02:34:48 PM",
+      "end_time": "2026-09-04 05:35:45 PM",
+      "gross_seconds": 615657.0,
+      "gross_formatted": "171h 0m 57s",
+      "net_seconds": 2409.0,
+      "net_formatted": "40m 9s",
+      "breaks_count": 4,
+      "avg_interval_seconds": 60.2,
+      "avg_interval_formatted": "1m 0s",
+      "approvers": [
+        "OAjayi",
+        "QChen",
+        "RSeymour"
+      ]
+    },
+    {
+      "packet": "31AUG26.pdf",
+      "total_samples": 53,
+      "approved_count": 52,
+      "start_time": "2026-08-31 03:17:12 PM",
+      "end_time": "2026-09-01 03:26:28 PM",
+      "gross_seconds": 86956.0,
+      "gross_formatted": "24h 9m 16s",
+      "net_seconds": 3836.0,
+      "net_formatted": "1h 3m 56s",
+      "breaks_count": 1,
+      "avg_interval_seconds": 75.5,
+      "avg_interval_formatted": "1m 15s",
+      "approvers": [
+        "OAjayi"
+      ]
+    }
+  ],
+  "overall_total_samples": 264,
+  "overall_approved_samples": 260,
+  "overall_gross_seconds": 1230925.0,
+  "overall_net_seconds": 15612.0,
+  "overall_avg_interval_seconds": 61.3
+}
