@@ -1,0 +1,534 @@
+[
+  {
+    "Sample": "ETX-260908-0858",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 840,
+    "Max FTM RLU": 1776,
+    "Max CV%": "2%",
+    "Pages": [
+      10,
+      11
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260910-0779",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 366,
+    "Max FTM RLU": 668,
+    "Max CV%": "8%",
+    "Pages": [
+      4,
+      5
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260911-0251",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 3144,
+    "Max FTM RLU": 5642,
+    "Max CV%": "11%",
+    "Pages": [
+      8,
+      9
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260911-0284",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 746,
+    "Max FTM RLU": 1785,
+    "Max CV%": "4%",
+    "Pages": [
+      10,
+      11
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260911-0487",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 3387,
+    "Max FTM RLU": 5835,
+    "Max CV%": "1%",
+    "Pages": [
+      8,
+      9
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260911-0491",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 946,
+    "Max FTM RLU": 1860,
+    "Max CV%": "2%",
+    "Pages": [
+      10,
+      11
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260911-0512",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 930,
+    "Max FTM RLU": 1873,
+    "Max CV%": "3%",
+    "Pages": [
+      10,
+      11
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260912-0091",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 332,
+    "Max FTM RLU": 607,
+    "Max CV%": "7%",
+    "Pages": [
+      17,
+      18
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260912-0092",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 471,
+    "Max FTM RLU": 951,
+    "Max CV%": "10%",
+    "Pages": [
+      4,
+      5
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260912-0093",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 390,
+    "Max FTM RLU": 665,
+    "Max CV%": "16%",
+    "Pages": [
+      17,
+      18
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260912-0094",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 421,
+    "Max FTM RLU": 900,
+    "Max CV%": "16%",
+    "Pages": [
+      17,
+      18
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0035",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2987,
+    "Max FTM RLU": 7356,
+    "Max CV%": "4%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0036",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2463,
+    "Max FTM RLU": 5247,
+    "Max CV%": "8%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0039",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 3074,
+    "Max FTM RLU": 5407,
+    "Max CV%": "12%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0044",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2624,
+    "Max FTM RLU": 5812,
+    "Max CV%": "1%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0046",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 3016,
+    "Max FTM RLU": 5189,
+    "Max CV%": "2%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0054",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2478,
+    "Max FTM RLU": 5860,
+    "Max CV%": "12%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0057",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2932,
+    "Max FTM RLU": 6133,
+    "Max CV%": "1%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0063",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2700,
+    "Max FTM RLU": 5550,
+    "Max CV%": "3%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0066",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 3130,
+    "Max FTM RLU": 5628,
+    "Max CV%": "4%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0068",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 3182,
+    "Max FTM RLU": 6300,
+    "Max CV%": "2%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0069",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2785,
+    "Max FTM RLU": 5422,
+    "Max CV%": "1%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0071",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2811,
+    "Max FTM RLU": 5596,
+    "Max CV%": "1%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0072",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2123,
+    "Max FTM RLU": 5452,
+    "Max CV%": "1%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0073",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2596,
+    "Max FTM RLU": 5564,
+    "Max CV%": "3%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0089",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2773,
+    "Max FTM RLU": 6223,
+    "Max CV%": "1%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0136",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 4181,
+    "Max FTM RLU": 820,
+    "Max CV%": "7%",
+    "Pages": [
+      4,
+      5
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0230",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2505,
+    "Max FTM RLU": 5956,
+    "Max CV%": "11%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0269",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 2448,
+    "Max FTM RLU": 7080,
+    "Max CV%": "12%",
+    "Pages": [
+      15,
+      16
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0348",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 3339,
+    "Max FTM RLU": 8240,
+    "Max CV%": "3%",
+    "Pages": [
+      6,
+      7
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0354",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 705,
+    "Max FTM RLU": 2023,
+    "Max CV%": "2%",
+    "Pages": [
+      10,
+      11
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0486",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 508,
+    "Max FTM RLU": 1017,
+    "Max CV%": "10%",
+    "Pages": [
+      4,
+      5
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0488",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 458,
+    "Max FTM RLU": 926,
+    "Max CV%": "18%",
+    "Pages": [
+      17,
+      18
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0554",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 974,
+    "Max FTM RLU": 2159,
+    "Max CV%": "5%",
+    "Pages": [
+      17,
+      18
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0571",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 1030,
+    "Max FTM RLU": 1801,
+    "Max CV%": "2%",
+    "Pages": [
+      17,
+      18
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0581",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 951,
+    "Max FTM RLU": 2033,
+    "Max CV%": "2%",
+    "Pages": [
+      10,
+      11
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0655",
+    "Instrument": "2011",
+    "Daily ATP": "97310",
+    "Max TSB RLU": 978,
+    "Max FTM RLU": 1868,
+    "Max CV%": "3%",
+    "Pages": [
+      17,
+      18
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260914-0699",
+    "Instrument": "2222",
+    "Daily ATP": "103791",
+    "Max TSB RLU": 885,
+    "Max FTM RLU": 1890,
+    "Max CV%": "4%",
+    "Pages": [
+      10,
+      11
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  }
+]
