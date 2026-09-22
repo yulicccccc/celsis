@@ -101,9 +101,11 @@ def get_driver():
     options = Options()
     options.add_argument(f"--user-data-dir={chrome_profile_dir}")
     options.add_argument("--profile-directory=Default")
+    options.add_argument("--remote-debugging-port=9222")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_argument("--window-size=1366,900")
+
 
     print(f"\n🌐 正在启动 Chrome 浏览器 (使用 profile: chrome_automation_profile)...", flush=True)
     try:
@@ -190,15 +192,41 @@ try:
 
             print("\n👉 [提示] 如有手机 Authenticator 确认提示，请在手机上确认...", flush=True)
             start_l = time.time()
+            last_mfa = None
             while True:
-                time.sleep(3)
+                time.sleep(2)
                 now_url = driver.current_url.lower()
+
+                try:
+                    elem = driver.find_elements(By.XPATH, "//*[@id='richId-number' or contains(@class, 'display-sign-in-large-text') or contains(@class, 'number') or contains(@id, 'displaySign') or @data-testid='display-sign-in-large-text']")
+                    for el in elem:
+                        txt = el.text.strip()
+                        if txt.isdigit() and len(txt) == 2 and txt != last_mfa:
+                            last_mfa = txt
+                            print(f"\n==========================================", flush=True)
+                            print(f"  👉 MICROSOFT MFA CODE: 【 {txt} 】", flush=True)
+                            print(f"==========================================\n", flush=True)
+                            break
+                except Exception:
+                    pass
+
+                try:
+                    kmsi = driver.find_elements(By.ID, "KmsiCheckboxField")
+                    if kmsi and not kmsi[0].is_selected():
+                        kmsi[0].click()
+                    yes_btn = driver.find_elements(By.XPATH, "//input[@id='idSIButton9' or @value='Yes'] | //button[contains(text(), 'Yes')]")
+                    if yes_btn and yes_btn[0].is_displayed():
+                        yes_btn[0].click()
+                except Exception:
+                    pass
+
                 if "eagleanalytical.com" in now_url and "/account/login" not in now_url and "microsoft" not in now_url and "login.live" not in now_url and "signin-oidc" not in now_url:
                     print(f"✅ 登录恢复成功！耗时 {int(time.time() - start_l)} 秒。", flush=True)
                     break
                 if time.time() - start_l > 180:
                     print("❌ 登录超时，程序退出。", flush=True)
                     sys.exit(1)
+
 
             driver.get(target_url)
             time.sleep(3)
