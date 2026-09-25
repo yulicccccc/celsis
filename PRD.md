@@ -185,8 +185,10 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
 - **Git Checkpoint**: Commit `a9572e5`.
 
 ### 5.2 25SEP26 Batch (23 Samples)
-- **Status**: Step 1 Extraction & Step 2 Live Field Audit 100% PASS (23/23 PASS, 0 BLOCK).
+- **Status**: 100% Audited, Approved, and Verified in LIMS (`Completed`).
 - **Instrument**: Advance 2 #2222 (Daily ATP: 85087).
 - **Workload Summary**: 10 batch pairs, all negative, all CV% < 30%.
-- **Step 4 Approval Gate**: Prepared (`celsis_batch_approve_25sep26.py`), strictly frozen awaiting user command.
+- **Step 4 Approval Cadence**: Executed at ~1 min/sample (50-70s randomized intervals). All 23 samples verified as `Completed`.
+- **Progress File**: `celsis_250926_approval_progress.json`.
+
 
