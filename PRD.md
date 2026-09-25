@@ -174,3 +174,19 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
 
 - **NO Cloudflare Pages Deployment**: Deployment is deferred until offline Golden Cases are 100% validated.
 - **NO Direct EagleTrax Integration**: System does not communicate with production servers via network APIs.
+
+---
+
+## 5. Batch Execution Records & Locked States
+
+### 5.1 22SEP26 Batch (31 Samples)
+- **Status**: 100% Audited, Approved, and Verified in LIMS (`Completed`).
+- **Instrument**: Advance 1 #2011 (Daily ATP: 94747), Advance 2 #2222 (Daily ATP: 93557).
+- **Git Checkpoint**: Commit `a9572e5`.
+
+### 5.2 25SEP26 Batch (23 Samples)
+- **Status**: Step 1 Extraction & Step 2 Live Field Audit 100% PASS (23/23 PASS, 0 BLOCK).
+- **Instrument**: Advance 2 #2222 (Daily ATP: 85087).
+- **Workload Summary**: 10 batch pairs, all negative, all CV% < 30%.
+- **Step 4 Approval Gate**: Prepared (`celsis_batch_approve_25sep26.py`), strictly frozen awaiting user command.
+
