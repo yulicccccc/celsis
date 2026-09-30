@@ -221,7 +221,7 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
 - **Progress File**: `celsis_250926_approval_progress.json`.
 
 ### 5.3 30SEP26 Batch (37 Samples)
-- **Status**: 4-in-1 Data Entry Package Generated & Validated.
+- **Status**: In Progress — 8 of 37 Samples Completed & Saved (100% Verified).
 - **Batch ID**: `093026-2011` (Workload: `D:\1.pdf`, Daily Control: `D:\1d.pdf`).
 - **Instrument**: Advance 2 #2011 (Start Temp: 19.9°C, Analyst: `cdu`).
 - **Daily Control ATP**: `85546` (Positive Control, CV: 6%).
@@ -229,11 +229,24 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
   - GS TSB -ve control = `1907`, Cut-off = `5721.0` (CV: 0%)
   - GS FTM -ve control = `7381`, Cut-off = `22141.5` (CV: 1%)
 - **Validation Summary**: All 37 samples negative, all CV% < 30% (max CV% is 13%), strict compliance with Rule 2 & Rule 7.
+- **Completed & Saved Samples (8 / 37)**:
+  1. `ETX-260921-0162` (Pilot 1, manually verified and saved)
+  2. `ETX-260921-0193` (Pilot 1, manually verified and saved)
+  3. `ETX-260921-0169` (Pilot 2, manually verified and saved)
+  4. `ETX-260921-0197` (Pilot 2, manually verified and saved)
+  5. `ETX-260921-0218` (Pilot 3, auto-saved via Playwright, verified `mL` & Note)
+  6. `ETX-260921-0154` (Pilot 3, auto-saved via Playwright, verified `mL` & Note)
+  7. `ETX-260921-0175` (Pilot 3, auto-saved via Playwright, verified `mL` & Note)
+  8. `ETX-260921-0152` (Pilot 3, auto-saved via Playwright, verified `mL` & Note)
+- **Remaining Samples (29 / 37)**:
+  - Samples 9 to 37 (`ETX-260921-0130` through `ETX-260921-0108`).
+  - Automated Runner: `celsis_auto_save_remaining_29.py` and `run_auto_save_remaining_29.bat`.
 - **Artifacts Delivered**:
   - Bookmarklet: `093026-2011_书签下载器.html`
   - Enter-Only Macro: `Celsis_093026-2011_DataEntry_EnterOnly.ps1`
   - Review Table: `Celsis_093026-2011_Review_Table.tsv`
   - Complete Package: `Celsis_093026-2011_Complete_Package.zip`
-  - Playwright Automation: `celsis_auto_payload.json` & `celsis_pilot_two_samples.py`
+  - Playwright Automation: `celsis_auto_save_4_samples.py` & `celsis_auto_save_remaining_29.py`
+
 
 
