@@ -13,6 +13,7 @@ TWO_SAMPLES = [
     {
         "id": "ETX-260921-0162",
         "raw_id": "ETX-260921-0162-4/5",
+        "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/LeVMdvH-z8PS-JVSidepbw__",
         "record": "093026-2011",
         "method": "d",
         "volume": "",
@@ -27,6 +28,7 @@ TWO_SAMPLES = [
     {
         "id": "ETX-260921-0193",
         "raw_id": "ETX-260921-0193-4/5",
+        "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/Z2I2jQoCS7aa5xhqIEQlRw__",
         "record": "093026-2011",
         "method": "d",
         "volume": "",
@@ -377,7 +379,7 @@ def run_pilot():
             else:
                 target_page = ctx.new_page()
 
-            url = resolve_target_link(target_page, etx_id)
+            url = sample.get("url") or resolve_target_link(target_page, etx_id)
             if not url:
                 print(f"❌ [ERROR] Could not find test link for {etx_id}. Skipping.")
                 continue
