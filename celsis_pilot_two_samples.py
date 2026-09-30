@@ -278,64 +278,53 @@ def fill_celsis_page(page, sample):
     target_uom = sample.get("uom", detected_uom or "mL")
     try:
         uom_result = page.evaluate('''(targetUnit) => {
-            const selectors = [
-                '.row:has(#SubmissionTestResults_4__Value) select',
-                'select[name*="UnitOfMeasure"]',
-                'select[id*="UnitOfMeasure"]',
-                'select[name*="Uom"]',
-                'select[id*="Uom"]',
-                'div.col-xs-3:has-text("UOM") select',
-                '.row:has-text("Direct Inoculation") select'
-            ];
-            let sel = null;
-            for (const s of selectors) {
-                const el = document.querySelector(s);
-                if (el) { sel = el; break; }
+            let uomSel = null;
+            // The UOM select is the unique select on page containing 'mL' / 'ml'
+            const selects = Array.from(document.querySelectorAll('select'));
+            for (const s of selects) {
+                for (const opt of s.options) {
+                    const t = opt.text.trim().toLowerCase();
+                    if (t === 'ml' || t === 'ml.' || t === 'milliliter' || t === targetUnit.trim().toLowerCase()) {
+                        uomSel = s;
+                        break;
+                    }
+                }
+                if (uomSel) break;
             }
-            if (!sel) return { success: false, reason: "UOM select element not found" };
 
-            sel.disabled = false;
-            sel.removeAttribute('disabled');
+            if (!uomSel) {
+                // Secondary fallback by ID/name
+                uomSel = document.querySelector('select[name*="UnitOfMeasure"], select[id*="UnitOfMeasure"], select[name*="Uom"], select[id*="Uom"]');
+            }
 
-            let matched = false;
+            if (!uomSel) return { success: false, reason: "UOM select element not found" };
+
+            uomSel.disabled = false;
+            uomSel.removeAttribute('disabled');
+
+            const normTarget = targetUnit.trim().toLowerCase();
             let chosenVal = null;
             let chosenText = null;
-            const normTarget = targetUnit.trim().toLowerCase();
 
-            for (let i = 0; i < sel.options.length; i++) {
-                const opt = sel.options[i];
+            for (let i = 0; i < uomSel.options.length; i++) {
+                const opt = uomSel.options[i];
                 const optText = opt.text.trim().toLowerCase();
                 const optVal = opt.value.trim().toLowerCase();
                 if (optText === normTarget || optVal === normTarget || (normTarget === 'ml' && (optText === 'ml' || optText === 'ml.' || optVal === 'ml'))) {
-                    sel.selectedIndex = i;
-                    sel.value = opt.value;
+                    uomSel.selectedIndex = i;
+                    uomSel.value = opt.value;
                     chosenVal = opt.value;
                     chosenText = opt.text;
-                    matched = true;
                     break;
                 }
             }
 
-            if (!matched) {
-                for (let i = 0; i < sel.options.length; i++) {
-                    const opt = sel.options[i];
-                    if (opt.text.toLowerCase().includes(normTarget)) {
-                        sel.selectedIndex = i;
-                        sel.value = opt.value;
-                        chosenVal = opt.value;
-                        chosenText = opt.text;
-                        matched = true;
-                        break;
-                    }
-                }
-            }
-
-            if (matched) {
-                sel.dispatchEvent(new Event('change', { bubbles: true }));
-                sel.dispatchEvent(new Event('input', { bubbles: true }));
-                return { success: true, text: chosenText, value: chosenVal, id: sel.id };
+            if (chosenVal !== null) {
+                uomSel.dispatchEvent(new Event('change', { bubbles: true }));
+                uomSel.dispatchEvent(new Event('input', { bubbles: true }));
+                return { success: true, text: chosenText, value: chosenVal, id: uomSel.id };
             } else {
-                return { success: false, reason: "No matching option", available: Array.from(sel.options).map(o => o.text) };
+                return { success: false, reason: "No matching option", available: Array.from(uomSel.options).map(o => o.text) };
             }
         }''', target_uom)
         print(f"  └─ UOM Unit Selection [{target_uom}]: {uom_result}")
