@@ -191,4 +191,20 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
 - **Step 4 Approval Cadence**: Executed at ~1 min/sample (50-70s randomized intervals). All 23 samples verified as `Completed`.
 - **Progress File**: `celsis_250926_approval_progress.json`.
 
+### 5.3 30SEP26 Batch (37 Samples)
+- **Status**: 4-in-1 Data Entry Package Generated & Validated.
+- **Batch ID**: `093026-2011` (Workload: `D:\1.pdf`, Daily Control: `D:\1d.pdf`).
+- **Instrument**: Advance 2 #2011 (Start Temp: 19.9°C, Analyst: `cdu`).
+- **Daily Control ATP**: `85546` (Positive Control, CV: 6%).
+- **Negative Controls & Cut-offs**:
+  - GS TSB -ve control = `1907`, Cut-off = `5721.0` (CV: 0%)
+  - GS FTM -ve control = `7381`, Cut-off = `22141.5` (CV: 1%)
+- **Validation Summary**: All 37 samples negative, all CV% < 30% (max CV% is 13%), strict compliance with Rule 2 & Rule 7.
+- **Artifacts Delivered**:
+  - Bookmarklet: `093026-2011_书签下载器.html`
+  - Enter-Only Macro: `Celsis_093026-2011_DataEntry_EnterOnly.ps1`
+  - Review Table: `Celsis_093026-2011_Review_Table.tsv`
+  - Complete Package: `Celsis_093026-2011_Complete_Package.zip`
+  - Playwright Automation: `celsis_auto_payload.json` & `celsis_pilot_two_samples.py`
+
 

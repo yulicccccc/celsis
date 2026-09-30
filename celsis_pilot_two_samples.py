@@ -11,32 +11,32 @@ USER_DATA_DIR = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("
 
 TWO_SAMPLES = [
     {
-        "id": "ETX-260903-0229",
-        "raw_id": "ETX-260903-0229-4/5",
-        "record": "091526-2222",
+        "id": "ETX-260921-0162",
+        "raw_id": "ETX-260921-0162-4/5",
+        "record": "093026-2011",
         "method": "d",
         "volume": "",
-        "start_date": "09/08/2026",
-        "end_date": "09/15/2026",
-        "atp": 87468,
-        "tsb": 1980,
-        "ftm": 6423,
+        "start_date": "09/23/2026",
+        "end_date": "09/30/2026",
+        "atp": 85546,
+        "tsb": 2134,
+        "ftm": 9486,
         "group": "GS",
-        "note": "Day 7 Sterility Read: Negative. Incubation ended on 15Sep26\n\n091526-2222: TSB -ve control = 2566 TSB cut off = 7696.5 FTM -ve control = 5894 FTM cut off = 17680.5"
+        "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5"
     },
     {
-        "id": "ETX-260903-0227",
-        "raw_id": "ETX-260903-0227-4/5",
-        "record": "091526-2222",
+        "id": "ETX-260921-0193",
+        "raw_id": "ETX-260921-0193-4/5",
+        "record": "093026-2011",
         "method": "d",
         "volume": "",
-        "start_date": "09/08/2026",
-        "end_date": "09/15/2026",
-        "atp": 87468,
-        "tsb": 2997,
-        "ftm": 6213,
+        "start_date": "09/23/2026",
+        "end_date": "09/30/2026",
+        "atp": 85546,
+        "tsb": 2100,
+        "ftm": 7867,
         "group": "GS",
-        "note": "Day 7 Sterility Read: Negative. Incubation ended on 15Sep26\n\n091526-2222: TSB -ve control = 2566 TSB cut off = 7696.5 FTM -ve control = 5894 FTM cut off = 17680.5"
+        "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5"
     }
 ]
 
