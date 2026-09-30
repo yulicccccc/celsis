@@ -114,7 +114,7 @@ ps1_path = os.path.join(TARGET_DIR, ps1_filename)
 
 playlist_items = []
 for s in SAMPLES_DATA:
-    item = f'    [PSCustomObject]@{{ ID="{s["base_id"]}"; RawID="{s["raw_id"]}"; Record="{BATCH_ID}"; Method="d"; ATP="{GLOBAL_ATP}"; TSB="{s["tsb"]}"; FTM="{s["ftm"]}"; Group="{s["group"]}"; Note=@"\n{s["note"]}\n"@ }}'
+    item = f'    [PSCustomObject]@{{ ID="{s["base_id"]}"; RawID="{s["raw_id"]}"; Record="{BATCH_ID}"; Method="m"; ATP="{GLOBAL_ATP}"; TSB="{s["tsb"]}"; FTM="{s["ftm"]}"; Group="{s["group"]}"; Note=@"\n{s["note"]}\n"@ }}'
     playlist_items.append(item)
 
 playlist_block = ",\n".join(playlist_items)
@@ -362,12 +362,25 @@ auto_payload = {
     "samples": []
 }
 
+# Preserve existing URLs if present
+existing_url_map = {}
+if os.path.exists(os.path.join(TARGET_DIR, "celsis_auto_payload.json")):
+    try:
+        with open(os.path.join(TARGET_DIR, "celsis_auto_payload.json"), "r", encoding="utf-8") as f_prev:
+            prev_data = json.load(f_prev)
+            for ps in prev_data.get("samples", []):
+                if ps.get("url"):
+                    existing_url_map[ps["id"]] = (ps["url"], ps.get("test_id", ""))
+    except Exception:
+        pass
+
 for s in SAMPLES_DATA:
-    auto_payload["samples"].append({
+    s_url, s_tid = existing_url_map.get(s["base_id"], ("", ""))
+    entry = {
         "id": s["base_id"],
         "raw_id": s["raw_id"],
         "record": BATCH_ID,
-        "method": "d",
+        "method": "m",
         "volume": "",
         "start_date": START_DATE,
         "end_date": END_DATE,
@@ -376,7 +389,12 @@ for s in SAMPLES_DATA:
         "ftm": s["ftm"],
         "group": s["group"],
         "note": s["note"]
-    })
+    }
+    if s_url:
+        entry["url"] = s_url
+    if s_tid:
+        entry["test_id"] = s_tid
+    auto_payload["samples"].append(entry)
 
 payload_target = os.path.join(TARGET_DIR, "celsis_auto_payload.json")
 with open(payload_target, "w", encoding="utf-8") as f:
