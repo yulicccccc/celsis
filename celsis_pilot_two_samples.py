@@ -405,12 +405,18 @@ def run_pilot():
         print("*" * 65)
 
         # Keep browser open for user to review and save
-        print("\nBrowser will remain open for 5 minutes (or close window when done).")
+        print("\n" + "=" * 65)
+        print("  💡 网页已保持开启！请在 Chrome 窗口中核对填入的数据及 Test Note。")
+        print("  💡 确认无误后，请人工点击每个网页底部的绿色 [Save Changes] 按钮。")
+        print("=" * 65)
         try:
-            for s in range(300):
-                time.sleep(1)
-        except KeyboardInterrupt:
-            pass
+            input("\n👉 当您核对并手动保存完毕后，在此命令行窗口按下 [回车键] 即可安全退出脚本: ")
+        except Exception:
+            try:
+                for s in range(1800):  # 30 minutes fallback
+                    time.sleep(1)
+            except KeyboardInterrupt:
+                pass
 
         ctx.close()
 
