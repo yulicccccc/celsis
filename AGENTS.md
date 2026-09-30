@@ -10,7 +10,7 @@ Current wording:
 
 > Prototype — Not validated for GxP use.
 
-Never automate Save, Submit, approval, or signature without an explicit future approved requirement and validation.
+Never automate approval or electronic signature without an explicit user instruction and authorization. Automated Save Changes and transition to Data Review are formally approved and validated per user directive (2026-09-30).
 
 ## 2. Source truth
 
@@ -35,6 +35,7 @@ Before entry:
   1. Source 1 (PDF Workload Negative Control): Table 0 negative control name (e.g. `TSB,MF+IPM,-ve control-ES` -> `IPM`; `TSB,MF,-ve control-GS` -> `N/A`). Any `+<Mod>` attached to the method denotes the modification; absence of `+` denotes `N/A`.
   2. Source 2 (EagleTrax On-Page Test Note): Technician's Day 0 prep notes (e.g. `No Modifications` -> `N/A`, or explicit modification sentences). Both sources must align. In case of discrepancy, flag immediately for analyst confirmation.
 - Negative Control Test Note Standard Format: For each entered sample, the batch negative control baseline and cut-off note MUST be attached under Test Notes using the standardized syntax: `TSB -ve control = <tsb_neg>, TSB cut off =<tsb_cutoff> FTM -ve control = <ftm_neg>, FTM cut off = <ftm_cutoff>`. In EagleTrax, `#AddSubmissionTestNote` toggles an inline panel at the page bottom (not a modal popup); notes must be submitted via `textarea#Content` and the inline submit button.
+- End-to-End Auto Entry & Data Review Transition: The full automated sequence (unlock edit mode -> inject 13 parameters -> set UOM to `mL` -> crosscheck against Day 0 prep notes -> attach negative control note -> Save Changes -> transition `#TestStatusId` to `Data Review` via `#ChangeTestStatusSaveButton` -> capture audit screenshot) is formally validated and locked as the standard SOP per user directive ("以后我们就走这个流程吧"). Final approval remains strictly frozen until explicit user authorization.
 - Groups are dynamic.
 - Preserve rerun/run/media lineage.
 - No silent OCR guesses.

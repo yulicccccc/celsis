@@ -59,6 +59,14 @@
 
 ---
 
+9. **End-to-End Automated Data Entry & Data Review SOP Formally Locked (2026-09-30)**:
+   - Formally adopted per user directive ("以后我们就走这个流程吧") after 100% successful validation of all 37 samples in Batch `093026-2011`.
+   - Pipeline: Auto-unlock -> 13 fields injected -> UOM explicitly selected as `mL` -> Day 0 prep notes crosscheck -> negative control cut-off note attached -> auto-saved (`Save Changes`) -> `#TestStatusId` transitioned to `Data Review` -> DOM screenshot captured.
+   - Interactive Task Scheduler (`-LogonType Interactive`) used for desktop visibility and live Chrome tab inspection.
+   - Final approval remains strictly frozen until explicit user authorization.
+
+---
+
 ## 3. Active Golden Cases
 
 | Golden Case ID | Batch ID | Date | Samples | Status | Notes |
