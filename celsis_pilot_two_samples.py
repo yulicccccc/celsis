@@ -11,9 +11,9 @@ USER_DATA_DIR = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("
 
 TWO_SAMPLES = [
     {
-        "id": "ETX-260921-0162",
-        "raw_id": "ETX-260921-0162-4/5",
-        "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/LeVMdvH-z8PS-JVSidepbw__",
+        "id": "ETX-260921-0169",
+        "raw_id": "ETX-260921-0169-4/5",
+        "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/fh4Y1OmwtMhN0Q2aZ40fkw__",
         "record": "093026-2011",
         "method": "m",
         "volume": "",
@@ -23,15 +23,15 @@ TWO_SAMPLES = [
         "start_date": "09/23/2026",
         "end_date": "09/30/2026",
         "atp": 85546,
-        "tsb": 2134,
-        "ftm": 9486,
+        "tsb": 2544,
+        "ftm": 4936,
         "group": "GS",
         "note": "TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5"
     },
     {
-        "id": "ETX-260921-0193",
-        "raw_id": "ETX-260921-0193-4/5",
-        "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/Z2I2jQoCS7aa5xhqIEQlRw__",
+        "id": "ETX-260921-0197",
+        "raw_id": "ETX-260921-0197-4/5",
+        "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/D-%24BImsuRDZUKuvsK2hh9A__",
         "record": "093026-2011",
         "method": "m",
         "volume": "",
@@ -41,8 +41,8 @@ TWO_SAMPLES = [
         "start_date": "09/23/2026",
         "end_date": "09/30/2026",
         "atp": 85546,
-        "tsb": 2100,
-        "ftm": 7867,
+        "tsb": 2246,
+        "ftm": 6860,
         "group": "GS",
         "note": "TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5"
     }
