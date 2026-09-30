@@ -155,29 +155,52 @@ def fill_celsis_page(page, sample):
     # Step 0: Ensure edit mode ("Enter Data" clicked)
     ensure_edit_mode(page)
     
+    # 二次验证 (Secondary Self-Verification): 从页面已有的 Test Notes 自动读取真实的检验方法和检验体积
+    try:
+        note_rows = page.locator(".panel:has-text('Test Notes') table tr").all()
+        for r in note_rows:
+            txt = r.inner_text().strip()
+            # 匹配例如 "MF. 12ml per media. No Modifications" 或 "DI. 10ml per media"
+            m_method = re.search(r'\b(MF|DI)\b', txt, re.I)
+            m_vol = re.search(r'(\d+(?:\.\d+)?)\s*m[lL]', txt)
+            if m_method:
+                verified_m = m_method.group(1).upper()
+                sample["method"] = "m" if verified_m == "MF" else "d"
+                print(f"  🔍 [二次验证] 从现有 Test Note 成功验证方法: {verified_m} -> {sample['method']}")
+            if m_vol:
+                verified_v = m_vol.group(1)
+                sample["volume"] = verified_v
+                print(f"  🔍 [二次验证] 从现有 Test Note 成功提取过滤体积: {verified_v} mL")
+            if "no modification" in txt.lower():
+                sample["modification"] = "N/A"
+    except Exception as e:
+        print(f"  ⚠️ 二次验证读取 Test Note 异常: {e}")
+
     print("  ✍️ [2/4] Injecting test parameters...")
     
     # 0: Test Record
     page.locator("#SubmissionTestResults_0__Value").fill(sample["record"])
     
     # 1: Method Performed (Direct Inoculation / Membrane Filtration)
-    method_label = "Direct Inoculation" if sample.get("method", "d").lower() == "d" else "Membrane Filtration"
+    is_mf = sample.get("method", "m").lower() == "m"
+    method_label = "Membrane Filtration" if is_mf else "Direct Inoculation"
     page.locator("#SubmissionTestResults_1__Value").select_option(label=method_label)
     
     # 2: Modification
-    page.locator("#SubmissionTestResults_2__Value").fill("N/A")
+    page.locator("#SubmissionTestResults_2__Value").fill(sample.get("modification", "N/A"))
     
-    # 3 & 4: Volume placement
-    if "membrane" in method_label.lower():
-        vol = str(sample.get("volume", "") or "")
+    # 3 & 4: Volume placement (MF goes to #3 Filtered, DI goes to #4 Added)
+    vol = str(sample.get("volume", "") or "").strip()
+    if is_mf:
         if vol:
             page.locator("#SubmissionTestResults_3__Value").fill(vol)
+            print(f"  └─ Filtered Volume (#3): {vol}")
         page.locator("#SubmissionTestResults_4__Value").fill("")
     else:
         page.locator("#SubmissionTestResults_3__Value").fill("")
-        vol = str(sample.get("volume", "") or "")
         if vol:
             page.locator("#SubmissionTestResults_4__Value").fill(vol)
+            print(f"  └─ Added Volume (#4): {vol}")
             
     # 5 & 6: Dates
     page.locator("#SubmissionTestResults_5__Value").fill(sample["start_date"])
