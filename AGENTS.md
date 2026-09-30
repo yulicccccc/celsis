@@ -31,6 +31,9 @@ Before entry:
 - Volume Placement: MF volume MUST be in Filtered volume field (`SubmissionTestResults_3__Value`) with DI field empty; DI volume MUST be in Added volume field (`SubmissionTestResults_4__Value`) with MF field empty.
 - Note-Derived Volume Canonical Format: When verifying sample volume from Test Notes, the authoritative test volume follows `Method: [DI|MF]. <X> mL of sample added/filtered per media` (or `<X> mL of sample added/filtered per media`). This `<X> mL` MUST match the LIMS Added/Filtered volume field. Intermediate prep ratios (e.g. `5mL sample + 15mL Tween80`) are modification notes, NOT the final test volume per media.
 - Mandatory UOM Selection: The UOM unit dropdown (located adjacent to the Added Volume field) MUST always be selected as `mL` (or verified as `mL` / `ml` from the Test Note), regardless of whether MF or DI is used. Never leave UOM as `- Select -`.
+- Dual-Source Modification Verification: Modification field (`SubmissionTestResults_2__Value`) MUST be double-checked across two authoritative sources:
+  1. Source 1 (PDF Workload Negative Control): Table 0 negative control name (e.g. `TSB,MF+IPM,-ve control-ES` -> `IPM`; `TSB,MF,-ve control-GS` -> `N/A`). Any `+<Mod>` attached to the method denotes the modification; absence of `+` denotes `N/A`.
+  2. Source 2 (EagleTrax On-Page Test Note): Technician's Day 0 prep notes (e.g. `No Modifications` -> `N/A`, or explicit modification sentences). Both sources must align. In case of discrepancy, flag immediately for analyst confirmation.
 - Groups are dynamic.
 - Preserve rerun/run/media lineage.
 - No silent OCR guesses.

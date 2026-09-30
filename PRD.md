@@ -168,7 +168,16 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
      - Volume & Unit: `<X> mL` or `<X> ml`
      - Modification: `No Modifications` -> `N/A`
   2. **Mandatory UOM Selection**: The automation explicitly unlocks and selects `mL` (or `ml`) in the UOM dropdown (`.row:has(#SubmissionTestResults_4__Value) select`) and dispatches `change` and `input` events.
-  3. **Verification in Pilot & Full Batch**: Every automated entry script (`celsis_pilot_two_samples.py`, `celsis_auto_data_entry.py`) must enforce this step before pausing for analyst review.
+### Rule 15: Dual-Source Modification Verification (双重验证 Modification 法则)
+- **Background & GxP Rationale**: The `Modification (Optional)` field (`SubmissionTestResults_2__Value`) records sample preparation alterations (e.g. `IPM`, `PBS`, `TSB soak`, `300ml`, `T80`). If no modification was performed, it must be recorded as `N/A`. The true modification status must be independently validated against two separate sources.
+- **Dual Authoritative Sources**:
+  1. **Source 1 — PDF Workload Negative Control Name**: The first sample in each media table (Table 0) encodes modification syntax: `<Media>,<Method>[+<Mod>],-ve control-<Analyst>`.
+     - Presence of `+<Mod>` (e.g. `MF+IPM`, `DI+300ml+T80`, `MF+PBS`) dictates the modification string.
+     - Absence of `+` (e.g. `TSB,MF,-ve control-GS`, `FTM,DI,-ve control-GS`) signifies standard protocol without modifications -> `N/A`.
+  2. **Source 2 — LIMS On-Page Test Note**: The analyst's initial entry note explicitly states protocol parameters (e.g. `No Modifications` -> `N/A`, or describes specific prep additives like `Tween80`).
+- **Crosscheck & Conflict Resolution**:
+  - Both sources must agree (e.g. PDF `N/A` + Test Note `No Modifications` -> verified `N/A`).
+  - If a conflict arises between PDF and on-page note, an immediate GxP verification flag is raised in the console and execution pauses for human analyst adjudication.
 
 ---
 

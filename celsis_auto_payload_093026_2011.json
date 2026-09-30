@@ -16,7 +16,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/LeVMdvH-z8PS-JVSidepbw__",
-      "test_id": "T0001129541"
+      "test_id": "T0001129541",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0193",
@@ -32,7 +35,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/Z2I2jQoCS7aa5xhqIEQlRw__",
-      "test_id": "T0001129601"
+      "test_id": "T0001129601",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0169",
@@ -48,7 +54,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/fh4Y1OmwtMhN0Q2aZ40fkw__",
-      "test_id": "T0001129555"
+      "test_id": "T0001129555",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0197",
@@ -64,7 +73,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/D-%24BImsuRDZUKuvsK2hh9A__",
-      "test_id": "T0001129615"
+      "test_id": "T0001129615",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0218",
@@ -80,7 +92,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/zP78pnv7ajetlIUxpjG3kQ__",
-      "test_id": "T0001129682"
+      "test_id": "T0001129682",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0154",
@@ -96,7 +111,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/cGAT74V9kYI1kWPQS1j-Zg__",
-      "test_id": "T0001129522"
+      "test_id": "T0001129522",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0175",
@@ -112,7 +130,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/gAMZoyVA7Ke2w8KreW1srw__",
-      "test_id": "T0001129567"
+      "test_id": "T0001129567",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0152",
@@ -128,7 +149,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/7gl1IRCja1YNcCrsXLJeaA__",
-      "test_id": "T0001129515"
+      "test_id": "T0001129515",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0130",
@@ -144,7 +168,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/xIMvJz17NtzMpFj82rTn3g__",
-      "test_id": "T0001129452"
+      "test_id": "T0001129452",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0110",
@@ -160,7 +187,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/qvsOo%24aWSS3t-8XqKMjFZg__",
-      "test_id": "T0001129403"
+      "test_id": "T0001129403",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0105",
@@ -176,7 +206,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/hui%24-2oK2jYqTUf4s7qkVg__",
-      "test_id": "T0001129386"
+      "test_id": "T0001129386",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0145",
@@ -192,7 +225,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/VukZUUNh9%24rHy8l6BvsDDA__",
-      "test_id": "T0001129369"
+      "test_id": "T0001129369",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0103",
@@ -208,7 +244,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/%24wydPMY7eYbb-gJ5esB4Eg__",
-      "test_id": "T0001129382"
+      "test_id": "T0001129382",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0133",
@@ -224,7 +263,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/RFbnUyB3Wy5bsq31EdPi5w__",
-      "test_id": "T0001129461"
+      "test_id": "T0001129461",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0159",
@@ -240,7 +282,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/nj4%24ujBmOrKut6JEXgEdFg__",
-      "test_id": "T0001129535"
+      "test_id": "T0001129535",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0204",
@@ -256,7 +301,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/aU2nqJA6SOceM8meWmMXyg__",
-      "test_id": "T0001129638"
+      "test_id": "T0001129638",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0212",
@@ -272,7 +320,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/Xv3dRvFWXhT89%24qlcyLXug__",
-      "test_id": "T0001129667"
+      "test_id": "T0001129667",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0227",
@@ -288,7 +339,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/x%24DuYNirxn1Vpz6QahEZQg__",
-      "test_id": "T0001129701"
+      "test_id": "T0001129701",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0158",
@@ -304,7 +358,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/%24ZI1y05prj-6moOJ1kLvRg__",
-      "test_id": "T0001129533"
+      "test_id": "T0001129533",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0163",
@@ -320,7 +377,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/ZSqNSKo30PaqU0bFuwArgg__",
-      "test_id": "T0001129543"
+      "test_id": "T0001129543",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0180",
@@ -336,7 +396,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/fzfmvR2YWj3CWQrEHGlblg__",
-      "test_id": "T0001129577"
+      "test_id": "T0001129577",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0172",
@@ -352,7 +415,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/vknSjmpDjpfgl1TeKqFTXQ__",
-      "test_id": "T0001129561"
+      "test_id": "T0001129561",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0168",
@@ -368,7 +434,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/BYmJeqDXb8nZVxmMz1lNdg__",
-      "test_id": "T0001129553"
+      "test_id": "T0001129553",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0190",
@@ -384,7 +453,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/4k7xncSL5dpXPTFrrIazpA__",
-      "test_id": "T0001129592"
+      "test_id": "T0001129592",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0225",
@@ -400,7 +472,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/kZ0azuBJp2PuCjwSCmwt7A__",
-      "test_id": "T0001129699"
+      "test_id": "T0001129699",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0222",
@@ -416,7 +491,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/4rpywYyGin1jNrrYScm2ag__",
-      "test_id": "T0001129690"
+      "test_id": "T0001129690",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0217",
@@ -432,7 +510,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/TArY96uHNGGENXxi0tL1aA__",
-      "test_id": "T0001129677"
+      "test_id": "T0001129677",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0229",
@@ -448,7 +529,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/MpWZ5W2LchB87APgI3hOZA__",
-      "test_id": "T0001129484"
+      "test_id": "T0001129484",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0136",
@@ -464,7 +548,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/nJX%24ZSBtMfTGOZEFhGELrA__",
-      "test_id": "T0001129473"
+      "test_id": "T0001129473",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0165",
@@ -480,7 +567,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/IOlnd6ItTYk0CfvjeRzBAw__",
-      "test_id": "T0001129549"
+      "test_id": "T0001129549",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0149",
@@ -496,7 +586,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/I4hPRc8MPIfz9LbVcfhn3Q__",
-      "test_id": "T0001129507"
+      "test_id": "T0001129507",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0224",
@@ -512,7 +605,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/7geivxISeBWd86nKh17OVg__",
-      "test_id": "T0001129696"
+      "test_id": "T0001129696",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0164",
@@ -528,7 +624,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/iJkWzCMcxlkplrZ9YZlpqA__",
-      "test_id": "T0001129545"
+      "test_id": "T0001129545",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0196",
@@ -544,7 +643,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/FRZA6uywhkn-EsYMEXF7lw__",
-      "test_id": "T0001129603"
+      "test_id": "T0001129603",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0106",
@@ -560,7 +662,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/PwgU-hPJ5-nShIU8U%244hIQ__",
-      "test_id": "T0001129389"
+      "test_id": "T0001129389",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0121",
@@ -576,7 +681,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/FT9xXAIBeXxI4xtku1vj6Q__",
-      "test_id": "T0001129425"
+      "test_id": "T0001129425",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     },
     {
       "id": "ETX-260921-0108",
@@ -592,7 +700,10 @@
       "group": "GS",
       "note": "Day 7 Sterility Read: Negative. Incubation ended on 30Sep26\n\n093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5",
       "url": "https://etrax.eagleanalytical.com/SubmissionTest/Details/%24bFi3icjKEywV%24rdMB4%24%24w__",
-      "test_id": "T0001129394"
+      "test_id": "T0001129394",
+      "neg_control": "TSB,MF,-ve control-GS",
+      "modification": "N/A",
+      "uom": "mL"
     }
   ]
 }

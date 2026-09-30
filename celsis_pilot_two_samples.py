@@ -17,6 +17,9 @@ TWO_SAMPLES = [
         "record": "093026-2011",
         "method": "m",
         "volume": "",
+        "neg_control": "TSB,MF,-ve control-GS",
+        "modification": "N/A",
+        "uom": "mL",
         "start_date": "09/23/2026",
         "end_date": "09/30/2026",
         "atp": 85546,
@@ -32,6 +35,9 @@ TWO_SAMPLES = [
         "record": "093026-2011",
         "method": "m",
         "volume": "",
+        "neg_control": "TSB,MF,-ve control-GS",
+        "modification": "N/A",
+        "uom": "mL",
         "start_date": "09/23/2026",
         "end_date": "09/30/2026",
         "atp": 85546,
@@ -205,11 +211,34 @@ def fill_celsis_page(page, sample):
                 verified_v = m_vol.group(1)
                 detected_uom = m_vol.group(2)
                 sample["volume"] = verified_v
-                print(f"  🔍 [二次验证] 从现有 Test Note 成功提取过滤体积: {verified_v} {detected_uom}")
-            if "no modification" in txt.lower():
-                sample["modification"] = "N/A"
+            # Dual-Source Modification Verification (双重验证 Modification)
+            # 1. Source 1: PDF Workload 对照品名称 (若带 +xxx 则为修改，无 + 则为 N/A)
+            raw_neg = sample.get("neg_control", "") or sample.get("raw_control_name", "") or "TSB,MF,-ve control-GS"
+            pdf_mod = "N/A"
+            if raw_neg:
+                m_mod = re.search(r'\+([^,\-]+)', raw_neg)
+                if m_mod:
+                    pdf_mod = m_mod.group(1).strip()
+
+            # 2. Source 2: 页面已有的 Test Note (例如 "No Modifications")
+            note_mod = None
+            if re.search(r'\bno\s+mod(?:ification)?s?\b', txt, re.I):
+                note_mod = "N/A"
+            elif pdf_mod != "N/A" and pdf_mod.lower() in txt.lower():
+                note_mod = pdf_mod
+
+            if note_mod:
+                if pdf_mod == note_mod or pdf_mod == "N/A":
+                    sample["modification"] = note_mod
+                    print(f"  🔍 [双重验证 - Modification] PDF 对照品 ({pdf_mod}) 与 Test Note 吻合: {note_mod}")
+                else:
+                    print(f"  ⚠️ [双重验证警告 - Modification] PDF 标明 '{pdf_mod}' 但 Test Note 显示 '{note_mod}'")
+                    sample["modification"] = note_mod
+            else:
+                sample["modification"] = pdf_mod
+                print(f"  🔍 [双重验证 - Modification] 依据 PDF 对照品确定 Modification: {pdf_mod}")
     except Exception as e:
-        print(f"  ⚠️ 二次验证读取 Test Note 异常: {e}")
+        print(f"  ⚠️ 双重验证读取 Test Note 异常: {e}")
 
     print("  ✍️ [2/4] Injecting test parameters...")
     
