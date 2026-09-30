@@ -276,60 +276,85 @@ def fill_celsis_page(page, sample):
 
     # 4.5: Unit of Measure (UOM) selection - 必须选择 mL (支持从 Test Note 二次验证提取)
     target_uom = sample.get("uom", detected_uom or "mL")
+    uom_set = False
     try:
-        uom_result = page.evaluate('''(targetUnit) => {
-            let uomSel = null;
-            // The UOM select is the unique select on page containing 'mL' / 'ml'
-            const selects = Array.from(document.querySelectorAll('select'));
-            for (const s of selects) {
-                for (const opt of s.options) {
-                    const t = opt.text.trim().toLowerCase();
-                    if (t === 'ml' || t === 'ml.' || t === 'milliliter' || t === targetUnit.trim().toLowerCase()) {
-                        uomSel = s;
+        # Strategy A: Playwright locator targeting the select containing an option for mL
+        uom_loc = page.locator("select:has(option:text-is('mL')), select:has(option:text-is('ml')), select[name*='UnitOfMeasure'], select[id*='UnitOfMeasure']").first
+        if uom_loc.count() > 0:
+            uom_loc.evaluate("el => { el.disabled = false; el.removeAttribute('disabled'); }")
+            try:
+                uom_loc.select_option(label="mL")
+                uom_set = True
+                print(f"  └─ UOM successfully set to [mL] via Playwright locator!")
+            except Exception:
+                try:
+                    uom_loc.select_option(label=target_uom)
+                    uom_set = True
+                    print(f"  └─ UOM successfully set to [{target_uom}] via Playwright locator!")
+                except Exception:
+                    pass
+    except Exception as e:
+        print(f"  ⚠️ Playwright UOM locator error: {e}")
+
+    # Strategy B: Direct DOM evaluation & Event Dispatch + jQuery trigger
+    if not uom_set:
+        try:
+            uom_result = page.evaluate('''(targetUnit) => {
+                let uomSel = null;
+                // The UOM select is the unique select on page containing 'mL' / 'ml'
+                const selects = Array.from(document.querySelectorAll('select'));
+                for (const s of selects) {
+                    for (const opt of s.options) {
+                        const t = opt.text.trim().toLowerCase();
+                        if (t === 'ml' || t === 'ml.' || t === 'milliliter' || t === targetUnit.trim().toLowerCase()) {
+                            uomSel = s;
+                            break;
+                        }
+                    }
+                    if (uomSel) break;
+                }
+
+                if (!uomSel) {
+                    // Secondary fallback by ID/name
+                    uomSel = document.querySelector('select[name*="UnitOfMeasure"], select[id*="UnitOfMeasure"], select[name*="Uom"], select[id*="Uom"]');
+                }
+
+                if (!uomSel) return { success: false, reason: "UOM select element not found" };
+
+                uomSel.disabled = false;
+                uomSel.removeAttribute('disabled');
+
+                const normTarget = targetUnit.trim().toLowerCase();
+                let chosenVal = null;
+                let chosenText = null;
+
+                for (let i = 0; i < uomSel.options.length; i++) {
+                    const opt = uomSel.options[i];
+                    const optText = opt.text.trim().toLowerCase();
+                    const optVal = opt.value.trim().toLowerCase();
+                    if (optText === normTarget || optVal === normTarget || (normTarget === 'ml' && (optText === 'ml' || optText === 'ml.' || optVal === 'ml'))) {
+                        uomSel.selectedIndex = i;
+                        uomSel.value = opt.value;
+                        chosenVal = opt.value;
+                        chosenText = opt.text;
                         break;
                     }
                 }
-                if (uomSel) break;
-            }
 
-            if (!uomSel) {
-                // Secondary fallback by ID/name
-                uomSel = document.querySelector('select[name*="UnitOfMeasure"], select[id*="UnitOfMeasure"], select[name*="Uom"], select[id*="Uom"]');
-            }
-
-            if (!uomSel) return { success: false, reason: "UOM select element not found" };
-
-            uomSel.disabled = false;
-            uomSel.removeAttribute('disabled');
-
-            const normTarget = targetUnit.trim().toLowerCase();
-            let chosenVal = null;
-            let chosenText = null;
-
-            for (let i = 0; i < uomSel.options.length; i++) {
-                const opt = uomSel.options[i];
-                const optText = opt.text.trim().toLowerCase();
-                const optVal = opt.value.trim().toLowerCase();
-                if (optText === normTarget || optVal === normTarget || (normTarget === 'ml' && (optText === 'ml' || optText === 'ml.' || optVal === 'ml'))) {
-                    uomSel.selectedIndex = i;
-                    uomSel.value = opt.value;
-                    chosenVal = opt.value;
-                    chosenText = opt.text;
-                    break;
+                if (chosenVal !== null) {
+                    uomSel.dispatchEvent(new Event('change', { bubbles: true }));
+                    uomSel.dispatchEvent(new Event('input', { bubbles: true }));
+                    if (window.jQuery) {
+                        try { window.jQuery(uomSel).val(chosenVal).trigger('change'); } catch(e){}
+                    }
+                    return { success: true, text: chosenText, value: chosenVal, id: uomSel.id };
+                } else {
+                    return { success: false, reason: "No matching option", available: Array.from(uomSel.options).map(o => o.text) };
                 }
-            }
-
-            if (chosenVal !== null) {
-                uomSel.dispatchEvent(new Event('change', { bubbles: true }));
-                uomSel.dispatchEvent(new Event('input', { bubbles: true }));
-                return { success: true, text: chosenText, value: chosenVal, id: uomSel.id };
-            } else {
-                return { success: false, reason: "No matching option", available: Array.from(uomSel.options).map(o => o.text) };
-            }
-        }''', target_uom)
-        print(f"  └─ UOM Unit Selection [{target_uom}]: {uom_result}")
-    except Exception as e:
-        print(f"  ⚠️ UOM Selection error: {e}")
+            }''', target_uom)
+            print(f"  └─ UOM Unit Selection [{target_uom}]: {uom_result}")
+        except Exception as e:
+            print(f"  ⚠️ UOM Selection error: {e}")
             
     # 5 & 6: Dates
     page.locator("#SubmissionTestResults_5__Value").fill(sample["start_date"])
