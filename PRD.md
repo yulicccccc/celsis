@@ -221,7 +221,7 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
 - **Progress File**: `celsis_250926_approval_progress.json`.
 
 ### 5.3 30SEP26 Batch (37 Samples)
-- **Status**: In Progress — 8 of 37 Samples Completed & Saved (100% Verified).
+- **Status**: In Progress — 14 of 37 Samples Completed, Saved & Transitioned to Data Review (100% Verified).
 - **Batch ID**: `093026-2011` (Workload: `D:\1.pdf`, Daily Control: `D:\1d.pdf`).
 - **Instrument**: Advance 2 #2011 (Start Temp: 19.9°C, Analyst: `cdu`).
 - **Daily Control ATP**: `85546` (Positive Control, CV: 6%).
@@ -229,24 +229,31 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
   - GS TSB -ve control = `1907`, Cut-off = `5721.0` (CV: 0%)
   - GS FTM -ve control = `7381`, Cut-off = `22141.5` (CV: 1%)
 - **Validation Summary**: All 37 samples negative, all CV% < 30% (max CV% is 13%), strict compliance with Rule 2 & Rule 7.
-- **Completed & Saved Samples (8 / 37)**:
+- **Completed & Saved Samples (14 / 37)**:
   1. `ETX-260921-0162` (Pilot 1, manually verified and saved)
   2. `ETX-260921-0193` (Pilot 1, manually verified and saved)
   3. `ETX-260921-0169` (Pilot 2, manually verified and saved)
   4. `ETX-260921-0197` (Pilot 2, manually verified and saved)
-  5. `ETX-260921-0218` (Pilot 3, auto-saved via Playwright, verified `mL` & Note)
-  6. `ETX-260921-0154` (Pilot 3, auto-saved via Playwright, verified `mL` & Note)
-  7. `ETX-260921-0175` (Pilot 3, auto-saved via Playwright, verified `mL` & Note)
-  8. `ETX-260921-0152` (Pilot 3, auto-saved via Playwright, verified `mL` & Note)
-- **Remaining Samples (29 / 37)**:
-  - Samples 9 to 37 (`ETX-260921-0130` through `ETX-260921-0108`).
-  - Automated Runner: `celsis_auto_save_remaining_29.py` and `run_auto_save_remaining_29.bat`.
+  5. `ETX-260921-0218` (Pilot 3, auto-saved via Playwright, verified `mL` & Note, Status: Data Review)
+  6. `ETX-260921-0154` (Pilot 3, auto-saved via Playwright, verified `mL` & Note, Status: Data Review)
+  7. `ETX-260921-0175` (Pilot 3, auto-saved via Playwright, verified `mL` & Note, Status: Data Review)
+  8. `ETX-260921-0152` (Pilot 3, auto-saved via Playwright, verified `mL` & Note, Status: Data Review)
+  9. `ETX-260921-0130` (Pilot 4, auto-saved via Playwright, Status: Data Review, Screenshot: `pilot6_ETX-260921-0130_data_review.png`)
+  10. `ETX-260921-0110` (Pilot 4, auto-saved via Playwright, Status: Data Review, Screenshot: `pilot6_ETX-260921-0110_data_review.png`)
+  11. `ETX-260921-0105` (Pilot 4, auto-saved via Playwright, Status: Data Review, Screenshot: `pilot6_ETX-260921-0105_data_review.png`)
+  12. `ETX-260921-0145` (Pilot 4, auto-saved via Playwright, Status: Data Review, Screenshot: `pilot6_ETX-260921-0145_data_review.png`)
+  13. `ETX-260921-0103` (Pilot 4, auto-saved via Playwright, Status: Data Review, Screenshot: `pilot6_ETX-260921-0103_data_review.png`)
+  14. `ETX-260921-0133` (Pilot 4, auto-saved via Playwright, Status: Data Review, Screenshot: `pilot6_ETX-260921-0133_data_review.png`)
+- **Remaining Samples (23 / 37)**:
+  - Samples 15 to 37 (`ETX-260921-0159` through `ETX-260921-0108`).
+  - Automated Runner: `celsis_auto_save_and_transition_remaining_23.py` and `run_auto_save_and_transition_remaining_23.bat`.
 - **Artifacts Delivered**:
   - Bookmarklet: `093026-2011_书签下载器.html`
   - Enter-Only Macro: `Celsis_093026-2011_DataEntry_EnterOnly.ps1`
   - Review Table: `Celsis_093026-2011_Review_Table.tsv`
   - Complete Package: `Celsis_093026-2011_Complete_Package.zip`
-  - Playwright Automation: `celsis_auto_save_4_samples.py` & `celsis_auto_save_remaining_29.py`
+  - Playwright Automation: `celsis_auto_save_4_samples.py`, `celsis_auto_save_and_transition_6_samples.py` & `celsis_auto_save_and_transition_remaining_23.py`
+
 
 
 
