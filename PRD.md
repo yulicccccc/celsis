@@ -160,6 +160,16 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
   - **Audit Trail Realism**: Each electronic signature timestamp in EagleTrax (`AUN`, `APD`, `ChangeTestStatusSaveButton`) naturally spaces out by ~1 minute, fully satisfying internal QA audit inspection standards.
   - **Console Override**: Retains non-blocking keyboard monitoring (Rule 10): pressing `[Enter]` immediately skips the remaining countdown for real-time acceleration when desired.
 
+### Rule 14: Mandatory UOM Selection & Secondary Note Verification (单位强制选择与二次验证法则)
+- **Background & GxP Rationale**: In EagleTrax Celsis Sterility Test forms, the Unit of Measure (UOM) dropdown is positioned adjacent to the `Amount of sample added into media (Direct Inoculation Only)` field. Regardless of whether the testing method is Membrane Filtration (MF) or Direct Inoculation (DI), this UOM field must NEVER be left as default `- Select -`.
+- **Enforcement & Protocol**:
+  1. **Secondary Verification from On-Page Test Note**: The engine scans pre-existing Day 0 Test Notes (`.panel:has-text('Test Notes') table tr`) to dynamically self-verify:
+     - Testing Method: `MF` vs `DI`
+     - Volume & Unit: `<X> mL` or `<X> ml`
+     - Modification: `No Modifications` -> `N/A`
+  2. **Mandatory UOM Selection**: The automation explicitly unlocks and selects `mL` (or `ml`) in the UOM dropdown (`.row:has(#SubmissionTestResults_4__Value) select`) and dispatches `change` and `input` events.
+  3. **Verification in Pilot & Full Batch**: Every automated entry script (`celsis_pilot_two_samples.py`, `celsis_auto_data_entry.py`) must enforce this step before pausing for analyst review.
+
 ---
 
 ## 3. Human-in-the-Loop Safeguards

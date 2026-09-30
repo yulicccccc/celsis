@@ -168,7 +168,7 @@ def ensure_edit_mode(page):
     # Fallback: remove disabled and readonly flags from all test result elements if still locked
     unlocked = page.evaluate('''() => {
         let cnt = 0;
-        document.querySelectorAll('input[id^="SubmissionTestResults_"], select[id^="SubmissionTestResults_"]').forEach(el => {
+        document.querySelectorAll('input[id^="SubmissionTestResults_"], select[id^="SubmissionTestResults_"], select[name*="UnitOfMeasure"], select[name*="Uom"], select[id*="UnitOfMeasure"], select[id*="Uom"]').forEach(el => {
             if (el.disabled || el.readOnly) {
                 el.disabled = false;
                 el.readOnly = false;
@@ -188,22 +188,24 @@ def fill_celsis_page(page, sample):
     """Injects all 16 form fields and Test Note into the Celsis test details page without clicking Save."""
     ensure_edit_mode(page)
     
-    # 二次验证 (Secondary Self-Verification): 从页面已有的 Test Notes 自动读取真实的检验方法和检验体积
+    # 二次验证 (Secondary Self-Verification): 从页面已有的 Test Notes 自动读取真实的检验方法、检验体积与单位
+    detected_uom = "mL"
     try:
         note_rows = page.locator(".panel:has-text('Test Notes') table tr").all()
         for r in note_rows:
             txt = r.inner_text().strip()
             # 匹配例如 "MF. 12ml per media. No Modifications" 或 "DI. 10ml per media"
             m_method = re.search(r'\b(MF|DI)\b', txt, re.I)
-            m_vol = re.search(r'(\d+(?:\.\d+)?)\s*m[lL]', txt)
+            m_vol = re.search(r'(\d+(?:\.\d+)?)\s*(m[lL]|g|mg|µ[lL]|ul)', txt, re.I)
             if m_method:
                 verified_m = m_method.group(1).upper()
                 sample["method"] = "m" if verified_m == "MF" else "d"
                 print(f"  🔍 [二次验证] 从现有 Test Note 成功验证方法: {verified_m} -> {sample['method']}")
             if m_vol:
                 verified_v = m_vol.group(1)
+                detected_uom = m_vol.group(2)
                 sample["volume"] = verified_v
-                print(f"  🔍 [二次验证] 从现有 Test Note 成功提取过滤体积: {verified_v} mL")
+                print(f"  🔍 [二次验证] 从现有 Test Note 成功提取过滤体积: {verified_v} {detected_uom}")
             if "no modification" in txt.lower():
                 sample["modification"] = "N/A"
     except Exception as e:
@@ -234,6 +236,74 @@ def fill_celsis_page(page, sample):
         if vol:
             page.locator("#SubmissionTestResults_4__Value").fill(vol)
             print(f"  └─ Added Volume (#4): {vol}")
+
+    # 4.5: Unit of Measure (UOM) selection - 必须选择 mL (支持从 Test Note 二次验证提取)
+    target_uom = sample.get("uom", detected_uom or "mL")
+    try:
+        uom_result = page.evaluate('''(targetUnit) => {
+            const selectors = [
+                '.row:has(#SubmissionTestResults_4__Value) select',
+                'select[name*="UnitOfMeasure"]',
+                'select[id*="UnitOfMeasure"]',
+                'select[name*="Uom"]',
+                'select[id*="Uom"]',
+                'div.col-xs-3:has-text("UOM") select',
+                '.row:has-text("Direct Inoculation") select'
+            ];
+            let sel = null;
+            for (const s of selectors) {
+                const el = document.querySelector(s);
+                if (el) { sel = el; break; }
+            }
+            if (!sel) return { success: false, reason: "UOM select element not found" };
+
+            sel.disabled = false;
+            sel.removeAttribute('disabled');
+
+            let matched = false;
+            let chosenVal = null;
+            let chosenText = null;
+            const normTarget = targetUnit.trim().toLowerCase();
+
+            for (let i = 0; i < sel.options.length; i++) {
+                const opt = sel.options[i];
+                const optText = opt.text.trim().toLowerCase();
+                const optVal = opt.value.trim().toLowerCase();
+                if (optText === normTarget || optVal === normTarget || (normTarget === 'ml' && (optText === 'ml' || optText === 'ml.' || optVal === 'ml'))) {
+                    sel.selectedIndex = i;
+                    sel.value = opt.value;
+                    chosenVal = opt.value;
+                    chosenText = opt.text;
+                    matched = true;
+                    break;
+                }
+            }
+
+            if (!matched) {
+                for (let i = 0; i < sel.options.length; i++) {
+                    const opt = sel.options[i];
+                    if (opt.text.toLowerCase().includes(normTarget)) {
+                        sel.selectedIndex = i;
+                        sel.value = opt.value;
+                        chosenVal = opt.value;
+                        chosenText = opt.text;
+                        matched = true;
+                        break;
+                    }
+                }
+            }
+
+            if (matched) {
+                sel.dispatchEvent(new Event('change', { bubbles: true }));
+                sel.dispatchEvent(new Event('input', { bubbles: true }));
+                return { success: true, text: chosenText, value: chosenVal, id: sel.id };
+            } else {
+                return { success: false, reason: "No matching option", available: Array.from(sel.options).map(o => o.text) };
+            }
+        }''', target_uom)
+        print(f"  └─ UOM Unit Selection [{target_uom}]: {uom_result}")
+    except Exception as e:
+        print(f"  ⚠️ UOM Selection error: {e}")
             
     # 5 & 6: Dates
     page.locator("#SubmissionTestResults_5__Value").fill(sample["start_date"])

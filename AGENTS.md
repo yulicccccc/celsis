@@ -30,6 +30,7 @@ Before entry:
 - MF = `m`; DI = `d`.
 - Volume Placement: MF volume MUST be in Filtered volume field (`SubmissionTestResults_3__Value`) with DI field empty; DI volume MUST be in Added volume field (`SubmissionTestResults_4__Value`) with MF field empty.
 - Note-Derived Volume Canonical Format: When verifying sample volume from Test Notes, the authoritative test volume follows `Method: [DI|MF]. <X> mL of sample added/filtered per media` (or `<X> mL of sample added/filtered per media`). This `<X> mL` MUST match the LIMS Added/Filtered volume field. Intermediate prep ratios (e.g. `5mL sample + 15mL Tween80`) are modification notes, NOT the final test volume per media.
+- Mandatory UOM Selection: The UOM unit dropdown (located adjacent to the Added Volume field) MUST always be selected as `mL` (or verified as `mL` / `ml` from the Test Note), regardless of whether MF or DI is used. Never leave UOM as `- Select -`.
 - Groups are dynamic.
 - Preserve rerun/run/media lineage.
 - No silent OCR guesses.
