@@ -163,15 +163,23 @@ def fill_celsis_page(page, sample):
             txt = r.inner_text().strip()
             # 匹配例如 "MF. 12ml per media. No Modifications" 或 "DI. 10ml per media"
             m_method = re.search(r'\b(MF|DI)\b', txt, re.I)
-            m_vol = re.search(r'(\d+(?:\.\d+)?)\s*(m[lL]|g|mg|µ[lL]|ul)', txt, re.I)
             if m_method:
                 verified_m = m_method.group(1).upper()
                 sample["method"] = "m" if verified_m == "MF" else "d"
                 print(f"  🔍 [二次验证] 从现有 Test Note 成功验证方法: {verified_m} -> {sample['method']}")
-            if m_vol:
-                verified_v = m_vol.group(1)
-                detected_uom = m_vol.group(2)
+            # Canonical volume per media: e.g. "MF. 10 mL of sample filtered per media" or "10 mL per media"
+            m_canon_vol = re.search(r'(\d+(?:\.\d+)?)\s*(m[lL]|g|mg|µ[lL]|ul)\s+(?:of\s+sample\s+)?(?:added|filtered)?\s*per\s+media', txt, re.I)
+            if m_canon_vol:
+                verified_v = m_canon_vol.group(1)
+                detected_uom = m_canon_vol.group(2)
                 sample["volume"] = verified_v
+                print(f"  🔍 [二次验证] 从现有 Test Note 成功验证 Canonical 体积: {verified_v} {detected_uom}")
+            else:
+                m_vol = re.search(r'(\d+(?:\.\d+)?)\s*(m[lL]|g|mg|µ[lL]|ul)', txt, re.I)
+                if m_vol and not sample.get("volume"):
+                    verified_v = m_vol.group(1)
+                    detected_uom = m_vol.group(2)
+                    sample["volume"] = verified_v
             # Dual-Source Modification Verification (双重验证 Modification)
             # 1. Source 1: PDF Workload 对照品名称 (若带 +xxx 则为修改，无 + 则为 N/A)
             raw_neg = sample.get("neg_control", "") or sample.get("raw_control_name", "") or "TSB,MF,-ve control-GS"
@@ -321,48 +329,52 @@ def fill_celsis_page(page, sample):
     page.locator("#SubmissionTestResults_15__Value").select_option(label="Pass")
     print("  ✅ All 16 primary test fields populated!")
 
-    # Add Note handling
+    # Add Note handling (Test Notes at bottom of page)
     note_text = sample.get("note", "").strip()
     if note_text:
-        print("  📝 [3/4] Checking Test Notes...")
-        existing_notes = page.locator("#SubmissionTestNoteList").inner_text() if page.locator("#SubmissionTestNoteList").count() > 0 else ""
-        if sample["record"] in existing_notes and "TSB -ve control" in existing_notes:
-            print("  ℹ️ Batch Test Note already attached, skipping duplicate addition.")
+        print("  📝 [3/4] Ensuring Negative Control Test Note is attached...")
+        existing_notes = ""
+        try:
+            note_list_el = page.locator("#SubmissionTestNoteList, .panel:has-text('Test Notes')")
+            if note_list_el.count() > 0:
+                existing_notes = note_list_el.inner_text()
+        except Exception:
+            pass
+
+        if note_text in existing_notes or ("TSB -ve control" in existing_notes and "FTM -ve control" in existing_notes):
+            print("  ℹ️ Negative control note already present in Test Notes list. Skipping duplicate addition.")
         else:
             note_added = False
-            # Strategy A: Inline Add Test Note panel at page bottom
-            inline_box = page.locator("textarea#Content, textarea[name='Content'], textarea[name*='Note'], #AddTestNote textarea, .panel:has-text('Add Test Note') textarea").first
-            if inline_box.count() > 0 and inline_box.is_visible():
-                print("  👉 Found inline Add Test Note textarea. Injecting note...")
-                inline_box.fill(note_text)
-                time.sleep(0.5)
-                inline_btn = page.locator("input[value='Add Test Note'], button:has-text('Add Test Note'), .panel:has-text('Add Test Note') .btn-primary").first
-                if inline_btn.count() > 0 and inline_btn.is_visible():
-                    inline_btn.click()
-                    time.sleep(1.5)
-                    print("  ✅ Test Note successfully saved via inline panel!")
-                    note_added = True
+            # Check if inline Add Test Note panel is already open
+            content_area = page.locator("textarea#Content, textarea[name='Content'], .panel:has-text('Add Test Note') textarea").first
 
-            # Strategy B: Modal dialog fallback
-            if not note_added:
-                add_note_btn = page.locator("#AddSubmissionTestNote").first
+            # If not open, click '#AddSubmissionTestNote' to expand the inline panel
+            if content_area.count() == 0 or not content_area.is_visible():
+                add_note_btn = page.locator("#AddSubmissionTestNote, .btn:has-text('Add Note'), span:has-text('Add Note')").first
                 if add_note_btn.count() > 0 and add_note_btn.is_visible():
-                    print("  👉 Clicking 'Add Note' button...")
+                    print("  👉 Clicking 'Add Note' to expand the test note form...")
                     add_note_btn.click()
-                    time.sleep(1)
-                    try:
-                        modal = page.locator(".modal.in, #myModal, .modal-dialog, div[role='dialog']").first
-                        modal.wait_for(state="visible", timeout=4000)
-                        textarea = modal.locator("textarea, input[type='text'][name*='Note']").first
-                        textarea.fill(note_text)
-                        time.sleep(0.5)
-                        save_note_btn = modal.locator("button:has-text('Save'), input[value='Save'], button:has-text('Submit'), button.btn-primary").first
-                        save_note_btn.click()
-                        time.sleep(1.5)
-                        print("  ✅ Test Note successfully added via modal!")
-                        note_added = True
-                    except Exception:
-                        pass
+                    time.sleep(1.5)
+                    content_area = page.locator("textarea#Content, textarea[name='Content'], .panel:has-text('Add Test Note') textarea").first
+
+            # Fill Content textarea
+            if content_area.count() > 0 and content_area.is_visible():
+                print(f"  ✍️ Injecting note text into Content textarea: {note_text}")
+                content_area.fill(note_text)
+                time.sleep(0.5)
+
+                # Click 'Add Test Note' submit button
+                submit_btn = page.locator(".panel:has-text('Add Test Note') button:has-text('Add Test Note'), .panel:has-text('Add Test Note') input[value='Add Test Note'], button:has-text('Add Test Note'), input[value='Add Test Note']").first
+                if submit_btn.count() > 0 and submit_btn.is_visible():
+                    print("  💾 Clicking 'Add Test Note' button to attach note...")
+                    submit_btn.click()
+                    time.sleep(2.0)
+                    print("  ✅ Test Note successfully saved and attached!")
+                    note_added = True
+                else:
+                    print("  ⚠️ Could not find 'Add Test Note' submit button.")
+            else:
+                print("  ⚠️ Could not find or open 'Add Test Note' textarea.")
 
             if not note_added:
                 import subprocess

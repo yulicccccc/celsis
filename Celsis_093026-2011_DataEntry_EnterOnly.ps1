@@ -11,191 +11,43 @@ $EndDate   = "09/30/2026"
 $GlobalATP = "85546"
 
 $Playlist = @(
-    [PSCustomObject]@{ ID="ETX-260921-0162"; RawID="ETX-260921-0162-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2134"; FTM="9486"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0193"; RawID="ETX-260921-0193-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2100"; FTM="7867"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0169"; RawID="ETX-260921-0169-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2544"; FTM="4936"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0197"; RawID="ETX-260921-0197-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2246"; FTM="6860"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0218"; RawID="ETX-260921-0218-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2310"; FTM="5191"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0154"; RawID="ETX-260921-0154-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2364"; FTM="6559"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0175"; RawID="ETX-260921-0175-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2955"; FTM="5125"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0152"; RawID="ETX-260921-0152-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2719"; FTM="6625"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0130"; RawID="ETX-260921-0130-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2627"; FTM="5847"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0110"; RawID="ETX-260921-0110-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2395"; FTM="5561"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0105"; RawID="ETX-260921-0105-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2756"; FTM="6027"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0145"; RawID="ETX-260921-0145-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="1993"; FTM="9471"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0103"; RawID="ETX-260921-0103-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="3077"; FTM="5176"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0133"; RawID="ETX-260921-0133-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2890"; FTM="4552"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0159"; RawID="ETX-260921-0159-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2563"; FTM="5789"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0204"; RawID="ETX-260921-0204-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2192"; FTM="5913"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0212"; RawID="ETX-260921-0212-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2440"; FTM="5432"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0227"; RawID="ETX-260921-0227-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2383"; FTM="7762"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0158"; RawID="ETX-260921-0158-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2795"; FTM="9584"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0163"; RawID="ETX-260921-0163-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2279"; FTM="6631"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0180"; RawID="ETX-260921-0180-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2459"; FTM="7416"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0172"; RawID="ETX-260921-0172-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2782"; FTM="6691"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0168"; RawID="ETX-260921-0168-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2746"; FTM="7013"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0190"; RawID="ETX-260921-0190-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2390"; FTM="5911"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0225"; RawID="ETX-260921-0225-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2701"; FTM="7673"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0222"; RawID="ETX-260921-0222-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2541"; FTM="7047"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0217"; RawID="ETX-260921-0217-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2543"; FTM="7102"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0229"; RawID="ETX-260921-0229-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2447"; FTM="7008"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0136"; RawID="ETX-260921-0136-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2429"; FTM="6515"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0165"; RawID="ETX-260921-0165-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2671"; FTM="6522"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0149"; RawID="ETX-260921-0149-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2761"; FTM="6646"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0224"; RawID="ETX-260921-0224-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2602"; FTM="8235"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0164"; RawID="ETX-260921-0164-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2216"; FTM="5318"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0196"; RawID="ETX-260921-0196-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2211"; FTM="5291"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0106"; RawID="ETX-260921-0106-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2500"; FTM="8462"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0121"; RawID="ETX-260921-0121-6/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2025"; FTM="7265"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ },
-    [PSCustomObject]@{ ID="ETX-260921-0108"; RawID="ETX-260921-0108-6/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2807"; FTM="5266"; Group="GS"; Note=@"
-Day 7 Sterility Read: Negative. Incubation ended on 30Sep26
-
-093026-2011: TSB -ve control = 1907 TSB cut off = 5721.0 FTM -ve control = 7381 FTM cut off = 22141.5
-"@ }
+    [PSCustomObject]@{ ID="ETX-260921-0162"; RawID="ETX-260921-0162-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2134"; FTM="9486"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0193"; RawID="ETX-260921-0193-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2100"; FTM="7867"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0169"; RawID="ETX-260921-0169-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2544"; FTM="4936"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0197"; RawID="ETX-260921-0197-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2246"; FTM="6860"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0218"; RawID="ETX-260921-0218-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2310"; FTM="5191"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0154"; RawID="ETX-260921-0154-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2364"; FTM="6559"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0175"; RawID="ETX-260921-0175-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2955"; FTM="5125"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0152"; RawID="ETX-260921-0152-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2719"; FTM="6625"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0130"; RawID="ETX-260921-0130-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2627"; FTM="5847"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0110"; RawID="ETX-260921-0110-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2395"; FTM="5561"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0105"; RawID="ETX-260921-0105-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2756"; FTM="6027"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0145"; RawID="ETX-260921-0145-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="1993"; FTM="9471"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0103"; RawID="ETX-260921-0103-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="3077"; FTM="5176"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0133"; RawID="ETX-260921-0133-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2890"; FTM="4552"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0159"; RawID="ETX-260921-0159-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2563"; FTM="5789"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0204"; RawID="ETX-260921-0204-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2192"; FTM="5913"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0212"; RawID="ETX-260921-0212-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2440"; FTM="5432"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0227"; RawID="ETX-260921-0227-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2383"; FTM="7762"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0158"; RawID="ETX-260921-0158-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2795"; FTM="9584"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0163"; RawID="ETX-260921-0163-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2279"; FTM="6631"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0180"; RawID="ETX-260921-0180-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2459"; FTM="7416"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0172"; RawID="ETX-260921-0172-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2782"; FTM="6691"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0168"; RawID="ETX-260921-0168-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2746"; FTM="7013"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0190"; RawID="ETX-260921-0190-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2390"; FTM="5911"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0225"; RawID="ETX-260921-0225-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2701"; FTM="7673"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0222"; RawID="ETX-260921-0222-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2541"; FTM="7047"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0217"; RawID="ETX-260921-0217-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2543"; FTM="7102"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0229"; RawID="ETX-260921-0229-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2447"; FTM="7008"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0136"; RawID="ETX-260921-0136-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2429"; FTM="6515"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0165"; RawID="ETX-260921-0165-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2671"; FTM="6522"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0149"; RawID="ETX-260921-0149-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2761"; FTM="6646"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0224"; RawID="ETX-260921-0224-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2602"; FTM="8235"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0164"; RawID="ETX-260921-0164-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2216"; FTM="5318"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0196"; RawID="ETX-260921-0196-4/5"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2211"; FTM="5291"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0106"; RawID="ETX-260921-0106-4/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2500"; FTM="8462"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0121"; RawID="ETX-260921-0121-6/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2025"; FTM="7265"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" },
+    [PSCustomObject]@{ ID="ETX-260921-0108"; RawID="ETX-260921-0108-6/6"; Record="093026-2011"; Method="m"; ATP="85546"; TSB="2807"; FTM="5266"; Group="GS"; Note="TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5" }
 )
 
 $WshShell = New-Object -ComObject WScript.Shell

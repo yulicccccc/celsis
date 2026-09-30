@@ -34,6 +34,7 @@ Before entry:
 - Dual-Source Modification Verification: Modification field (`SubmissionTestResults_2__Value`) MUST be double-checked across two authoritative sources:
   1. Source 1 (PDF Workload Negative Control): Table 0 negative control name (e.g. `TSB,MF+IPM,-ve control-ES` -> `IPM`; `TSB,MF,-ve control-GS` -> `N/A`). Any `+<Mod>` attached to the method denotes the modification; absence of `+` denotes `N/A`.
   2. Source 2 (EagleTrax On-Page Test Note): Technician's Day 0 prep notes (e.g. `No Modifications` -> `N/A`, or explicit modification sentences). Both sources must align. In case of discrepancy, flag immediately for analyst confirmation.
+- Negative Control Test Note Standard Format: For each entered sample, the batch negative control baseline and cut-off note MUST be attached under Test Notes using the standardized syntax: `TSB -ve control = <tsb_neg>, TSB cut off =<tsb_cutoff> FTM -ve control = <ftm_neg>, FTM cut off = <ftm_cutoff>`. In EagleTrax, `#AddSubmissionTestNote` toggles an inline panel at the page bottom (not a modal popup); notes must be submitted via `textarea#Content` and the inline submit button.
 - Groups are dynamic.
 - Preserve rerun/run/media lineage.
 - No silent OCR guesses.

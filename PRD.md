@@ -179,6 +179,16 @@ To maximize throughput, minimize manual searching, and guarantee 100% GxP data i
   - Both sources must agree (e.g. PDF `N/A` + Test Note `No Modifications` -> verified `N/A`).
   - If a conflict arises between PDF and on-page note, an immediate GxP verification flag is raised in the console and execution pauses for human analyst adjudication.
 
+### Rule 16: Negative Control Test Note Standard Format & Inline Attachment Rule (阴性对照备注标准格式与页面内嵌面板提交法则)
+- **Background & GxP Rationale**: Laboratory SOP requires that for every sample entered under a Celsis batch, an official Test Note documenting the instrument cut-off thresholds and negative control baseline readings must be attached to the sample's `Test Notes` list (`#SubmissionTestNoteList`).
+- **Standardized String Format**:
+  - `TSB -ve control = <tsb_neg>, TSB cut off =<tsb_cutoff> FTM -ve control = <ftm_neg>, FTM cut off = <ftm_cutoff>`
+  - Example (Batch `093026-2011`): `TSB -ve control = 1907, TSB cut off =5721.0 FTM -ve control = 7381, FTM cut off = 22141.5`
+- **EagleTrax UI Attachment Mechanics**:
+  - The "Add Note" button (`#AddSubmissionTestNote`) toggles an **inline Bootstrap panel** (`<div class="panel panel-default">`) at the bottom of the page, NOT a modal popup window.
+  - The script expands this panel, populates the standard note string into `textarea#Content`, and clicks the green submit button (`button:has-text('Add Test Note')` / `input[value='Add Test Note']`) to submit via AJAX.
+  - **Deduplication Guard**: Before adding, the script inspects the existing notes table (`#SubmissionTestNoteList`); if the negative control note is already present, redundant submissions are skipped to avoid polluting the sample audit trail.
+
 ---
 
 ## 3. Human-in-the-Loop Safeguards
