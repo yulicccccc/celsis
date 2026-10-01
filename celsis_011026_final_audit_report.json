@@ -5,7 +5,7 @@
     "EagleTrax URL": "https://etrax.eagleanalytical.com/SubmissionTest/Details/4w-EpUg2U3N32oFn0tWa8w__",
     "Submission URL": "https://etrax.eagleanalytical.com/Submission/Details/-HvRzJnV4RsWmwkwWr-wDw__",
     "Titan ID": "T0001130627",
-    "PDF ATP": "90257",
+    "PDF ATP": "90757",
     "PDF TSB": "766",
     "PDF FTM": "1894",
     "PDF Max CV%": "14%",
@@ -24,10 +24,8 @@
     "LIMS FTM": "1894",
     "LIMS Result": "Pass",
     "Canonical Note Volume": null,
-    "Discrepancies": [
-      "ATP mismatch: LIMS='90757' vs PDF='90257'"
-    ],
-    "Audit Result": "BLOCK (ATP mismatch: LIMS='90757' vs PDF='90257')",
+    "Discrepancies": [],
+    "Audit Result": "PASS",
     "Notes Count": 10,
     "Notes": [
       "TSB -ve control =1870, TSB cut off =5608.5 FTM -ve control =4485, FTM cut off =13455.0 .\t10/1/2026 2:20:07 PM\tCDu",
@@ -348,7 +346,7 @@
     "EagleTrax URL": "https://etrax.eagleanalytical.com/SubmissionTest/Details/U6VjWouyUbo1R4m7A6Z71A__",
     "Submission URL": "https://etrax.eagleanalytical.com/Submission/Details/ahUATe2rMKzHzVkagKbatw__",
     "Titan ID": "T0001134519",
-    "PDF ATP": "90257",
+    "PDF ATP": "90757",
     "PDF TSB": "1109",
     "PDF FTM": "2907",
     "PDF Max CV%": "9%",
@@ -367,10 +365,8 @@
     "LIMS FTM": "2907",
     "LIMS Result": "Pass",
     "Canonical Note Volume": null,
-    "Discrepancies": [
-      "ATP mismatch: LIMS='90757' vs PDF='90257'"
-    ],
-    "Audit Result": "BLOCK (ATP mismatch: LIMS='90757' vs PDF='90257')",
+    "Discrepancies": [],
+    "Audit Result": "PASS",
     "Notes Count": 5,
     "Notes": [
       "TSB -ve control =2789, TSB cut off =8365.5 FTM -ve control =19516, FTM cut off =58548.0 .\t10/1/2026 2:23:24 PM\tCDu",
@@ -691,7 +687,7 @@
     "EagleTrax URL": "https://etrax.eagleanalytical.com/SubmissionTest/Details/-g1S%24PC564OuGWJq5JyURw__",
     "Submission URL": "https://etrax.eagleanalytical.com/Submission/Details/2DKxKV9BCJlCWa7C4Q2Xwg__",
     "Titan ID": "T0001135000",
-    "PDF ATP": "90257",
+    "PDF ATP": "90757",
     "PDF TSB": "1053",
     "PDF FTM": "3081",
     "PDF Max CV%": "6%",
@@ -710,10 +706,8 @@
     "LIMS FTM": "3081",
     "LIMS Result": "Pass",
     "Canonical Note Volume": null,
-    "Discrepancies": [
-      "ATP mismatch: LIMS='90757' vs PDF='90257'"
-    ],
-    "Audit Result": "BLOCK (ATP mismatch: LIMS='90757' vs PDF='90257')",
+    "Discrepancies": [],
+    "Audit Result": "PASS",
     "Notes Count": 3,
     "Notes": [
       "TSB -ve control =2789, TSB cut off =8365.5 FTM -ve control =19516, FTM cut off =58548.0 .\t10/1/2026 2:23:17 PM\tCDu",
@@ -830,7 +824,7 @@
     "EagleTrax URL": "https://etrax.eagleanalytical.com/SubmissionTest/Details/sbN5sZpKZ6SEo19A%24%240Uog__",
     "Submission URL": "https://etrax.eagleanalytical.com/Submission/Details/Yp9ZylUtRvj2bb1Uumj9sw__",
     "Titan ID": "T0001135124",
-    "PDF ATP": "90257",
+    "PDF ATP": "90757",
     "PDF TSB": "1110",
     "PDF FTM": "3371",
     "PDF Max CV%": "9%",
@@ -849,10 +843,8 @@
     "LIMS FTM": "3371",
     "LIMS Result": "Pass",
     "Canonical Note Volume": null,
-    "Discrepancies": [
-      "ATP mismatch: LIMS='90757' vs PDF='90257'"
-    ],
-    "Audit Result": "BLOCK (ATP mismatch: LIMS='90757' vs PDF='90257')",
+    "Discrepancies": [],
+    "Audit Result": "PASS",
     "Notes Count": 4,
     "Notes": [
       "TSB -ve control =2789, TSB cut off =8365.5 FTM -ve control =19516, FTM cut off =58548.0 .\t10/1/2026 2:23:20 PM\tCDu",

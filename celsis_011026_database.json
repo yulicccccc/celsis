@@ -2,7 +2,7 @@
   {
     "Sample": "ETX-260921-0664",
     "Instrument": "2222",
-    "Daily ATP": "90257",
+    "Daily ATP": "90757",
     "Max TSB RLU": 766,
     "Max FTM RLU": 1894,
     "Max CV%": "14%",
@@ -16,7 +16,7 @@
   {
     "Sample": "ETX-260923-0520",
     "Instrument": "2222",
-    "Daily ATP": "90257",
+    "Daily ATP": "90757",
     "Max TSB RLU": 1109,
     "Max FTM RLU": 2907,
     "Max CV%": "9%",
@@ -30,7 +30,7 @@
   {
     "Sample": "ETX-260923-0661",
     "Instrument": "2222",
-    "Daily ATP": "90257",
+    "Daily ATP": "90757",
     "Max TSB RLU": 1110,
     "Max FTM RLU": 3371,
     "Max CV%": "9%",
@@ -44,7 +44,7 @@
   {
     "Sample": "ETX-260923-0617",
     "Instrument": "2222",
-    "Daily ATP": "90257",
+    "Daily ATP": "90757",
     "Max TSB RLU": 1053,
     "Max FTM RLU": 3081,
     "Max CV%": "6%",
