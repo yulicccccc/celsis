@@ -6,7 +6,10 @@
     "Max TSB RLU": 766,
     "Max FTM RLU": 1894,
     "Max CV%": "14%",
-    "Pages": [1, 2],
+    "Pages": [
+      1,
+      2
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -17,7 +20,10 @@
     "Max TSB RLU": 1109,
     "Max FTM RLU": 2907,
     "Max CV%": "9%",
-    "Pages": [3, 4],
+    "Pages": [
+      3,
+      4
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -28,7 +34,24 @@
     "Max TSB RLU": 1110,
     "Max FTM RLU": 3371,
     "Max CV%": "9%",
-    "Pages": [3, 4],
+    "Pages": [
+      3,
+      4
+    ],
+    "Status": "PASS",
+    "Notes": "100% Valid Negative"
+  },
+  {
+    "Sample": "ETX-260923-0617",
+    "Instrument": "2222",
+    "Daily ATP": "90257",
+    "Max TSB RLU": 1053,
+    "Max FTM RLU": 3081,
+    "Max CV%": "6%",
+    "Pages": [
+      3,
+      4
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -39,7 +62,10 @@
     "Max TSB RLU": 2140,
     "Max FTM RLU": 6447,
     "Max CV%": "0%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -50,7 +76,10 @@
     "Max TSB RLU": 2173,
     "Max FTM RLU": 5561,
     "Max CV%": "11%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -61,7 +90,10 @@
     "Max TSB RLU": 2272,
     "Max FTM RLU": 5722,
     "Max CV%": "7%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -72,7 +104,10 @@
     "Max TSB RLU": 2253,
     "Max FTM RLU": 6683,
     "Max CV%": "2%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -83,7 +118,10 @@
     "Max TSB RLU": 2246,
     "Max FTM RLU": 6120,
     "Max CV%": "0%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -94,7 +132,10 @@
     "Max TSB RLU": 2242,
     "Max FTM RLU": 6408,
     "Max CV%": "2%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -105,7 +146,10 @@
     "Max TSB RLU": 2674,
     "Max FTM RLU": 6239,
     "Max CV%": "3%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -116,7 +160,10 @@
     "Max TSB RLU": 2435,
     "Max FTM RLU": 6866,
     "Max CV%": "11%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -127,7 +174,10 @@
     "Max TSB RLU": 2477,
     "Max FTM RLU": 6569,
     "Max CV%": "8%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -138,7 +188,10 @@
     "Max TSB RLU": 2483,
     "Max FTM RLU": 6124,
     "Max CV%": "1%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -149,7 +202,10 @@
     "Max TSB RLU": 2712,
     "Max FTM RLU": 6604,
     "Max CV%": "3%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -160,7 +216,10 @@
     "Max TSB RLU": 2357,
     "Max FTM RLU": 6608,
     "Max CV%": "1%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -171,7 +230,10 @@
     "Max TSB RLU": 2703,
     "Max FTM RLU": 6698,
     "Max CV%": "3%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -182,7 +244,10 @@
     "Max TSB RLU": 2419,
     "Max FTM RLU": 5953,
     "Max CV%": "13%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -193,7 +258,10 @@
     "Max TSB RLU": 2703,
     "Max FTM RLU": 6633,
     "Max CV%": "7%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -204,7 +272,10 @@
     "Max TSB RLU": 2664,
     "Max FTM RLU": 6879,
     "Max CV%": "2%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -215,7 +286,10 @@
     "Max TSB RLU": 2584,
     "Max FTM RLU": 6885,
     "Max CV%": "2%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -226,7 +300,10 @@
     "Max TSB RLU": 2716,
     "Max FTM RLU": 7731,
     "Max CV%": "1%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -237,7 +314,10 @@
     "Max TSB RLU": 2459,
     "Max FTM RLU": 6846,
     "Max CV%": "8%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -248,7 +328,10 @@
     "Max TSB RLU": 2360,
     "Max FTM RLU": 5890,
     "Max CV%": "2%",
-    "Pages": [5, 6],
+    "Pages": [
+      5,
+      6
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -259,7 +342,10 @@
     "Max TSB RLU": 793,
     "Max FTM RLU": 1191,
     "Max CV%": "5%",
-    "Pages": [7, 8],
+    "Pages": [
+      7,
+      8
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -270,7 +356,10 @@
     "Max TSB RLU": 868,
     "Max FTM RLU": 1540,
     "Max CV%": "12%",
-    "Pages": [7, 8],
+    "Pages": [
+      7,
+      8
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -281,7 +370,10 @@
     "Max TSB RLU": 847,
     "Max FTM RLU": 1434,
     "Max CV%": "9%",
-    "Pages": [7, 8],
+    "Pages": [
+      7,
+      8
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -292,7 +384,10 @@
     "Max TSB RLU": 898,
     "Max FTM RLU": 1779,
     "Max CV%": "5%",
-    "Pages": [7, 8],
+    "Pages": [
+      7,
+      8
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -303,7 +398,10 @@
     "Max TSB RLU": 894,
     "Max FTM RLU": 1388,
     "Max CV%": "6%",
-    "Pages": [7, 8],
+    "Pages": [
+      7,
+      8
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   },
@@ -314,7 +412,10 @@
     "Max TSB RLU": 882,
     "Max FTM RLU": 1587,
     "Max CV%": "4%",
-    "Pages": [7, 8],
+    "Pages": [
+      7,
+      8
+    ],
     "Status": "PASS",
     "Notes": "100% Valid Negative"
   }
